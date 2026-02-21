@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Steam Spec Checker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo"></div>
+      <div>
+        <div class="title">Steam Spec Checker</div>
+        <div class="subtitle">Search Steam apps and compare requirements to your PC</div>
+      </div>
+    </div>
+
+    <div class="right">
+      <button id="openSpecs" class="btn">Your specs</button>
+      <a class="btn ghost" href="https://github.com/" target="_blank" rel="noreferrer">Repo</a>
+    </div>
+  </header>
+
+  <main class="layout">
+    <section class="panel">
+      <div class="searchRow">
+        <input id="search" class="search" placeholder="Search games or DLC by name…" autocomplete="off" />
+        <select id="filter" class="select">
+          <option value="all">All</option>
+          <option value="game">Games</option>
+          <option value="dlc">DLC</option>
+          <option value="hasreqs">Has requirements</option>
+        </select>
+      </div>
+
+      <div id="meta" class="meta"></div>
+
+      <div id="list" class="list"></div>
+    </section>
+
+    <section class="detail">
+      <div id="detailEmpty" class="empty">
+        <div class="emptyTitle">Pick a game</div>
+        <div class="emptyText">Search on the left, then click a result to view requirements and compare with your specs.</div>
+      </div>
+
+      <div id="detail" class="detailCard hidden"></div>
+    </section>
+  </main>
+
+  <div id="modalBackdrop" class="backdrop hidden"></div>
+  <div id="specModal" class="modal hidden">
+    <div class="modalHeader">
+      <div>
+        <div class="modalTitle">Your PC Specs</div>
+        <div class="modalSubtitle">Saved locally in your browser</div>
+      </div>
+      <button id="closeSpecs" class="iconBtn" aria-label="Close">✕</button>
+    </div>
+
+    <div class="grid">
+      <label class="field">
+        <span>CPU</span>
+        <input id="specCpu" placeholder="Example: Ryzen 5 3600" />
+      </label>
+
+      <label class="field">
+        <span>GPU</span>
+        <input id="specGpu" placeholder="Example: GTX 1660 Super" />
+      </label>
+
+      <label class="field">
+        <span>RAM (GB)</span>
+        <input id="specRam" type="number" min="0" step="0.1" placeholder="16" />
+      </label>
+
+      <label class="field">
+        <span>VRAM (GB)</span>
+        <input id="specVram" type="number" min="0" step="0.1" placeholder="6" />
+      </label>
+
+      <label class="field">
+        <span>Free storage (GB)</span>
+        <input id="specStorage" type="number" min="0" step="0.1" placeholder="200" />
+      </label>
+    </div>
+
+    <div class="modalActions">
+      <button id="saveSpecs" class="btn">Save</button>
+      <button id="clearSpecs" class="btn ghost">Clear</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
