@@ -1,3 +1,13 @@
+data/*.sqlite
+data/*.sqlite-wal
+data/*.sqlite-shm
+data/*checkpoint*.json
+data/last_run.json
 crawler.log
+*.log
+venv/
 __pycache__/
 *.pyc
+*.env
+!site/
+!site/**
