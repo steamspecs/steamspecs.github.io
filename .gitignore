@@ -11,6 +11,8 @@ __pycache__/
 *.sqlite
 *.sqlite-wal
 *.sqlite-shm
+node_modules/
+.cache/
 
 steam_requirements_crawler.py
 build_site_data.py

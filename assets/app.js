@@ -16,6 +16,7 @@ const state = {
   index: null,
   filtered: [],
   selected: null,
+  buildStore: null,
   specs: null,
   shardCache: new Map()
 };
@@ -33,31 +34,174 @@ const els = {
   modal: document.getElementById("specModal"),
   backdrop: document.getElementById("modalBackdrop"),
 
+  buildSelect: document.getElementById("buildSelect"),
+  buildName: document.getElementById("buildName"),
+  newBuild: document.getElementById("newBuild"),
+  deleteBuild: document.getElementById("deleteBuild"),
   specCpu: document.getElementById("specCpu"),
   specGpu: document.getElementById("specGpu"),
   specRam: document.getElementById("specRam"),
-  specVram: document.getElementById("specVram"),
   specStorage: document.getElementById("specStorage"),
-  saveSpecs: document.getElementById("saveSpecs"),
-  clearSpecs: document.getElementById("clearSpecs")
+  saveSpecs: document.getElementById("saveSpecs")
 };
 
-function loadSpecs() {
+function createBuildId() {
+  return `build_${Date.now()}_${Math.random().toString(36).slice(2, 8)}`;
+}
+
+function normalizeBuildSpecs(specs) {
+  return {
+    cpu: cleanText(specs?.cpu) || null,
+    gpu: cleanText(specs?.gpu) || null,
+    ram_gb: toNumberOrNull(specs?.ram_gb),
+    storage_gb: toNumberOrNull(specs?.storage_gb)
+  };
+}
+
+function normalizeBuild(build, fallbackIndex = 0) {
+  return {
+    id: cleanText(build?.id) || createBuildId(),
+    name: cleanText(build?.name) || `Build ${fallbackIndex + 1}`,
+    specs: normalizeBuildSpecs(build?.specs || build)
+  };
+}
+
+function defaultBuildStore() {
+  return {
+    version: 1,
+    activeBuildId: null,
+    builds: []
+  };
+}
+
+function loadBuildStore() {
   try {
-    const raw = localStorage.getItem("steamSpecChecker_specs");
-    if (!raw) return null;
-    return JSON.parse(raw);
+    const raw = localStorage.getItem("steamSpecChecker_builds");
+    if (raw) {
+      const parsed = JSON.parse(raw);
+      const builds = Array.isArray(parsed?.builds) ? parsed.builds.map(normalizeBuild) : [];
+      return {
+        version: 1,
+        activeBuildId: cleanText(parsed?.activeBuildId) || builds[0]?.id || null,
+        builds
+      };
+    }
+
+    const legacyRaw = localStorage.getItem("steamSpecChecker_specs");
+    if (!legacyRaw) return defaultBuildStore();
+
+    const legacySpecs = JSON.parse(legacyRaw);
+    const legacyBuild = normalizeBuild({
+      id: createBuildId(),
+      name: "My PC",
+      specs: legacySpecs
+    });
+
+    return {
+      version: 1,
+      activeBuildId: legacyBuild.id,
+      builds: [legacyBuild]
+    };
   } catch {
-    return null;
+    return defaultBuildStore();
   }
 }
 
-function saveSpecs(specs) {
-  localStorage.setItem("steamSpecChecker_specs", JSON.stringify(specs));
+function saveBuildStore(store) {
+  localStorage.setItem("steamSpecChecker_builds", JSON.stringify(store));
+  localStorage.removeItem("steamSpecChecker_specs");
 }
 
-function clearSpecs() {
-  localStorage.removeItem("steamSpecChecker_specs");
+function getActiveBuild() {
+  return state.buildStore?.builds.find(build => build.id === state.buildStore.activeBuildId) || null;
+}
+
+function syncActiveSpecs() {
+  state.specs = getActiveBuild()?.specs || null;
+  const activeName = getActiveBuild()?.name || "Your builds";
+  els.openSpecs.textContent = activeName;
+}
+
+function renderBuildOptions(selectedId) {
+  const currentId = selectedId || state.buildStore?.activeBuildId || "";
+  els.buildSelect.innerHTML = '<option value="">Create a new build</option>';
+
+  for (const build of state.buildStore.builds) {
+    const option = document.createElement("option");
+    option.value = build.id;
+    option.textContent = build.name;
+    option.selected = build.id === currentId;
+    els.buildSelect.appendChild(option);
+  }
+}
+
+function fillSpecsForm(specs) {
+  const s = normalizeBuildSpecs(specs);
+  els.specCpu.value = s.cpu || "";
+  els.specGpu.value = s.gpu || "";
+  els.specRam.value = s.ram_gb ?? "";
+  els.specStorage.value = s.storage_gb ?? "";
+}
+
+function loadBuildIntoForm(buildId) {
+  const build = state.buildStore.builds.find(entry => entry.id === buildId) || null;
+  if (!build) {
+    els.buildName.value = "";
+    fillSpecsForm(null);
+    renderBuildOptions("");
+    return;
+  }
+
+  els.buildName.value = build.name;
+  fillSpecsForm(build.specs);
+  renderBuildOptions(build.id);
+}
+
+function persistBuildStore() {
+  saveBuildStore(state.buildStore);
+  syncActiveSpecs();
+}
+
+function readSpecsFromForm() {
+  return normalizeBuildSpecs({
+    cpu: els.specCpu.value,
+    gpu: els.specGpu.value,
+    ram_gb: els.specRam.value,
+    storage_gb: els.specStorage.value
+  });
+}
+
+function saveCurrentBuildFromForm() {
+  const selectedId = cleanText(els.buildSelect.value);
+  const build = normalizeBuild({
+    id: selectedId || createBuildId(),
+    name: els.buildName.value,
+    specs: readSpecsFromForm()
+  }, state.buildStore.builds.length);
+
+  const existingIndex = state.buildStore.builds.findIndex(entry => entry.id === build.id);
+  if (existingIndex >= 0) {
+    state.buildStore.builds[existingIndex] = build;
+  } else {
+    state.buildStore.builds.push(build);
+  }
+
+  state.buildStore.activeBuildId = build.id;
+  persistBuildStore();
+  loadBuildIntoForm(build.id);
+}
+
+function deleteSelectedBuild() {
+  const selectedId = cleanText(els.buildSelect.value) || state.buildStore.activeBuildId;
+  if (!selectedId) {
+    loadBuildIntoForm("");
+    return;
+  }
+
+  state.buildStore.builds = state.buildStore.builds.filter(build => build.id !== selectedId);
+  state.buildStore.activeBuildId = state.buildStore.builds[0]?.id || null;
+  persistBuildStore();
+  loadBuildIntoForm(state.buildStore.activeBuildId || "");
 }
 
 function fixEncoding(value) {
@@ -590,7 +734,6 @@ function comparisonBadgeStatus(req, userSpecs) {
 
   const checks = [
     compareNumeric(userSpecs.ram_gb, req.ram_gb),
-    compareNumeric(userSpecs.vram_gb, req.vram_gb),
     compareNumeric(userSpecs.storage_gb, req.storage_gb)
   ];
 
@@ -626,10 +769,8 @@ function renderReqCard(title, req, userSpecs) {
   }
 
   const ramCmp = compareNumeric(userSpecs?.ram_gb, req.ram_gb);
-  const vramCmp = compareNumeric(userSpecs?.vram_gb, req.vram_gb);
   const stoCmp = compareNumeric(userSpecs?.storage_gb, req.storage_gb);
   const status = comparisonBadgeStatus(req, userSpecs);
-  const note = recoveryNote(req);
 
   return `
     <div class="reqCard">
@@ -643,16 +784,43 @@ function renderReqCard(title, req, userSpecs) {
         <div class="kv"><span><b>GPU</b></span><span class="small">${req.gpu || "Unknown"}</span></div>
 
         <div class="kv"><span><b>RAM</b></span><span>${fmtGb(req.ram_gb)} ${userSpecs ? ` · ${ramCmp.text}` : ""}</span></div>
-        <div class="kv"><span><b>VRAM</b></span><span>${fmtGb(req.vram_gb)} ${userSpecs ? ` · ${vramCmp.text}` : ""}</span></div>
         <div class="kv"><span><b>Storage</b></span><span>${fmtGb(req.storage_gb)} ${userSpecs ? ` · ${stoCmp.text}` : ""}</span></div>
-
-        <div class="kv"><span><b>DirectX</b></span><span>${fmtNum(req.directx)}</span></div>
-        <div class="kv"><span><b>OpenGL</b></span><span>${fmtNum(req.opengl)}</span></div>
-        <div class="kv"><span><b>Vulkan</b></span><span>${req.vulkan ? "Yes" : "Unknown or no"}</span></div>
-
-        ${note ? `<div class="kv"><span><b>Source</b></span><span class="small">${note}</span></div>` : ""}
-        ${req.notes ? `<div class="kv"><span><b>Notes</b></span><span class="small">${req.notes}</span></div>` : ""}
       </div>
+    </div>
+  `;
+}
+
+function renderSavedBuildComparisons(minReq, recReq) {
+  const builds = state.buildStore?.builds || [];
+  if (!builds.length) {
+    return `
+      <div class="reqCard" style="margin-top:12px">
+        <div class="reqTitle"><span>Saved Builds</span><span class="badge warn">None yet</span></div>
+        <div class="reqList">Save one or more PC builds to switch quickly and compare them here.</div>
+      </div>
+    `;
+  }
+
+  const rows = builds.map(build => {
+    const minStatus = comparisonBadgeStatus(minReq, build.specs);
+    const recStatus = comparisonBadgeStatus(recReq, build.specs);
+    const active = build.id === state.buildStore.activeBuildId ? " (active)" : "";
+
+    return `
+      <div class="kv">
+        <span><b>${build.name}${active}</b></span>
+        <span>
+          <span class="${badgeClass(minStatus)}">Min: ${comparisonBadgeText(minReq, build.specs)}</span>
+          <span class="${badgeClass(recStatus)}">Rec: ${comparisonBadgeText(recReq, build.specs)}</span>
+        </span>
+      </div>
+    `;
+  }).join("");
+
+  return `
+    <div class="reqCard" style="margin-top:12px">
+      <div class="reqTitle"><span>Saved Builds</span><span class="badge good">${builds.length} saved</span></div>
+      <div class="reqList">${rows}</div>
     </div>
   `;
 }
@@ -685,8 +853,10 @@ function renderDetail(app) {
         ${renderReqCard("Recommended", rec, userSpecs)}
       </div>
 
+      ${renderSavedBuildComparisons(min, rec)}
+
       <div style="margin-top:12px;color:var(--muted);font-size:12px">
-        CPU and GPU matching is still text-only. Numeric comparisons apply to RAM, VRAM, and storage when they could be recovered cleanly.
+        CPU and GPU matching is still text-only. Numeric comparisons apply to RAM and storage when they could be recovered cleanly.
       </div>
     `;
 
@@ -712,13 +882,7 @@ async function selectApp(appid) {
 function openModal() {
   els.backdrop.classList.remove("hidden");
   els.modal.classList.remove("hidden");
-
-  const s = state.specs || {};
-  els.specCpu.value = s.cpu || "";
-  els.specGpu.value = s.gpu || "";
-  els.specRam.value = s.ram_gb ?? "";
-  els.specVram.value = s.vram_gb ?? "";
-  els.specStorage.value = s.storage_gb ?? "";
+  loadBuildIntoForm(state.buildStore.activeBuildId || "");
 }
 
 function closeModal() {
@@ -726,18 +890,9 @@ function closeModal() {
   els.modal.classList.add("hidden");
 }
 
-function readSpecsFromForm() {
-  return {
-    cpu: cleanText(els.specCpu.value) || null,
-    gpu: cleanText(els.specGpu.value) || null,
-    ram_gb: toNumberOrNull(els.specRam.value),
-    vram_gb: toNumberOrNull(els.specVram.value),
-    storage_gb: toNumberOrNull(els.specStorage.value)
-  };
-}
-
 async function init() {
-  state.specs = loadSpecs();
+  state.buildStore = loadBuildStore();
+  syncActiveSpecs();
   state.index = await loadIndex();
 
   els.search.addEventListener("input", applyFilters);
@@ -746,17 +901,15 @@ async function init() {
   els.openSpecs.onclick = openModal;
   els.closeSpecs.onclick = closeModal;
   els.backdrop.onclick = closeModal;
-
-  els.saveSpecs.onclick = () => {
-    state.specs = readSpecsFromForm();
-    saveSpecs(state.specs);
-    closeModal();
+  els.buildSelect.onchange = () => loadBuildIntoForm(els.buildSelect.value);
+  els.newBuild.onclick = () => loadBuildIntoForm("");
+  els.deleteBuild.onclick = () => {
+    deleteSelectedBuild();
     if (state.selected) renderDetail(state.selected);
   };
 
-  els.clearSpecs.onclick = () => {
-    state.specs = null;
-    clearSpecs();
+  els.saveSpecs.onclick = () => {
+    saveCurrentBuildFromForm();
     closeModal();
     if (state.selected) renderDetail(state.selected);
   };

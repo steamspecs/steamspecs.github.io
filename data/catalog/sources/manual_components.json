@@ -1,0 +1,68 @@
+[
+  {
+    "id": "cpu_amd_ryzen_5_3600",
+    "kind": "cpu",
+    "brand": "AMD",
+    "family": "Ryzen 5",
+    "model": "3600",
+    "name": "AMD Ryzen 5 3600",
+    "aliases": ["Ryzen 5 3600", "AMD Ryzen 5 3600 6-Core Processor"],
+    "cores": 6,
+    "threads": 12,
+    "base_ghz": 3.6
+  },
+  {
+    "id": "cpu_intel_core_i5_2500k",
+    "kind": "cpu",
+    "brand": "Intel",
+    "family": "Core i5",
+    "model": "2500K",
+    "name": "Intel Core i5-2500K",
+    "aliases": ["Core i5-2500K", "Intel Core i5 2500K"],
+    "cores": 4,
+    "threads": 4,
+    "base_ghz": 3.3
+  },
+  {
+    "id": "cpu_amd_fx_8350",
+    "kind": "cpu",
+    "brand": "AMD",
+    "family": "FX",
+    "model": "8350",
+    "name": "AMD FX-8350",
+    "aliases": ["FX-8350", "AMD FX 8350"],
+    "cores": 8,
+    "threads": 8,
+    "base_ghz": 4.0
+  },
+  {
+    "id": "gpu_nvidia_geforce_gtx_1660_super",
+    "kind": "gpu",
+    "brand": "NVIDIA",
+    "family": "GeForce GTX",
+    "model": "1660 Super",
+    "name": "NVIDIA GeForce GTX 1660 Super",
+    "aliases": ["GTX 1660 Super", "GeForce GTX 1660 Super"],
+    "vram_gb": 6
+  },
+  {
+    "id": "gpu_nvidia_geforce_gtx_760",
+    "kind": "gpu",
+    "brand": "NVIDIA",
+    "family": "GeForce GTX",
+    "model": "760",
+    "name": "NVIDIA GeForce GTX 760",
+    "aliases": ["GTX 760", "GeForce GTX 760"],
+    "vram_gb": 2
+  },
+  {
+    "id": "gpu_amd_radeon_hd_7850",
+    "kind": "gpu",
+    "brand": "AMD",
+    "family": "Radeon HD",
+    "model": "7850",
+    "name": "AMD Radeon HD 7850",
+    "aliases": ["Radeon HD 7850", "AMD Radeon HD7850"],
+    "vram_gb": 2
+  }
+]

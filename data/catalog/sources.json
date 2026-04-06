@@ -1,0 +1,20 @@
+{
+  "output_dir": "data/catalog",
+  "sources": [
+    {
+      "id": "manual_components",
+      "type": "normalized_components",
+      "path": "data/catalog/sources/manual_components.json"
+    },
+    {
+      "id": "manual_scores",
+      "type": "score_overrides",
+      "path": "data/catalog/sources/manual_scores.json"
+    },
+    {
+      "id": "manual_aliases",
+      "type": "alias_overrides",
+      "path": "data/catalog/sources/manual_aliases.json"
+    }
+  ]
+}

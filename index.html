@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Steam Spec Checker</title>
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
   <header class="topbar">
@@ -53,10 +53,24 @@
   <div id="specModal" class="modal hidden">
     <div class="modalHeader">
       <div>
-        <div class="modalTitle">Your PC Specs</div>
-        <div class="modalSubtitle">Saved locally in your browser</div>
+        <div class="modalTitle">Your PC Builds</div>
+        <div class="modalSubtitle">Saved locally in your browser so you can switch devices quickly</div>
       </div>
       <button id="closeSpecs" class="iconBtn" aria-label="Close">x</button>
+    </div>
+
+    <div class="grid">
+      <label class="field">
+        <span>Saved build</span>
+        <select id="buildSelect" class="select">
+          <option value="">Create a new build</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>Build name</span>
+        <input id="buildName" placeholder="Example: Desktop RTX 4070" />
+      </label>
     </div>
 
     <div class="grid">
@@ -76,22 +90,18 @@
       </label>
 
       <label class="field">
-        <span>VRAM (GB)</span>
-        <input id="specVram" type="number" min="0" step="0.1" placeholder="6" />
-      </label>
-
-      <label class="field">
         <span>Free storage (GB)</span>
         <input id="specStorage" type="number" min="0" step="0.1" placeholder="200" />
       </label>
     </div>
 
     <div class="modalActions">
-      <button id="saveSpecs" class="btn">Save</button>
-      <button id="clearSpecs" class="btn ghost">Clear</button>
+      <button id="newBuild" class="btn ghost">New build</button>
+      <button id="deleteBuild" class="btn ghost">Delete build</button>
+      <button id="saveSpecs" class="btn">Save build</button>
     </div>
   </div>
 
-  <script src="app.js"></script>
+  <script src="assets/app.js"></script>
 </body>
 </html>

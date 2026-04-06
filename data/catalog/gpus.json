@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gpu_amd_radeon_hd_7850",
+    "kind": "gpu",
+    "brand": "AMD",
+    "family": "Radeon HD",
+    "model": "7850",
+    "name": "AMD Radeon HD 7850",
+    "aliases": [
+      "amd radeon hd 7850",
+      "radeon hd 7850",
+      "amd radeon hd7850"
+    ],
+    "cores": null,
+    "threads": null,
+    "base_ghz": null,
+    "boost_ghz": null,
+    "vram_gb": 2,
+    "score": 3000,
+    "sources": [
+      "manual_components",
+      "manual_scores",
+      "manual_aliases"
+    ]
+  },
+  {
+    "id": "gpu_nvidia_geforce_gtx_1660_super",
+    "kind": "gpu",
+    "brand": "NVIDIA",
+    "family": "GeForce GTX",
+    "model": "1660 Super",
+    "name": "NVIDIA GeForce GTX 1660 Super",
+    "aliases": [
+      "nvidia geforce gtx 1660 super",
+      "gtx 1660 super",
+      "geforce gtx 1660 super"
+    ],
+    "cores": null,
+    "threads": null,
+    "base_ghz": null,
+    "boost_ghz": null,
+    "vram_gb": 6,
+    "score": 12500,
+    "sources": [
+      "manual_components",
+      "manual_scores"
+    ]
+  },
+  {
+    "id": "gpu_nvidia_geforce_gtx_760",
+    "kind": "gpu",
+    "brand": "NVIDIA",
+    "family": "GeForce GTX",
+    "model": "760",
+    "name": "NVIDIA GeForce GTX 760",
+    "aliases": [
+      "nvidia geforce gtx 760",
+      "gtx 760",
+      "geforce gtx 760",
+      "nvidia geforce gtx 760 2gb"
+    ],
+    "cores": null,
+    "threads": null,
+    "base_ghz": null,
+    "boost_ghz": null,
+    "vram_gb": 2,
+    "score": 3200,
+    "sources": [
+      "manual_components",
+      "manual_scores",
+      "manual_aliases"
+    ]
+  }
+]

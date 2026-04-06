@@ -1,0 +1,71 @@
+[
+  {
+    "id": "cpu_amd_fx_8350",
+    "kind": "cpu",
+    "brand": "AMD",
+    "family": "FX",
+    "model": "8350",
+    "name": "AMD FX-8350",
+    "aliases": [
+      "fx 8350",
+      "amd fx 8350"
+    ],
+    "cores": 8,
+    "threads": 8,
+    "base_ghz": 4.0,
+    "boost_ghz": null,
+    "vram_gb": null,
+    "score": 6600,
+    "sources": [
+      "manual_components",
+      "manual_scores"
+    ]
+  },
+  {
+    "id": "cpu_amd_ryzen_5_3600",
+    "kind": "cpu",
+    "brand": "AMD",
+    "family": "Ryzen 5",
+    "model": "3600",
+    "name": "AMD Ryzen 5 3600",
+    "aliases": [
+      "amd ryzen 5 3600",
+      "ryzen 5 3600",
+      "amd ryzen 5 3600 6 core processor"
+    ],
+    "cores": 6,
+    "threads": 12,
+    "base_ghz": 3.6,
+    "boost_ghz": null,
+    "vram_gb": null,
+    "score": 17750,
+    "sources": [
+      "manual_components",
+      "manual_scores"
+    ]
+  },
+  {
+    "id": "cpu_intel_core_i5_2500k",
+    "kind": "cpu",
+    "brand": "Intel",
+    "family": "Core i5",
+    "model": "2500K",
+    "name": "Intel Core i5-2500K",
+    "aliases": [
+      "core i5 2500k",
+      "intel core i5 2500k",
+      "intel core i5 2500k amd fx 8350 minimum example"
+    ],
+    "cores": 4,
+    "threads": 4,
+    "base_ghz": 3.3,
+    "boost_ghz": null,
+    "vram_gb": null,
+    "score": 6200,
+    "sources": [
+      "manual_components",
+      "manual_scores",
+      "manual_aliases"
+    ]
+  }
+]

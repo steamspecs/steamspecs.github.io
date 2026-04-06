@@ -1,0 +1,26 @@
+[
+  {
+    "id": "cpu_amd_ryzen_5_3600",
+    "score": 17750
+  },
+  {
+    "id": "cpu_intel_core_i5_2500k",
+    "score": 6200
+  },
+  {
+    "id": "cpu_amd_fx_8350",
+    "score": 6600
+  },
+  {
+    "id": "gpu_nvidia_geforce_gtx_1660_super",
+    "score": 12500
+  },
+  {
+    "id": "gpu_nvidia_geforce_gtx_760",
+    "score": 3200
+  },
+  {
+    "id": "gpu_amd_radeon_hd_7850",
+    "score": 3000
+  }
+]

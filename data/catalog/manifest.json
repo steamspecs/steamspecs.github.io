@@ -1,0 +1,28 @@
+{
+  "generated_components": 6,
+  "cpu_count": 3,
+  "gpu_count": 3,
+  "sources": [
+    {
+      "id": "manual_components",
+      "type": "normalized_components",
+      "kind": null,
+      "path": "data/catalog/sources/manual_components.json",
+      "url": null
+    },
+    {
+      "id": "manual_scores",
+      "type": "score_overrides",
+      "kind": null,
+      "path": "data/catalog/sources/manual_scores.json",
+      "url": null
+    },
+    {
+      "id": "manual_aliases",
+      "type": "alias_overrides",
+      "kind": null,
+      "path": "data/catalog/sources/manual_aliases.json",
+      "url": null
+    }
+  ]
+}
