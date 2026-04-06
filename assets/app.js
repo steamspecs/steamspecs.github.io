@@ -51,7 +51,8 @@ const els = {
   gpuOptions: document.getElementById("gpuOptions"),
   specRam: document.getElementById("specRam"),
   specStorage: document.getElementById("specStorage"),
-  saveSpecs: document.getElementById("saveSpecs")
+  saveSpecs: document.getElementById("saveSpecs"),
+  copyBtc: document.getElementById("copyBtc")
 };
 
 function createBuildId() {
@@ -326,10 +327,10 @@ function fmtComparisonNumber(value, kind = "generic") {
 
 function compareNumeric(userVal, reqVal, kind = "generic") {
   if (reqVal === null || reqVal === undefined || Number.isNaN(reqVal)) {
-    return { status: "unknown", text: "No numeric requirement", label: "Check" };
+    return { status: "unknown", text: "No numeric requirement", label: "Unknown" };
   }
   if (userVal === null || userVal === undefined || Number.isNaN(userVal)) {
-    return { status: "unknown", text: "Your value missing", label: "Check" };
+    return { status: "unknown", text: "Your value missing", label: "Unknown" };
   }
 
   if (kind !== "ram" && kind !== "storage") {
@@ -348,7 +349,7 @@ function compareNumeric(userVal, reqVal, kind = "generic") {
 }
 
 function parseClockGhz(text) {
-  const normalized = cleanText(text)?.toLowerCase() || "";
+  const normalized = (cleanText(text)?.toLowerCase() || "").replace(/(\d),(\d)/g, "$1.$2");
   if (!normalized) return null;
 
   const ghzMatch = normalized.match(/(\d+(?:\.\d+)?)\s*ghz\b/);
@@ -409,7 +410,7 @@ function requirementLabel(comparison) {
   if (comparison?.label) return comparison.label;
   if (comparison?.status === "good") return "Pass";
   if (comparison?.status === "bad") return "Fail";
-  return "Check";
+  return "Unknown";
 }
 
 function comparisonMethodLabel(comparison) {
@@ -662,9 +663,14 @@ function comparisonSummary(req, build, platform) {
   const requiredChecks = checks.filter(check => check.required);
   const unresolvedRequired = requiredChecks.filter(check => check.result.status === "unknown");
   const allRequiredGood = requiredChecks.length > 0 && requiredChecks.every(check => check.result.status === "good");
+  const allRequiredGoodOrUnknown = requiredChecks.length > 0 && requiredChecks.every(check => ["good", "unknown"].includes(check.result.status));
 
   if (allRequiredGood && !unresolvedRequired.length) {
     return { status: "good", text: "Looks good" };
+  }
+
+  if (allRequiredGoodOrUnknown && unresolvedRequired.length) {
+    return { status: "unknown", text: "Unknown" };
   }
 
   return { status: "warn", text: "Partial match" };
@@ -831,6 +837,20 @@ function closeModal() {
   els.modal.classList.add("hidden");
 }
 
+async function copyDonationAddress() {
+  const address = "bc1qhq2l6nz8qlgfhzhtdc36hr3mtcya5wx8j0meauuevyadzj3dqr9qz33l7t";
+  try {
+    await navigator.clipboard.writeText(address);
+    const original = els.copyBtc.textContent;
+    els.copyBtc.textContent = "BTC copied";
+    window.setTimeout(() => {
+      els.copyBtc.textContent = original;
+    }, 1800);
+  } catch {
+    window.prompt("Copy BTC address", address);
+  }
+}
+
 async function init() {
   state.buildStore = loadBuildStore();
   syncActiveBuildLabel();
@@ -846,6 +866,7 @@ async function init() {
   els.specCpu.addEventListener("input", () => updateCatalogFieldHelp("cpu"));
   els.specGpu.addEventListener("input", () => updateCatalogFieldHelp("gpu"));
   els.newBuild.onclick = () => loadBuildIntoForm("");
+  if (els.copyBtc) els.copyBtc.onclick = copyDonationAddress;
   els.deleteBuild.onclick = () => {
     deleteSelectedBuild();
     renderList();

@@ -59,19 +59,22 @@ def is_generic_cpu_requirement(text: str) -> bool:
     if not normalized:
         return False
 
-    generic_markers = [
-        "single core cpu",
-        "single core processor",
-        "dual core cpu",
-        "dual core processor",
-        "multicore cpu",
-        "multicore processor",
-        "multi core cpu",
-        "multi core processor",
-        "core duo cpu",
-        "intel amd",
+    generic_patterns = [
+        r"\bsingle core\b",
+        r"\bdual core\b",
+        r"\bmulti ?core\b",
+        r"\bcore duo\b",
+        r"\bcpu with\b",
+        r"\bprocessor\b",
+        r"\bequivalent\b",
+        r"\bor better\b",
+        r"\bor similar amd\b",
+        r"\bamd intel\b",
+        r"\bintel amd\b",
+        r"\bintel or amd\b",
+        r"\bamd or intel\b",
     ]
-    if not any(marker in normalized for marker in generic_markers):
+    if not any(re.search(pattern, normalized) for pattern in generic_patterns):
         return False
 
     specific_markers = [
@@ -87,6 +90,16 @@ def is_generic_cpu_requirement(text: str) -> bool:
         "core i9",
         "celeron",
         "phenom",
+        "apu",
+        "sempron",
+        "opteron",
+        "a10",
+        "a8",
+        "a6",
+        "a4",
+        "turion",
+        "epyc",
+        "xe ",
     ]
     return not any(marker in normalized for marker in specific_markers)
 
@@ -136,12 +149,19 @@ def legacy_gpu_requirement(raw_text: str | None, catalog: list[dict]) -> dict | 
     return None
 
 
-def split_requirement_variants(raw_text: str | None) -> list[str]:
+def split_requirement_variants(raw_text: str | None, kind: str) -> list[str]:
     text = clean_text(raw_text)
     if not text:
         return []
 
-    variants = re.split(r"\s+or\s+|/|;", text, flags=re.IGNORECASE)
+    if kind == "cpu" and is_generic_cpu_requirement(text):
+        return [text]
+
+    separator_pattern = r"\s+or\s+|;"
+    if kind == "gpu":
+        separator_pattern = r"\s+or\s+|/|;"
+
+    variants = re.split(separator_pattern, text, flags=re.IGNORECASE)
     return [variant.strip(" ,") for variant in variants if clean_text(variant)]
 
 
@@ -187,7 +207,7 @@ def match_component_requirement(raw_text: str | None, catalog: list[dict], kind:
     if legacy_gpu:
         return legacy_gpu
 
-    variants = split_requirement_variants(raw_text)
+    variants = split_requirement_variants(raw_text, kind)
     candidates = []
 
     for variant in variants:
