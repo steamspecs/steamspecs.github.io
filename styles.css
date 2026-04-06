@@ -242,7 +242,8 @@ body{
 }
 .reqTitle{font-weight:750; display:flex; justify-content:space-between; gap:10px}
 .reqList{margin-top:10px; display:flex; flex-direction:column; gap:8px; color:var(--muted); font-size:13px}
-.kv{display:flex; justify-content:space-between; gap:10px}
+.kv{display:flex; justify-content:space-between; align-items:flex-start; gap:10px}
+.kv span:last-child{text-align:right; overflow-wrap:anywhere}
 .kv b{color:var(--text); font-weight:650}
 .small{font-family:var(--mono); font-size:12px; color: rgba(231,238,252,.82)}
 
