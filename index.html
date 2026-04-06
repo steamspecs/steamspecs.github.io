@@ -61,6 +61,15 @@
 
     <div class="grid">
       <label class="field">
+        <span>Build platform</span>
+        <select id="buildPlatform" class="select">
+          <option value="pc">Windows</option>
+          <option value="mac">macOS</option>
+          <option value="linux">Linux</option>
+        </select>
+      </label>
+
+      <label class="field">
         <span>Saved build</span>
         <select id="buildSelect" class="select">
           <option value="">Create a new build</option>
@@ -76,12 +85,14 @@
     <div class="grid">
       <label class="field">
         <span>CPU</span>
-        <input id="specCpu" placeholder="Example: Ryzen 5 3600" />
+        <input id="specCpu" list="cpuOptions" autocomplete="off" placeholder="Choose a known CPU" />
+        <small id="specCpuHelp" class="fieldHelp"></small>
       </label>
 
       <label class="field">
         <span>GPU</span>
-        <input id="specGpu" placeholder="Example: GTX 1660 Super" />
+        <input id="specGpu" list="gpuOptions" autocomplete="off" placeholder="Choose a known GPU" />
+        <small id="specGpuHelp" class="fieldHelp"></small>
       </label>
 
       <label class="field">
@@ -101,6 +112,9 @@
       <button id="saveSpecs" class="btn">Save build</button>
     </div>
   </div>
+
+  <datalist id="cpuOptions"></datalist>
+  <datalist id="gpuOptions"></datalist>
 
   <script src="assets/app.js"></script>
 </body>

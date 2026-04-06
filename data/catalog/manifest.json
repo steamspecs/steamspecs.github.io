@@ -1,28 +1,88 @@
 {
-  "generated_components": 6,
-  "cpu_count": 3,
-  "gpu_count": 3,
+  "generated_components": 852,
+  "cpu_count": 102,
+  "gpu_count": 750,
   "sources": [
+    {
+      "id": "passmark_cpu_catalog",
+      "type": "mapped_components",
+      "kind": "cpu",
+      "path": "data/catalog/imports/passmark_cpu_catalog.csv",
+      "url": null,
+      "applied_rows": 2797,
+      "status": "ok"
+    },
+    {
+      "id": "passmark_gpu_catalog",
+      "type": "mapped_components",
+      "kind": "gpu",
+      "path": "data/catalog/imports/passmark_gpu_catalog.csv",
+      "url": null,
+      "applied_rows": 2809,
+      "status": "ok"
+    },
     {
       "id": "manual_components",
       "type": "normalized_components",
       "kind": null,
       "path": "data/catalog/sources/manual_components.json",
-      "url": null
+      "url": null,
+      "applied_rows": 6,
+      "status": "ok"
     },
     {
       "id": "manual_scores",
       "type": "score_overrides",
       "kind": null,
       "path": "data/catalog/sources/manual_scores.json",
-      "url": null
+      "url": null,
+      "applied_rows": 3,
+      "status": "ok"
     },
     {
       "id": "manual_aliases",
       "type": "alias_overrides",
       "kind": null,
       "path": "data/catalog/sources/manual_aliases.json",
-      "url": null
+      "url": null,
+      "applied_rows": 1,
+      "status": "ok"
+    },
+    {
+      "id": "techpowerup_cpu_specs",
+      "type": "mapped_components",
+      "kind": "cpu",
+      "path": "data/catalog/imports/techpowerup_cpus.csv",
+      "url": null,
+      "applied_rows": 100,
+      "status": "ok"
+    },
+    {
+      "id": "techpowerup_gpu_specs",
+      "type": "mapped_components",
+      "kind": "gpu",
+      "path": "data/catalog/imports/techpowerup_gpus.csv",
+      "url": null,
+      "applied_rows": 0,
+      "status": "missing_optional_source"
+    },
+    {
+      "id": "passmark_cpu_scores",
+      "type": "mapped_scores",
+      "kind": "cpu",
+      "path": "data/catalog/imports/passmark_cpus.csv",
+      "url": null,
+      "applied_rows": 62,
+      "status": "ok"
+    },
+    {
+      "id": "passmark_gpu_scores",
+      "type": "mapped_scores",
+      "kind": "gpu",
+      "path": "data/catalog/imports/passmark_gpus.csv",
+      "url": null,
+      "applied_rows": 50,
+      "status": "ok"
     }
   ]
 }

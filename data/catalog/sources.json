@@ -2,6 +2,32 @@
   "output_dir": "data/catalog",
   "sources": [
     {
+      "id": "passmark_cpu_catalog",
+      "type": "mapped_components",
+      "format": "csv",
+      "enabled": true,
+      "optional": true,
+      "kind": "cpu",
+      "path": "data/catalog/imports/passmark_cpu_catalog.csv",
+      "columns": {
+        "name": "name",
+        "score": "score"
+      }
+    },
+    {
+      "id": "passmark_gpu_catalog",
+      "type": "mapped_components",
+      "format": "csv",
+      "enabled": true,
+      "optional": true,
+      "kind": "gpu",
+      "path": "data/catalog/imports/passmark_gpu_catalog.csv",
+      "columns": {
+        "name": "name",
+        "score": "score"
+      }
+    },
+    {
       "id": "manual_components",
       "type": "normalized_components",
       "path": "data/catalog/sources/manual_components.json"
@@ -15,6 +41,71 @@
       "id": "manual_aliases",
       "type": "alias_overrides",
       "path": "data/catalog/sources/manual_aliases.json"
+    },
+    {
+      "id": "techpowerup_cpu_specs",
+      "type": "mapped_components",
+      "format": "csv",
+      "enabled": true,
+      "optional": true,
+      "kind": "cpu",
+      "path": "data/catalog/imports/techpowerup_cpus.csv",
+      "columns": {
+        "name": "name",
+        "brand": "brand",
+        "family": "family",
+        "model": "model",
+        "cores": "cores",
+        "threads": "threads",
+        "base_ghz": "base_ghz",
+        "boost_ghz": "boost_ghz",
+        "aliases": ["name", "model"]
+      }
+    },
+    {
+      "id": "techpowerup_gpu_specs",
+      "type": "mapped_components",
+      "format": "csv",
+      "enabled": true,
+      "optional": true,
+      "kind": "gpu",
+      "path": "data/catalog/imports/techpowerup_gpus.csv",
+      "columns": {
+        "name": "name",
+        "brand": "brand",
+        "family": "family",
+        "model": "model",
+        "vram_gb": "vram_gb",
+        "base_ghz": "base_ghz",
+        "boost_ghz": "boost_ghz",
+        "aliases": ["name", "model"]
+      }
+    },
+    {
+      "id": "passmark_cpu_scores",
+      "type": "mapped_scores",
+      "format": "csv",
+      "enabled": true,
+      "optional": true,
+      "kind": "cpu",
+      "path": "data/catalog/imports/passmark_cpus.csv",
+      "columns": {
+        "name": "name",
+        "score": "score"
+      }
+    },
+    {
+      "id": "passmark_gpu_scores",
+      "type": "mapped_scores",
+      "format": "csv",
+      "enabled": true,
+      "optional": true,
+      "kind": "gpu",
+      "path": "data/catalog/imports/passmark_gpus.csv",
+      "columns": {
+        "name": "name",
+        "score": "score"
+      }
     }
   ]
 }

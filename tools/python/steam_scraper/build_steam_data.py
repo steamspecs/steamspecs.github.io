@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import FIRST_COMPLETED, ThreadPoolExecutor, wait
 from dataclasses import dataclass
 import argparse
 import json
@@ -47,6 +47,7 @@ class Args:
     discover: bool
     discover_window: int
     discover_miss_limit: int
+    request_delay_ms: int
 
 
 def parse_args() -> Args:
@@ -65,6 +66,7 @@ def parse_args() -> Args:
     parser.add_argument("--discover-miss-limit", type=int, default=DEFAULT_DISCOVER_MISS_LIMIT)
     parser.add_argument("--only-build", action="store_true")
     parser.add_argument("--refresh", action="store_true")
+    parser.add_argument("--request-delay-ms", type=int, default=75)
     ns = parser.parse_args()
 
     appids = None
@@ -86,6 +88,7 @@ def parse_args() -> Args:
         discover=ns.discover,
         discover_window=max(1, ns.discover_window),
         discover_miss_limit=max(1, ns.discover_miss_limit),
+        request_delay_ms=max(0, ns.request_delay_ms),
     )
 
 
@@ -119,11 +122,11 @@ def save_discovery_state(cache_dir: Path, state: dict) -> None:
 
 def fetch_json(url: str):
     request = Request(url, headers={"User-Agent": "steamspecs-python-scraper/1.0"})
-    with urlopen(request, timeout=30) as response:
+    with urlopen(request, timeout=20) as response:
         return json.loads(response.read().decode("utf-8"))
 
 
-def fetch_json_with_retry(url: str, attempts: int = 4):
+def fetch_json_with_retry(url: str, attempts: int = 4, base_sleep: float = 0.8):
     last_error = None
     for attempt in range(1, attempts + 1):
         try:
@@ -132,7 +135,7 @@ def fetch_json_with_retry(url: str, attempts: int = 4):
             last_error = error
             if attempt == attempts:
                 break
-            time.sleep(0.8 * attempt)
+            time.sleep(base_sleep * attempt)
     raise RuntimeError(f"Failed to fetch {url}: {last_error}") from last_error
 
 
@@ -245,7 +248,7 @@ def get_app_details(appid: int, cache_dir: Path, refresh: bool):
     if cache_file.exists() and not refresh:
         return read_json(cache_file)
 
-    data = fetch_json_with_retry(APP_DETAILS_URL.format(appid=appid))
+    data = fetch_json_with_retry(APP_DETAILS_URL.format(appid=appid), attempts=6, base_sleep=1.25)
     write_json(cache_file, data)
     return data
 
@@ -350,18 +353,52 @@ def collect_cached_apps(cache_dir: Path, catalogs: dict[str, list[dict]], select
 
 def scrape_app_details(appids: list[int], args: Args) -> None:
     completed = 0
+    failed = 0
+    failed_ids: list[dict] = []
 
-    def worker(appid: int) -> int:
-        get_app_details(appid, args.cache_dir, args.refresh)
-        return appid
+    def worker(appid: int) -> dict:
+        try:
+            if args.request_delay_ms:
+                time.sleep(args.request_delay_ms / 1000)
+            get_app_details(appid, args.cache_dir, args.refresh)
+            return {"appid": appid, "ok": True, "error": None}
+        except Exception as error:
+            return {"appid": appid, "ok": False, "error": str(error)}
 
     with ThreadPoolExecutor(max_workers=args.concurrency) as executor:
-        futures = [executor.submit(worker, appid) for appid in appids]
-        for future in as_completed(futures):
-            future.result()
-            completed += 1
-            if completed % 25 == 0 or completed == len(appids):
-                print(f"Fetched {completed}/{len(appids)} app detail payloads")
+        pending = {executor.submit(worker, appid): appid for appid in appids}
+
+        while pending:
+            done, not_done = wait(pending.keys(), timeout=5, return_when=FIRST_COMPLETED)
+
+            if not done:
+                print(
+                    f"Still working... completed={completed}, failed={failed}, "
+                    f"remaining={len(pending)}"
+                )
+                continue
+
+            for future in done:
+                result = future.result()
+                pending.pop(future, None)
+                completed += 1
+
+                if not result["ok"]:
+                    failed += 1
+                    failed_ids.append({
+                        "appid": result["appid"],
+                        "error": result["error"],
+                    })
+
+                if completed % 25 == 0 or completed == len(appids):
+                    print(
+                        f"Fetched {completed}/{len(appids)} app detail payloads "
+                        f"(failed: {failed})"
+                    )
+
+    if failed_ids:
+        write_json(args.cache_dir / "failed-appdetails.json", failed_ids)
+        print(f"Saved {failed} failed app detail fetches to {args.cache_dir / 'failed-appdetails.json'}")
 
 def discover_new_appids(base_appids: list[int], args: Args, catalogs: dict[str, list[dict]]) -> list[int]:
     if not args.discover:

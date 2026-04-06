@@ -1,0 +1,1814 @@
+[
+  {
+    "appid": 66000,
+    "name": "The Bureau: XCOM Declassified - Code Breakers",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows Vista Service Pack 2 32-bit",
+          "cpu": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz",
+          "gpu": "DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 12.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista Service Pack 2 32-bit<br></li><li><strong>Processor:</strong> Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT<br></li><li><strong>Storage:</strong> 12 GB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible<br></li><li><strong>Additional Notes:</strong> Incompatible with Intel HD 3000 Integrated Graphics</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz",
+            "candidates": [
+              {
+                "id": "cpu_intel_1300_1_66ghz",
+                "name": "Intel 1300 @ 1.66GHz",
+                "score": 6100,
+                "matched_from": "Intel Core 2 DUO 2.4 GHz"
+              }
+            ],
+            "min_score": 6100
+          },
+          "gpu_match": {
+            "raw": "DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT",
+            "candidates": [
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "DirectX9 Compatible ATI Radeon HD 3870"
+              },
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "NVIDIA 8800 GT"
+              }
+            ],
+            "min_score": 5044
+          }
+        },
+        "recommended": {
+          "os": "Windows 7 Service Pack 1 64-bit",
+          "cpu": "Quad Core Processor",
+          "gpu": "DirectX11 Compatible, AMD Radeon HD 6950 / NVIDIA GeForce GTX 560",
+          "ram_gb": 4.0,
+          "vram_gb": null,
+          "storage_gb": 12.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 Service Pack 1 64-bit<br></li><li><strong>Processor:</strong> Quad Core Processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> DirectX11 Compatible, AMD Radeon HD 6950 / NVIDIA GeForce GTX 560<br></li><li><strong>Storage:</strong> 12 GB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible<br></li><li><strong>Additional Notes:</strong> Incompatible with Intel HD 3000 Integrated Graphics</li></ul>",
+          "cpu_match": {
+            "raw": "Quad Core Processor",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "DirectX11 Compatible, AMD Radeon HD 6950 / NVIDIA GeForce GTX 560",
+            "candidates": [
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "DirectX11 Compatible, AMD Radeon HD 6950"
+              },
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "NVIDIA GeForce GTX 560"
+              }
+            ],
+            "min_score": 5044
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "Mac OS X Mountain Lion 10.7.5 or higher",
+          "cpu": "Intel Core i series processor",
+          "gpu": "AMD HD4870 / NVIDIA 8800GT / Intel Iris Graphics or better",
+          "ram_gb": 4.0,
+          "vram_gb": null,
+          "storage_gb": 15.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Mountain Lion 10.7.5 or higher<br></li><li><strong>Processor:</strong> Intel Core i series processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> AMD HD4870 / NVIDIA 8800GT / Intel Iris Graphics or better<br></li><li><strong>Storage:</strong> 15 GB available space<br></li><li><strong>Additional Notes:</strong> Keyboard and 3 button Mouse or Logitech Dual Analog Stick Gamepad</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core i series processor",
+            "candidates": [
+              {
+                "id": "cpu_intel_1300_1_66ghz",
+                "name": "Intel 1300 @ 1.66GHz",
+                "score": 6100,
+                "matched_from": "Intel Core i series processor"
+              }
+            ],
+            "min_score": 6100
+          },
+          "gpu_match": {
+            "raw": "AMD HD4870 / NVIDIA 8800GT / Intel Iris Graphics or better",
+            "candidates": [
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "AMD HD4870"
+              },
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "NVIDIA 8800GT"
+              },
+              {
+                "id": "gpu_intel_express_chipset_g41",
+                "name": "Intel - Express Chipset G41",
+                "score": 630,
+                "matched_from": "Intel Iris Graphics"
+              }
+            ],
+            "min_score": 630
+          }
+        },
+        "recommended": {
+          "os": "Mac OS X Lion 10.9 or higher",
+          "cpu": "Intel Core i series processor",
+          "gpu": "AMD HD5870 / Nvidia 650M or better",
+          "ram_gb": 4.0,
+          "vram_gb": null,
+          "storage_gb": 15.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Lion 10.9 or higher<br></li><li><strong>Processor:</strong> Intel Core i series processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> AMD HD5870 / Nvidia 650M or better<br></li><li><strong>Storage:</strong> 15 GB available space<br></li><li><strong>Additional Notes:</strong> Keyboard and 3 button Mouse or Logitech Dual Analog Stick Gamepad</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core i series processor",
+            "candidates": [
+              {
+                "id": "cpu_intel_1300_1_66ghz",
+                "name": "Intel 1300 @ 1.66GHz",
+                "score": 6100,
+                "matched_from": "Intel Core i series processor"
+              }
+            ],
+            "min_score": 6100
+          },
+          "gpu_match": {
+            "raw": "AMD HD5870 / Nvidia 650M or better",
+            "candidates": [
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "AMD HD5870"
+              },
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "Nvidia 650M"
+              }
+            ],
+            "min_score": 5044
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 66001,
+    "name": "The Bureau: XCOM Declassified - Light Plasma Pistol",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows Vista Service Pack 2 32-bit",
+          "cpu": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz",
+          "gpu": "DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 12.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista Service Pack 2 32-bit<br></li><li><strong>Processor:</strong> Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT<br></li><li><strong>Storage:</strong> 12 GB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible<br></li><li><strong>Additional Notes:</strong> Incompatible with Intel HD 3000 Integrated Graphics</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz",
+            "candidates": [
+              {
+                "id": "cpu_intel_1300_1_66ghz",
+                "name": "Intel 1300 @ 1.66GHz",
+                "score": 6100,
+                "matched_from": "Intel Core 2 DUO 2.4 GHz"
+              }
+            ],
+            "min_score": 6100
+          },
+          "gpu_match": {
+            "raw": "DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT",
+            "candidates": [
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "DirectX9 Compatible ATI Radeon HD 3870"
+              },
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "NVIDIA 8800 GT"
+              }
+            ],
+            "min_score": 5044
+          }
+        },
+        "recommended": {
+          "os": "Windows 7 Service Pack 1 64-bit",
+          "cpu": "Quad Core Processor",
+          "gpu": "DirectX11 Compatible, AMD Radeon HD 6950 / NVIDIA GeForce GTX 560",
+          "ram_gb": 4.0,
+          "vram_gb": null,
+          "storage_gb": 12.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 Service Pack 1 64-bit<br></li><li><strong>Processor:</strong> Quad Core Processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> DirectX11 Compatible, AMD Radeon HD 6950 / NVIDIA GeForce GTX 560<br></li><li><strong>Storage:</strong> 12 GB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible<br></li><li><strong>Additional Notes:</strong> Incompatible with Intel HD 3000 Integrated Graphics</li></ul>",
+          "cpu_match": {
+            "raw": "Quad Core Processor",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "DirectX11 Compatible, AMD Radeon HD 6950 / NVIDIA GeForce GTX 560",
+            "candidates": [
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "DirectX11 Compatible, AMD Radeon HD 6950"
+              },
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "NVIDIA GeForce GTX 560"
+              }
+            ],
+            "min_score": 5044
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "Mac OS X Mountain Lion 10.7.5 or higher",
+          "cpu": "Intel Core i series processor",
+          "gpu": "AMD HD4870 / NVIDIA 8800GT / Intel Iris Graphics or better",
+          "ram_gb": 4.0,
+          "vram_gb": null,
+          "storage_gb": 15.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Mountain Lion 10.7.5 or higher<br></li><li><strong>Processor:</strong> Intel Core i series processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> AMD HD4870 / NVIDIA 8800GT / Intel Iris Graphics or better<br></li><li><strong>Storage:</strong> 15 GB available space<br></li><li><strong>Additional Notes:</strong> Keyboard and 3 button Mouse or Logitech Dual Analog Stick Gamepad</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core i series processor",
+            "candidates": [
+              {
+                "id": "cpu_intel_1300_1_66ghz",
+                "name": "Intel 1300 @ 1.66GHz",
+                "score": 6100,
+                "matched_from": "Intel Core i series processor"
+              }
+            ],
+            "min_score": 6100
+          },
+          "gpu_match": {
+            "raw": "AMD HD4870 / NVIDIA 8800GT / Intel Iris Graphics or better",
+            "candidates": [
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "AMD HD4870"
+              },
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "NVIDIA 8800GT"
+              },
+              {
+                "id": "gpu_intel_express_chipset_g41",
+                "name": "Intel - Express Chipset G41",
+                "score": 630,
+                "matched_from": "Intel Iris Graphics"
+              }
+            ],
+            "min_score": 630
+          }
+        },
+        "recommended": {
+          "os": "Mac OS X Lion 10.9 or higher",
+          "cpu": "Intel Core i series processor",
+          "gpu": "AMD HD5870 / Nvidia 650M or better",
+          "ram_gb": 4.0,
+          "vram_gb": null,
+          "storage_gb": 15.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Lion 10.9 or higher<br></li><li><strong>Processor:</strong> Intel Core i series processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> AMD HD5870 / Nvidia 650M or better<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 15 GB available space<br></li><li><strong>Additional Notes:</strong> Keyboard and 3 button Mouse or Logitech Dual Analog Stick Gamepad</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core i series processor",
+            "candidates": [
+              {
+                "id": "cpu_intel_1300_1_66ghz",
+                "name": "Intel 1300 @ 1.66GHz",
+                "score": 6100,
+                "matched_from": "Intel Core i series processor"
+              }
+            ],
+            "min_score": 6100
+          },
+          "gpu_match": {
+            "raw": "AMD HD5870 / Nvidia 650M or better",
+            "candidates": [
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "AMD HD5870"
+              },
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "Nvidia 650M"
+              }
+            ],
+            "min_score": 5044
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 66002,
+    "name": "The Bureau: XCOM Declassified - Hangar 6 R&D",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows Vista Service Pack 2 32-bit",
+          "cpu": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz",
+          "gpu": "DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 0.01171875,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista Service Pack 2 32-bit<br></li><li><strong>Processor:</strong> Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT<br></li><li><strong>Storage:</strong> 12 MB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible<br></li><li><strong>Additional Notes:</strong> Incompatible with Intel HD 3000 Integrated Graphics</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz",
+            "candidates": [
+              {
+                "id": "cpu_intel_1300_1_66ghz",
+                "name": "Intel 1300 @ 1.66GHz",
+                "score": 6100,
+                "matched_from": "Intel Core 2 DUO 2.4 GHz"
+              }
+            ],
+            "min_score": 6100
+          },
+          "gpu_match": {
+            "raw": "DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT",
+            "candidates": [
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "DirectX9 Compatible ATI Radeon HD 3870"
+              },
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "NVIDIA 8800 GT"
+              }
+            ],
+            "min_score": 5044
+          }
+        },
+        "recommended": {
+          "os": "Windows 7 Service Pack 1 64-bit",
+          "cpu": "Quad Core Processor",
+          "gpu": "DirectX11 Compatible, AMD Radeon HD 6950 / NVIDIA GeForce GTX 560",
+          "ram_gb": 4.0,
+          "vram_gb": null,
+          "storage_gb": 0.01171875,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 Service Pack 1 64-bit<br></li><li><strong>Processor:</strong> Quad Core Processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> DirectX11 Compatible, AMD Radeon HD 6950 / NVIDIA GeForce GTX 560<br></li><li><strong>Storage:</strong> 12 MB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible<br></li><li><strong>Additional Notes:</strong> Incompatible with Intel HD 3000 Integrated Graphics</li></ul>",
+          "cpu_match": {
+            "raw": "Quad Core Processor",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "DirectX11 Compatible, AMD Radeon HD 6950 / NVIDIA GeForce GTX 560",
+            "candidates": [
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "DirectX11 Compatible, AMD Radeon HD 6950"
+              },
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "NVIDIA GeForce GTX 560"
+              }
+            ],
+            "min_score": 5044
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "Mac OS X Mountain Lion 10.7.5 or higher",
+          "cpu": "Intel Core i series processor",
+          "gpu": "AMD HD4870 / NVIDIA 8800GT / Intel Iris Graphics or better",
+          "ram_gb": 4.0,
+          "vram_gb": null,
+          "storage_gb": 15.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Mountain Lion 10.7.5 or higher<br></li><li><strong>Processor:</strong> Intel Core i series processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> AMD HD4870 / NVIDIA 8800GT / Intel Iris Graphics or better<br></li><li><strong>Storage:</strong> 15 GB available space<br></li><li><strong>Additional Notes:</strong> Keyboard and 3 button Mouse or Logitech Dual Analog Stick Gamepad</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core i series processor",
+            "candidates": [
+              {
+                "id": "cpu_intel_1300_1_66ghz",
+                "name": "Intel 1300 @ 1.66GHz",
+                "score": 6100,
+                "matched_from": "Intel Core i series processor"
+              }
+            ],
+            "min_score": 6100
+          },
+          "gpu_match": {
+            "raw": "AMD HD4870 / NVIDIA 8800GT / Intel Iris Graphics or better",
+            "candidates": [
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "AMD HD4870"
+              },
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "NVIDIA 8800GT"
+              },
+              {
+                "id": "gpu_intel_express_chipset_g41",
+                "name": "Intel - Express Chipset G41",
+                "score": 630,
+                "matched_from": "Intel Iris Graphics"
+              }
+            ],
+            "min_score": 630
+          }
+        },
+        "recommended": {
+          "os": "Mac OS X Lion 10.9 or higher",
+          "cpu": "Intel Core i series processor",
+          "gpu": "AMD HD5870 / Nvidia 650M or better",
+          "ram_gb": 4.0,
+          "vram_gb": null,
+          "storage_gb": 15.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Lion 10.9 or higher<br></li><li><strong>Processor:</strong> Intel Core i series processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> AMD HD5870 / Nvidia 650M or better<br></li><li><strong>Storage:</strong> 15 GB available space<br></li><li><strong>Additional Notes:</strong> Keyboard and 3 button Mouse or Logitech Dual Analog Stick Gamepad</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core i series processor",
+            "candidates": [
+              {
+                "id": "cpu_intel_1300_1_66ghz",
+                "name": "Intel 1300 @ 1.66GHz",
+                "score": 6100,
+                "matched_from": "Intel Core i series processor"
+              }
+            ],
+            "min_score": 6100
+          },
+          "gpu_match": {
+            "raw": "AMD HD5870 / Nvidia 650M or better",
+            "candidates": [
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "AMD HD5870"
+              },
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "Nvidia 650M"
+              }
+            ],
+            "min_score": 5044
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 67000,
+    "name": "The Polynomial - Space of the music",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP, Windows Vista, or Windows 7, 32 or 64-bit",
+          "cpu": "Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better",
+          "gpu": "NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.",
+          "ram_gb": 1.0,
+          "vram_gb": null,
+          "storage_gb": 0.09765625,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP, Windows Vista, or Windows 7, 32 or 64-bit<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Video:</strong> OpenGL: 2.1 , GLSL: 1.2<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 100MB<br>\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better",
+            "candidates": [
+              {
+                "id": "cpu_intel_1300_1_66ghz",
+                "name": "Intel 1300 @ 1.66GHz",
+                "score": 6100,
+                "matched_from": "Intel Core 2 1.8GHz, AMD Athlon 2GHz"
+              }
+            ],
+            "min_score": 6100
+          },
+          "gpu_match": {
+            "raw": "NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.",
+            "candidates": [
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "NVIDIA\u00ae GeForce\u00ae 7600"
+              },
+              {
+                "id": "gpu_intel_express_chipset_g41",
+                "name": "Intel - Express Chipset G41",
+                "score": 630,
+                "matched_from": "better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up"
+              }
+            ],
+            "min_score": 630
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": "). Intel HD cards may hang up or have very low framerate.",
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": 0.09765625,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "). Intel HD cards may hang up or have very low framerate.<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Video:</strong> OpenGL: 2.1 , GLSL: 1.2<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 100MB<br>\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "). Intel HD cards may hang up or have very low framerate.",
+            "candidates": [
+              {
+                "id": "gpu_intel_express_chipset_g41",
+                "name": "Intel - Express Chipset G41",
+                "score": 630,
+                "matched_from": "). Intel HD cards may hang up"
+              }
+            ],
+            "min_score": 630
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "OS X Snow Leopard 10.6.3, or later. (10.5 is not supported)",
+          "cpu": "Intel Mac 1.8GHz or better",
+          "gpu": "NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.",
+          "ram_gb": 1.0,
+          "vram_gb": null,
+          "storage_gb": 0.09765625,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> OS X Snow Leopard 10.6.3, or later. (10.5 is not supported)<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Mac 1.8GHz or better<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Video:</strong> OpenGL: 2.1 , GLSL: 1.2<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 100MB<br>\t\t\t\t\t\t\t\t  </li></ul>",
+          "cpu_match": {
+            "raw": "Intel Mac 1.8GHz or better",
+            "candidates": [
+              {
+                "id": "cpu_intel_1300_1_66ghz",
+                "name": "Intel 1300 @ 1.66GHz",
+                "score": 6100,
+                "matched_from": "Intel Mac 1.8GHz"
+              }
+            ],
+            "min_score": 6100
+          },
+          "gpu_match": {
+            "raw": "NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.",
+            "candidates": [
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "NVIDIA\u00ae GeForce\u00ae 7600"
+              },
+              {
+                "id": "gpu_intel_express_chipset_g41",
+                "name": "Intel - Express Chipset G41",
+                "score": 630,
+                "matched_from": "better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up"
+              }
+            ],
+            "min_score": 630
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": "). Intel HD cards may hang up or have very low framerate.",
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": 0.09765625,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "). Intel HD cards may hang up or have very low framerate.<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Video:</strong> OpenGL: 2.1 , GLSL: 1.2<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 100MB<br>\t\t\t\t\t\t\t\t  </li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "). Intel HD cards may hang up or have very low framerate.",
+            "candidates": [
+              {
+                "id": "gpu_intel_express_chipset_g41",
+                "name": "Intel - Express Chipset G41",
+                "score": 630,
+                "matched_from": "). Intel HD cards may hang up"
+              }
+            ],
+            "min_score": 630
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": "Ubuntu 12.04 LTS, fully updated",
+          "cpu": "Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better",
+          "gpu": "NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.",
+          "ram_gb": 1.0,
+          "vram_gb": null,
+          "storage_gb": 0.09765625,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 12.04 LTS, fully updated<br>\t</li><li><strong>Processor:</strong> Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better<br>\t</li><li><strong>Memory:</strong> 1GB RAM<br>\t</li><li><strong>Graphics:</strong> NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.<br>\t</li><li><strong>Hard Drive:</strong> 100MB</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better",
+            "candidates": [
+              {
+                "id": "cpu_intel_1300_1_66ghz",
+                "name": "Intel 1300 @ 1.66GHz",
+                "score": 6100,
+                "matched_from": "Intel Core 2 1.8GHz, AMD Athlon 2GHz"
+              }
+            ],
+            "min_score": 6100
+          },
+          "gpu_match": {
+            "raw": "NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.",
+            "candidates": [
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "NVIDIA\u00ae GeForce\u00ae 7600"
+              },
+              {
+                "id": "gpu_intel_express_chipset_g41",
+                "name": "Intel - Express Chipset G41",
+                "score": 630,
+                "matched_from": "better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up"
+              }
+            ],
+            "min_score": 630
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": "). Intel HD cards may hang up or have very low framerate.",
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": 0.09765625,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "). Intel HD cards may hang up or have very low framerate.<br>\t</li><li><strong>Hard Drive:</strong> 100MB</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "). Intel HD cards may hang up or have very low framerate.",
+            "candidates": [
+              {
+                "id": "gpu_intel_express_chipset_g41",
+                "name": "Intel - Express Chipset G41",
+                "score": 630,
+                "matched_from": "). Intel HD cards may hang up"
+              }
+            ],
+            "min_score": 630
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 67330,
+    "name": "Mafia II DLC: Greaser Pack",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7",
+          "cpu": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher",
+          "gpu": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
+          "ram_gb": 1.5,
+          "vram_gb": null,
+          "storage_gb": 8.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core)  or higher<br>\t\t\t\t\t\t\t\t</li><li><strong>RAM:</strong> 1.5 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 8GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 8600 / ATI HD2600 Pro or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> 100% DirectX 9.0c compatible sound card<br>\t\t\t\t\t\t\t\t</li><li><strong>Peripherals:</strong> Keyboard and mouse or Windows compatible gamepad<br>\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
+            "candidates": [
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "nVidia GeForce 8600"
+              }
+            ],
+            "min_score": 5044
+          }
+        },
+        "recommended": {
+          "os": "Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7",
+          "cpu": "2.4 GHz Quad Core processor",
+          "gpu": "nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 10.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2.4 GHz Quad Core processor<br>\t\t\t\t\t\t\t\t</li><li><strong>RAM:</strong> 2GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 10GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> 100% DirectX 9.0c compatible sound card<br>\t\t\t\t\t\t\t\t</li><li><strong>Peripherals:</strong> Keyboard and mouse or Windows compatible gamepad<br>\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "2.4 GHz Quad Core processor",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better",
+            "candidates": [
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "nVidia GeForce 9800 GTX"
+              },
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "ATI Radeon HD 3870"
+              }
+            ],
+            "min_score": 5044
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 67340,
+    "name": "Mafia II DLC: Renegade Pack",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7",
+          "cpu": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher",
+          "gpu": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
+          "ram_gb": 1.5,
+          "vram_gb": null,
+          "storage_gb": 8.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core)  or higher<br>\t\t\t\t\t\t\t\t</li><li><strong>RAM:</strong> 1.5 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 8GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 8600 / ATI HD2600 Pro or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> 100% DirectX 9.0c compatible sound card<br>\t\t\t\t\t\t\t\t</li><li><strong>Peripherals:</strong> Keyboard and mouse or Windows compatible gamepad<br>\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
+            "candidates": [
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "nVidia GeForce 8600"
+              }
+            ],
+            "min_score": 5044
+          }
+        },
+        "recommended": {
+          "os": "Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7",
+          "cpu": "2.4 GHz Quad Core processor",
+          "gpu": "nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 10.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2.4 GHz Quad Core processor<br>\t\t\t\t\t\t\t\t</li><li><strong>RAM:</strong> 2GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 10GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> 100% DirectX 9.0c compatible sound card<br>\t\t\t\t\t\t\t\t</li><li><strong>Peripherals:</strong> Keyboard and mouse or Windows compatible gamepad<br>\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "2.4 GHz Quad Core processor",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better",
+            "candidates": [
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "nVidia GeForce 9800 GTX"
+              },
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "ATI Radeon HD 3870"
+              }
+            ],
+            "min_score": 5044
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 67350,
+    "name": "Mafia II DLC: Vegas Pack",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7",
+          "cpu": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher",
+          "gpu": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
+          "ram_gb": 1.5,
+          "vram_gb": null,
+          "storage_gb": 8.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core)  or higher<br>\t\t\t\t\t\t\t\t</li><li><strong>RAM:</strong> 1.5 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 8GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 8600 / ATI HD2600 Pro or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> 100% DirectX 9.0c compatible sound card<br>\t\t\t\t\t\t\t\t</li><li><strong>Peripherals:</strong> Keyboard and mouse or Windows compatible gamepad<br>\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
+            "candidates": [
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "nVidia GeForce 8600"
+              }
+            ],
+            "min_score": 5044
+          }
+        },
+        "recommended": {
+          "os": "Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7",
+          "cpu": "2.4 GHz Quad Core processor",
+          "gpu": "nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 10.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2.4 GHz Quad Core processor<br>\t\t\t\t\t\t\t\t</li><li><strong>RAM:</strong> 2GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 10GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> 100% DirectX 9.0c compatible sound card<br>\t\t\t\t\t\t\t\t</li><li><strong>Peripherals:</strong> Keyboard and mouse or Windows compatible gamepad<br>\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "2.4 GHz Quad Core processor",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better",
+            "candidates": [
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "nVidia GeForce 9800 GTX"
+              },
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "ATI Radeon HD 3870"
+              }
+            ],
+            "min_score": 5044
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 67360,
+    "name": "Mafia II DLC: War Hero Pack",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7",
+          "cpu": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher",
+          "gpu": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
+          "ram_gb": 1.5,
+          "vram_gb": null,
+          "storage_gb": 8.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core)  or higher<br>\t\t\t\t\t\t\t\t</li><li><strong>RAM:</strong> 1.5 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 8GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 8600 / ATI HD2600 Pro or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> 100% DirectX 9.0c compatible sound card<br>\t\t\t\t\t\t\t\t</li><li><strong>Peripherals:</strong> Keyboard and mouse or Windows compatible gamepad<br>\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
+            "candidates": [
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "nVidia GeForce 8600"
+              }
+            ],
+            "min_score": 5044
+          }
+        },
+        "recommended": {
+          "os": "Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7",
+          "cpu": "2.4 GHz Quad Core processor",
+          "gpu": "nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 10.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2.4 GHz Quad Core processor<br>\t\t\t\t\t\t\t\t</li><li><strong>RAM:</strong> 2GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 10GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> 100% DirectX 9.0c compatible sound card<br>\t\t\t\t\t\t\t\t</li><li><strong>Peripherals:</strong> Keyboard and mouse or Windows compatible gamepad<br>\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "2.4 GHz Quad Core processor",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better",
+            "candidates": [
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "nVidia GeForce 9800 GTX"
+              },
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "ATI Radeon HD 3870"
+              }
+            ],
+            "min_score": 5044
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 67370,
+    "name": "The Darkness II",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP/Vista/7",
+          "cpu": "Intel Core 2 @ 2GHz / AMD Athlon 64 X2 4200+",
+          "gpu": "256MB NVIDIA GeForce 8600 / ATI Radeon HD 2600",
+          "ram_gb": 1.5,
+          "vram_gb": null,
+          "storage_gb": 10.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 @ 2GHz / AMD Athlon 64 X2 4200+<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1.5GB RAM <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 10GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> 256MB NVIDIA GeForce 8600 / ATI Radeon HD 2600<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX Compatible<br>\t\t\t\t\t\t\t\t</li><li><strong>Additional:</strong> Requires installation of Visual C++ 2008 Redistributable, DirectX and nVidia PhysX version 9.11.1107 (included with download)<br>\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core 2 @ 2GHz / AMD Athlon 64 X2 4200+",
+            "candidates": [
+              {
+                "id": "cpu_intel_1300_1_66ghz",
+                "name": "Intel 1300 @ 1.66GHz",
+                "score": 6100,
+                "matched_from": "Intel Core 2 @ 2GHz"
+              }
+            ],
+            "min_score": 6100
+          },
+          "gpu_match": {
+            "raw": "256MB NVIDIA GeForce 8600 / ATI Radeon HD 2600",
+            "candidates": [
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "256MB NVIDIA GeForce 8600"
+              }
+            ],
+            "min_score": 5044
+          }
+        },
+        "recommended": {
+          "os": "Windows XP/Vista/7",
+          "cpu": "2.4 GHz Quad Core processor",
+          "gpu": "512+ MB NVIDIA GeForce 9800 GTX",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 10.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2.4 GHz Quad Core processor<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB RAM <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 10GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> 512+ MB NVIDIA GeForce 9800 GTX <br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX Compatible<br>\t\t\t\t\t\t\t\t</li><li><strong>Additional:</strong> Requires installation of Visual C++ 2008 Redistributable, DirectX and nVidia PhysX version 9.11.1107 (included with download)<br>\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "2.4 GHz Quad Core processor",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "512+ MB NVIDIA GeForce 9800 GTX",
+            "candidates": [
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "512+ MB NVIDIA GeForce 9800 GTX"
+              }
+            ],
+            "min_score": 5044
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "Mac OS X Snow Leopard 10.6.8 or higher",
+          "cpu": "Intel Core 2 Duo processor",
+          "gpu": "AMD HD2600 / Nvidia 9600GT with at least 256 MB VRAM",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 10.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Snow Leopard 10.6.8 or higher<br>\t</li><li><strong>Processor:</strong> Intel Core 2 Duo processor<br>\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t</li><li><strong>Hard Disk Space:</strong> 10 GB free<br>\t</li><li><strong>Video Memory:</strong> 256MB<br>\t</li><li><strong>Video Card:</strong> AMD HD2600 / Nvidia 9600GT with at least 256 MB VRAM<br>\t</li><li><strong>Additional:</strong> Initial installation requires one-time internet connection for Steam authentication; software installations required (included with the game) include Steam Client for Mac OS X.</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core 2 Duo processor",
+            "candidates": [
+              {
+                "id": "cpu_intel_1300_1_66ghz",
+                "name": "Intel 1300 @ 1.66GHz",
+                "score": 6100,
+                "matched_from": "Intel Core 2 Duo processor"
+              }
+            ],
+            "min_score": 6100
+          },
+          "gpu_match": {
+            "raw": "AMD HD2600 / Nvidia 9600GT with at least 256 MB VRAM",
+            "candidates": [
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "AMD HD2600"
+              },
+              {
+                "id": "gpu_geforce_205",
+                "name": "GeForce 205",
+                "score": 5044,
+                "matched_from": "Nvidia 9600GT with at least 256 MB VRAM"
+              }
+            ],
+            "min_score": 5044
+          }
+        },
+        "recommended": {
+          "os": "Mac OS X Lion 10.7.3 or higher",
+          "cpu": "Intel Core i Series processor",
+          "gpu": "AMD HD4870 with at least 512 MB VRAM",
+          "ram_gb": 4.0,
+          "vram_gb": null,
+          "storage_gb": 10.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Lion 10.7.3 or higher<br>\t</li><li><strong>Processor:</strong> Intel Core i Series processor<br>\t</li><li><strong>Memory:</strong> 4 GB RAM or higher<br>\t</li><li><strong>Hard Disk Space:</strong> 10 GB free<br>\t</li><li><strong>Video Memory:</strong> 512+ MB<br>\t</li><li><strong>Video Card:</strong> AMD HD4870 with at least 512 MB VRAM</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core i Series processor",
+            "candidates": [
+              {
+                "id": "cpu_intel_1300_1_66ghz",
+                "name": "Intel 1300 @ 1.66GHz",
+                "score": 6100,
+                "matched_from": "Intel Core i Series processor"
+              }
+            ],
+            "min_score": 6100
+          },
+          "gpu_match": {
+            "raw": "AMD HD4870 with at least 512 MB VRAM",
+            "candidates": [
+              {
+                "id": "gpu_256mb_ddr_radeon_9800_xt",
+                "name": "256MB DDR Radeon 9800 XT",
+                "score": 7921,
+                "matched_from": "AMD HD4870 with at least 512 MB VRAM"
+              }
+            ],
+            "min_score": 7921
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  }
+]
