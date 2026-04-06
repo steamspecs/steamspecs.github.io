@@ -1,0 +1,609 @@
+{
+  "version": 2,
+  "shard_size": 2000,
+  "total_apps": 100,
+  "total_shards": 2,
+  "generated_at": "2026-04-06T13:38:49Z",
+  "apps": [
+    {
+      "appid": 10,
+      "name": "Counter-Strike",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 20,
+      "name": "Team Fortress Classic",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 30,
+      "name": "Day of Defeat",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40,
+      "name": "Deathmatch Classic",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 50,
+      "name": "Half-Life: Opposing Force",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 60,
+      "name": "Ricochet",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 70,
+      "name": "Half-Life",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 80,
+      "name": "Counter-Strike: Condition Zero",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 130,
+      "name": "Half-Life: Blue Shift",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220,
+      "name": "Half-Life 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 240,
+      "name": "Counter-Strike: Source",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 300,
+      "name": "Day of Defeat: Source",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 320,
+      "name": "Half-Life 2: Deathmatch",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 360,
+      "name": "Half-Life Deathmatch: Source",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 400,
+      "name": "Portal",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 440,
+      "name": "Team Fortress 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 500,
+      "name": "Left 4 Dead",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 550,
+      "name": "Left 4 Dead 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 570,
+      "name": "Dota 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 620,
+      "name": "Portal 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 630,
+      "name": "Alien Swarm",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 660,
+      "name": "Portal 2 Sixense MotionPack DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 730,
+      "name": "Counter-Strike 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1002,
+      "name": "Rag Doll Kung Fu",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1200,
+      "name": "Red Orchestra: Ostfront 41-45",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1250,
+      "name": "Killing Floor",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1256,
+      "name": "Killing Floor Outbreak Character Pack",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 1257,
+      "name": "Killing Floor: Nightfall Character Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 1300,
+      "name": "SiN Episodes: Emergence",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1313,
+      "name": "SiN Gold",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1500,
+      "name": "Darwinia",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1510,
+      "name": "Uplink",
+      "type": "game",
+      "has_requirements": false
+    },
+    {
+      "appid": 1520,
+      "name": "DEFCON",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1530,
+      "name": "Multiwinia",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1600,
+      "name": "Dangerous Waters",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1610,
+      "name": "Space Empires IV Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1620,
+      "name": "Jagged Alliance 2 Gold",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1630,
+      "name": "Disciples II: Rise of the Elves",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1640,
+      "name": "Disciples II: Gallean's Return",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1670,
+      "name": "Iron Warriors: T-72 Tank Command",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1690,
+      "name": "Space Empires V",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1700,
+      "name": "Arx Fatalis",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1900,
+      "name": "Earth 2160",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 1930,
+      "name": "Two Worlds Epic Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2100,
+      "name": "Dark Messiah of Might & Magic",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2200,
+      "name": "Quake III Arena",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2210,
+      "name": "Quake 4",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2270,
+      "name": "Wolfenstein 3D",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2280,
+      "name": "DOOM + DOOM II",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2310,
+      "name": "Quake",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2320,
+      "name": "Quake II",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2400,
+      "name": "The Ship: Murder Party",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2420,
+      "name": "The Ship: Single Player",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2450,
+      "name": "Bloody Good Time",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2500,
+      "name": "Shadowgrounds",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2520,
+      "name": "Gumboy - Crazy Adventures\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2540,
+      "name": "RIP - Trilogy\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2590,
+      "name": "Alpha Prime",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2600,
+      "name": "Vampire: The Masquerade - Bloodlines",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2610,
+      "name": "GUN\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2620,
+      "name": "Call of Duty\u00ae (2003)",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2630,
+      "name": "Call of Duty\u00ae 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2640,
+      "name": "Call of Duty: United Offensive",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2700,
+      "name": "RollerCoaster Tycoon\u00ae 3: Platinum",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2710,
+      "name": "Act of War: Direct Action",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2720,
+      "name": "ThreadSpace: Hyperbol",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2800,
+      "name": "X2: The Threat",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2810,
+      "name": "X3: Reunion",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2820,
+      "name": "X3: Terran Conflict",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2840,
+      "name": "X: Beyond the Frontier",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2850,
+      "name": "X: Tension",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2870,
+      "name": "X Rebirth",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2900,
+      "name": "688(I) Hunter/Killer",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2910,
+      "name": "Fleet Command",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2920,
+      "name": "Sub Command",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 2990,
+      "name": "FlatOut 2",
+      "type": "game",
+      "has_requirements": false
+    },
+    {
+      "appid": 3010,
+      "name": "Xpand Rally",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3020,
+      "name": "Call of Juarez",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3050,
+      "name": "Xpand Rally Xtreme",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3130,
+      "name": "Men of War: Red Tide",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3170,
+      "name": "King's Bounty: Armored Princess",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3230,
+      "name": "Genesis Rising",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3260,
+      "name": "Safecracker: The Ultimate Puzzle Adventure",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3270,
+      "name": "Painkiller Overdose",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3300,
+      "name": "Bejeweled 2 Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3310,
+      "name": "Chuzzle Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3320,
+      "name": "Insaniquarium Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3330,
+      "name": "Zuma Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3340,
+      "name": "AstroPop Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3350,
+      "name": "Bejeweled Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3360,
+      "name": "Big Money! Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3380,
+      "name": "Dynomite Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3390,
+      "name": "Feeding Frenzy 2 Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3400,
+      "name": "Hammer Heads Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3410,
+      "name": "Heavy Weapon Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3420,
+      "name": "Iggle Pop Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3430,
+      "name": "Pizza Frenzy Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3450,
+      "name": "Typer Shark! Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3460,
+      "name": "Talismania Deluxe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 3480,
+      "name": "Peggle Deluxe",
+      "type": "game",
+      "has_requirements": true
+    }
+  ]
+}
