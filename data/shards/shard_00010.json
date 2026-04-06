@@ -19,8 +19,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>Supported OS: </strong>Windows 2000/XP/Vista                    <br>\t\t\t\t\t</li><li><strong>Processor: </strong> Pentium III 800 MHz or greater; Athlon 800 MHz or greater                    <br>\t\t\t\t\t</li><li><strong>Memory: </strong>512MB RAM                    <br>\t\t\t\t\t</li><li><strong>Graphics: </strong>DirectX 9.0 or higher installed. Radeon 9700 or higher, and Geforce 5x00 or higher. Intel graphics cards not supported. Although some may work, integrated chipsets are not supported.                    <br>\t\t\t\t\t</li><li><strong>DirectX Version: </strong>DirectX 9.0                      <br>\t\t\t\t\t</li><li><strong>Sound: </strong>16-bit DirectX 9.0c-compatible sound card and drivers                    <br>\t\t\t\t\t</li><li><strong>Hard Drive: </strong>2GB free HD space                    </li></ul>",
           "cpu_match": {
             "raw": "Pentium III 800 MHz or greater; Athlon 800 MHz or greater",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Pentium III 800 MHz or greater; Athlon 800 MHz or greater"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": "DirectX 9.0 or higher installed. Radeon 9700 or higher, and Geforce 5x00 or higher. Intel graphics cards not supported. Although some may work, integrated chipsets are not supported.",
@@ -177,8 +184,15 @@
           "raw_html": "<br>                    <ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista\u00ae/XP/7/8<br>\t                    </li><li><strong>Processor:</strong> 2.0 GHz Dual-Core Processor (Intel Core 2 Duo or AMD Athlon X2)<br>\t                    </li><li><strong>Memory:</strong> 1 GB RAM<br>\t                    </li><li><strong>Graphics:</strong> 128 MB 3D Video Card w/Shader Model 3.0 Support (Nvidia GeForce 7600/ATI Radeon X1300)<br>\t                    </li><li><strong>Hard Drive:</strong> 15 GB free hard drive space<br>                    </li></ul>",
           "cpu_match": {
             "raw": "2.0 GHz Dual-Core Processor (Intel Core 2 Duo or AMD Athlon X2)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2.0 GHz Dual-Core Processor (Intel Core 2 Duo or AMD Athlon X2)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "128 MB 3D Video Card w/Shader Model 3.0 Support (Nvidia GeForce 7600/ATI Radeon X1300)",
@@ -207,20 +221,27 @@
           "raw_html": "<strong>Recommended:</strong><br>                    <ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7/8 for DirectX\u00ae 11<br>\t                    </li><li><strong>Processor:</strong> 3.2 GHz Dual-Core Processor (Intel Core 2 Duo or AMD Athlon X2)<br>\t                    </li><li><strong>Memory:</strong> 2 GB RAM<br>\t                    </li><li><strong>Graphics:</strong> 256 MB 3D Video Card w/Shader Model 3.0 Support (Nvidia GeForce 8800/ATI Radeon HD3850)<br>\t                    </li><li><strong>Hard Drive:</strong> 15 GB free hard drive space<br>                    </li></ul>",
           "cpu_match": {
             "raw": "3.2 GHz Dual-Core Processor (Intel Core 2 Duo or AMD Athlon X2)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "3.2 GHz Dual-Core Processor (Intel Core 2 Duo or AMD Athlon X2)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "256 MB 3D Video Card w/Shader Model 3.0 Support (Nvidia GeForce 8800/ATI Radeon HD3850)",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "256 MB 3D Video Card w"
+                "id": "legacy_gpu_opengl_3d",
+                "name": "Legacy OpenGL 3D GPU",
+                "score": 2,
+                "matched_from": "256 MB 3D Video Card w/Shader Model 3.0 Support (Nvidia GeForce 8800/ATI Radeon HD3850)"
               }
             ],
-            "min_score": 5
+            "min_score": 2
           }
         }
       },
@@ -342,8 +363,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>Operating System: </strong>Windows\u00ae 2000/XP <br>                    </li><li><strong>DirectX Version: </strong>DirectX 8<br>                    </li><li><strong>Processor: </strong>Pentium II 400 MHz or greater <br>                    </li><li><strong>Memory: </strong>64 MB RAM <br>                    </li><li><strong>Video Card: </strong>3D Graphics Accelerator Card (8MB) <br>                    </li><li><strong>Sound: </strong>Direct X Certified  audio hardware <br>                    </li></ul>",
           "cpu_match": {
             "raw": "Pentium II 400 MHz or greater",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Pentium II 400 MHz or greater"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": "3D Graphics Accelerator Card (8MB)",
@@ -500,8 +528,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP or Vista                    <br>\t\t\t\t\t</li><li><strong>Processor:</strong> SSE capable processor, 2.0 Ghz Intel Pentium IV or equivalent or AMD Athlon XP or equivalent.                     <br>\t\t\t\t\t</li><li><strong>Memory:</strong> 512 MB RAM. 1GB MB RAM required for Vista                     <br>\t\t\t\t\t</li><li><strong>Graphics:</strong> DirectX 9.0c compatible 64MB video card with Pixel Shader 1.1 support or equivalent and latest manufacturer drivers                    <br>\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX\u00ae 9.0c compatible 16-bit sound card                    </li></ul>",
           "cpu_match": {
             "raw": "SSE capable processor, 2.0 Ghz Intel Pentium IV or equivalent or AMD Athlon XP or equivalent.",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "SSE capable processor, 2.0 Ghz Intel Pentium IV or equivalent or AMD Athlon XP or equivalent."
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "DirectX 9.0c compatible 64MB video card with Pixel Shader 1.1 support or equivalent and latest manufacturer drivers",
@@ -658,8 +693,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>Operating System: </strong>Windows\u00ae 2000/XP <br>                    </li><li><strong>DirectX Version: </strong>DirectX 8.1<br>                    </li><li><strong>Processor: </strong>Pentium III 500 MHz or greater<br>                    </li><li><strong>Memory: </strong>128 MB RAM <br>                    </li><li><strong>Video Card: </strong>3D Graphics Accelerator Card (16 MB)<br>                    </li><li><strong>Sound: </strong>DirectX 8.1 Certified Sound Card <br>                    </li></ul>",
           "cpu_match": {
             "raw": "Pentium III 500 MHz or greater",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Pentium III 500 MHz or greater"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": "3D Graphics Accelerator Card (16 MB)",
@@ -818,13 +860,13 @@
             "raw": "Pentium II 300 MHz or higher",
             "candidates": [
               {
-                "id": "cpu_intel_300",
-                "name": "Intel 300",
-                "score": 7251,
-                "matched_from": "Pentium II 300 MHz"
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Pentium II 300 MHz or higher"
               }
             ],
-            "min_score": 7251
+            "min_score": 67
           },
           "gpu_match": {
             "raw": "Any Hardware 3D graphics accelerator with 32Mb or more of onboard memory",
@@ -981,8 +1023,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>Supported OS:  </strong>Windows or ROBO-OS 3000                    <br>\t\t\t\t\t</li><li><strong>Processor: </strong>Pentium III 800 MHz or level 5 Cyber Brain                    <br>\t\t\t\t\t</li><li><strong>Memory: </strong>256Mb Free System Memory                    <br>\t\t\t\t\t</li><li><strong>Hard disk space: </strong>120Mb                    <br>\t\t\t\t\t</li><li><strong>DirectX version: </strong>DirectX 9.0c                    <br>\t\t\t\t\t</li><li><strong>Video: </strong>Vertex Shader capable Graphics Accelerator                    <br>\t\t\t\t\t</li><li><strong>Sound: </strong>Any DirectSound compatible hardware                    <br>\t\t\t\t\t</li><li><strong>Controller: </strong>Any DirectInput compatible controller                    </li></ul>",
           "cpu_match": {
             "raw": "Pentium III 800 MHz or level 5 Cyber Brain",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Pentium III 800 MHz or level 5 Cyber Brain"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": "Vertex Shader capable Graphics Accelerator",
@@ -1306,13 +1355,13 @@
             "raw": "Intel Pentium 4 2.4 GHz or Athlon 64 +2800 (Intel Pentium 4 3.0 GHz or AMD Athlon 64 +3000",
             "candidates": [
               {
-                "id": "cpu_intel_300",
-                "name": "Intel 300",
-                "score": 7251,
-                "matched_from": "AMD Athlon 64 +3000"
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel Pentium 4 2.4 GHz or Athlon 64 +2800 (Intel Pentium 4 3.0 GHz or AMD Athlon 64 +3000"
               }
             ],
-            "min_score": 7251
+            "min_score": 77
           },
           "gpu_match": {
             "raw": null,
@@ -1518,27 +1567,20 @@
           "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel or AMD Quad-Core<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 3 GB (Win XP), 4GB (Win Vista/Win 7)<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> GeForce 260 (1 GB) or Radeon HD 4850 (1 GB). Resolution: 1440x900.<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.29 has to be installed.<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 25GB<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> <br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel or AMD Quad-Core",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GeForce 260 (1 GB) or Radeon HD 4850 (1 GB). Resolution: 1440x900.",
             "candidates": [
               {
-                "id": "gpu_radeon_hd_4850",
-                "name": "Radeon HD 4850",
-                "score": 947,
-                "matched_from": "Radeon HD 4850 (1 GB). Resolution: 1440x900."
+                "id": "legacy_gpu_geforce2",
+                "name": "Legacy GeForce 2-class GPU",
+                "score": 2,
+                "matched_from": "GeForce 260 (1 GB) or Radeon HD 4850 (1 GB). Resolution: 1440x900."
               }
             ],
-            "min_score": 947
+            "min_score": 2
           }
         }
       },
@@ -1700,8 +1742,15 @@
           "raw_html": "<br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>Supported OS: </strong>Windows Vista\u00ae/XP                            <br>\t\t\t\t\t</li><li><strong>Processor: </strong>Intel\u00ae P3 1.5 GHz or AMD Athlon\u2122 XP                            <br>\t\t\t\t\t</li><li><strong>Memory: </strong>256 MB RAM, 512 MB RAM required for Windows Vista\u00ae                            <br>\t\t\t\t\t</li><li><strong>Graphics: </strong>128 MB with Shader Model 2.0 capability (Shader Model 3.0",
           "cpu_match": {
             "raw": "Intel\u00ae P3 1.5 GHz or AMD Athlon\u2122 XP",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel\u00ae P3 1.5 GHz or AMD Athlon\u2122 XP"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "128 MB with Shader Model 2.0 capability (Shader Model 3.0",
@@ -2167,8 +2216,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>Operating System:</strong> Windows\u00ae XP, x64 or 2000 with latest service pack installed<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium\u00ae 4 1.7 GHz or equivalent processor<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 512 MB of RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 64 MB GeForce\u2122 4 Ti or Radeon\u00ae 9000 video card; Monitor that can display in 4:3 aspect ratio<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c (August Edition) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 17 GB free Hard Drive Space for installation; Additional hard drive space for a swap file and saved game files<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 16-bit DirectX\u00ae 9.0 compliant sound card with support for EAX\u2122 2.0<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Multiplayer Requirements:</strong> Broadband or LAN connection for multiplayer games<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Pentium\u00ae 4 1.7 GHz or equivalent processor",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Pentium\u00ae 4 1.7 GHz or equivalent processor"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "64 MB GeForce\u2122 4 Ti or Radeon\u00ae 9000 video card; Monitor that can display in 4:3 aspect ratio",
@@ -2197,8 +2253,15 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>Processor:</strong> Pentium\u00ae 4 3.0 GHz or equivalent processor<br>\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB RAM<br>\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> A 256 MB Radeon\u00ae 9800 Pro or GeForce\u2122 6600 or equivalent supported<br>\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 9 compliant video card with hardware T&amp;L and pixel shader 2.0 support<br>\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> Sound Blaster\u00ae X-Fi\u2122 series sound card<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Pentium\u00ae 4 3.0 GHz or equivalent processor",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Pentium\u00ae 4 3.0 GHz or equivalent processor"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "A 256 MB Radeon\u00ae 9800 Pro or GeForce\u2122 6600 or equivalent supported",
@@ -2338,8 +2401,15 @@
           "raw_html": "<br>\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP<br>\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 Duo 2.4Ghz, AMD Athlon X2 4800+<br>\t\t\t\t\t\t</li><li><strong>Drive Space:</strong> 4.4GB\t\t\t\t\t\t<br>\t\t\t\t\t\t</li><li><strong>RAM:</strong> 2GB<br>\t\t\t\t\t\t</li><li><strong>Video Card:</strong> NVIDIA 8800 GT 512MB RAM, ATI 3850HD 512Mb RAM or better<br>\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo 2.4Ghz, AMD Athlon X2 4800+",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 Duo 2.4Ghz, AMD Athlon X2 4800+"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "NVIDIA 8800 GT 512MB RAM, ATI 3850HD 512Mb RAM or better",
@@ -2503,8 +2573,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel P4 1.8 GHz/AMD Athlon XP 2200+<br>\t\t\t\t\t\t\t\t</li><li><strong>RAM:</strong> 512MB<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics Card:</strong> ATI X1300/NVIDIA GeForce FX 5800 (256 MB RAM)<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> 100% DirectX\u00ae9.0c compatible audio device<br>\t\t\t\t\t\t\t\t</li><li><strong>Input Devices:</strong> Keyboard; Xbox 360 Controller for Windows supported<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel P4 1.8 GHz/AMD Athlon XP 2200+",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel P4 1.8 GHz/AMD Athlon XP 2200+"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": null,
@@ -2526,8 +2603,15 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 Duo/AMD Athlon 64, 2.8GHz<br>\t\t\t\t\t\t\t\t\t</li><li><strong>RAM:</strong> 2GB<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics Card:</strong> ATI HD 2900/NVIDIA GeForce 8800<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> 100% DirectX\u00ae9.0c compatible audio device<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Input Devices:</strong> Keyboard; Xbox 360 Controller for Windows supported<br>\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo/AMD Athlon 64, 2.8GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 Duo/AMD Athlon 64, 2.8GHz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "Graphics Card: ATI HD 2900/NVIDIA GeForce 8800",
@@ -2977,8 +3061,15 @@
           "raw_html": "<br>                    <ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista<br>\t                    </li><li><strong>Processor:</strong> Intel Pentium 4 2.0 GHz and up <br>\t                    </li><li><strong>Memory:</strong> 1 GB RAM<br>\t                    </li><li><strong>Graphics:</strong> DirectX 9.0c/Shader3.0 and up supported (operation on-board is not guaranteed) <br>\t\t\t    \t\t\t\t\t\t</li><li><strong>Video:</strong> NVIDIA GeForce 6600 and up (except for NVIDIA GeForce 7300), VRAM: 256MB and up (operation sharing with main memory is not guaranteed) <br>\t                    </li><li><strong>Hard Drive:</strong> 4.5 GB free hard drive space<br>\t                    </li><li><strong>Sound:</strong> DirectSound, DirectX9.0c Compatible Audio<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Other Requirements:</strong> Online play requires software installation of and log-in to Games For Windows - LIVE <br><br>                    </li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium 4 2.0 GHz and up",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel Pentium 4 2.0 GHz and up"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 6600 and up (except for NVIDIA GeForce 7300), VRAM: 256MB and up (operation sharing with main memory is not guaranteed)",
@@ -3142,8 +3233,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>Supported OS: </strong>Windows\u00ae XP Service Pack 2 or Windows Vista\u00ae (service pack is optional)                        <br>\t\t\t\t\t\t</li><li><strong>Processor: </strong>Dual-core processor (Intel\u00ae Core\u21222 Duo 2.4 GHz or AMD Athlon\u2122 X2 5200+ 2.6 GHz)                         <br>\t\t\t\t\t\t</li><li><strong>Memory: </strong>1.5 GB RAM                         <br>\t\t\t\t\t\t</li><li><strong>Graphics: </strong>DirectX\u00ae9.0c/Shader3.0 compatible, VRAM 512 MB (NVIDIA\u00ae GeForce&amp;reg 7800 series or ATI Radeon\u2122 X1900)                          <br>\t\t\t\t\t\t</li><li><strong>Sound: </strong>DirectX\u00ae9.0c compatible sound cards     <br>\t\t\t\t\t\t</li><li><strong>DirectX\u00ae: </strong>DirectX\u00ae9.0c                     <br>\t\t\t\t\t\t</li><li><strong>Hard Drive: </strong>8.0 GB free space         <br>\t\t\t\t\t\t</li><li><strong>Peripherals: </strong>Keyboard and Xbox 360 controller supported        <br>\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Dual-core processor (Intel\u00ae Core\u21222 Duo 2.4 GHz or AMD Athlon\u2122 X2 5200+ 2.6 GHz)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Dual-core processor (Intel\u00ae Core\u21222 Duo 2.4 GHz or AMD Athlon\u2122 X2 5200+ 2.6 GHz)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "DirectX\u00ae9.0c/Shader3.0 compatible, VRAM 512 MB (NVIDIA\u00ae GeForce\u00ae 7800 series or ATI Radeon\u2122 X1900)",
@@ -3300,8 +3398,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>Supported OS: </strong>Windows\u00ae XP Service Pack 2 or Windows Vista\u2122                         <br>\t\t\t\t\t\t</li><li><strong>Processor: </strong>Intel Pentium 4 2 Ghz/AMD XP 2200+                         <br>\t\t\t\t\t\t</li><li><strong>Memory: </strong>1 GB RAM                         <br>\t\t\t\t\t\t</li><li><strong>Graphics: </strong>128 MB DirectX 9c compatible card / nVIDIA GeForce 6600 GT / or ATI equivalent                          <br>\t\t\t\t\t\t</li><li><strong>Sound: </strong>DirectX 9 compatible sound card     <br>\t\t\t\t\t\t</li><li><strong>DirectX\u00ae: </strong>DirectX 9c                     <br>\t\t\t\t\t\t</li><li><strong>Hard Drive: </strong>650 MB free hard drive space         <br>\t\t\t\t\t\t</li><li><strong>Peripherals: </strong>Keyboard and mouse, Xbox 360 controller supported        <br>\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium 4 2 Ghz/AMD XP 2200+",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel Pentium 4 2 Ghz/AMD XP 2200+"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "128 MB DirectX 9c compatible card / nVIDIA GeForce 6600 GT / or ATI equivalent",
@@ -3629,8 +3734,15 @@
           "raw_html": "</p>                    \n\t\t\t\t\t<ul>                    \n\t\t\t\t\t<li><strong>Supported OS: </strong>Windows\u00ae XP (SP 1 required)/Vista (only)</li>                    \n\t\t\t\t\t<li><strong>Processor: </strong> 2.0 GHz Pentium 4 or AMD Athlon</li>                    \n\t\t\t\t\t<li><strong>Memory: </strong>256 MB </li>                    \n\t\t\t\t\t<li><strong>Graphics: </strong>64 MB DirectX 9.0c-compliant supporting Shader Model 1.1(*see supported list)</li>                    \n\t\t\t\t\t<li><strong>DirectX Version: </strong>DirectX 9.0c  </li>                    \n\t\t\t\t\t<li><strong>Sound: </strong>DirectX 9.0c-compliant sound card</li>                    \n\t\t\t\t\t<li><strong>Hard Drive: </strong> 4.8GB free hard disk space </li>                    \n\t\t\t\t\t<li><strong>*Supported Video Cards at Time of Release: </strong>ATI RADEON 8500/9000/X families,NVIDIA GeForce 3/4/FX/6/7 families (GeForce 4MX NOT supported)</li>                    \n\t\t\t\t\t<li>Laptop versions of these cards may work but are NOT supported. These chipsets are the only ones that will run this game. </li>                    </ul>",
           "cpu_match": {
             "raw": "2.0 GHz Pentium 4 or AMD Athlon",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "2.0 GHz Pentium 4 or AMD Athlon"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "64 MB DirectX 9.0c-compliant supporting Shader Model 1.1(*see supported list)",
@@ -3652,8 +3764,15 @@
           "raw_html": "<p><strong>Recommended:</strong></p>                    \n\t\t\t\t\t<ul>                    \n\t\t\t\t\t<li><strong>Supported OS: </strong>Windows\u00ae XP (SP 1 required)/Vista (only)</li>                    \n\t\t\t\t\t<li><strong>Processor: </strong> 3.4 GHz Pentium 4 or AMD Athlon</li>                    \n\t\t\t\t\t<li><strong>Memory: </strong>512 MB </li>                    \n\t\t\t\t\t<li><strong>Graphics: </strong>128 MB DirectX 9.0c-compliant supporting Shader Model 2.0(*see supported list)</li>                    \n\t\t\t\t\t<li><strong>DirectX Version: </strong>DirectX 9.0c  </li>                    \n\t\t\t\t\t<li><strong>Sound: </strong>DirectX 9.0c-compliant sound card</li>                    \n\t\t\t\t\t<li><strong>Hard Drive: </strong> 4.8GB free hard disk space </li>                    \n\t\t\t\t\t<li><strong>*Supported Video Cards at Time of Release: </strong>ATI RADEON 8500/9000/X families,NVIDIA GeForce 3/4/FX/6/7 families (GeForce 4MX NOT supported)</li>                    \n\t\t\t\t\t<li>Laptop versions of these cards may work but are NOT supported. These chipsets are the only ones that will run this game. </li>                    </ul>                    ",
           "cpu_match": {
             "raw": "3.4 GHz Pentium 4 or AMD Athlon",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "3.4 GHz Pentium 4 or AMD Athlon"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "128 MB DirectX 9.0c-compliant supporting Shader Model 2.0(*see supported list)",

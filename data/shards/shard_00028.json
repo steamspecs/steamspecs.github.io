@@ -2266,8 +2266,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> XP / Vista / 7<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2 GHz Intel Pentium 4 / AMD Athlon 64<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB RAM<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Shader Model 2.0 PCIe (Geforce 6 series, Radeon X1000 series), 256 MB, DirectX 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 5 GB<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX compatible <br>\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2 GHz Intel Pentium 4 / AMD Athlon 64",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "2 GHz Intel Pentium 4 / AMD Athlon 64"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "Shader Model 2.0 PCIe (Geforce 6 series, Radeon X1000 series), 256 MB, DirectX 9.0c",
@@ -2578,15 +2585,8 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>Processor:</strong>\t<br><br>i5 Processor (2,4 GHz or better)<br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 6 GB RAM or more<br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> Shader 3.0 compatible graphics card with 768 MB RAM (or more) (ATI Radeon/NVIDIA GEForce 4)\t<br>\t\t\t\t\t\t\t\t\t</li></ul>Known issues: Visual artifacts could be displayed when using the following visual cards: AMD Radeon HD 6000 or GeForce 8800 GT.",
           "cpu_match": {
             "raw": "Processor:",
-            "candidates": [
-              {
-                "id": "cpu_amd_ryzen_5_3600",
-                "name": "AMD Ryzen 5 3600",
-                "score": 17674,
-                "matched_from": "Processor:"
-              }
-            ],
-            "min_score": 17674
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Shader 3.0 compatible graphics card with 768 MB RAM (or more) (ATI Radeon/NVIDIA GEForce 4)",
@@ -2626,13 +2626,13 @@
             "raw": "AMD/Pentium 2.0 Ghz",
             "candidates": [
               {
-                "id": "cpu_amd_ryzen_5_3600",
-                "name": "AMD Ryzen 5 3600",
-                "score": 17674,
-                "matched_from": "AMD"
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "AMD/Pentium 2.0 Ghz"
               }
             ],
-            "min_score": 17674
+            "min_score": 67
           },
           "gpu_match": {
             "raw": "64mb GeForce 4 Ti or ATI equivilent",
@@ -2782,8 +2782,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 Duo @ 2.0 Ghz / AMD Athlon 64 X2 @ 2.0 Ghz<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 Gb<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 10 Gb free<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Memory:</strong> 256 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 7600 / ATI Radeon HD 2600<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> DirectX Compatible<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>OTHER REQUIREMENTS &amp; SUPPORTS:</strong> Initial installations required (included with the game) are Microsoft DirectX, Visual C++ 2005 Redistributable (ATL), Visual C++ 2008 Redistributable, and AMD Dual Core Optimizer. (AMD optimizer required only for specific AMD processors to run the game correctly, but installs for all of them.)<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>OTHER REQUIREMENTS &amp; SUPPORTS:</strong> Does not support Windows XP 64<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo @ 2.0 Ghz / AMD Athlon 64 X2 @ 2.0 Ghz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 Duo @ 2.0 Ghz / AMD Athlon 64 X2 @ 2.0 Ghz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "nVidia GeForce 7600 / ATI Radeon HD 2600",
@@ -2805,8 +2812,15 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7\t<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 Duo @ 2.4 Ghz / AMD Athlon 64 X2 @ 2.6 Ghz<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 10 Gb free<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Memory:</strong> 512 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 8800 GTS / ATI Radeon HD 3850<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> DirectX Compatible<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>OTHER REQUIREMENTS &amp; SUPPORTS:</strong> Initial installations required (included with the game) are Microsoft DirectX, Visual C++ 2005 Redistributable (ATL), Visual C++ 2008 Redistributable, and AMD Dual Core Optimizer. (AMD optimizer required only for specific AMD processors to run the game correctly, but installs for all of them.)<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo @ 2.4 Ghz / AMD Athlon 64 X2 @ 2.6 Ghz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 Duo @ 2.4 Ghz / AMD Athlon 64 X2 @ 2.6 Ghz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "nVidia GeForce 8800 GTS / ATI Radeon HD 3850",
@@ -2966,8 +2980,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 Duo @ 2.0 Ghz / AMD Athlon 64 X2 @ 2.0 Ghz<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 Gb<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 10 Gb free<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Memory:</strong> 256 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 7600 / ATI Radeon HD 2600<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> DirectX Compatible<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>OTHER REQUIREMENTS &amp; SUPPORTS:</strong> Initial installations required (included with the game) are Microsoft DirectX, Visual C++ 2005 Redistributable (ATL), Visual C++ 2008 Redistributable, and AMD Dual Core Optimizer. (AMD optimizer required only for specific AMD processors to run the game correctly, but installs for all of them.)<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>OTHER REQUIREMENTS &amp; SUPPORTS:</strong> Does not support Windows XP 64<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo @ 2.0 Ghz / AMD Athlon 64 X2 @ 2.0 Ghz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 Duo @ 2.0 Ghz / AMD Athlon 64 X2 @ 2.0 Ghz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "nVidia GeForce 7600 / ATI Radeon HD 2600",
@@ -2989,8 +3010,15 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7\t<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 Duo @ 2.4 Ghz / AMD Athlon 64 X2 @ 2.6 Ghz<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 10 Gb free<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Memory:</strong> 512 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 8800 GTS / ATI Radeon HD 3850<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> DirectX Compatible<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>OTHER REQUIREMENTS &amp; SUPPORTS:</strong> Initial installations required (included with the game) are Microsoft DirectX, Visual C++ 2005 Redistributable (ATL), Visual C++ 2008 Redistributable, and AMD Dual Core Optimizer. (AMD optimizer required only for specific AMD processors to run the game correctly, but installs for all of them.)<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo @ 2.4 Ghz / AMD Athlon 64 X2 @ 2.6 Ghz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 Duo @ 2.4 Ghz / AMD Athlon 64 X2 @ 2.6 Ghz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "nVidia GeForce 8800 GTS / ATI Radeon HD 3850",
@@ -3130,8 +3158,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 Duo @ 2.0 Ghz / AMD Athlon 64 X2 @ 2.0 Ghz<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 Gb<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 10 Gb free<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Memory:</strong> 256 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 7600 / ATI Radeon HD 2600<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> DirectX Compatible<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>OTHER REQUIREMENTS &amp; SUPPORTS:</strong> Initial installations required (included with the game) are Microsoft DirectX, Visual C++ 2005 Redistributable (ATL), Visual C++ 2008 Redistributable, and AMD Dual Core Optimizer. (AMD optimizer required only for specific AMD processors to run the game correctly, but installs for all of them.)<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>OTHER REQUIREMENTS &amp; SUPPORTS:</strong> Does not support Windows XP 64<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo @ 2.0 Ghz / AMD Athlon 64 X2 @ 2.0 Ghz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 Duo @ 2.0 Ghz / AMD Athlon 64 X2 @ 2.0 Ghz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "nVidia GeForce 7600 / ATI Radeon HD 2600",
@@ -3153,8 +3188,15 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7\t<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 Duo @ 2.4 Ghz / AMD Athlon 64 X2 @ 2.6 Ghz<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 10 Gb free<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Memory:</strong> 512 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 8800 GTS / ATI Radeon HD 3850<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> DirectX Compatible<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>OTHER REQUIREMENTS &amp; SUPPORTS:</strong> Initial installations required (included with the game) are Microsoft DirectX, Visual C++ 2005 Redistributable (ATL), Visual C++ 2008 Redistributable, and AMD Dual Core Optimizer. (AMD optimizer required only for specific AMD processors to run the game correctly, but installs for all of them.)<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo @ 2.4 Ghz / AMD Athlon 64 X2 @ 2.6 Ghz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 Duo @ 2.4 Ghz / AMD Athlon 64 X2 @ 2.6 Ghz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "nVidia GeForce 8800 GTS / ATI Radeon HD 3850",

@@ -196,15 +196,8 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 10 / 8 / 7 / Vista / XP<br>\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 1.5+ GHz Intel or AMD<br>\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 512MB RAM<br>\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 64MB DirectX\u00ae 9.0c<br>\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 9.0c<br>\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 500MB<br>\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX\u00ae 9.0c compliant sound card<br>\t\t\t\t\t\t\t</li><li><strong>Multiplayer:</strong> Internet or LAN Connection<br>\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "1.5+ GHz Intel or AMD",
-            "candidates": [
-              {
-                "id": "cpu_amd_ryzen_5_3600",
-                "name": "AMD Ryzen 5 3600",
-                "score": 17674,
-                "matched_from": "AMD"
-              }
-            ],
-            "min_score": 17674
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "64MB DirectX\u00ae 9.0c",
@@ -1146,13 +1139,13 @@
             "raw": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +",
             "candidates": [
               {
-                "id": "cpu_intel_300",
-                "name": "Intel 300",
-                "score": 7251,
-                "matched_from": "AMD Athlon 64 3000 +"
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +"
               }
             ],
-            "min_score": 7251
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "128 Mb, 1280x720",
@@ -1304,13 +1297,13 @@
             "raw": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +",
             "candidates": [
               {
-                "id": "cpu_intel_300",
-                "name": "Intel 300",
-                "score": 7251,
-                "matched_from": "AMD Athlon 64 3000 +"
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +"
               }
             ],
-            "min_score": 7251
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "128 Mb, 1280x720",
@@ -1462,13 +1455,13 @@
             "raw": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +",
             "candidates": [
               {
-                "id": "cpu_intel_300",
-                "name": "Intel 300",
-                "score": 7251,
-                "matched_from": "AMD Athlon 64 3000 +"
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +"
               }
             ],
-            "min_score": 7251
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "128 Mb, 1280x720",
@@ -1620,13 +1613,13 @@
             "raw": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +",
             "candidates": [
               {
-                "id": "cpu_intel_300",
-                "name": "Intel 300",
-                "score": 7251,
-                "matched_from": "AMD Athlon 64 3000 +"
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +"
               }
             ],
-            "min_score": 7251
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "128 Mb, 1280x720",
@@ -1778,13 +1771,13 @@
             "raw": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +",
             "candidates": [
               {
-                "id": "cpu_intel_300",
-                "name": "Intel 300",
-                "score": 7251,
-                "matched_from": "AMD Athlon 64 3000 +"
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +"
               }
             ],
-            "min_score": 7251
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "128 Mb, 1280x720",
@@ -1936,13 +1929,13 @@
             "raw": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +",
             "candidates": [
               {
-                "id": "cpu_intel_300",
-                "name": "Intel 300",
-                "score": 7251,
-                "matched_from": "AMD Athlon 64 3000 +"
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +"
               }
             ],
-            "min_score": 7251
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "128 Mb, 1280x720",

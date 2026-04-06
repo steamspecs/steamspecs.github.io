@@ -19,8 +19,15 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista Service Pack 2 32-bit<br></li><li><strong>Processor:</strong> Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT<br></li><li><strong>Storage:</strong> 12 GB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible<br></li><li><strong>Additional Notes:</strong> Incompatible with Intel HD 3000 Integrated Graphics</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT",
@@ -203,8 +210,15 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista Service Pack 2 32-bit<br></li><li><strong>Processor:</strong> Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT<br></li><li><strong>Storage:</strong> 12 GB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible<br></li><li><strong>Additional Notes:</strong> Incompatible with Intel HD 3000 Integrated Graphics</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT",
@@ -387,8 +401,15 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista Service Pack 2 32-bit<br></li><li><strong>Processor:</strong> Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT<br></li><li><strong>Storage:</strong> 12 MB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible<br></li><li><strong>Additional Notes:</strong> Incompatible with Intel HD 3000 Integrated Graphics</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT",
@@ -571,8 +592,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP, Windows Vista, or Windows 7, 32 or 64-bit<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Video:</strong> OpenGL: 2.1 , GLSL: 1.2<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 100MB<br>\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.",
@@ -719,8 +747,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 12.04 LTS, fully updated<br>\t</li><li><strong>Processor:</strong> Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better<br>\t</li><li><strong>Memory:</strong> 1GB RAM<br>\t</li><li><strong>Graphics:</strong> NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.<br>\t</li><li><strong>Hard Drive:</strong> 100MB</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.",
@@ -800,8 +835,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core)  or higher<br>\t\t\t\t\t\t\t\t</li><li><strong>RAM:</strong> 1.5 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 8GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 8600 / ATI HD2600 Pro or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> 100% DirectX 9.0c compatible sound card<br>\t\t\t\t\t\t\t\t</li><li><strong>Peripherals:</strong> Keyboard and mouse or Windows compatible gamepad<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
@@ -971,8 +1013,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core)  or higher<br>\t\t\t\t\t\t\t\t</li><li><strong>RAM:</strong> 1.5 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 8GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 8600 / ATI HD2600 Pro or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> 100% DirectX 9.0c compatible sound card<br>\t\t\t\t\t\t\t\t</li><li><strong>Peripherals:</strong> Keyboard and mouse or Windows compatible gamepad<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
@@ -1142,8 +1191,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core)  or higher<br>\t\t\t\t\t\t\t\t</li><li><strong>RAM:</strong> 1.5 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 8GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 8600 / ATI HD2600 Pro or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> 100% DirectX 9.0c compatible sound card<br>\t\t\t\t\t\t\t\t</li><li><strong>Peripherals:</strong> Keyboard and mouse or Windows compatible gamepad<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
@@ -1313,8 +1369,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows XP (SP2 or later) / Windows Vista / Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core)  or higher<br>\t\t\t\t\t\t\t\t</li><li><strong>RAM:</strong> 1.5 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 8GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> nVidia GeForce 8600 / ATI HD2600 Pro or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> 100% DirectX 9.0c compatible sound card<br>\t\t\t\t\t\t\t\t</li><li><strong>Peripherals:</strong> Keyboard and mouse or Windows compatible gamepad<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Pentium D 3Ghz or AMD Athlon 64 X2 3600+ (Dual core) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
@@ -1484,8 +1547,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 @ 2GHz / AMD Athlon 64 X2 4200+<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1.5GB RAM <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 10GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> 256MB NVIDIA GeForce 8600 / ATI Radeon HD 2600<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX Compatible<br>\t\t\t\t\t\t\t\t</li><li><strong>Additional:</strong> Requires installation of Visual C++ 2008 Redistributable, DirectX and nVidia PhysX version 9.11.1107 (included with download)<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 @ 2GHz / AMD Athlon 64 X2 4200+",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 @ 2GHz / AMD Athlon 64 X2 4200+"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "256MB NVIDIA GeForce 8600 / ATI Radeon HD 2600",

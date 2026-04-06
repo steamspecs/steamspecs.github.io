@@ -967,8 +967,15 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS:</strong> XP SP3 or higher<br></li><li><strong>Processor:</strong> Pentium 4 2.4 GHz<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> 128MB w/ Pixel Shader 3.0<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Storage:</strong> 550 MB available space</li></ul>",
           "cpu_match": {
             "raw": "Pentium 4 2.4 GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Pentium 4 2.4 GHz"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "128MB w/ Pixel Shader 3.0",
@@ -1276,8 +1283,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP / Vista / 7<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2.0 GHz Core 2 Duo or AMD Athlon MP (multiprocessor variant or comparable processors)<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Nvidia GeForce 86xx or comparable ATI graphic card<br>\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 9.0c<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 2 GB space free<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX\u00ae 9.0c compatible sound card<br>\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2.0 GHz Core 2 Duo or AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2.0 GHz Core 2 Duo or AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "Nvidia GeForce 86xx or comparable ATI graphic card",
@@ -1299,8 +1313,15 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP / Vista / 7<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 3.2 GHz Core 2 Duo or AMD Athlon MP (multiprocessor variant or comparable processors)<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Nvidia GeForce 9800 GT or comparable ATI graphic card<br>\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 9.0c<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 2 GB space free<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX\u00ae 9.0c compatible sound card<br>\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "3.2 GHz Core 2 Duo or AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "3.2 GHz Core 2 Duo or AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "Nvidia GeForce 9800 GT or comparable ATI graphic card",
@@ -1457,8 +1478,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -1615,8 +1643,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -1773,8 +1808,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -1931,8 +1973,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -2089,8 +2138,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -2247,8 +2303,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -2405,8 +2468,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -2563,8 +2633,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>4 GB RAM<br></li><li><strong>Graphics:</strong>512 MB - 1GB  with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>40 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos<br></li><li><strong>Graphics:</strong>Laptop versions of these chipsets may work but are not supported. Updates to your video and sound card drivers may be required<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "Laptop versions of these chipsets may work but are not supported. Updates to your video and sound card drivers may be required",
@@ -2721,8 +2798,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -2879,8 +2963,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> 512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong> 9.0c<br></li><li><strong>Hard Drive:</strong> 6 GB HD space<br></li><li><strong>Sound:</strong> Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong> Broadband Internet connection<br></li><li><strong>Additional:</strong> Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -3037,8 +3128,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -3195,8 +3293,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -3353,8 +3458,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -3511,8 +3623,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -3669,8 +3788,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -3827,8 +3953,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -3985,8 +4118,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -4143,8 +4283,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -4301,8 +4448,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -4459,8 +4613,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -4775,8 +4936,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -4933,8 +5101,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -5091,8 +5266,15 @@
           "raw_html": "), AMD Athlon MP (multiprocessor variant or comparable processors)<br></li><li><strong>Memory:</strong>2 GB RAM<br></li><li><strong>Graphics:</strong>512 MB with Pixel Shader 3.0 (AGP PCIe only)<br></li><li><strong>DirectX\u00ae:</strong>9.0c<br></li><li><strong>Hard Drive:</strong>6 GB HD space<br></li><li><strong>Sound:</strong>Direct X 9.0c compatible<br></li><li><strong>Other Requirements:</strong>Broadband Internet connection<br></li><li><strong>Additional:</strong>Quicktime Player is required for playing the videos</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon MP (multiprocessor variant or comparable processors)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon MP (multiprocessor variant or comparable processors)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
@@ -5542,8 +5724,15 @@
           "raw_html": "<br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae 98SE/ME/2000/XP<br>\t\t\t\t\t\t</li><li><strong>Processor:</strong> 800 MHz Pentium\u00ae III<br>\t\t\t\t\t\t</li><li><strong>Memory:</strong> 64 MB RAM (128 MB",
           "cpu_match": {
             "raw": "800 MHz Pentium\u00ae III",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "800 MHz Pentium\u00ae III"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": null,
@@ -5570,8 +5759,15 @@
           },
           "gpu_match": {
             "raw": "Sound: 32 MB DirectX 8/9 Compatible 3D Video Card (or Higher)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_opengl_3d",
+                "name": "Legacy OpenGL 3D GPU",
+                "score": 2,
+                "matched_from": "Sound: 32 MB DirectX 8/9 Compatible 3D Video Card (or Higher)"
+              }
+            ],
+            "min_score": 2
           }
         }
       },
@@ -5858,8 +6054,15 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7/8/10/11<br></li><li><strong>Processor:</strong> Intel Pentium III 700 MHz<br></li><li><strong>Memory:</strong> 512 MB RAM<br></li><li><strong>Graphics:</strong> 3D graphics card with 32 MB Ram<br></li><li><strong>DirectX:</strong> Version 8.1<br></li><li><strong>Storage:</strong> 5 GB available space<br></li><li><strong>Sound Card:</strong> DirectX compatible</li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium III 700 MHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Intel Pentium III 700 MHz"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": "3D graphics card with 32 MB Ram",
@@ -6174,15 +6377,8 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel or AMD Single-Core (2.5 GHz) <br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB RAM (1.5 GB with Windows Vista/7) <br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 4 GB free disk space<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> ATI X1900 or nVidia 7900 with 256MB RAM <br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c or higher<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Additional:</strong> Mouse, keyboard<br>\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel or AMD Single-Core (2.5 GHz)",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "ATI X1900 or nVidia 7900 with 256MB RAM",
@@ -6339,8 +6535,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae XP / Vista / Windows 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 Duo @ 2.8 GHz / AMD Athlon II x2 @ 2.8 GHz<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> GeForce 8800 GTX<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0c or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 5 GB Space Free<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 8.1 compatible sound card<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo @ 2.8 GHz / AMD Athlon II x2 @ 2.8 GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 Duo @ 2.8 GHz / AMD Athlon II x2 @ 2.8 GHz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GeForce 8800 GTX",
@@ -6497,8 +6700,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t  <ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br>\t\t\t\t\t\t\t\t\t  </li><li><strong>Processor:</strong> Intel Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz<br>\t\t\t\t\t\t\t\t\t  </li><li><strong>Memory:</strong> 1GB<br>\t\t\t\t\t\t\t\t\t  </li><li><strong>Graphics:</strong> Nvidia Geforce 8600GT or ATI Radeon 3650 or faster with Shader Model 3 and 512 MB VRAM <br>\t\t\t\t\t\t\t\t\t  </li><li><strong>DirectX\u00ae:</strong> DirectX 9.0c<br>\t\t\t\t\t\t\t\t\t  </li><li><strong>Hard Drive:</strong> 10 GB free space<br>\t\t\t\t\t\t\t\t  </li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "Nvidia Geforce 8600GT or ATI Radeon 3650 or faster with Shader Model 3 and 512 MB VRAM",
@@ -6522,13 +6732,13 @@
             "raw": "Intel Core i5 or AMD Athlon Phenom X4 or faster",
             "candidates": [
               {
-                "id": "cpu_intel_core_i5_14600k",
-                "name": "Intel Core i5-14600K",
-                "score": 38460,
-                "matched_from": "Intel Core i5"
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5 or AMD Athlon Phenom X4 or faster"
               }
             ],
-            "min_score": 38460
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "Nvidia Geforce GTX 260 or ATI Radeon HD 5770 or faster with Shader Model 3 and 896 MB VRAM",
@@ -6670,13 +6880,13 @@
             "raw": "Intel Core i5 or AMD Athlon Phenom X4 or faster",
             "candidates": [
               {
-                "id": "cpu_intel_core_i5_14600k",
-                "name": "Intel Core i5-14600K",
-                "score": 38460,
-                "matched_from": "Intel Core i5"
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5 or AMD Athlon Phenom X4 or faster"
               }
             ],
-            "min_score": 38460
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "Nvidia Geforce GTX 260 or ATI Radeon HD 5770 or faster with Shader Model 3 and 896 MB VRAM",
@@ -6839,8 +7049,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS:</strong>Windows 10<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong>Intel Dual-Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong>2 GB RAM<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong>NVIDIA GeForce 8800GT or ATI Radeon 4850 with Shader Model 3 and 512 MB VRAM or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong>dx90c<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong>20 GB HD space<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong>DirectX 9.0c compatible audio-card<br>\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Dual-Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz or faster",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Dual-Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz or faster"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8800GT or ATI Radeon 4850 with Shader Model 3 and 512 MB VRAM or faster",
@@ -6862,8 +7079,15 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS:</strong>Windows 10<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong>Intel Dual-Core 3GHz or AMD Dual-Core Athlon 3GHz or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong>4 GB RAM<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong>NVIDIA GeForce 9800GT or ATI Radeon 5850 with Shader Model 3 and 1024 MB VRAM or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong>dx90c<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong>20 GB HD space<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong>DirectX 9.0c compatible audio-card<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Other Requirements:</strong>Broadband Internet connection<br>\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Dual-Core 3GHz or AMD Dual-Core Athlon 3GHz or faster",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Dual-Core 3GHz or AMD Dual-Core Athlon 3GHz or faster"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 9800GT or ATI Radeon 5850 with Shader Model 3 and 1024 MB VRAM or faster",
@@ -6997,8 +7221,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong>Windows XP<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong>Intel Dual-Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong>2 GB RAM<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong>NVIDIA GeForce 8800GT or ATI Radeon 4850 with Shader Model 3 and 512 MB VRAM or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong>dx90c<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong>20 GB HD space<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong>DirectX 9.0c compatible audio-card<br>\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Dual-Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz or faster",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Dual-Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz or faster"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8800GT or ATI Radeon 4850 with Shader Model 3 and 512 MB VRAM or faster",
@@ -7020,8 +7251,15 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong>Windows Vista, Windows 7<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong>Intel Dual-Core 3GHz or AMD Dual-Core Athlon 3GHz or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong>4 GB RAM<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong>NVIDIA GeForce 9800GT or ATI Radeon 5850 with Shader Model 3 and 1024 MB VRAM or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong>dx90c<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong>20 GB HD space<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong>DirectX 9.0c compatible audio-card<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Other Requirements:</strong>Broadband Internet connection<br>\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Dual-Core 3GHz or AMD Dual-Core Athlon 3GHz or faster",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Dual-Core 3GHz or AMD Dual-Core Athlon 3GHz or faster"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 9800GT or ATI Radeon 5850 with Shader Model 3 and 1024 MB VRAM or faster",
@@ -7155,8 +7393,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong>Windows XP<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong>Intel Dual-Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong>2 GB RAM<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong>NVIDIA GeForce 8800GT or ATI Radeon 4850 with Shader Model 3 and 512 MB VRAM or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong>dx90c<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong>20 GB HD space<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong>DirectX 9.0c compatible audio-card<br>\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Dual-Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz or faster",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Dual-Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz or faster"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8800GT or ATI Radeon 4850 with Shader Model 3 and 512 MB VRAM or faster",
@@ -7178,8 +7423,15 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong>Windows Vista, Windows 7<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong>Intel Dual-Core 3GHz or AMD Dual-Core Athlon 3GHz or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong>4 GB RAM<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong>NVIDIA GeForce 9800GT or ATI Radeon 5850 with Shader Model 3 and 1024 MB VRAM or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong>dx90c<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong>20 GB HD space<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong>DirectX 9.0c compatible audio-card<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Other Requirements:</strong>Broadband Internet connection<br>\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Dual-Core 3GHz or AMD Dual-Core Athlon 3GHz or faster",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Dual-Core 3GHz or AMD Dual-Core Athlon 3GHz or faster"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 9800GT or ATI Radeon 5850 with Shader Model 3 and 1024 MB VRAM or faster",
@@ -7313,8 +7565,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong>Windows XP<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong>Intel Dual-Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong>2 GB RAM<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong>NVIDIA GeForce 8800GT or ATI Radeon 4850 with Shader Model 3 and 512 MB VRAM or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong>dx90c<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong>20 GB HD space<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong>DirectX 9.0c compatible audio-card<br>\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Dual-Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz or faster",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Dual-Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz or faster"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8800GT or ATI Radeon 4850 with Shader Model 3 and 512 MB VRAM or faster",
@@ -7336,8 +7595,15 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong>Windows Vista, Windows 7<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong>Intel Dual-Core 3GHz or AMD Dual-Core Athlon 3GHz or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong>4 GB RAM<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong>NVIDIA GeForce 9800GT or ATI Radeon 5850 with Shader Model 3 and 1024 MB VRAM or faster<br>\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong>dx90c<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong>20 GB HD space<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong>DirectX 9.0c compatible audio-card<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Other Requirements:</strong>Broadband Internet connection<br>\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Dual-Core 3GHz or AMD Dual-Core Athlon 3GHz or faster",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Dual-Core 3GHz or AMD Dual-Core Athlon 3GHz or faster"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 9800GT or ATI Radeon 5850 with Shader Model 3 and 1024 MB VRAM or faster",
@@ -7471,8 +7737,15 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br>                </li><li><strong>Processor:</strong> Intel Core2Duo 2.2 GHz or AMD Dual-Core Athlon 2.5 GHz or faster<br>                </li><li><strong>Memory:</strong> 2 GB <br>                </li><li><strong>Hard Disk Space:</strong> 4 GB HD space                <br>                </li><li><strong>Video Card:</strong> NVIDIA GeForce 8800GT with Shader Model 3 and 512 MB VRAM or faster <br>                </li><li><strong>DirectX\u00ae:</strong> 9.0c<br>                </li><li><strong>Sound:</strong> DirectX Audio compatible          </li></ul>",
           "cpu_match": {
             "raw": "Intel Core2Duo 2.2 GHz or AMD Dual-Core Athlon 2.5 GHz or faster",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core2Duo 2.2 GHz or AMD Dual-Core Athlon 2.5 GHz or faster"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8800GT with Shader Model 3 and 512 MB VRAM or faster",
@@ -7496,13 +7769,13 @@
             "raw": "Intel Core i5 or AMD Athlon Phenom X4 or faster",
             "candidates": [
               {
-                "id": "cpu_intel_core_i5_14600k",
-                "name": "Intel Core i5-14600K",
-                "score": 38460,
-                "matched_from": "Intel Core i5"
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5 or AMD Athlon Phenom X4 or faster"
               }
             ],
-            "min_score": 38460
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce GTX460 with Shader Model 3 and 1 GB VRAM or faster",
@@ -7787,8 +8060,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Pentium II 500 MHz or AMD Athlon 600 MHz<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 128MB RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> DirectX 8.1 compatible 3D graphics card with 16MB RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 8.1<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 800MB free space<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> OpenAL sound compatible audiocard (DirectX via compatibility switch)<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium II 500 MHz or AMD Athlon 600 MHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Intel Pentium II 500 MHz or AMD Athlon 600 MHz"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": "DirectX 8.1 compatible 3D graphics card with 16MB RAM",
@@ -7817,8 +8097,15 @@
           "raw_html": "<strong>Recommended</strong><br>\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Dual-core 2.4GHz or AMD Dual-core Athlon 2.5GHz<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> NVIDIA Geforce 8600GT or ATI Radeon 3650 or faster with 256MB VRAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 1 GB free space<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> OpenAL sound compatible audiocard (DirectX via compatibility switch)<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Dual-core 2.4GHz or AMD Dual-core Athlon 2.5GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Dual-core 2.4GHz or AMD Dual-core Athlon 2.5GHz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "NVIDIA Geforce 8600GT or ATI Radeon 3650 or faster with 256MB VRAM",
@@ -8131,8 +8418,15 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista Service Pack 2 32-bit<br></li><li><strong>Processor:</strong> Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT<br></li><li><strong>Storage:</strong> 12 GB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible<br></li><li><strong>Additional Notes:</strong> Incompatible with Intel HD 3000 Integrated Graphics</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT",
@@ -8315,8 +8609,15 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae Vista SP2/ Windows\u00ae 7<br></li><li><strong>Processor:</strong> Intel Core 2 Duo 1.8 GHz or AMD Athlon X2 64 2.0 GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> 256 MB ATI HD3650 or better, 256 MB nVidia 8800 GT or better, or Intel HD 3000 or better integrated graphics<br></li><li><strong>DirectX:</strong> Version 11<br></li><li><strong>Storage:</strong> 8 GB available space<br></li><li><strong>Sound Card:</strong> DirectX 9.0c\u2010compatible sound card<br></li><li><strong>Additional Notes:</strong> Other Requirements: Initial installation requires one-time Internet connection for Steam authentication; software installations required (included with the game) include Steam Client, Microsoft Visual C++2012 Runtime Libraries and Microsoft DirectX.</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo 1.8 GHz or AMD Athlon X2 64 2.0 GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 Duo 1.8 GHz or AMD Athlon X2 64 2.0 GHz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "256 MB ATI HD3650 or better, 256 MB nVidia 8800 GT or better, or Intel HD 3000 or better integrated graphics",
@@ -8461,8 +8762,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 260",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce2",
+                "name": "Legacy GeForce 2-class GPU",
+                "score": 2,
+                "matched_from": "NVIDIA GeForce 260"
+              }
+            ],
+            "min_score": 2
           }
         },
         "recommended": {

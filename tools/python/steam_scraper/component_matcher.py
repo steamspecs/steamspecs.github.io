@@ -128,6 +128,30 @@ def legacy_gpu_requirement(raw_text: str | None, catalog: list[dict]) -> dict | 
             [r"geforce fx", r"geforce 6\d{3}", r"radeon 7\d{3}", r"radeon x\d+"],
             "Legacy Shader Model 2 GPU",
         ),
+        (
+            "legacy_gpu_geforce2",
+            [r"geforce ?2", r"p3 ?600 ?geforce ?2"],
+            [r"geforce2", r"geforce 2", r"geforce 256"],
+            "Legacy GeForce 2-class GPU",
+        ),
+        (
+            "legacy_gpu_dx9_compliant",
+            [r"dx9 compliant", r"directx 9 compliant", r"directx compatible", r"directx 9 0b drivers", r"ps 2 0 support"],
+            [r"geforce 5\d{3}", r"geforce 6\d{3}", r"radeon 9\d{3}", r"radeon 9600"],
+            "Legacy DirectX 9 GPU",
+        ),
+        (
+            "legacy_gpu_opengl_3d",
+            [r"opengl 3d", r"opengl.*video card", r"3d graphic card", r"3d video card"],
+            [r"geforce 5\d{3}", r"geforce 6\d{3}", r"radeon 9600", r"radeon 9\d{3}"],
+            "Legacy OpenGL 3D GPU",
+        ),
+        (
+            "legacy_gpu_pci_agp",
+            [r"pci or agp video card", r"agp video card", r"pci video card", r"video card with 2 mb ram"],
+            [r"geforce 256", r"geforce2", r"radeon 7\d{3}"],
+            "Legacy PCI/AGP GPU",
+        ),
     ]
 
     for rule_id, triggers, score_patterns, label in legacy_rules:
@@ -135,6 +159,69 @@ def legacy_gpu_requirement(raw_text: str | None, catalog: list[dict]) -> dict | 
             min_score = find_min_score_by_patterns(catalog, score_patterns)
             if min_score is None:
                 min_score = 1500
+            return {
+                "raw": clean_text(raw_text),
+                "candidates": [{
+                    "id": rule_id,
+                    "name": label,
+                    "score": min_score,
+                    "matched_from": clean_text(raw_text),
+                }],
+                "min_score": min_score,
+            }
+
+    return None
+
+
+def legacy_cpu_requirement(raw_text: str | None, catalog: list[dict]) -> dict | None:
+    normalized = normalize_alias(raw_text)
+    if not normalized:
+        return None
+
+    legacy_rules = [
+        (
+            "legacy_cpu_pentium_166",
+            [r"pentium 166", r"pentium mmx"],
+            [r"pentium 166", r"pentium mmx"],
+            "Intel Pentium 166-class CPU",
+        ),
+        (
+            "legacy_cpu_pentium_ii",
+            [r"pentium ii", r"pentium 2"],
+            [r"pentium ii", r"pentium 2"],
+            "Intel Pentium II-class CPU",
+        ),
+        (
+            "legacy_cpu_pentium_iii",
+            [r"pentium iii", r"pentium 3"],
+            [r"pentium iii", r"pentium 3"],
+            "Intel Pentium III-class CPU",
+        ),
+        (
+            "legacy_cpu_pentium_4",
+            [r"pentium 4"],
+            [r"pentium 4"],
+            "Intel Pentium 4-class CPU",
+        ),
+        (
+            "legacy_cpu_athlon",
+            [r"amd athlon", r"\bathlon xp\b", r"\bathlon\b"],
+            [r"athlon xp", r"amd athlon", r"\bathlon\b"],
+            "AMD Athlon-class CPU",
+        ),
+        (
+            "legacy_cpu_westmere_i5",
+            [r"core i5.*westmere", r"westmere.*core i5"],
+            [r"core i5", r"westmere"],
+            "Intel Core i5 Westmere-class CPU",
+        ),
+    ]
+
+    for rule_id, triggers, score_patterns, label in legacy_rules:
+        if any(re.search(trigger, normalized, re.IGNORECASE) for trigger in triggers):
+            min_score = find_min_score_by_patterns(catalog, score_patterns)
+            if min_score is None:
+                min_score = 150
             return {
                 "raw": clean_text(raw_text),
                 "candidates": [{
@@ -196,6 +283,10 @@ def match_component_variant(raw_text: str, catalog: list[dict]) -> dict | None:
 
 
 def match_component_requirement(raw_text: str | None, catalog: list[dict], kind: str) -> dict:
+    legacy_cpu = legacy_cpu_requirement(raw_text, catalog) if kind == "cpu" else None
+    if legacy_cpu:
+        return legacy_cpu
+
     if kind == "cpu" and is_generic_cpu_requirement(raw_text or ""):
         return {
             "raw": clean_text(raw_text),

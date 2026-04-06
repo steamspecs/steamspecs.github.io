@@ -1691,8 +1691,15 @@
           "raw_html": "Pentium 4 processor (3.0GHz, or better), 1GB RAM, DirectX&reg; 9 level Graphics Card, Windows&reg; 7 (32/64-bit)/Vista/XP, Mouse, Keyboard, Internet Connection</p>",
           "cpu_match": {
             "raw": "Pentium 4 processor (3.0GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Pentium 4 processor (3.0GHz"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "DirectX\u00ae 9 level Graphics Card",
@@ -1870,8 +1877,15 @@
           "raw_html": "Pentium 4 processor (3.0GHz, or better), 1GB RAM, DirectX&reg; 9 level Graphics Card, Windows&reg; 7 (32/64-bit)/Vista/XP, Mouse, Keyboard, Internet Connection</p>",
           "cpu_match": {
             "raw": "Pentium 4 processor (3.0GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Pentium 4 processor (3.0GHz"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "DirectX\u00ae 9 level Graphics Card",
@@ -2405,8 +2419,15 @@
           "raw_html": "Pentium 4 processor (3.0GHz, or better), 1GB RAM, DirectX&reg; 9 level Graphics Card, Windows&reg; 7 (32/64-bit)/Vista/XP, Mouse, Keyboard, Internet Connection</p>",
           "cpu_match": {
             "raw": "Pentium 4 processor (3.0GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Pentium 4 processor (3.0GHz"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "DirectX\u00ae 9 level Graphics Card",
@@ -2577,8 +2598,15 @@
           "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae 7 (32/64-bit)<br></li><li><strong>Processor:</strong> Pentium 4 processor (3.0GHz, or better)<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 15 GB available space</li></ul>",
           "cpu_match": {
             "raw": "Pentium 4 processor (3.0GHz, or better)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Pentium 4 processor (3.0GHz, or better)"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": null,
@@ -2719,8 +2747,15 @@
           "raw_html": "<br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>Supported OS:</strong> Windows\u00ae 7 32/64-bit / Vista 32/64 / XP                    <br>\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium 4 3.0GHz                     <br>\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB                    <br>\t\t\t\t\t</li><li><strong>Graphics:</strong> 128 MB, Shader model 2.0, ATI 9600, NVidia 6600 or better                     <br>\t\t\t\t\t</li><li><strong>Hard Drive:</strong> At least 7.5 GB of free space                    <br>\t\t\t\t\t</li><li><strong>Sound Card:</strong> DirectX 9.0c compatible sound card                    </li></ul>",
           "cpu_match": {
             "raw": "Pentium 4 3.0GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Pentium 4 3.0GHz"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "128 MB, Shader model 2.0, ATI 9600, NVidia 6600 or better",
@@ -2891,8 +2926,15 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae 7 32/64-bit / Vista 32/64 / XP<br></li><li><strong>Processor:</strong> Pentium 4 3.0GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> Video card with 128 MB, Shader model 2.0. ATI X800, NVidia 6600 or better<br></li><li><strong>DirectX:</strong> Version 9.0c<br></li><li><strong>Storage:</strong> 13 GB available space<br></li><li><strong>Sound Card:</strong> DirectX 9.0c compatible sound card</li></ul>",
           "cpu_match": {
             "raw": "Pentium 4 3.0GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Pentium 4 3.0GHz"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "Video card with 128 MB, Shader model 2.0. ATI X800, NVidia 6600 or better",
@@ -3420,8 +3462,15 @@
           "raw_html": "<br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae 7 / Vista / Vista64 / XP<br>\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium 4 3.0GHz<br>\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB for XP / 2GB for Vista<br>\t\t\t\t\t\t</li><li><strong>Graphics:</strong> DirectX 9 compatible video card with 128 MB, Shader model 2.0. ATI X800, NVidia 6600 or better<br>\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> At least 2.5 GB of free space<br>\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible sound card<br>\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Pentium 4 3.0GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Pentium 4 3.0GHz"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "DirectX 9 compatible video card with 128 MB, Shader model 2.0. ATI X800, NVidia 6600 or better",
@@ -3913,8 +3962,15 @@
           },
           "gpu_match": {
             "raw": "GeForce 2 (or compatible)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce2",
+                "name": "Legacy GeForce 2-class GPU",
+                "score": 2,
+                "matched_from": "GeForce 2 (or compatible)"
+              }
+            ],
+            "min_score": 2
           }
         },
         "recommended": {
@@ -4071,8 +4127,15 @@
           },
           "gpu_match": {
             "raw": "64 MB DX9 Compliant",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "64 MB DX9 Compliant"
+              }
+            ],
+            "min_score": 2
           }
         },
         "recommended": {
@@ -4249,8 +4312,15 @@
           },
           "gpu_match": {
             "raw": "64 MB DX9 Compliant",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "64 MB DX9 Compliant"
+              }
+            ],
+            "min_score": 2
           }
         },
         "recommended": {
@@ -4272,8 +4342,15 @@
           },
           "gpu_match": {
             "raw": "128 MB DX9 Compliant with PS 2.0 support",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "128 MB DX9 Compliant with PS 2.0 support"
+              }
+            ],
+            "min_score": 2
           }
         }
       },
@@ -4433,8 +4510,15 @@
           },
           "gpu_match": {
             "raw": "64 MB DX9 Compliant",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "64 MB DX9 Compliant"
+              }
+            ],
+            "min_score": 2
           }
         },
         "recommended": {
@@ -4456,8 +4540,15 @@
           },
           "gpu_match": {
             "raw": "128 MB DX9 Compliant with PS 2.0 support",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "128 MB DX9 Compliant with PS 2.0 support"
+              }
+            ],
+            "min_score": 2
           }
         }
       },
@@ -4757,20 +4848,27 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7<br></li><li><strong>Processor:</strong> Pentium 166<br></li><li><strong>Memory:</strong> 32 MB RAM<br></li><li><strong>Graphics:</strong> PCI or AGP video card with 2 MB RAM<br></li><li><strong>DirectX:</strong> Version 6.0<br></li><li><strong>Storage:</strong> 700 MB available space<br></li><li><strong>Sound Card:</strong> 100% SoundBlaster-compatible sound card</li></ul>",
           "cpu_match": {
             "raw": "Pentium 166",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_166",
+                "name": "Intel Pentium 166-class CPU",
+                "score": 150,
+                "matched_from": "Pentium 166"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "PCI or AGP video card with 2 MB RAM",
             "candidates": [
               {
-                "id": "gpu_tesla_v100_pcie_16gb",
-                "name": "Tesla V100-PCIE-16GB",
-                "score": 12328,
-                "matched_from": "PCI"
+                "id": "legacy_gpu_pci_agp",
+                "name": "Legacy PCI/AGP GPU",
+                "score": 1,
+                "matched_from": "PCI or AGP video card with 2 MB RAM"
               }
             ],
-            "min_score": 12328
+            "min_score": 1
           }
         },
         "recommended": {
@@ -4787,8 +4885,15 @@
           "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10<br></li><li><strong>Processor:</strong> Pentium 200<br></li><li><strong>Memory:</strong> 64 MB RAM<br></li><li><strong>DirectX:</strong> Version 6.0<br></li><li><strong>Sound Card:</strong> 100% SoundBlaster-compatible sound card</li></ul>",
           "cpu_match": {
             "raw": "Pentium 200",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Pentium 200"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": null,
@@ -4915,8 +5020,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Windows 10 or later<br></li><li><strong>Processor:</strong> Intel Core i5 (Westmere) or better<br></li><li><strong>Memory:</strong> 4GB of RAM<br></li><li><strong>Graphics:</strong> 4GB of VRAM<br></li><li><strong>Graphics API (ANGLE):</strong> Direct3D 11+ or Vulkan 1.2.160+<br></li><li><strong>Graphics API (OpenGL):</strong> OpenGL 3.3+</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5 (Westmere) or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_westmere_i5",
+                "name": "Intel Core i5 Westmere-class CPU",
+                "score": 627,
+                "matched_from": "Intel Core i5 (Westmere) or better"
+              }
+            ],
+            "min_score": 627
           },
           "gpu_match": {
             "raw": "4GB of VRAM",
@@ -4963,8 +5075,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> macOS 11.0 Big Sur or later<br></li><li><strong>Processor:</strong> Apple M1 <strong>or</strong> Intel Core i5 (Westmere) or newer<br></li><li><strong>Memory:</strong> 4GB of RAM<br></li><li><strong>Graphics:</strong> 4GB of VRAM, Metal support required</li></ul>",
           "cpu_match": {
             "raw": "Apple M1 or Intel Core i5 (Westmere) or newer",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_westmere_i5",
+                "name": "Intel Core i5 Westmere-class CPU",
+                "score": 627,
+                "matched_from": "Apple M1 or Intel Core i5 (Westmere) or newer"
+              }
+            ],
+            "min_score": 627
           },
           "gpu_match": {
             "raw": "4GB of VRAM, Metal support required",
@@ -5011,8 +5130,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 20.04 or newer distro<br></li><li><strong>Processor:</strong> Intel Core i5 (Westmere) or better<br></li><li><strong>Memory:</strong> 4GB of RAM<br></li><li><strong>Graphics:</strong> 4GB of VRAM<br></li><li><strong>Graphics API (ANGLE):</strong> Vulkan 1.2.160+<br></li><li><strong>Graphics API (OpenGL):</strong> OpenGL 3.3+</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5 (Westmere) or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_westmere_i5",
+                "name": "Intel Core i5 Westmere-class CPU",
+                "score": 627,
+                "matched_from": "Intel Core i5 (Westmere) or better"
+              }
+            ],
+            "min_score": 627
           },
           "gpu_match": {
             "raw": "4GB of VRAM",
@@ -5077,8 +5203,15 @@
           },
           "gpu_match": {
             "raw": "P3-600-Geforce 2",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce2",
+                "name": "Legacy GeForce 2-class GPU",
+                "score": 2,
+                "matched_from": "P3-600-Geforce 2"
+              }
+            ],
+            "min_score": 2
           }
         },
         "recommended": {
@@ -5100,8 +5233,15 @@
           },
           "gpu_match": {
             "raw": "P3-600-Geforce 2",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce2",
+                "name": "Legacy GeForce 2-class GPU",
+                "score": 2,
+                "matched_from": "P3-600-Geforce 2"
+              }
+            ],
+            "min_score": 2
           }
         }
       },
@@ -5841,8 +5981,15 @@
           "raw_html": "Configuration:</strong> Windows XP, Pentium II 233 Mhz, 32 Mb RAM, 1200 MB hard disk space, DirectX 7.1, 16-bit sound card, Video Card with 8 MB RAM<br>",
           "cpu_match": {
             "raw": "Pentium II 233 Mhz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Pentium II 233 Mhz"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": null,
@@ -5866,13 +6013,13 @@
             "raw": "Pentium II 300 Mhz",
             "candidates": [
               {
-                "id": "cpu_intel_300",
-                "name": "Intel 300",
-                "score": 7251,
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
                 "matched_from": "Pentium II 300 Mhz"
               }
             ],
-            "min_score": 7251
+            "min_score": 67
           },
           "gpu_match": {
             "raw": null,
@@ -5999,8 +6146,15 @@
           "raw_html": "Configuration:</strong> Windows XP, Pentium II 233 Mhz, 32 Mb RAM, 1200 MB hard disk space, DirectX 7.1, 16-bit sound card, Video Card with 8 MB RAM<br>",
           "cpu_match": {
             "raw": "Pentium II 233 Mhz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Pentium II 233 Mhz"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": null,
@@ -6024,13 +6178,13 @@
             "raw": "Pentium II 300 Mhz",
             "candidates": [
               {
-                "id": "cpu_intel_300",
-                "name": "Intel 300",
-                "score": 7251,
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
                 "matched_from": "Pentium II 300 Mhz"
               }
             ],
-            "min_score": 7251
+            "min_score": 67
           },
           "gpu_match": {
             "raw": null,
@@ -6157,8 +6311,15 @@
           "raw_html": "System Requirements:</strong> Windows XP, 1Ghz Athlon or Pentium III CPU, 256MB RAM; DirectX 9.0 Compatible Video Card (ex: Geforce 2/4MX or Radeon 7500), DirectX 9.0 Compatible Sound Card, 2 Gigabyte free space on Hard drive, DirectX 9.0c",
           "cpu_match": {
             "raw": "1Ghz Athlon or Pentium III CPU",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "1Ghz Athlon or Pentium III CPU"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": null,
@@ -6466,8 +6627,15 @@
           "raw_html": "Windows XP, 500 MHz Pentium \u00ae III or compatible, 64 MB RAM , DirectX 8 or higher, DirectX 8 compatible sound- and graphics card with 16 MB, 750 MB fixed disks<br>",
           "cpu_match": {
             "raw": "500 MHz Pentium \u00ae III or compatible",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "500 MHz Pentium \u00ae III or compatible"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": "DirectX 8 compatible sound- and graphics card with 16 MB",
@@ -6496,8 +6664,15 @@
           "raw_html": "900 MHz Pentium \u00ae III or compatible, 256 MB RAM , DirectX 8 or higher, DirectX 8 compatible sound- and graphics card with 32MB, 750 MB fixed disks",
           "cpu_match": {
             "raw": "900 MHz Pentium \u00ae III or compatible",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "900 MHz Pentium \u00ae III or compatible"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": "DirectX 8 compatible sound- and graphics card with 32MB",
@@ -6638,13 +6813,13 @@
             "raw": "NVIDIA GeForce 200 series card or better, or AMD Radeon 3000 series or better (NVIDIA GeForce 400 series or AMD Radeon 5000 series preferred)",
             "candidates": [
               {
-                "id": "gpu_radeon_3000",
-                "name": "Radeon 3000",
-                "score": 98,
-                "matched_from": "AMD Radeon 3000 series"
+                "id": "legacy_gpu_geforce2",
+                "name": "Legacy GeForce 2-class GPU",
+                "score": 2,
+                "matched_from": "NVIDIA GeForce 200 series card or better, or AMD Radeon 3000 series or better (NVIDIA GeForce 400 series or AMD Radeon 5000 series preferred)"
               }
             ],
-            "min_score": 98
+            "min_score": 2
           }
         },
         "recommended": {

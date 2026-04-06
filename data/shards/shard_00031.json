@@ -200,8 +200,15 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP (Home Edition/Professional/Media Center Edition/Tablet PC Edition)<br>\t\t\t\t\t\t\t\tor Windows Vista (Home Basic/Home Premium/Business/Enterprise/Ultimate)<br>\t\t\t\t\t\t\t\tor Windows 7 (Home Premium/Professional/Ultimate)<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium 4 processor, 3.0 GHz or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1280x720<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0c compatible video card, shader model 3.0<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 180Mb<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> Stereo<br>\t\t\t\t\t\t\t\t</li><li><strong>Other Requirements:</strong> <br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Pentium 4 processor, 3.0 GHz or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Pentium 4 processor, 3.0 GHz or better"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "1280x720",
@@ -837,19 +844,13 @@
             "raw": "128 MB 3D Video Card (Geforce 6600/Radeon 9600 or better)",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "128 MB 3D Video Card (Geforce 6600"
-              },
-              {
-                "id": "gpu_sapphire_radeon_9600_atlantis",
-                "name": "SAPPHIRE RADEON 9600 ATLANTIS",
-                "score": 47,
-                "matched_from": "Radeon 9600"
+                "id": "legacy_gpu_opengl_3d",
+                "name": "Legacy OpenGL 3D GPU",
+                "score": 2,
+                "matched_from": "128 MB 3D Video Card (Geforce 6600/Radeon 9600 or better)"
               }
             ],
-            "min_score": 47
+            "min_score": 2
           }
         },
         "recommended": {
@@ -1152,8 +1153,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae Vista (Service Pack 2) or Windows\u00ae 7 or Windows\u00ae 8. <u>Windows\u00ae XP is NOT supported.</u><br>\t</li><li><strong>Processor:</strong> Dual-core CPU with SSE3 (Intel\u00ae Pentium\u00ae D 3GHz / AMD Athlon\u2122 64 X2 4200) or better<br>\t</li><li><strong>Memory:</strong> 2GB system memory<br>\t</li><li><strong>Hard Disk Space:</strong> 10GB of free drive space<br>\t</li><li><strong>Video Card:</strong> <u>Microsoft\u00ae DirectX\u00ae 10.0 compatible graphics card</u> with 256 MB of memory (NVIDIA\u00ae GeForce\u00ae 8800 series / ATI Radeon\u2122 HD 3870) or better<br>\t</li><li><strong>Sound:</strong> Microsoft\u00ae DirectX\u00ae 10.0 compatible sound card or better<br>\t</li><li><strong>DirectX\u00ae:</strong> Microsoft\u00ae DirectX\u00ae 11.0</li></ul>",
           "cpu_match": {
             "raw": "Dual-core CPU with SSE3 (Intel\u00ae Pentium\u00ae D 3GHz / AMD Athlon\u2122 64 X2 4200) or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Dual-core CPU with SSE3 (Intel\u00ae Pentium\u00ae D 3GHz / AMD Athlon\u2122 64 X2 4200) or better"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "Microsoft\u00ae DirectX\u00ae 10.0 compatible graphics card with 256 MB of memory (NVIDIA\u00ae GeForce\u00ae 8800 series / ATI Radeon\u2122 HD 3870) or better",
@@ -1316,8 +1324,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae Vista (Service Pack 2) or Windows\u00ae 7 or Windows\u00ae 8. <u>Windows\u00ae XP is NOT supported</u>.<br>\t</li><li><strong>Processor:</strong> Dual-core CPU with SSE3 (Intel\u00ae Pentium\u00ae D 3GHz / AMD Athlon\u2122 64 X2 4200) or better<br>\t</li><li><strong>Memory:</strong> 2GB system memory<br>\t</li><li><strong>Hard Disk Space:</strong> 10GB of free drive space<br>\t</li><li><strong>Video Card:</strong> <u>Microsoft\u00ae DirectX\u00ae 10.0 compatible graphics card</u> with 256 MB of memory (NVIDIA\u00ae GeForce\u00ae 8800 series / ATI Radeon\u2122 HD 3870) or better<br>\t</li><li><strong>Sound:</strong> Microsoft\u00ae DirectX\u00ae 10.0 compatible sound card or better<br>\t</li><li><strong>DirectX\u00ae:</strong> Microsoft\u00ae DirectX\u00ae 11.0</li></ul>",
           "cpu_match": {
             "raw": "Dual-core CPU with SSE3 (Intel\u00ae Pentium\u00ae D 3GHz / AMD Athlon\u2122 64 X2 4200) or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Dual-core CPU with SSE3 (Intel\u00ae Pentium\u00ae D 3GHz / AMD Athlon\u2122 64 X2 4200) or better"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "Microsoft\u00ae DirectX\u00ae 10.0 compatible graphics card with 256 MB of memory (NVIDIA\u00ae GeForce\u00ae 8800 series / ATI Radeon\u2122 HD 3870) or better",
@@ -1480,8 +1495,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae Vista (Service Pack 2) or Windows\u00ae 7 or Windows\u00ae 8. <u>Windows\u00ae XP is NOT supported</u>.<br>\t</li><li><strong>Processor:</strong> Dual-core CPU with SSE3 (Intel\u00ae Pentium\u00ae D 3GHz / AMD Athlon\u2122 64 X2 4200) or better<br>\t</li><li><strong>Memory:</strong> 2GB system memory<br>\t</li><li><strong>Hard Disk Space:</strong> 10GB of free drive space<br>\t</li><li><strong>Video Card:</strong> <u>Microsoft\u00ae DirectX\u00ae 10.0 compatible graphics card</u> with 256 MB of memory (NVIDIA\u00ae GeForce\u00ae 8800 series / ATI Radeon\u2122 HD 3870) or better<br>\t</li><li><strong>Sound:</strong> Microsoft\u00ae DirectX\u00ae 10.0 compatible sound card or better<br>\t</li><li><strong>DirectX\u00ae:</strong> Microsoft\u00ae DirectX\u00ae 11.0</li></ul>",
           "cpu_match": {
             "raw": "Dual-core CPU with SSE3 (Intel\u00ae Pentium\u00ae D 3GHz / AMD Athlon\u2122 64 X2 4200) or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Dual-core CPU with SSE3 (Intel\u00ae Pentium\u00ae D 3GHz / AMD Athlon\u2122 64 X2 4200) or better"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "Microsoft\u00ae DirectX\u00ae 10.0 compatible graphics card with 256 MB of memory (NVIDIA\u00ae GeForce\u00ae 8800 series / ATI Radeon\u2122 HD 3870) or better",
@@ -1706,15 +1728,8 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> OS X version Leopard 10.5.8, Snow Leopard 10.6.3, or later.<br>\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core Duo<br>\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 512 MB<br>\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 64 MB<br>\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 300 MB<br>\t\t\t\t\t\t </li></ul>",
           "cpu_match": {
             "raw": "Intel Core Duo",
-            "candidates": [
-              {
-                "id": "cpu_intel_core_duo_t2700_2_33ghz",
-                "name": "Intel Core Duo T2700 @ 2.33GHz",
-                "score": 498,
-                "matched_from": "Intel Core Duo"
-              }
-            ],
-            "min_score": 498
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "64 MB",
@@ -3498,8 +3513,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP SP3, Vista SP1, Windows 7, DirectX 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> AMD Athlon 64 Processor 3800+ 2.4Ghz or better, Intel Pentium 4 530 3.0Ghz Processor or better<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB XP, 2GB Vista / Windows 7<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 12GB<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> NVIDIA (GeForce 8800/GeForce GT220) 256MB graphics card or better, ATI Radeon X1900 256MB graphics card or better ( must support pixel shader 3 )<br>\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon 64 Processor 3800+ 2.4Ghz or better, Intel Pentium 4 530 3.0Ghz Processor or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "AMD Athlon 64 Processor 3800+ 2.4Ghz or better, Intel Pentium 4 530 3.0Ghz Processor or better"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "NVIDIA (GeForce 8800/GeForce GT220) 256MB graphics card or better, ATI Radeon X1900 256MB graphics card or better ( must support pixel shader 3 )",
@@ -3528,8 +3550,15 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP SP3, Vista SP1, Windows 7, DirectX 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> AMD Athlon 64 X2 5200+ Dual Core 2.60Ghz, Intel Core 2 Duo E6420 Dual Core 2.13Ghz<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB XP, 3GB Vista / Windows 7<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 12GB<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> NVIDIA (GeForce GTS 240) 256MB graphics card or better, ATI Radeon HD3870 256MB graphics card or better ( must support pixel shader 3 )<br>\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "AMD Athlon 64 X2 5200+ Dual Core 2.60Ghz, Intel Core 2 Duo E6420 Dual Core 2.13Ghz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "AMD Athlon 64 X2 5200+ Dual Core 2.60Ghz, Intel Core 2 Duo E6420 Dual Core 2.13Ghz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "NVIDIA (GeForce GTS 240) 256MB graphics card or better, ATI Radeon HD3870 256MB graphics card or better ( must support pixel shader 3 )",
@@ -3823,13 +3852,13 @@
             "raw": "P4 2.6GHz (Athlon 3000+)",
             "candidates": [
               {
-                "id": "cpu_intel_300",
-                "name": "Intel 300",
-                "score": 7251,
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
                 "matched_from": "P4 2.6GHz (Athlon 3000+)"
               }
             ],
-            "min_score": 7251
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GeForce 6600 (Radeon 1950) 128Mb",
@@ -3858,8 +3887,15 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>Processor:</strong> Core 2 Duo 2.33GHz (Athlon X2 5000+)<br>\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB<br>\t\t\t\t\t</li><li><strong>Video Card:</strong> GeForce FX 8800 (Radeon HD3850) 256Mb<br>\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Core 2 Duo 2.33GHz (Athlon X2 5000+)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Core 2 Duo 2.33GHz (Athlon X2 5000+)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GeForce FX 8800 (Radeon HD3850) 256Mb",
@@ -3995,13 +4031,13 @@
             "raw": "P4 2.6GHz (Athlon 3000+)",
             "candidates": [
               {
-                "id": "cpu_intel_300",
-                "name": "Intel 300",
-                "score": 7251,
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
                 "matched_from": "P4 2.6GHz (Athlon 3000+)"
               }
             ],
-            "min_score": 7251
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GeForce 6600 (Radeon 1950) 128Mb",
@@ -4030,8 +4066,15 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>Processor:</strong> Core 2 Duo 2.33GHz (Athlon X2 5000+)<br>\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB<br>\t\t\t\t\t</li><li><strong>Video Card:</strong> GeForce FX 8800 (Radeon HD3850) 256Mb<br>\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Core 2 Duo 2.33GHz (Athlon X2 5000+)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Core 2 Duo 2.33GHz (Athlon X2 5000+)"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GeForce FX 8800 (Radeon HD3850) 256Mb",
@@ -4165,8 +4208,15 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae 7 / Vista SP2 / Windows XP SP3<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium\u00ae Dual-Core 2.0GHz or Athlon\u2122 X2 3800+<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> DirectX\u00ae 9.0c compliant, 512MB Video Card (See supported List*)<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX\u00ae 9.0c compatible<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Peripherals:</strong> Mouse, keyboard<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Multiplay:</strong> Broadband connection with 128 kbps upstream or faster<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul><br>\t\t\t\t\t\t\t\t\t\t\t\t*SUPPORTED VIDEO CARDS AT TIME OF RELEASE:<br><br>\t\t\t\t\t\t\t\t\t\t\t\tATI\u00ae: 5830/5850/5770/5870/6870/6950/6970<br><br>\t\t\t\t\t\t\t\t\t\t\t\tNVidia\u00ae: 250/260/275/285/460/465/470/480",
           "cpu_match": {
             "raw": "Pentium\u00ae Dual-Core 2.0GHz or Athlon\u2122 X2 3800+",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Pentium\u00ae Dual-Core 2.0GHz or Athlon\u2122 X2 3800+"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "DirectX\u00ae 9.0c compliant, 512MB Video Card (See supported List*)",
@@ -4316,8 +4366,15 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP or Vista<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 Duo or AMD Athlon64 X2 with 2,4GHz or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> nVidia GeForce 6600 or ATI Radeon X800 with 256MB RAM or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 2GB <br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Other:</strong> High-speed cable connection is",
           "cpu_match": {
             "raw": "Intel Core 2 Duo or AMD Athlon64 X2 with 2,4GHz or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 Duo or AMD Athlon64 X2 with 2,4GHz or better"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "nVidia GeForce 6600 or ATI Radeon X800 with 256MB RAM or better",

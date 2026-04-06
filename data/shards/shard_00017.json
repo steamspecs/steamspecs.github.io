@@ -845,15 +845,8 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Vista/XP<br>\t                    </li><li><strong>Processor:</strong> 3Ghz Intel or AMD or any Dual Core<br>\t                    </li><li><strong>Memory:</strong> 1GB Ram(XP)/2GB Ram<br>\t                    </li><li><strong>Graphics:</strong> PCI Express SM3 NVidia 6600/ ATI 1300<br>\t                    </li><li><strong>DirectX\u00ae:</strong> 9<br>\t                    </li><li><strong>Hard Drive:</strong> 8GB free space<br>\t                    </li><li><strong>Sound:</strong> Any onboard sound card<br>\t\t   </li></ul>",
           "cpu_match": {
             "raw": "3Ghz Intel or AMD or any Dual Core",
-            "candidates": [
-              {
-                "id": "cpu_amd_ryzen_5_3600",
-                "name": "AMD Ryzen 5 3600",
-                "score": 17674,
-                "matched_from": "AMD"
-              }
-            ],
-            "min_score": 17674
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "PCI Express SM3 NVidia 6600/ ATI 1300",
@@ -1175,13 +1168,27 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows XP/Vista<br>\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium IV 2.5  / AMD Athlon 2800+<br>\t\t\t\t\t</li><li><strong>Memory:</strong> 512 \u041cB RAM<br>\t\t\t\t\t</li><li><strong>Graphics:</strong> 9.0s DirectX-compatible video card with 128 MB of memory, supports shader model 2<br>\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0c<br>\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 1 GB<br>\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX-compatible <br>\t\t\t\t\t</li><li>Supports XBOX 360 controller<br>\t\t\t\t\t</li><li>Not gauranteed to work properly on notebook computers<br>\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Pentium IV 2.5 / AMD Athlon 2800+",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Pentium IV 2.5 / AMD Athlon 2800+"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "9.0s DirectX-compatible video card with 128 MB of memory, supports shader model 2",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "9.0s DirectX-compatible video card with 128 MB of memory, supports shader model 2"
+              }
+            ],
+            "min_score": 2
           }
         },
         "recommended": {
@@ -1326,8 +1333,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP (SP2), Vista (SP1), 7 <br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 Duo or AMD Athlon 64 X2 <br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB RAM  (1.5 GB for Vista/7) <br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 1.2 GB Free HDD space\t<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> GeForce 7900GTX/ATI RADEON X1900 XT or higher<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo or AMD Athlon 64 X2",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core 2 Duo or AMD Athlon 64 X2"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GeForce 7900GTX/ATI RADEON X1900 XT or higher",
@@ -1489,8 +1503,15 @@
           },
           "gpu_match": {
             "raw": "64 MB DX9 Compliant",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "64 MB DX9 Compliant"
+              }
+            ],
+            "min_score": 2
           }
         },
         "recommended": {
@@ -1512,8 +1533,15 @@
           },
           "gpu_match": {
             "raw": "128 MB DX9 Compliant with PS 2.0 support",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "128 MB DX9 Compliant with PS 2.0 support"
+              }
+            ],
+            "min_score": 2
           }
         }
       },
@@ -1659,8 +1687,15 @@
           },
           "gpu_match": {
             "raw": "64 MB DX9 Compliant",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "64 MB DX9 Compliant"
+              }
+            ],
+            "min_score": 2
           }
         },
         "recommended": {
@@ -1682,8 +1717,15 @@
           },
           "gpu_match": {
             "raw": "128 MB DX9 Compliant with PS 2.0 support",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "128 MB DX9 Compliant with PS 2.0 support"
+              }
+            ],
+            "min_score": 2
           }
         }
       },
@@ -1823,8 +1865,15 @@
           },
           "gpu_match": {
             "raw": "64 MB DX9 Compliant",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "64 MB DX9 Compliant"
+              }
+            ],
+            "min_score": 2
           }
         },
         "recommended": {
@@ -1846,8 +1895,15 @@
           },
           "gpu_match": {
             "raw": "128 MB DX9 Compliant with PS 2.0 support",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "128 MB DX9 Compliant with PS 2.0 support"
+              }
+            ],
+            "min_score": 2
           }
         }
       },
@@ -1989,19 +2045,13 @@
             "raw": "256 MB SM 3.0 DX9 Compliant NVIDIA\u00ae GeForce 7800 GTX or better ATI\u00ae Radeon\u00ae HD 2900 GT or better",
             "candidates": [
               {
-                "id": "gpu_geforce_7800_gtx",
-                "name": "GeForce 7800 GTX",
-                "score": 268,
-                "matched_from": "256 MB SM 3.0 DX9 Compliant NVIDIA\u00ae GeForce 7800 GTX"
-              },
-              {
-                "id": "gpu_radeon_hd_2900_gt",
-                "name": "Radeon HD 2900 GT",
-                "score": 292,
-                "matched_from": "better ATI\u00ae Radeon\u00ae HD 2900 GT"
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "256 MB SM 3.0 DX9 Compliant NVIDIA\u00ae GeForce 7800 GTX or better ATI\u00ae Radeon\u00ae HD 2900 GT or better"
               }
             ],
-            "min_score": 268
+            "min_score": 2
           }
         },
         "recommended": {
@@ -2025,19 +2075,13 @@
             "raw": "512 MB SM 3.0 DX9 Compliant NVIDIA\u00ae GeForce GTX 260 or better ATI\u00ae Radeon\u00ae HD 5750 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_gtx_260",
-                "name": "GeForce GTX 260",
-                "score": 1201,
-                "matched_from": "512 MB SM 3.0 DX9 Compliant NVIDIA\u00ae GeForce GTX 260"
-              },
-              {
-                "id": "gpu_radeon_hd_5750",
-                "name": "Radeon HD 5750",
-                "score": 1173,
-                "matched_from": "better ATI\u00ae Radeon\u00ae HD 5750"
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "512 MB SM 3.0 DX9 Compliant NVIDIA\u00ae GeForce GTX 260 or better ATI\u00ae Radeon\u00ae HD 5750 or better"
               }
             ],
-            "min_score": 1173
+            "min_score": 2
           }
         }
       },
@@ -2708,19 +2752,13 @@
             "raw": "OpenGL 2.0 compatible video card with 256 MB shared or dedicated RAM (ATI or NVIDIA)",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "OpenGL 2.0 compatible video card with 256 MB shared"
-              },
-              {
-                "id": "gpu_nvidia_l40_48q",
-                "name": "nVidia L40-48Q",
-                "score": 33269,
-                "matched_from": "NVIDIA)"
+                "id": "legacy_gpu_opengl_3d",
+                "name": "Legacy OpenGL 3D GPU",
+                "score": 2,
+                "matched_from": "OpenGL 2.0 compatible video card with 256 MB shared or dedicated RAM (ATI or NVIDIA)"
               }
             ],
-            "min_score": 5
+            "min_score": 2
           }
         },
         "recommended": {
@@ -2861,15 +2899,8 @@
           "raw_html": ") <br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 4.5 GB \t<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> ATi Radeon HD 2400 or NVIDIA GeForce 7600 or better (Shader Model 3.0 needs to be supported)<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible <br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Additional:</strong> *Please note that Trine 2 may not run on most Intel graphics solutions used in 2004-2009. The game does run on new (2010-) Intel HD Graphics 3000 or better.</li></ul>",
           "cpu_match": {
             "raw": "Additional: *Please note that Trine 2 may not run on most Intel graphics solutions used in 2004-2009. The game does run on new (2010-) Intel HD Graphics 3000 or better.",
-            "candidates": [
-              {
-                "id": "cpu_intel_300",
-                "name": "Intel 300",
-                "score": 7251,
-                "matched_from": "Additional: *Please note that Trine 2 may not run on most Intel graphics solutions used in 2004-2009. The game does run on new (2010-) Intel HD Graphics 3000"
-              }
-            ],
-            "min_score": 7251
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "ATi Radeon HD 2400 or NVIDIA GeForce 7600 or better (Shader Model 3.0 needs to be supported)",
@@ -3077,8 +3108,15 @@
           },
           "gpu_match": {
             "raw": "32 MB 3D Video Card",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_opengl_3d",
+                "name": "Legacy OpenGL 3D GPU",
+                "score": 2,
+                "matched_from": "32 MB 3D Video Card"
+              }
+            ],
+            "min_score": 2
           }
         },
         "recommended": {

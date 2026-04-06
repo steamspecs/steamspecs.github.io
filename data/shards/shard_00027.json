@@ -19,8 +19,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP, Vista, Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Athlon 64 Processor 3800+ 2.4Ghz or better, Intel Pentium 4 530 3.0 Ghz Processor or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB XP, 2GB Vista/Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> NVIDIA GeForce 8000 series 256MB graphics card or better, ATI Radeon HD 2000 series 256MB graphics card or better<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> Latest 9.0c or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 8GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> Windows compatible sound card<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Athlon 64 Processor 3800+ 2.4Ghz or better, Intel Pentium 4 530 3.0 Ghz Processor or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Athlon 64 Processor 3800+ 2.4Ghz or better, Intel Pentium 4 530 3.0 Ghz Processor or better"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8000 series 256MB graphics card or better, ATI Radeon HD 2000 series 256MB graphics card or better",
@@ -335,8 +342,15 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP, Windows Vista or Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM <br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS or ATI Radeon 1900XT<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB of free hard drive space <br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> <br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS or ATI Radeon 1900XT",
@@ -365,15 +379,8 @@
           "raw_html": "<strong>Recommended</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista or Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel or AMD Quad Core 2 GHz+ CPU<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> NVIDIA GeForce 260 or ATI Radeon 4850 <br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB of free hard drive space <br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong><br>\t\t\t\t\t\t\t</li></ul><strong>NVIDIA 3D Vision Recommended </strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista or Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core i7 processor<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 3D Compatible NVIDIA GeForce 480/570 Series GPU, NVIDIA 3D Vision Kit<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB of free hard drive space <br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong><br>\t\t\t\t\t\t\t\t</li><li><strong>Other:</strong> 3D Vision-Ready Display<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel or AMD Quad Core 2 GHz+ CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "3D Compatible NVIDIA GeForce 480/570 Series GPU, NVIDIA 3D Vision Kit",
@@ -507,8 +514,15 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP, Windows Vista or Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM <br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS or ATI Radeon 1900XT<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB of free hard drive space <br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> <br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS or ATI Radeon 1900XT",
@@ -537,15 +551,8 @@
           "raw_html": "<strong>Recommended</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista or Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel or AMD Quad Core 2 GHz+ CPU<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> NVIDIA GeForce 260 or ATI Radeon 4850 <br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB of free hard drive space <br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong><br>\t\t\t\t\t\t\t</li></ul><strong>NVIDIA 3D Vision Recommended </strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista or Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core i7 processor<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 3D Compatible NVIDIA GeForce 480/570 Series GPU, NVIDIA 3D Vision Kit<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB of free hard drive space <br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong><br>\t\t\t\t\t\t\t\t</li><li><strong>Other:</strong> 3D Vision-Ready Display<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel or AMD Quad Core 2 GHz+ CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "3D Compatible NVIDIA GeForce 480/570 Series GPU, NVIDIA 3D Vision Kit",
@@ -679,8 +686,15 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP, Windows Vista or Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM <br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS or ATI Radeon 1900XT<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB of free hard drive space <br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> <br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS or ATI Radeon 1900XT",
@@ -709,15 +723,8 @@
           "raw_html": "<strong>Recommended</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista or Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel or AMD Quad Core 2 GHz+ CPU<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> NVIDIA GeForce 260 or ATI Radeon 4850 <br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB of free hard drive space <br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong><br>\t\t\t\t\t\t\t</li></ul><strong>NVIDIA 3D Vision Recommended </strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista or Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core i7 processor<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 3D Compatible NVIDIA GeForce 480/570 Series GPU, NVIDIA 3D Vision Kit<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB of free hard drive space <br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong><br>\t\t\t\t\t\t\t\t</li><li><strong>Other:</strong> 3D Vision-Ready Display<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel or AMD Quad Core 2 GHz+ CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "3D Compatible NVIDIA GeForce 480/570 Series GPU, NVIDIA 3D Vision Kit",
@@ -851,8 +858,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul><strong></strong>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -961,8 +975,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t<br></li><li>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -997,15 +1018,8 @@
           "raw_html": "Graphics Drivers:</strong> Nvidia: 352, 355 or 358 series driver / AMD: AMD Catalyst (fglrx) 15.9 or better. MESA drivers and Intel Graphics are not currently supported.  \t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "355 or 358 series driver / AMD: AMD Catalyst (fglrx) 15.9 or better. MESA drivers and Intel Graphics are not currently supported.",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_w7_3555",
-                "name": "Intel Xeon w7-3555",
-                "score": 67754,
-                "matched_from": "355"
-              }
-            ],
-            "min_score": 67754
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Graphics Drivers: Nvidia: 352",
@@ -1043,8 +1057,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -1153,8 +1174,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -1189,8 +1217,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -1228,8 +1263,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -1338,8 +1380,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -1374,8 +1423,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -1413,8 +1469,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -1523,8 +1586,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -1559,8 +1629,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -1598,8 +1675,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -1708,8 +1792,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -1744,8 +1835,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -1783,8 +1881,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -1893,8 +1998,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -1929,8 +2041,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -1968,8 +2087,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -2078,8 +2204,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -2114,8 +2247,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -2153,8 +2293,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -2263,8 +2410,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -2299,8 +2453,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -2338,8 +2499,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -2448,8 +2616,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -2484,8 +2659,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -2523,8 +2705,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -2633,8 +2822,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -2669,8 +2865,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -2708,8 +2911,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -2818,8 +3028,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -2854,8 +3071,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -2893,8 +3117,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -3003,8 +3234,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -3039,8 +3277,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -3078,8 +3323,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -3188,8 +3440,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -3224,8 +3483,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -3263,8 +3529,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -3373,8 +3646,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -3409,8 +3689,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -3448,8 +3735,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -3558,8 +3852,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -3594,8 +3895,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -3633,8 +3941,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -3743,8 +4058,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -3779,8 +4101,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -3818,8 +4147,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul><strong></strong>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -3928,8 +4264,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -3964,8 +4307,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -4003,8 +4353,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -4113,8 +4470,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -4149,8 +4513,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -4188,8 +4559,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -4298,8 +4676,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -4334,8 +4719,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
@@ -4373,8 +4765,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
@@ -4483,8 +4882,15 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
@@ -4519,8 +4925,15 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent"
+              }
+            ],
+            "min_score": 150
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",

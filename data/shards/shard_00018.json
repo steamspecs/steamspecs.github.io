@@ -189,8 +189,15 @@
           "raw_html": "<ul>\n\t                    <li><strong>OS:</strong> Windows XP/Vista</li>\n\t                    <li><strong>Processor:</strong> Pentium III 850MHz or better (1.0 GHz Vista)</li>\n\t                    <li><strong>Memory:</strong> 512 MB System RAM</li>\n\t                    <li><strong>Graphics:</strong> 64MB Video RAM</li>\n\t                    <li><strong>DirectX&reg;:</strong> 8.1 (10 Vista)</li>\n                    </ul>",
           "cpu_match": {
             "raw": "Pentium III 850MHz or better (1.0 GHz Vista)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Pentium III 850MHz or better (1.0 GHz Vista)"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": "64MB Video RAM",
@@ -340,8 +347,15 @@
           "raw_html": "<ul>\n\t                    <li><strong>OS:</strong> Windows XP/Vista</li>\n\t                    <li><strong>Processor:</strong> Pentium III 750MHz or better (1.0 GHz Vista)</li>\n\t                    <li><strong>Memory:</strong> 256 MB System RAM (512 MB Vista)</li>\n\t                    <li><strong>Graphics:</strong> 32MB Video RAM, Hardware Accelerated 3D </li>\n\t                    <li><strong>DirectX&reg;:</strong> 9 (10 Vista)</li>\n                    </ul>",
           "cpu_match": {
             "raw": "Pentium III 750MHz or better (1.0 GHz Vista)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Pentium III 750MHz or better (1.0 GHz Vista)"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": "32MB Video RAM, Hardware Accelerated 3D",
@@ -491,8 +505,15 @@
           "raw_html": "<br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP or Windows Vista<br>\t\t\t\t\t\t</li><li><strong>Processor:</strong> Dual Core CPU (Intel Pentium 4 3.4Ghz, AMD Athlon 64 X2 3.0GHz or faster<br>\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB<br>\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 256MB GPU with Shader Model 3 nVidia GeForce 7900 / ATI Radeon X1300 or faster<br>\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0 March 2009 Runtime<br>\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 600 MB<br>\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible (on-board or add-in)<br>\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Dual Core CPU (Intel Pentium 4 3.4Ghz, AMD Athlon 64 X2 3.0GHz or faster",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Dual Core CPU (Intel Pentium 4 3.4Ghz, AMD Athlon 64 X2 3.0GHz or faster"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "256MB GPU with Shader Model 3 nVidia GeForce 7900 / ATI Radeon X1300 or faster",
@@ -656,8 +677,15 @@
           "raw_html": "<br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP or Windows Vista<br>\t\t\t\t\t\t</li><li><strong>Processor:</strong> Dual Core CPU (Intel Pentium 4 3.4Ghz, AMD Athlon 64 X2 3.0GHz or faster<br>\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB<br>\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 256MB GPU with Shader Model 3 (nVidia GeForce 7900 / ATI Radeon X1300 or faster)<br>\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0 March 2009 Runtime<br>\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 600MB<br>\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible (on-board or add-in)<br>\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Dual Core CPU (Intel Pentium 4 3.4Ghz, AMD Athlon 64 X2 3.0GHz or faster",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Dual Core CPU (Intel Pentium 4 3.4Ghz, AMD Athlon 64 X2 3.0GHz or faster"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "256MB GPU with Shader Model 3 (nVidia GeForce 7900 / ATI Radeon X1300 or faster)",
@@ -979,13 +1007,27 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae 2000, XP, XP SP2 <br>\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium III 700 MHz<br>\t\t\t\t\t</li><li><strong>Memory:</strong> 128 MB<br>\t\t\t\t\t</li><li><strong>Graphics:</strong> 3D Video Card, 64 MB recommended<br>\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 7.0<br>\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 40 MB<br>\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Pentium III 700 MHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Pentium III 700 MHz"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": "3D Video Card, 64 MB recommended",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_opengl_3d",
+                "name": "Legacy OpenGL 3D GPU",
+                "score": 2,
+                "matched_from": "3D Video Card, 64 MB recommended"
+              }
+            ],
+            "min_score": 2
           }
         },
         "recommended": {
@@ -1135,8 +1177,15 @@
           },
           "gpu_match": {
             "raw": "3D Video Card, 64 MB recommended",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_opengl_3d",
+                "name": "Legacy OpenGL 3D GPU",
+                "score": 2,
+                "matched_from": "3D Video Card, 64 MB recommended"
+              }
+            ],
+            "min_score": 2
           }
         },
         "recommended": {
@@ -1739,8 +1788,15 @@
           },
           "gpu_match": {
             "raw": "3D Video Card with at least 8 MB Video RAM",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_opengl_3d",
+                "name": "Legacy OpenGL 3D GPU",
+                "score": 2,
+                "matched_from": "3D Video Card with at least 8 MB Video RAM"
+              }
+            ],
+            "min_score": 2
           }
         },
         "recommended": {
@@ -1885,8 +1941,15 @@
           "raw_html": "\n\t\t\t\t\t<ul>\n\t\t\t\t\t<li><strong>OS:</strong> Windows\u00ae 2000/XP/Vista (does not officially support Windows NT) </li>\n\t\t\t\t\t<li><strong>Processor:</strong> Pentium\u00ae III 700 MHz           </li>\n\t\t\t\t\t<li><strong>Memory:</strong>128 MB</li>\n\t\t\t\t\t<li><strong>Hard Drive:</strong> 23MB </li>\n\t\t\t\t\t<li><strong>DirectX\u00ae Version:</strong> DirectX 7.0 \t</li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t",
           "cpu_match": {
             "raw": "Pentium\u00ae III 700 MHz",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Pentium\u00ae III 700 MHz"
+              }
+            ],
+            "min_score": 67
           },
           "gpu_match": {
             "raw": null,

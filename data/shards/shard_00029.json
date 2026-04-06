@@ -349,8 +349,15 @@
           "raw_html": "<ul>\n\t\t\t\t\t\t<li><strong>OS:</strong> Microsoft\u00ae Windows\u00ae XP/Vista/7 </li>\n\t\t\t\t\t\t<li><strong>Processor:</strong> 2.5 GHz Intel\u00ae Pentium\u00ae 4</li>\n\t\t\t\t\t\t<li><strong>Memory:</strong> 512 MB</li>\n\t\t\t\t\t\t<li><strong>Graphics:</strong> NVIDIA GeForce FX 5200 (can run on integrated machines, but performance might suffer)</li>\n\t\t\t\t\t\t<li><strong>DirectX&reg;:</strong> DirectX\u00ae 9.0c required</li>\n\t\t\t\t\t\t<li><strong>Hard Drive:</strong> 35 MB</li>\n\t\t\t\t\t\t<li><strong>Sound:</strong> DirectX\u00ae 9.0c-compliant sound card</li>\n\t\t\t\t\t\t<li><strong>Other Requirements:</strong> </li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t",
           "cpu_match": {
             "raw": "2.5 GHz Intel\u00ae Pentium\u00ae 4",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "2.5 GHz Intel\u00ae Pentium\u00ae 4"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce FX 5200 (can run on integrated machines, but performance might suffer)",
@@ -507,8 +514,15 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP SP3/ Vista SP1/ 7<br>\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium 4 2.4 GHZ/AthlonXP 2400+<br>\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB (XP)/ 2GB (Vista/7)<br>\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 128 MB 100% DirectX\u00ae 9 and shaders 2.0 compatible (NVIDIA GEFORCE 6600 / ATI RADEON X700 or higher) Not compatible with SLI. Intel, SIS and Via/S3G graphics controllers non-supported<br>\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0<br>\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 5 GB<br>\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX\u00ae 9 compatible<br>\t\t\t\t\t\t\t</li><li><strong>Multiplayer Requirements:</strong> Internet connection required for online gameplay.<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Pentium 4 2.4 GHZ/AthlonXP 2400+",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Pentium 4 2.4 GHZ/AthlonXP 2400+"
+              }
+            ],
+            "min_score": 77
           },
           "gpu_match": {
             "raw": "128 MB 100% DirectX\u00ae 9 and shaders 2.0 compatible (NVIDIA GEFORCE 6600 / ATI RADEON X700 or higher) Not compatible with SLI. Intel, SIS and Via/S3G graphics controllers non-supported",
@@ -665,15 +679,8 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> WINDOWS XP SP2/VISTA SP1/WINDOWS 7<br>\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> AMD/INTEL DUAL-CORE 2.2 GHZ<br>\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1024 MB (XP) / 2048 MB (VISTA/7)<br>\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE.  ATI RADEON X1600 XT/INTEL HD/NVIDIA GEFORCE 6600 GT OR HIGHER<br>\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9<br>\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DIRECTX 9 COMPATIBLE<br>\t\t\t\t\t\t\t</li><li><strong>Internet:</strong> INTERNET CONNECTION REQUIRED FOR ONLINE GAMING AND GAME ACTIVATION<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "AMD/INTEL DUAL-CORE 2.2 GHZ",
-            "candidates": [
-              {
-                "id": "cpu_amd_ryzen_5_3600",
-                "name": "AMD Ryzen 5 3600",
-                "score": 17674,
-                "matched_from": "AMD"
-              }
-            ],
-            "min_score": 17674
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1600 XT/INTEL HD/NVIDIA GEFORCE 6600 GT OR HIGHER",
@@ -1160,15 +1167,8 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> WINDOWS XP SP3/WINDOWS VISTA SP2/WINDOWS 7<br>\t\t\t\t\t\t</li><li><strong>Processor:</strong> AMD/INTEL DUAL-CORE 2.5 GHZ<br>\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1024 MB (XP)/2048 MB (VISTA/7)<br>\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE.  ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT OR HIGHER<br>\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9<br>\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t</li><li><strong>Sound:</strong> DIRECTX 9 COMPATIBLE<br>\t\t\t\t\t\t</li><li><strong>Other:</strong> INTERNET CONNECTION REQUIRED FOR ONLINE GAMING AND GAME ACTIVATION<br>\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "AMD/INTEL DUAL-CORE 2.5 GHZ",
-            "candidates": [
-              {
-                "id": "cpu_amd_ryzen_5_3600",
-                "name": "AMD Ryzen 5 3600",
-                "score": 17674,
-                "matched_from": "AMD"
-              }
-            ],
-            "min_score": 17674
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT OR HIGHER",
@@ -1283,15 +1283,8 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> UBUNTU 12.04 LTS/UBUNTU 12.10<br>\t</li><li><strong>Processor:</strong> AMD/INTEL DUAL-CORE 2.5 GHZ<br>\t</li><li><strong>Memory:</strong> 2048 MB<br>\t</li><li><strong>Graphics:</strong> 256 MB SHADERS 3.0 COMPATIBLE.  ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT/INTEL HD 3000 OR HIGHER<br>\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t</li><li><strong>Sound:</strong> SOUND CARD<br>\t</li><li><strong>Other:</strong> INTERNET CONNECTION REQUIRED FOR ONLINE GAMING</li></ul>",
           "cpu_match": {
             "raw": "AMD/INTEL DUAL-CORE 2.5 GHZ",
-            "candidates": [
-              {
-                "id": "cpu_amd_ryzen_5_3600",
-                "name": "AMD Ryzen 5 3600",
-                "score": 17674,
-                "matched_from": "AMD"
-              }
-            ],
-            "min_score": 17674
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "256 MB SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT/INTEL HD 3000 OR HIGHER",
@@ -1510,15 +1503,8 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong>WINDOWS XP SP3/WINDOWS VISTA SP2/WINDOWS 7<br>\t</li><li><strong>Processor:</strong>AMD/INTEL DUAL-CORE 2.5 GHZ<br>\t</li><li><strong>Memory:</strong>2 GB RAM<br>\t</li><li><strong>Graphics:</strong>256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT OR HIGHER<br>\t</li><li><strong>DirectX\u00ae:</strong>dx90c<br>\t</li><li><strong>Hard Drive:</strong>10 GB HD space<br>\t</li><li><strong>Sound:</strong>DIRECTX 9 COMPATIBLE</li></ul>",
           "cpu_match": {
             "raw": "AMD/INTEL DUAL-CORE 2.5 GHZ",
-            "candidates": [
-              {
-                "id": "cpu_amd_ryzen_5_3600",
-                "name": "AMD Ryzen 5 3600",
-                "score": 17674,
-                "matched_from": "AMD"
-              }
-            ],
-            "min_score": 17674
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT OR HIGHER",
@@ -1547,15 +1533,8 @@
           "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong>WINDOWS XP SP3/WINDOWS VISTA SP2/WINDOWS 7<br>\t</li><li><strong>Processor:</strong>AMD/INTEL DUAL-CORE 3.2 GHZ<br>\t</li><li><strong>Memory:</strong>3 GB RAM<br>\t</li><li><strong>Graphics:</strong>512 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON HD 3850/NVIDIA GEFORCE 8800 GT OR HIGHER<br>\t</li><li><strong>DirectX\u00ae:</strong>dx11<br>\t</li><li><strong>Hard Drive:</strong>10 GB HD space<br>\t</li><li><strong>Sound:</strong>DIRECTX 9 COMPATIBLE</li></ul>",
           "cpu_match": {
             "raw": "AMD/INTEL DUAL-CORE 3.2 GHZ",
-            "candidates": [
-              {
-                "id": "cpu_amd_ryzen_5_3600",
-                "name": "AMD Ryzen 5 3600",
-                "score": 17674,
-                "matched_from": "AMD"
-              }
-            ],
-            "min_score": 17674
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "512 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON HD 3850/NVIDIA GEFORCE 8800 GT OR HIGHER",
@@ -1695,15 +1674,8 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong>WINDOWS XP SP3/WINDOWS VISTA SP2/WINDOWS 7 <br>\t</li><li><strong>Processor:</strong>AMD/INTEL DUAL-CORE 2.5 GHZ <br>\t</li><li><strong>Memory:</strong>1024 MB RAM<br>\t</li><li><strong>Graphics:</strong>256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT OR HIGHER <br>\t</li><li><strong>Hard Drive:</strong>10 GB HD space<br>\t</li><li><strong>Sound:</strong>DIRECTX 9 COMPATIBLE <br>\t</li><li><strong>Other Requirements:</strong>Broadband Internet connection<br>\t</li><li><strong>Additional:</strong>INTERNET CONNECTION REQUIRED FOR ONLINE GAMING</li></ul>",
           "cpu_match": {
             "raw": "AMD/INTEL DUAL-CORE 2.5 GHZ",
-            "candidates": [
-              {
-                "id": "cpu_amd_ryzen_5_3600",
-                "name": "AMD Ryzen 5 3600",
-                "score": 17674,
-                "matched_from": "AMD"
-              }
-            ],
-            "min_score": 17674
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT OR HIGHER",
@@ -1860,15 +1832,8 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong>WINDOWS XP SP3/WINDOWS VISTA SP2/WINDOWS 7<br>\t</li><li><strong>Processor:</strong>AMD/INTEL DUAL-CORE 2.5 GHZ <br>\t</li><li><strong>Memory:</strong>1024 MB RAM<br>\t</li><li><strong>Graphics:</strong> 256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT OR HIGHER<br>\t</li><li><strong>DirectX\u00ae:</strong>9.0c<br>\t</li><li><strong>Hard Drive:</strong>11 GB HD space<br>\t</li><li><strong>Sound:</strong>DIRECTX 9 COMPATIBLE <br>\t</li><li><strong>Additional:</strong>INTERNET CONNECTION REQUIRED FOR ONLINE GAMING AND GAME ACTIVATION </li></ul>",
           "cpu_match": {
             "raw": "AMD/INTEL DUAL-CORE 2.5 GHZ",
-            "candidates": [
-              {
-                "id": "cpu_amd_ryzen_5_3600",
-                "name": "AMD Ryzen 5 3600",
-                "score": 17674,
-                "matched_from": "AMD"
-              }
-            ],
-            "min_score": 17674
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT OR HIGHER",
