@@ -533,7 +533,7 @@ async function applyFilters() {
   if (mode === "dlc") apps = apps.filter(a => a.type === "dlc");
   if (q) apps = apps.filter(a => (a.name || "").toLowerCase().includes(q));
 
-  const summaryModes = new Set(["pass", "unknown", "partial", "fail"]);
+  const summaryModes = new Set(["pass", "unknown", "fail"]);
   if (summaryModes.has(mode)) {
     const activeBuild = getActiveBuild();
     const uniqueShardIds = [...new Set(apps.map(app => shardForAppid(app.appid)))];
@@ -560,7 +560,6 @@ function summarizeListMinimum(app, build) {
   const summary = comparisonSummary(minReq, build, platform);
   if (summary.status === "good") return { status: "good", text: "Pass", key: "pass" };
   if (summary.status === "bad") return { status: "bad", text: "Fail", key: "fail" };
-  if (summary.text === "Partial match") return { status: "warn", text: "Partial", key: "partial" };
   return { status: "unknown", text: "Unknown", key: "unknown" };
 }
 
@@ -673,7 +672,7 @@ function comparisonSummary(req, build, platform) {
     return { status: "unknown", text: "Unknown" };
   }
 
-  return { status: "warn", text: "Partial match" };
+  return { status: "unknown", text: "Unknown" };
 }
 
 function renderReqCard(title, req, build, platform) {
