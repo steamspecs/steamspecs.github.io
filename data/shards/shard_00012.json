@@ -231,8 +231,15 @@
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "512 MB with Pixel Shader 3.0 (AGP PCIe only)"
+              }
+            ],
+            "min_score": 12
           }
         }
       },
@@ -382,8 +389,15 @@
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "512 MB with Pixel Shader 3.0 (AGP PCIe only)"
+              }
+            ],
+            "min_score": 12
           }
         }
       },
@@ -533,8 +547,15 @@
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "512 MB with Pixel Shader 3.0 (AGP PCIe only)"
+              }
+            ],
+            "min_score": 12
           }
         }
       },
@@ -684,8 +705,15 @@
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "512 MB with Pixel Shader 3.0 (AGP PCIe only)"
+              }
+            ],
+            "min_score": 12
           }
         }
       },
@@ -835,8 +863,15 @@
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "512 MB with Pixel Shader 3.0 (AGP PCIe only)"
+              }
+            ],
+            "min_score": 12
           }
         }
       },
@@ -986,8 +1021,15 @@
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "512 MB with Pixel Shader 3.0 (AGP PCIe only)"
+              }
+            ],
+            "min_score": 12
           }
         }
       },
@@ -1116,13 +1158,13 @@
             "raw": "Video 256 MB with Pixel Shader 3.0*",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
                 "matched_from": "Video 256 MB with Pixel Shader 3.0*"
               }
             ],
-            "min_score": 5
+            "min_score": 12
           }
         },
         "recommended": {
@@ -1295,8 +1337,15 @@
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "512 MB with Pixel Shader 3.0 (AGP PCIe only)"
+              }
+            ],
+            "min_score": 12
           }
         }
       },
@@ -1446,8 +1495,15 @@
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "512 MB with Pixel Shader 3.0 (AGP PCIe only)"
+              }
+            ],
+            "min_score": 12
           }
         }
       },
@@ -1597,8 +1653,15 @@
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "512 MB with Pixel Shader 3.0 (AGP PCIe only)"
+              }
+            ],
+            "min_score": 12
           }
         }
       },
@@ -1748,8 +1811,15 @@
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "512 MB with Pixel Shader 3.0 (AGP PCIe only)"
+              }
+            ],
+            "min_score": 12
           }
         }
       },
@@ -1899,8 +1969,15 @@
           },
           "gpu_match": {
             "raw": "512 MB with Pixel Shader 3.0 (AGP PCIe only)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "512 MB with Pixel Shader 3.0 (AGP PCIe only)"
+              }
+            ],
+            "min_score": 12
           }
         }
       },
@@ -2338,19 +2415,13 @@
             "raw": "Nvidia 6600 (256Mb) / ATI Radeon X700 (256Mb)",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "Nvidia 6600 (256Mb)"
-              },
-              {
-                "id": "gpu_radeon_x700",
-                "name": "RADEON X700",
-                "score": 72,
-                "matched_from": "ATI Radeon X700 (256Mb)"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Nvidia 6600 (256Mb) / ATI Radeon X700 (256Mb)"
               }
             ],
-            "min_score": 72
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2502,19 +2573,13 @@
             "raw": "Nvidia 6600 / ATI Radeon X700",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "Nvidia 6600"
-              },
-              {
-                "id": "gpu_radeon_x700",
-                "name": "RADEON X700",
-                "score": 72,
-                "matched_from": "ATI Radeon X700"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Nvidia 6600 / ATI Radeon X700"
               }
             ],
-            "min_score": 72
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2831,19 +2896,13 @@
             "raw": "Nvidia 6600 (256Mb) / ATI Radeon X700 (256Mb)",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "Nvidia 6600 (256Mb)"
-              },
-              {
-                "id": "gpu_radeon_x700",
-                "name": "RADEON X700",
-                "score": 72,
-                "matched_from": "ATI Radeon X700 (256Mb)"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Nvidia 6600 (256Mb) / ATI Radeon X700 (256Mb)"
               }
             ],
-            "min_score": 72
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2995,19 +3054,13 @@
             "raw": "Nvidia 6600 (256Mb) / ATI Radeon X700 (256Mb)",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "Nvidia 6600 (256Mb)"
-              },
-              {
-                "id": "gpu_radeon_x700",
-                "name": "RADEON X700",
-                "score": 72,
-                "matched_from": "ATI Radeon X700 (256Mb)"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Nvidia 6600 (256Mb) / ATI Radeon X700 (256Mb)"
               }
             ],
-            "min_score": 72
+            "min_score": 3
           }
         },
         "recommended": {
@@ -3159,19 +3212,13 @@
             "raw": "Nvidia 6600 (256MB) / ATI Radeon X700 (256MB)",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "Nvidia 6600 (256MB)"
-              },
-              {
-                "id": "gpu_radeon_x700",
-                "name": "RADEON X700",
-                "score": 72,
-                "matched_from": "ATI Radeon X700 (256MB)"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Nvidia 6600 (256MB) / ATI Radeon X700 (256MB)"
               }
             ],
-            "min_score": 72
+            "min_score": 3
           }
         },
         "recommended": {
@@ -3337,19 +3384,13 @@
             "raw": "Nvidia 6600 (256Mb) / ATI Radeon X700 (256Mb)",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "Nvidia 6600 (256Mb)"
-              },
-              {
-                "id": "gpu_radeon_x700",
-                "name": "RADEON X700",
-                "score": 72,
-                "matched_from": "ATI Radeon X700 (256Mb)"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Nvidia 6600 (256Mb) / ATI Radeon X700 (256Mb)"
               }
             ],
-            "min_score": 72
+            "min_score": 3
           }
         },
         "recommended": {
@@ -4975,8 +5016,15 @@
           },
           "gpu_match": {
             "raw": "128MB Video Card with support for Pixel Shader 2.0",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "128MB Video Card with support for Pixel Shader 2.0"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -5457,13 +5505,13 @@
             "raw": "DirectX\u00ae 9.0c compatible video card, NVIDIA GeForce 6800 or better, ATI Radeon X800 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_6800",
-                "name": "GeForce 6800",
-                "score": 112,
-                "matched_from": "DirectX\u00ae 9.0c compatible video card, NVIDIA GeForce 6800"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "DirectX\u00ae 9.0c compatible video card, NVIDIA GeForce 6800 or better, ATI Radeon X800 or better"
               }
             ],
-            "min_score": 112
+            "min_score": 3
           }
         },
         "recommended": {

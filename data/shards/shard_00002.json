@@ -831,19 +831,13 @@
             "raw": "256MB ATI Radeon X850 or Nvidia GeForce 6800GT",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "256MB ATI Radeon X850"
-              },
-              {
-                "id": "gpu_geforce_6800",
-                "name": "GeForce 6800",
-                "score": 112,
-                "matched_from": "Nvidia GeForce 6800GT"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "256MB ATI Radeon X850 or Nvidia GeForce 6800GT"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         }
       },
@@ -2407,13 +2401,13 @@
             "raw": "nVidia GeForce 6600 or ATI Radeon X800 Video card",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "nVidia GeForce 6600"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "nVidia GeForce 6600 or ATI Radeon X800 Video card"
               }
             ],
-            "min_score": 85
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2727,8 +2721,15 @@
           },
           "gpu_match": {
             "raw": "128 MB DirectX 9.0c compatible or better video card with pixelshader 2.0",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "128 MB DirectX 9.0c compatible or better video card with pixelshader 2.0"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -2878,8 +2879,15 @@
           },
           "gpu_match": {
             "raw": "Video Card with 64MB dedicated memory and DirectX 9 Compatible",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "Video Card with 64MB dedicated memory and DirectX 9 Compatible"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -3029,8 +3037,15 @@
           },
           "gpu_match": {
             "raw": "Video Card with 128MB dedicated memory and DirectX 9 Compatible",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "Video Card with 128MB dedicated memory and DirectX 9 Compatible"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {

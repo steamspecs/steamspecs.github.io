@@ -569,19 +569,13 @@
             "raw": "ATI Radeon X1600 / NVidia Geforce 7300 / Intel HD 3000 (128 MB VRAM or higher)",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
-                "matched_from": "ATI Radeon X1600"
-              },
-              {
-                "id": "gpu_radeon_3000",
-                "name": "Radeon 3000",
-                "score": 98,
-                "matched_from": "Intel HD 3000 (128 MB VRAM"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X1600 / NVidia Geforce 7300 / Intel HD 3000 (128 MB VRAM or higher)"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1159,13 +1153,13 @@
             "raw": "ATI Radeon X1800 GTO 256MB and the Nvidia GeForce 6800 Ultra 256MB cards",
             "candidates": [
               {
-                "id": "gpu_radeon_x1800_gto",
-                "name": "Radeon X1800 GTO",
-                "score": 140,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "ATI Radeon X1800 GTO 256MB and the Nvidia GeForce 6800 Ultra 256MB cards"
               }
             ],
-            "min_score": 140
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1262,13 +1256,13 @@
             "raw": "ATI Radeon X1800 GTO 256MB and the Nvidia GeForce 6800 Ultra 256MB cards, or better",
             "candidates": [
               {
-                "id": "gpu_radeon_x1800_gto",
-                "name": "Radeon X1800 GTO",
-                "score": 140,
-                "matched_from": "ATI Radeon X1800 GTO 256MB and the Nvidia GeForce 6800 Ultra 256MB cards"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X1800 GTO 256MB and the Nvidia GeForce 6800 Ultra 256MB cards, or better"
               }
             ],
-            "min_score": 140
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2814,13 +2808,13 @@
             "raw": "Graphic Card: 128MB nVidia GeForce FX 5600 or ATi Radeon 9600 Class",
             "candidates": [
               {
-                "id": "gpu_geforce_fx_5600",
-                "name": "GeForce FX 5600",
-                "score": 12,
-                "matched_from": "Graphic Card: 128MB nVidia GeForce FX 5600"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Graphic Card: 128MB nVidia GeForce FX 5600 or ATi Radeon 9600 Class"
               }
             ],
-            "min_score": 12
+            "min_score": 3
           }
         }
       },
@@ -3752,25 +3746,13 @@
             "raw": "128 MB on Windows 98SE, 256 on Windows 2000/XP, 32 MB DirectX 9 compatible 3D Graphics card (nVidia GeForce or Ati Radeon Chipset), Windows 98SE/2000/XP-compatible sound card (100% DirectX 9-compatible)",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "128 MB on Windows 98SE, 256 on Windows 2000"
-              },
-              {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "XP, 32 MB DirectX 9 compatible 3D Graphics card (nVidia GeForce"
-              },
-              {
-                "id": "gpu_rtx_pro_2000_blackwell",
-                "name": "RTX PRO 2000 Blackwell",
-                "score": 20620,
-                "matched_from": "2000"
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "128 MB on Windows 98SE, 256 on Windows 2000/XP, 32 MB DirectX 9 compatible 3D Graphics card (nVidia GeForce or Ati Radeon Chipset), Windows 98SE/2000/XP-compatible sound card (100% DirectX 9-compatible)"
               }
             ],
-            "min_score": 5
+            "min_score": 1
           }
         },
         "recommended": {
@@ -4073,13 +4055,13 @@
             "raw": "100% DirectX 9.0c compatible video card which supports Hardware TnL and Pixel Shader 2.0 (GeForce FX / Radeon 9500 or higher)",
             "candidates": [
               {
-                "id": "gpu_radeon_9500",
-                "name": "RADEON 9500",
-                "score": 36,
-                "matched_from": "Radeon 9500"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "100% DirectX 9.0c compatible video card which supports Hardware TnL and Pixel Shader 2.0 (GeForce FX / Radeon 9500 or higher)"
               }
             ],
-            "min_score": 36
+            "min_score": 3
           }
         },
         "recommended": {
@@ -4267,13 +4249,13 @@
             "raw": "3D Hardware Accelerator Card Required - 100% DirectX\u00ae 9.0c compatible with 256 MB and Shader model 2.0. All nVidia\u00ae GeForce\u2122 7 series or higher.",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "3D Hardware Accelerator Card Required - 100% DirectX\u00ae 9.0c compatible with 256 MB and Shader model 2.0. All nVidia\u00ae GeForce\u2122 7 series"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "3D Hardware Accelerator Card Required - 100% DirectX\u00ae 9.0c compatible with 256 MB and Shader model 2.0. All nVidia\u00ae GeForce\u2122 7 series or higher."
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         }
       },
@@ -5214,13 +5196,13 @@
             "raw": "100% DirectX 9 128MB 3D Graphics Card with Pixel Shader 2.0 support",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
                 "matched_from": "100% DirectX 9 128MB 3D Graphics Card with Pixel Shader 2.0 support"
               }
             ],
-            "min_score": 3183
+            "min_score": 1
           }
         }
       },
@@ -6138,13 +6120,13 @@
             "raw": "64 MB DirectX 9 compatible (GeForce4 Ti/Radeon 9000)",
             "candidates": [
               {
-                "id": "gpu_radeon_9000",
-                "name": "RADEON 9000",
-                "score": 4,
-                "matched_from": "Radeon 9000)"
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "64 MB DirectX 9 compatible (GeForce4 Ti/Radeon 9000)"
               }
             ],
-            "min_score": 4
+            "min_score": 1
           }
         },
         "recommended": {
@@ -6447,20 +6429,20 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP SP 2/ Vista / 7 / 8 / 10<br></li><li><strong>Processor:</strong> Intel/AMD Dual Core 1.5 GHz<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> with Shader 2.0 support and 128 MB RAM (Geforce FX 7+, ATI Radeon X2-series)<br></li><li><strong>DirectX:</strong>9.0c <br></li><li><strong>Hard Drive:</strong> 4 GB free hard disc space<br></li><li><strong>Sound:</strong> DirectX 9.0c compatible<br></li><li><strong>Misc:</strong> Keyboard, Mouse</li></ul>",
           "cpu_match": {
             "raw": "Intel/AMD Dual Core 1.5 GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "with Shader 2.0 support and 128 MB RAM (Geforce FX 7+, ATI Radeon X2-series)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "with Shader 2.0 support and 128 MB RAM (Geforce FX 7+, ATI Radeon X2-series)"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -6477,27 +6459,20 @@
           "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP SP 2/ Vista / 7 / 8 / 10<br></li><li><strong>Processor:</strong> Intel/AMD Multicore CPU<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> with Shader 3.0 support and 256 MB RAM<br></li><li><strong>DirectX:</strong>9.0c <br></li><li><strong>Hard Drive:</strong> 5 GB free hard disc space<br></li><li><strong>Sound:</strong> DirectX 9.0c compatible<br></li><li><strong>Misc:</strong> Keyboard, Mouse</li></ul>",
           "cpu_match": {
             "raw": "Intel/AMD Multicore CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "with Shader 3.0 support and 256 MB RAM",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
                 "matched_from": "with Shader 3.0 support and 256 MB RAM"
               }
             ],
-            "min_score": 5
+            "min_score": 12
           }
         }
       },
@@ -6521,8 +6496,15 @@
           },
           "gpu_match": {
             "raw": "with Shader 2.0 support and 128 MB RAM",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "with Shader 2.0 support and 128 MB RAM"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -6546,13 +6528,13 @@
             "raw": "with Shader 3.0 support and 256 MB RAM",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
                 "matched_from": "with Shader 3.0 support and 256 MB RAM"
               }
             ],
-            "min_score": 5
+            "min_score": 12
           }
         }
       },
@@ -6571,20 +6553,20 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS:</strong>  Ubuntu 16.04 LTS or SteamOS<br></li><li><strong>Processor:</strong> Intel/AMD Dual Core 1.5 GHz<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>Graphics:</strong> with Shader 2.0 support and 128 MB RAM<br></li><li><strong>Hard Drive:</strong> 3.1 GB free hard disc space<br></li><li><strong>Sound:</strong> Sound card required<br></li><li><strong>Misc:</strong> Keyboard, Mouse</li></ul>",
           "cpu_match": {
             "raw": "Intel/AMD Dual Core 1.5 GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "with Shader 2.0 support and 128 MB RAM",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "with Shader 2.0 support and 128 MB RAM"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -6601,27 +6583,20 @@
           "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong>  Ubuntu 16.04 LTS or SteamOS<br></li><li><strong>Processor:</strong> Intel/AMD Multicore CPU<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> with Shader 3.0 support and 256 MB RAM<br></li><li><strong>Hard Drive:</strong> 3.1 GB free hard disc space<br></li><li><strong>Sound:</strong>  Sound card required<br></li><li><strong>Misc:</strong> Keyboard, Mouse</li></ul>",
           "cpu_match": {
             "raw": "Intel/AMD Multicore CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "with Shader 3.0 support and 256 MB RAM",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
                 "matched_from": "with Shader 3.0 support and 256 MB RAM"
               }
             ],
-            "min_score": 5
+            "min_score": 12
           }
         }
       }
@@ -6659,8 +6634,15 @@
           },
           "gpu_match": {
             "raw": "Radeon HD, Geforce (Shader 3.0 and 512 MB RAM)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "Radeon HD, Geforce (Shader 3.0 and 512 MB RAM)"
+              }
+            ],
+            "min_score": 12
           }
         },
         "recommended": {
@@ -6805,20 +6787,20 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP SP3 / Vista / 7 / 8<br></li><li><strong>Processor:</strong> Intel/AMD Single-Core CPU 2.0 GHz<br></li><li><strong>Memory:</strong> 1 GB RAM<br></li><li><strong>HD Space:</strong> 300 MB hard disc space \t<br></li><li><strong>Video Card: </strong> Shader 2.0 and 128 MB RAM (Radeon HD, Geforce 8800GT)<br></li><li><strong>DirectX:</strong> DirectX 9.0c or OpenGL 2.1<br></li><li><strong>Misc:</strong> Internet connection for online leaderboards</li></ul>",
           "cpu_match": {
             "raw": "Intel/AMD Single-Core CPU 2.0 GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Shader 2.0 and 128 MB RAM (Radeon HD, Geforce 8800GT)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "Shader 2.0 and 128 MB RAM (Radeon HD, Geforce 8800GT)"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -6835,27 +6817,20 @@
           "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong>  Windows XP SP3 / Vista / 7 / 8<br></li><li><strong>Processor:</strong> Intel/AMD Core Duo<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>HD Space:</strong> 500 MB hard disc space \t<br></li><li><strong>Video Card: </strong> Shader 2.0 and 256 MB RAM<br></li><li><strong>DirectX:</strong> DirectX 9.0c or OpenGL 2.1<br></li><li><strong>Sound:</strong>Stereo Sound Card<br></li><li><strong>Misc:</strong> Internet connection for online leader boards</li></ul>",
           "cpu_match": {
             "raw": "Intel/AMD Core Duo",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Shader 2.0 and 256 MB RAM",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
                 "matched_from": "Shader 2.0 and 256 MB RAM"
               }
             ],
-            "min_score": 5
+            "min_score": 1
           }
         }
       },
@@ -6879,8 +6854,15 @@
           },
           "gpu_match": {
             "raw": "Per-Pixel Shader 2.0 and 128 MB",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "Per-Pixel Shader 2.0 and 128 MB"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -6904,13 +6886,13 @@
             "raw": "with Shader 2.0 support and 256 MB",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
                 "matched_from": "with Shader 2.0 support and 256 MB"
               }
             ],
-            "min_score": 5
+            "min_score": 1
           }
         }
       },
@@ -7019,8 +7001,15 @@
           },
           "gpu_match": {
             "raw": "128MB videocard with pixel shader 2.0 support (Radeon x800",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "128MB videocard with pixel shader 2.0 support (Radeon x800"
+              }
+            ],
+            "min_score": 3
           }
         }
       },
@@ -7774,25 +7763,13 @@
             "raw": "Direct X 9.0c compliant video card with 128MB RAM and Pixel Shader 3.0 (NVIDIA 6600 or better/ATI X1300 or better, excluding ATI X1550)",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "Direct X 9.0c compliant video card with 128MB RAM and Pixel Shader 3.0 (NVIDIA 6600"
-              },
-              {
-                "id": "gpu_radeon_x1300",
-                "name": "Radeon X1300",
-                "score": 58,
-                "matched_from": "ATI X1300"
-              },
-              {
-                "id": "gpu_radeon_550",
-                "name": "Radeon 550",
-                "score": 2119,
-                "matched_from": "better, excluding ATI X1550)"
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "Direct X 9.0c compliant video card with 128MB RAM and Pixel Shader 3.0 (NVIDIA 6600 or better/ATI X1300 or better, excluding ATI X1550)"
               }
             ],
-            "min_score": 58
+            "min_score": 12
           }
         },
         "recommended": {
@@ -7816,13 +7793,13 @@
             "raw": "DX 9 - Direct X 9.0c compliant video card with 512 MB RAM and Pixel Shader 3.0 (NVIDIA GeForce 7900 GT or better), DX 10 - NVIDIA GeForce 8600 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_7900_gt",
-                "name": "GeForce 7900 GT",
-                "score": 258,
-                "matched_from": "DX 9 - Direct X 9.0c compliant video card with 512 MB RAM and Pixel Shader 3.0 (NVIDIA GeForce 7900 GT"
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "DX 9 - Direct X 9.0c compliant video card with 512 MB RAM and Pixel Shader 3.0 (NVIDIA GeForce 7900 GT or better), DX 10 - NVIDIA GeForce 8600 or better"
               }
             ],
-            "min_score": 258
+            "min_score": 12
           }
         }
       },

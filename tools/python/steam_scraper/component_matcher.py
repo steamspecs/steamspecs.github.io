@@ -38,6 +38,104 @@ def load_catalogs(catalog_dir: Path) -> dict[str, list[dict]]:
     }
 
 
+def find_min_score_by_patterns(catalog: list[dict], patterns: list[str]) -> int | None:
+    compiled = [re.compile(pattern, re.IGNORECASE) for pattern in patterns]
+    scores = []
+
+    for component in catalog:
+        values = [component.get("name"), *(component.get("aliases") or [])]
+        normalized_values = [normalize_alias(value) for value in values if clean_text(value)]
+        haystacks = [value for value in normalized_values if value]
+        if any(pattern.search(haystack) for haystack in haystacks for pattern in compiled):
+            score = component.get("score")
+            if score is not None:
+                scores.append(score)
+
+    return min(scores) if scores else None
+
+
+def is_generic_cpu_requirement(text: str) -> bool:
+    normalized = normalize_alias(text) or ""
+    if not normalized:
+        return False
+
+    generic_markers = [
+        "single core cpu",
+        "single core processor",
+        "dual core cpu",
+        "dual core processor",
+        "multicore cpu",
+        "multicore processor",
+        "multi core cpu",
+        "multi core processor",
+        "core duo cpu",
+        "intel amd",
+    ]
+    if not any(marker in normalized for marker in generic_markers):
+        return False
+
+    specific_markers = [
+        "pentium",
+        "athlon",
+        "xeon",
+        "ryzen",
+        "threadripper",
+        "fx ",
+        "core i3",
+        "core i5",
+        "core i7",
+        "core i9",
+        "celeron",
+        "phenom",
+    ]
+    return not any(marker in normalized for marker in specific_markers)
+
+
+def legacy_gpu_requirement(raw_text: str | None, catalog: list[dict]) -> dict | None:
+    normalized = normalize_alias(raw_text)
+    if not normalized:
+        return None
+
+    legacy_rules = [
+        (
+            "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+            [r"geforce fx", r"\bgeforce [678]\b", r"radeon x", r"shader 2 0b"],
+            [r"geforce 6\d{3}", r"geforce 7\d{3}", r"geforce 8\d{3}", r"radeon x\d+"],
+            "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+        ),
+        (
+            "legacy_gpu_shader_model_3",
+            [r"shader 3 0", r"pixel shader 3 0"],
+            [r"geforce 7\d{3}", r"radeon x1\d{3}", r"radeon hd 2\d{3}"],
+            "Legacy Shader Model 3 GPU",
+        ),
+        (
+            "legacy_gpu_shader_model_2",
+            [r"shader 2 0", r"shader 2 0b", r"transform and lighting", r"directx 8 1", r"directx 9 compatible"],
+            [r"geforce fx", r"geforce 6\d{3}", r"radeon 7\d{3}", r"radeon x\d+"],
+            "Legacy Shader Model 2 GPU",
+        ),
+    ]
+
+    for rule_id, triggers, score_patterns, label in legacy_rules:
+        if any(re.search(trigger, normalized, re.IGNORECASE) for trigger in triggers):
+            min_score = find_min_score_by_patterns(catalog, score_patterns)
+            if min_score is None:
+                min_score = 1500
+            return {
+                "raw": clean_text(raw_text),
+                "candidates": [{
+                    "id": rule_id,
+                    "name": label,
+                    "score": min_score,
+                    "matched_from": clean_text(raw_text),
+                }],
+                "min_score": min_score,
+            }
+
+    return None
+
+
 def split_requirement_variants(raw_text: str | None) -> list[str]:
     text = clean_text(raw_text)
     if not text:
@@ -77,7 +175,18 @@ def match_component_variant(raw_text: str, catalog: list[dict]) -> dict | None:
     return None
 
 
-def match_component_requirement(raw_text: str | None, catalog: list[dict]) -> dict:
+def match_component_requirement(raw_text: str | None, catalog: list[dict], kind: str) -> dict:
+    if kind == "cpu" and is_generic_cpu_requirement(raw_text or ""):
+        return {
+            "raw": clean_text(raw_text),
+            "candidates": [],
+            "min_score": None,
+        }
+
+    legacy_gpu = legacy_gpu_requirement(raw_text, catalog) if kind == "gpu" else None
+    if legacy_gpu:
+        return legacy_gpu
+
     variants = split_requirement_variants(raw_text)
     candidates = []
 
@@ -106,8 +215,8 @@ def annotate_requirement_components(requirement: dict | None, catalogs: dict[str
         return requirement
 
     annotated = dict(requirement)
-    annotated["cpu_match"] = match_component_requirement(annotated.get("cpu"), catalogs.get("cpu", []))
-    annotated["gpu_match"] = match_component_requirement(annotated.get("gpu"), catalogs.get("gpu", []))
+    annotated["cpu_match"] = match_component_requirement(annotated.get("cpu"), catalogs.get("cpu", []), "cpu")
+    annotated["gpu_match"] = match_component_requirement(annotated.get("gpu"), catalogs.get("gpu", []), "gpu")
     return annotated
 
 
@@ -124,7 +233,7 @@ def main() -> None:
     catalog_dir = Path(args.catalog_dir)
     catalog_file = catalog_dir / ("cpus.json" if args.kind == "cpu" else "gpus.json")
     catalog = load_catalog(catalog_file)
-    result = match_component_requirement(args.text, catalog)
+    result = match_component_requirement(args.text, catalog, args.kind)
     print(json.dumps(result, indent=2))
 
 

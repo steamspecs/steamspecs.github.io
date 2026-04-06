@@ -1674,19 +1674,13 @@
             "raw": "GeForce FX 5900 Ultra or ATi Radeon 9500 Pro or better",
             "candidates": [
               {
-                "id": "gpu_geforce_fx_5900_ultra",
-                "name": "GeForce FX 5900 Ultra",
-                "score": 41,
-                "matched_from": "GeForce FX 5900 Ultra"
-              },
-              {
-                "id": "gpu_radeon_pro",
-                "name": "Radeon Pro",
-                "score": 2559,
-                "matched_from": "ATi Radeon 9500 Pro"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "GeForce FX 5900 Ultra or ATi Radeon 9500 Pro or better"
               }
             ],
-            "min_score": 41
+            "min_score": 3
           }
         }
       },
@@ -2858,13 +2852,13 @@
             "raw": "NVIDIA Geforce 7300 or better or ATI Radeon X1600",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
-                "matched_from": "ATI Radeon X1600"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA Geforce 7300 or better or ATI Radeon X1600"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -3962,13 +3956,13 @@
             "raw": "256 MB 3D DirectX 9 Compatible video card (not onboard) with Pixel Shader 1.1 support",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
                 "matched_from": "256 MB 3D DirectX 9 Compatible video card (not onboard) with Pixel Shader 1.1 support"
               }
             ],
-            "min_score": 5
+            "min_score": 1
           }
         },
         "recommended": {
@@ -4659,8 +4653,15 @@
           },
           "gpu_match": {
             "raw": "32MB video card (Nvidia Geforce or ATI Radeon) DirectX 8.1 compatible sound card",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "32MB video card (Nvidia Geforce or ATI Radeon) DirectX 8.1 compatible sound card"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -4689,8 +4690,15 @@
           },
           "gpu_match": {
             "raw": "32MB video card (Nvidia Geforce or ATI Radeon) DirectX 8.1 compatible sound card",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "32MB video card (Nvidia Geforce or ATI Radeon) DirectX 8.1 compatible sound card"
+              }
+            ],
+            "min_score": 1
           }
         }
       },
@@ -4824,8 +4832,15 @@
           },
           "gpu_match": {
             "raw": "32MB video card (Nvidia Geforce or ATI Radeon) DirectX 8.1 compatible sound card",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "32MB video card (Nvidia Geforce or ATI Radeon) DirectX 8.1 compatible sound card"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -4854,8 +4869,15 @@
           },
           "gpu_match": {
             "raw": "32MB video card (Nvidia Geforce or ATI Radeon) DirectX 8.1 compatible sound card",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "32MB video card (Nvidia Geforce or ATI Radeon) DirectX 8.1 compatible sound card"
+              }
+            ],
+            "min_score": 1
           }
         }
       },
@@ -4989,8 +5011,15 @@
           },
           "gpu_match": {
             "raw": "32MB video card (Nvidia Geforce or ATI Radeon) DirectX 8.1 compatible sound card",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "32MB video card (Nvidia Geforce or ATI Radeon) DirectX 8.1 compatible sound card"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -5019,8 +5048,15 @@
           },
           "gpu_match": {
             "raw": "32MB video card (Nvidia Geforce or ATI Radeon) DirectX 8.1 compatible sound card",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "32MB video card (Nvidia Geforce or ATI Radeon) DirectX 8.1 compatible sound card"
+              }
+            ],
+            "min_score": 1
           }
         }
       },
@@ -5478,13 +5514,13 @@
             "raw": "Graphics card with 128MB, DX 9.0 compatible (GeForce FX 5700 or ATI Radeon 9600)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Graphics card with 128MB, DX 9.0 compatible (GeForce FX 5700"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Graphics card with 128MB, DX 9.0 compatible (GeForce FX 5700 or ATI Radeon 9600)"
               }
             ],
-            "min_score": 3183
+            "min_score": 3
           }
         },
         "recommended": {
@@ -6029,19 +6065,13 @@
             "raw": "256 MB GeForce 6600/Radeon X1600",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "256 MB GeForce 6600"
-              },
-              {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
-                "matched_from": "Radeon X1600"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "256 MB GeForce 6600/Radeon X1600"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         }
       },
@@ -6321,13 +6351,13 @@
             "raw": "DirectX Version: 128 MB DirectX(R) 9 Compatible Video Card (NVIDIA(R) GeForce(R) FX 5600",
             "candidates": [
               {
-                "id": "gpu_ion",
-                "name": "ION",
-                "score": 108,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "DirectX Version: 128 MB DirectX(R) 9 Compatible Video Card (NVIDIA(R) GeForce(R) FX 5600"
               }
             ],
-            "min_score": 108
+            "min_score": 3
           }
         },
         "recommended": {
@@ -6351,13 +6381,13 @@
             "raw": "DirectX Version: 256 MB DirectX(R) 9 Compatible Video Card (NVIDIA(R) GeForce(R) 7800",
             "candidates": [
               {
-                "id": "gpu_ion",
-                "name": "ION",
-                "score": 108,
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
                 "matched_from": "DirectX Version: 256 MB DirectX(R) 9 Compatible Video Card (NVIDIA(R) GeForce(R) 7800"
               }
             ],
-            "min_score": 108
+            "min_score": 1
           }
         }
       },
@@ -11363,13 +11393,13 @@
             "raw": "32MB graphics card that supports Transform and Lighting (GeForce 1, ATI Radeon 7500 or better)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "32MB graphics card that supports Transform and Lighting (GeForce 1, ATI Radeon 7500"
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "32MB graphics card that supports Transform and Lighting (GeForce 1, ATI Radeon 7500 or better)"
               }
             ],
-            "min_score": 3183
+            "min_score": 1
           }
         },
         "recommended": {
@@ -11860,13 +11890,13 @@
             "raw": "256 MB GeForce FX 5600 or higher or ATI Radeon 9600 or higher",
             "candidates": [
               {
-                "id": "gpu_geforce_fx_5600",
-                "name": "GeForce FX 5600",
-                "score": 12,
-                "matched_from": "256 MB GeForce FX 5600"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "256 MB GeForce FX 5600 or higher or ATI Radeon 9600 or higher"
               }
             ],
-            "min_score": 12
+            "min_score": 3
           }
         }
       },
@@ -11993,8 +12023,15 @@
           },
           "gpu_match": {
             "raw": "100% DirectX 8.1 compatible video card",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "100% DirectX 8.1 compatible video card"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -12144,8 +12181,15 @@
           },
           "gpu_match": {
             "raw": "100% DirectX 8.1 compatible video card",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "100% DirectX 8.1 compatible video card"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -12167,8 +12211,15 @@
           },
           "gpu_match": {
             "raw": "100% DirectX 8.1 compatible video card",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "100% DirectX 8.1 compatible video card"
+              }
+            ],
+            "min_score": 1
           }
         }
       },
@@ -12320,13 +12371,13 @@
             "raw": ", 128 MB GeForce FX 5600 or higher or ATI(R) Radeon 9600 or higher",
             "candidates": [
               {
-                "id": "gpu_geforce_fx_5600",
-                "name": "GeForce FX 5600",
-                "score": 12,
-                "matched_from": "128 MB GeForce FX 5600"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": ", 128 MB GeForce FX 5600 or higher or ATI(R) Radeon 9600 or higher"
               }
             ],
-            "min_score": 12
+            "min_score": 3
           }
         }
       },
@@ -12524,13 +12575,13 @@
             "raw": "(ATI): Radeon 9600 Video Card (NVidia): GeForce FX 5200",
             "candidates": [
               {
-                "id": "gpu_radeon_520",
-                "name": "Radeon 520",
-                "score": 883,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "(ATI): Radeon 9600 Video Card (NVidia): GeForce FX 5200"
               }
             ],
-            "min_score": 883
+            "min_score": 3
           }
         },
         "recommended": {
@@ -12554,13 +12605,13 @@
             "raw": "(ATI): Radeon 9600 Video Card (NVidia): GeForce FX 5200",
             "candidates": [
               {
-                "id": "gpu_radeon_520",
-                "name": "Radeon 520",
-                "score": 883,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "(ATI): Radeon 9600 Video Card (NVidia): GeForce FX 5200"
               }
             ],
-            "min_score": 883
+            "min_score": 3
           }
         }
       },
@@ -13328,13 +13379,13 @@
             "raw": "(ATI): Radeon 9600 Video Card (NVidia): GeForce FX 5200",
             "candidates": [
               {
-                "id": "gpu_radeon_520",
-                "name": "Radeon 520",
-                "score": 883,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "(ATI): Radeon 9600 Video Card (NVidia): GeForce FX 5200"
               }
             ],
-            "min_score": 883
+            "min_score": 3
           }
         },
         "recommended": {
@@ -13365,13 +13416,13 @@
             "raw": "(ATI): Radeon 9600 Video Card (NVidia): GeForce FX 5200",
             "candidates": [
               {
-                "id": "gpu_radeon_520",
-                "name": "Radeon 520",
-                "score": 883,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "(ATI): Radeon 9600 Video Card (NVidia): GeForce FX 5200"
               }
             ],
-            "min_score": 883
+            "min_score": 3
           }
         }
       },

@@ -708,8 +708,15 @@
           },
           "gpu_match": {
             "raw": "DirectX\u00ae 9.0 compatible, PixelShader 2.0",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DirectX\u00ae 9.0 compatible, PixelShader 2.0"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -861,13 +868,13 @@
             "raw": "One of the following graphics cards (or higher) with at least 64 MB of memory: Nvidia GeForce FX 5200, ATI Radeon 9500, Intel GMA 900, VIA/S3 Chrome 9 or higher",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "One of the following graphics cards (or higher) with at least 64 MB of memory: Nvidia GeForce FX 5200, ATI Radeon 9500, Intel GMA 900, VIA"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "One of the following graphics cards (or higher) with at least 64 MB of memory: Nvidia GeForce FX 5200, ATI Radeon 9500, Intel GMA 900, VIA/S3 Chrome 9 or higher"
               }
             ],
-            "min_score": 3183
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1019,13 +1026,13 @@
             "raw": "Nvidia GeForce FX 5600, ATI 9500, Intel GMA 950 or higher",
             "candidates": [
               {
-                "id": "gpu_radeon_9500",
-                "name": "RADEON 9500",
-                "score": 36,
-                "matched_from": "Nvidia GeForce FX 5600, ATI 9500, Intel GMA 950"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Nvidia GeForce FX 5600, ATI 9500, Intel GMA 950 or higher"
               }
             ],
-            "min_score": 36
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1712,13 +1719,13 @@
             "raw": "(ATI): Radeon X1600 Video Card (NVidia): GeForce FX 8600",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "(ATI): Radeon X1600 Video Card (NVidia): GeForce FX 8600"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1742,13 +1749,13 @@
             "raw": "(ATI): Radeon X1600 Video Card (NVidia): GeForce FX 8600",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "(ATI): Radeon X1600 Video Card (NVidia): GeForce FX 8600"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         }
       },
@@ -3834,8 +3841,15 @@
           },
           "gpu_match": {
             "raw": "64 MB DirectX 8.1 compatible card",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "64 MB DirectX 8.1 compatible card"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -3857,8 +3871,15 @@
           },
           "gpu_match": {
             "raw": "64 MB DirectX 8.1 compatible card",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "64 MB DirectX 8.1 compatible card"
+              }
+            ],
+            "min_score": 1
           }
         }
       },
@@ -3985,8 +4006,15 @@
           },
           "gpu_match": {
             "raw": "64 MB DirectX 8.1 compatible card",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "64 MB DirectX 8.1 compatible card"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -4138,13 +4166,13 @@
             "raw": "NVIDIA GeForce 6800 GT, ATI Radeon 9800 Pro (Radeon X800 Pro for Vista) or better",
             "candidates": [
               {
-                "id": "gpu_radeon_pro",
-                "name": "Radeon Pro",
-                "score": 2559,
-                "matched_from": "NVIDIA GeForce 6800 GT, ATI Radeon 9800 Pro (Radeon X800 Pro for Vista)"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 6800 GT, ATI Radeon 9800 Pro (Radeon X800 Pro for Vista) or better"
               }
             ],
-            "min_score": 2559
+            "min_score": 3
           }
         },
         "recommended": {
@@ -4294,8 +4322,15 @@
           },
           "gpu_match": {
             "raw": "128 MB Video Card, with support for Pixel Shader 2.0",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "128 MB Video Card, with support for Pixel Shader 2.0"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -4603,8 +4638,15 @@
           },
           "gpu_match": {
             "raw": "128 MB Video Card, with support for Pixel Shader 2.0",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "128 MB Video Card, with support for Pixel Shader 2.0"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -5058,13 +5100,13 @@
             "raw": "DirectX\u00ae 9.0c compatible video card, NVIDIA GeForce 6800 or better, ATI Radeon X800 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_6800",
-                "name": "GeForce 6800",
-                "score": 112,
-                "matched_from": "DirectX\u00ae 9.0c compatible video card, NVIDIA GeForce 6800"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "DirectX\u00ae 9.0c compatible video card, NVIDIA GeForce 6800 or better, ATI Radeon X800 or better"
               }
             ],
-            "min_score": 112
+            "min_score": 3
           }
         },
         "recommended": {
@@ -5422,19 +5464,13 @@
             "raw": "NVIDIA GeForce 8 or higher, ATI X1600 or higher, Intel HD 3000 or higher",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
-                "matched_from": "higher, ATI X1600"
-              },
-              {
-                "id": "gpu_radeon_3000",
-                "name": "Radeon 3000",
-                "score": 98,
-                "matched_from": "higher, Intel HD 3000"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8 or higher, ATI X1600 or higher, Intel HD 3000 or higher"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -5708,8 +5744,15 @@
           },
           "gpu_match": {
             "raw": "Video card must be 128 MB or more and should be a DirectX 9-compatible with support for Pixel Shader 2.0b (ATI Radeon HD 2900 - NVidia GeForce 8800)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Video card must be 128 MB or more and should be a DirectX 9-compatible with support for Pixel Shader 2.0b (ATI Radeon HD 2900 - NVidia GeForce 8800)"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -5885,8 +5928,15 @@
           },
           "gpu_match": {
             "raw": "128 MB or more with support for Pixel Shader 2.0b",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "128 MB or more with support for Pixel Shader 2.0b"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {

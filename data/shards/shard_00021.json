@@ -190,13 +190,13 @@
             "raw": "DirectX 9.0c/Shader3.0 compatible, VRAM 512 MB (NVIDIA GeForce 7800 series or ATI Radeon X1900)",
             "candidates": [
               {
-                "id": "gpu_radeon_r3",
-                "name": "Radeon R3",
-                "score": 316,
-                "matched_from": "Shader3.0 compatible, VRAM 512 MB (NVIDIA GeForce 7800 series"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "DirectX 9.0c/Shader3.0 compatible, VRAM 512 MB (NVIDIA GeForce 7800 series or ATI Radeon X1900)"
               }
             ],
-            "min_score": 316
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1597,13 +1597,13 @@
             "raw": "256MB DirectX\u00ae 9.0c compliant supporting Pixel Shader 2.0 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "256MB DirectX\u00ae 9.0c compliant supporting Pixel Shader 2.0"
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "256MB DirectX\u00ae 9.0c compliant supporting Pixel Shader 2.0 or better"
               }
             ],
-            "min_score": 5
+            "min_score": 1
           }
         },
         "recommended": {
@@ -1913,13 +1913,13 @@
             "raw": "Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2078,13 +2078,13 @@
             "raw": "Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2243,13 +2243,13 @@
             "raw": "Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2408,13 +2408,13 @@
             "raw": "Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2580,19 +2580,13 @@
             "raw": "Shader 3.0 or better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT / ATI Radeon\u00ae X1950Pro or better",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT"
-              },
-              {
-                "id": "gpu_radeon_pro",
-                "name": "Radeon Pro",
-                "score": 2559,
-                "matched_from": "ATI Radeon\u00ae X1950Pro"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Shader 3.0 or better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT / ATI Radeon\u00ae X1950Pro or better"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2751,19 +2745,13 @@
             "raw": "Shader 3.0 or better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT / ATI Radeon\u00ae X1950Pro or better",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT"
-              },
-              {
-                "id": "gpu_radeon_pro",
-                "name": "Radeon Pro",
-                "score": 2559,
-                "matched_from": "ATI Radeon\u00ae X1950Pro"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Shader 3.0 or better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT / ATI Radeon\u00ae X1950Pro or better"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2922,19 +2910,13 @@
             "raw": "Shader 3.0 or better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT / ATI Radeon\u00ae X1950Pro or better",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT"
-              },
-              {
-                "id": "gpu_radeon_pro",
-                "name": "Radeon Pro",
-                "score": 2559,
-                "matched_from": "ATI Radeon\u00ae X1950Pro"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Shader 3.0 or better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT / ATI Radeon\u00ae X1950Pro or better"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -3093,19 +3075,13 @@
             "raw": "Shader 3.0 or better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT / ATI Radeon\u00ae X1950Pro or better",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT"
-              },
-              {
-                "id": "gpu_radeon_pro",
-                "name": "Radeon Pro",
-                "score": 2559,
-                "matched_from": "ATI Radeon\u00ae X1950Pro"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Shader 3.0 or better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT / ATI Radeon\u00ae X1950Pro or better"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -3264,19 +3240,13 @@
             "raw": "Shader 3.0 or better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT / ATI Radeon\u00ae X1950Pro or better",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT"
-              },
-              {
-                "id": "gpu_radeon_pro",
-                "name": "Radeon Pro",
-                "score": 2559,
-                "matched_from": "ATI Radeon\u00ae X1950Pro"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Shader 3.0 or better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT / ATI Radeon\u00ae X1950Pro or better"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -3426,8 +3396,15 @@
           },
           "gpu_match": {
             "raw": "128 MB DirectX 9.0c compatible or better video card with Pixel Shader 2.0",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "128 MB DirectX 9.0c compatible or better video card with Pixel Shader 2.0"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -3730,13 +3707,13 @@
             "raw": "nVidia GeForce FX 5700 or ATI Radeon 9600",
             "candidates": [
               {
-                "id": "gpu_geforce_fx_5700",
-                "name": "GeForce FX 5700",
-                "score": 40,
-                "matched_from": "nVidia GeForce FX 5700"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "nVidia GeForce FX 5700 or ATI Radeon 9600"
               }
             ],
-            "min_score": 40
+            "min_score": 3
           }
         },
         "recommended": {
@@ -4362,13 +4339,13 @@
             "raw": "GeForce 8800 or ATI Radeon X1900 videocard",
             "candidates": [
               {
-                "id": "gpu_geforce_8800_ultra",
-                "name": "GeForce 8800 Ultra",
-                "score": 642,
-                "matched_from": "GeForce 8800"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "GeForce 8800 or ATI Radeon X1900 videocard"
               }
             ],
-            "min_score": 642
+            "min_score": 3
           }
         },
         "recommended": {
@@ -4520,13 +4497,13 @@
             "raw": "GeForce 8800 or ATI Radeon X1900 videocard",
             "candidates": [
               {
-                "id": "gpu_geforce_8800_ultra",
-                "name": "GeForce 8800 Ultra",
-                "score": 642,
-                "matched_from": "GeForce 8800"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "GeForce 8800 or ATI Radeon X1900 videocard"
               }
             ],
-            "min_score": 642
+            "min_score": 3
           }
         },
         "recommended": {
@@ -4678,13 +4655,13 @@
             "raw": "GeForce 8800 or ATI Radeon X1900 videocard",
             "candidates": [
               {
-                "id": "gpu_geforce_8800_ultra",
-                "name": "GeForce 8800 Ultra",
-                "score": 642,
-                "matched_from": "GeForce 8800"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "GeForce 8800 or ATI Radeon X1900 videocard"
               }
             ],
-            "min_score": 642
+            "min_score": 3
           }
         },
         "recommended": {
@@ -4834,8 +4811,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8800 or ATI Radeon X1900 videocard",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8800 or ATI Radeon X1900 videocard"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -4985,8 +4969,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8800 or ATI Radeon X1900 videocard",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8800 or ATI Radeon X1900 videocard"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -5136,8 +5127,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA\u00ae GeForce 8800 or ATI Radeon\u00ae X1900 (Integrated Video Cards not recommended)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA\u00ae GeForce 8800 or ATI Radeon\u00ae X1900 (Integrated Video Cards not recommended)"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {

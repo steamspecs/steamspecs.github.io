@@ -359,8 +359,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 6 series, ATI 1300XT series",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 6 series, ATI 1300XT series"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -510,8 +517,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 6 series, ATI 1300XT series",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 6 series, ATI 1300XT series"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -661,8 +675,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 6 series, ATI 1300XT series",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 6 series, ATI 1300XT series"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -812,8 +833,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 6 series, ATI 1300XT series",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 6 series, ATI 1300XT series"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -963,8 +991,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 6 series, ATI 1300XT series",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 6 series, ATI 1300XT series"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {

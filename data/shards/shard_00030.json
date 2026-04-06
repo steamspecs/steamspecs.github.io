@@ -328,19 +328,13 @@
             "raw": "256MB video ram or better (GeForce 7 series or higher/Radeon X600 series or higher)",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "256MB video ram"
-              },
-              {
-                "id": "gpu_radeon_x600_se",
-                "name": "RADEON X600 SE",
-                "score": 49,
-                "matched_from": "Radeon X600 series"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "256MB video ram or better (GeForce 7 series or higher/Radeon X600 series or higher)"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -657,25 +651,13 @@
             "raw": "ATI Radeon X850 256MB or NVIDIA GeForce 6600 GT 128MB or greater (Windows Vista: Radeon X1550 256MB or NVidia GeForce 7600GT 256MB)",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "ATI Radeon X850 256MB"
-              },
-              {
-                "id": "gpu_geforce_6600_gt",
-                "name": "GeForce 6600 GT",
-                "score": 142,
-                "matched_from": "NVIDIA GeForce 6600 GT 128MB"
-              },
-              {
-                "id": "gpu_radeon_550",
-                "name": "Radeon 550",
-                "score": 2119,
-                "matched_from": "greater (Windows Vista: Radeon X1550 256MB"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X850 256MB or NVIDIA GeForce 6600 GT 128MB or greater (Windows Vista: Radeon X1550 256MB or NVidia GeForce 7600GT 256MB)"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1596,13 +1578,13 @@
             "raw": "OpenGL 2.0 with shader model 3 required, ATI Radeon X1300 or better, Nvidia 6000-series or better",
             "candidates": [
               {
-                "id": "gpu_radeon_x1300",
-                "name": "Radeon X1300",
-                "score": 58,
-                "matched_from": "OpenGL 2.0 with shader model 3 required, ATI Radeon X1300"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "OpenGL 2.0 with shader model 3 required, ATI Radeon X1300 or better, Nvidia 6000-series or better"
               }
             ],
-            "min_score": 58
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1754,13 +1736,13 @@
             "raw": "Graphics Card with 256 MB of RAM that supports Pixel Shader 2.0 and Vertex Shader 2.0",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
                 "matched_from": "Graphics Card with 256 MB of RAM that supports Pixel Shader 2.0 and Vertex Shader 2.0"
               }
             ],
-            "min_score": 3183
+            "min_score": 1
           }
         },
         "recommended": {

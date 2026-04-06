@@ -349,13 +349,13 @@
             "raw": "Radeon X1000/GF 6 - Integrated graphics and very low budget cards might not work.",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "GF 6 - Integrated graphics and very low budget cards might not work."
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Radeon X1000/GF 6 - Integrated graphics and very low budget cards might not work."
               }
             ],
-            "min_score": 3183
+            "min_score": 3
           }
         },
         "recommended": {
@@ -404,13 +404,13 @@
             "raw": "Radeon X1000/GeForce 6 (Integrated Intel Graphics not supported)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "GeForce 6 (Integrated Intel Graphics not supported)"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Radeon X1000/GeForce 6 (Integrated Intel Graphics not supported)"
               }
             ],
-            "min_score": 3183
+            "min_score": 3
           }
         },
         "recommended": {
@@ -459,13 +459,13 @@
             "raw": "Radeon X1000/GeForce 6 - Integrated graphics and low budget cards might not work.",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "GeForce 6 - Integrated graphics and low budget cards might not work."
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Radeon X1000/GeForce 6 - Integrated graphics and low budget cards might not work."
               }
             ],
-            "min_score": 3183
+            "min_score": 3
           }
         },
         "recommended": {
@@ -679,13 +679,13 @@
             "raw": "256 MB DirectX 9.0c compatible PCIe (Geforce 6 Series/Radeon X1000 Series)",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "256 MB DirectX 9.0c compatible PCIe (Geforce 6 Series"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "256 MB DirectX 9.0c compatible PCIe (Geforce 6 Series/Radeon X1000 Series)"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1469,19 +1469,13 @@
             "raw": "Shader Model 3.0 (Geforce 6600 or higher, Radeon X1600-Series), 256 MB, DirectX 9.0c",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "Shader Model 3.0 (Geforce 6600"
-              },
-              {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
-                "matched_from": "higher, Radeon X1600-Series), 256 MB, DirectX 9.0c"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Shader Model 3.0 (Geforce 6600 or higher, Radeon X1600-Series), 256 MB, DirectX 9.0c"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1640,19 +1634,13 @@
             "raw": "Shader Model 3.0 (Geforce 6600 or higher, Radeon X1600-Series), 256 MB, DirectX 9.0c",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "Shader Model 3.0 (Geforce 6600"
-              },
-              {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
-                "matched_from": "higher, Radeon X1600-Series), 256 MB, DirectX 9.0c"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Shader Model 3.0 (Geforce 6600 or higher, Radeon X1600-Series), 256 MB, DirectX 9.0c"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1811,19 +1799,13 @@
             "raw": "Shader Model 3.0 (Geforce 6600 or higher, Radeon X1600-Series), 256 MB, DirectX 9.0c",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "Shader Model 3.0 (Geforce 6600"
-              },
-              {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
-                "matched_from": "higher, Radeon X1600-Series), 256 MB, DirectX 9.0c"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Shader Model 3.0 (Geforce 6600 or higher, Radeon X1600-Series), 256 MB, DirectX 9.0c"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2291,13 +2273,13 @@
             "raw": "Shader Model 2.0 PCIe (Geforce 6 series, Radeon X1000 series), 256 MB, DirectX 9.0c",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "Shader Model 2.0 PCIe (Geforce 6 series, Radeon X1000 series), 256 MB, DirectX 9.0c"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2449,13 +2431,13 @@
             "raw": "Shader 3.0 compatible graphics card (Ati 2600, Geforce 8800 or similar) with 512 MB RAM",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Shader 3.0 compatible graphics card (Ati 2600, Geforce 8800"
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "Shader 3.0 compatible graphics card (Ati 2600, Geforce 8800 or similar) with 512 MB RAM"
               }
             ],
-            "min_score": 3183
+            "min_score": 12
           }
         },
         "recommended": {
@@ -2479,13 +2461,13 @@
             "raw": "Shader 3.0 compatible graphics card (Ati 5850 and Geforce 460 or better) with 768 MB RAM",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Shader 3.0 compatible graphics card (Ati 5850 and Geforce 460"
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "Shader 3.0 compatible graphics card (Ati 5850 and Geforce 460 or better) with 768 MB RAM"
               }
             ],
-            "min_score": 3183
+            "min_score": 12
           }
         }
       },
@@ -2511,13 +2493,13 @@
             "raw": "Shader 3.0 compatible graphics card (Ati 2600, Geforce 8800 or similar) with 512 MB RAM",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Shader 3.0 compatible graphics card (Ati 2600, Geforce 8800"
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "Shader 3.0 compatible graphics card (Ati 2600, Geforce 8800 or similar) with 512 MB RAM"
               }
             ],
-            "min_score": 3183
+            "min_score": 12
           }
         },
         "recommended": {
@@ -2541,13 +2523,13 @@
             "raw": "Shader 3.0 compatible graphics card (Ati 5850 and Geforce 460 or better) with 768 MB RAM",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Shader 3.0 compatible graphics card (Ati 5850 and Geforce 460"
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "Shader 3.0 compatible graphics card (Ati 5850 and Geforce 460 or better) with 768 MB RAM"
               }
             ],
-            "min_score": 3183
+            "min_score": 12
           }
         }
       },
@@ -2573,13 +2555,13 @@
             "raw": "Shader 3.0 compatible graphics card with 512 MB RAM (ATI Radeon/NVIDIA GEForce 4)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Shader 3.0 compatible graphics card with 512 MB RAM (ATI Radeon"
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "Shader 3.0 compatible graphics card with 512 MB RAM (ATI Radeon/NVIDIA GEForce 4)"
               }
             ],
-            "min_score": 3183
+            "min_score": 12
           }
         },
         "recommended": {
@@ -2610,13 +2592,13 @@
             "raw": "Shader 3.0 compatible graphics card with 768 MB RAM (or more) (ATI Radeon/NVIDIA GEForce 4)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Shader 3.0 compatible graphics card with 768 MB RAM (or more) (ATI Radeon"
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "Shader 3.0 compatible graphics card with 768 MB RAM (or more) (ATI Radeon/NVIDIA GEForce 4)"
               }
             ],
-            "min_score": 3183
+            "min_score": 12
           }
         }
       }

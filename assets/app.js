@@ -317,15 +317,34 @@ function fmtGb(n) {
   return `${n} GB`;
 }
 
-function compareNumeric(userVal, reqVal) {
+function fmtComparisonNumber(value, kind = "generic") {
+  const n = toNumberOrNull(value);
+  if (n === null) return "Unknown";
+  if (kind === "ram" || kind === "storage") return `${n}GB`;
+  return String(n);
+}
+
+function compareNumeric(userVal, reqVal, kind = "generic") {
   if (reqVal === null || reqVal === undefined || Number.isNaN(reqVal)) {
-    return { status: "unknown", text: "No numeric requirement" };
+    return { status: "unknown", text: "No numeric requirement", label: "Check" };
   }
   if (userVal === null || userVal === undefined || Number.isNaN(userVal)) {
-    return { status: "unknown", text: "Your value missing" };
+    return { status: "unknown", text: "Your value missing", label: "Check" };
   }
-  if (userVal >= reqVal) return { status: "good", text: `Meets (${userVal} vs ${reqVal})` };
-  return { status: "bad", text: `Below (${userVal} vs ${reqVal})` };
+
+  if (kind !== "ram" && kind !== "storage") {
+    if (userVal >= reqVal) return { status: "good", text: `${fmtComparisonNumber(userVal)} > ${fmtComparisonNumber(reqVal)}`, label: "Pass" };
+    return { status: "bad", text: `${fmtComparisonNumber(userVal)} < ${fmtComparisonNumber(reqVal)}`, label: "Fail" };
+  }
+
+  const ratio = reqVal > 0 ? userVal / reqVal : null;
+  if (userVal >= reqVal) {
+    if (ratio !== null && ratio >= 2) {
+      return { status: "good", text: `${fmtComparisonNumber(userVal, kind)} > ${fmtComparisonNumber(reqVal, kind)}`, label: "Likely" };
+    }
+    return { status: "good", text: `${fmtComparisonNumber(userVal, kind)} > ${fmtComparisonNumber(reqVal, kind)}`, label: "Pass" };
+  }
+  return { status: "bad", text: `${fmtComparisonNumber(userVal, kind)} < ${fmtComparisonNumber(reqVal, kind)}`, label: "Unlikely" };
 }
 
 function parseClockGhz(text) {
@@ -359,8 +378,8 @@ function compareCpuRequirement(req, userText) {
   if (reqClock !== null) {
     if (!cleanText(userText)) return { status: "unknown", text: "Your CPU missing", method: null };
     if (userClock === null) return { status: "unknown", text: "Your CPU clock unknown", method: null };
-    if (userClock >= reqClock) return { status: "good", text: `Clock meets (${userClock.toFixed(2)} vs ${reqClock.toFixed(2)} GHz)`, method: "clock" };
-    return { status: "bad", text: `Clock below (${userClock.toFixed(2)} vs ${reqClock.toFixed(2)} GHz)`, method: "clock" };
+    if (userClock >= reqClock) return { status: "good", text: `${userClock.toFixed(2)} GHz > ${reqClock.toFixed(2)} GHz`, method: "clock" };
+    return { status: "bad", text: `${userClock.toFixed(2)} GHz < ${reqClock.toFixed(2)} GHz`, method: "clock" };
   }
 
   return catalogCmp;
@@ -374,20 +393,22 @@ function buildRequirementChecks(req, build) {
   return [
     { key: "cpu", required: Boolean(cleanText(req?.cpu)), result: compareCpuRequirement(req, build?.specs?.cpu) },
     { key: "gpu", required: Boolean(cleanText(req?.gpu)), result: compareGpuRequirement(req, build?.specs?.gpu) },
-    { key: "ram", required: req?.ram_gb !== null && req?.ram_gb !== undefined, result: compareNumeric(build?.specs?.ram_gb, req?.ram_gb) },
-    { key: "storage", required: req?.storage_gb !== null && req?.storage_gb !== undefined, result: compareNumeric(build?.specs?.storage_gb, req?.storage_gb) }
+    { key: "ram", required: req?.ram_gb !== null && req?.ram_gb !== undefined, result: compareNumeric(build?.specs?.ram_gb, req?.ram_gb, "ram") },
+    { key: "storage", required: req?.storage_gb !== null && req?.storage_gb !== undefined, result: compareNumeric(build?.specs?.storage_gb, req?.storage_gb, "storage") }
   ];
 }
 
 function badgeClass(status) {
   if (status === "good") return "badge good";
   if (status === "bad") return "badge bad";
+  if (status === "unknown") return "badge unknown";
   return "badge warn";
 }
 
-function requirementLabel(status) {
-  if (status === "good") return "Pass";
-  if (status === "bad") return "Fail";
+function requirementLabel(comparison) {
+  if (comparison?.label) return comparison.label;
+  if (comparison?.status === "good") return "Pass";
+  if (comparison?.status === "bad") return "Fail";
   return "Check";
 }
 
@@ -404,7 +425,7 @@ function renderComparisonValue(value, comparison) {
     <div class="compareValue">
       <div>${value}</div>
       <div class="compareBadges">
-        <span class="${badgeClass(comparison.status)}">${requirementLabel(comparison.status)}</span>
+        <span class="${badgeClass(comparison.status)}">${requirementLabel(comparison)}</span>
         ${methodLabel ? `<span class="compareMethod">${methodLabel}</span>` : ""}
       </div>
     </div>
@@ -449,7 +470,12 @@ function cloneRequirement(req) {
     else if (key === "cpu_match" || key === "gpu_match") {
       base[key] = {
         raw: cleanText(req[key]?.raw),
-        candidates: Array.isArray(req[key]?.candidates) ? req[key].candidates : [],
+        candidates: Array.isArray(req[key]?.candidates) ? req[key].candidates.map(candidate => ({
+          id: cleanText(typeof candidate === "string" ? candidate : candidate?.id),
+          name: cleanText(candidate?.name),
+          score: toNumberOrNull(candidate?.score),
+          matched_from: cleanText(candidate?.matched_from)
+        })).filter(candidate => candidate.id) : [],
         min_score: toNumberOrNull(req[key]?.min_score)
       };
     } else {
@@ -497,33 +523,44 @@ async function loadShard(shardId) {
   return normalized;
 }
 
-function applyFilters() {
+async function applyFilters() {
   const q = (els.search.value || "").trim().toLowerCase();
   const mode = els.filter.value;
   let apps = state.index.apps;
 
   if (mode === "game") apps = apps.filter(a => a.type === "game");
   if (mode === "dlc") apps = apps.filter(a => a.type === "dlc");
-  if (mode === "hasreqs") apps = apps.filter(a => a.has_requirements);
   if (q) apps = apps.filter(a => (a.name || "").toLowerCase().includes(q));
 
+  const summaryModes = new Set(["pass", "unknown", "partial", "fail"]);
+  if (summaryModes.has(mode)) {
+    const activeBuild = getActiveBuild();
+    const uniqueShardIds = [...new Set(apps.map(app => shardForAppid(app.appid)))];
+    await Promise.all(uniqueShardIds.map(id => loadShard(id)));
+    apps = apps.filter(app => {
+      const shard = state.shardCache.get(shardForAppid(app.appid)) || [];
+      const detailedApp = shard.find(entry => entry.appid === app.appid) || normalizeApp(app);
+      return summarizeListMinimum(detailedApp, activeBuild).key === mode;
+    });
+  }
+
   state.filtered = apps;
-  renderList();
+  await renderList();
 }
 
 function summarizeListMinimum(app, build) {
-  if (!build?.specs) return { status: "warn", text: "Unknown" };
-  if (!app?.requirements) return { status: "warn", text: "Unknown" };
+  if (!build?.specs) return { status: "unknown", text: "Unknown", key: "unknown" };
+  if (!app?.requirements) return { status: "unknown", text: "Unknown", key: "unknown" };
 
   const platform = build.platform || "pc";
   const minReq = app.requirements?.[platform]?.minimum || null;
-  if (!hasUsableRequirement(minReq)) return { status: "warn", text: "Unknown" };
+  if (!hasUsableRequirement(minReq)) return { status: "unknown", text: "Unknown", key: "unknown" };
 
   const summary = comparisonSummary(minReq, build, platform);
-  if (summary.status === "good") return { status: "good", text: "Pass" };
-  if (summary.status === "bad") return { status: "bad", text: "Fail" };
-  if (summary.text === "Partial match") return { status: "warn", text: "Partial" };
-  return { status: "warn", text: "Unknown" };
+  if (summary.status === "good") return { status: "good", text: "Pass", key: "pass" };
+  if (summary.status === "bad") return { status: "bad", text: "Fail", key: "fail" };
+  if (summary.text === "Partial match") return { status: "warn", text: "Partial", key: "partial" };
+  return { status: "unknown", text: "Unknown", key: "unknown" };
 }
 
 async function renderList() {
@@ -593,28 +630,29 @@ function findCatalogComponent(kind, rawText) {
 function compareCatalogComponent(kind, userText, reqMatch) {
   const minScore = reqMatch?.min_score ?? null;
   const reqCandidates = Array.isArray(reqMatch?.candidates) ? reqMatch.candidates : [];
+  const reqCandidateIds = reqCandidates.map(candidate => cleanText(typeof candidate === "string" ? candidate : candidate?.id)).filter(Boolean);
   const reqRaw = cleanText(reqMatch?.raw);
   const userComponent = findCatalogComponent(kind, userText);
 
-  if (!reqRaw) return { status: "unknown", text: "No component requirement", method: null };
-  if (!reqCandidates.length || minScore === null) return { status: "unknown", text: "Requirement not normalized yet", method: null };
+  if (!reqRaw) return { status: "unknown", text: "Component unknown", method: null };
+  if (!reqCandidates.length || minScore === null) return { status: "unknown", text: "Component not supported", method: null };
   if (!cleanText(userText)) return { status: "unknown", text: "Your component missing", method: null };
   if (!userComponent || userComponent.score === null || userComponent.score === undefined) {
     return { status: "unknown", text: "Your component not recognized", method: null };
   }
-  if (reqCandidates.includes(userComponent.id)) {
-    return { status: "good", text: `Exact catalog match (${userComponent.name})`, method: "exact" };
+  if (reqCandidateIds.includes(userComponent.id)) {
+    return { status: "good", text: `${userComponent.name} matches directly`, method: "exact" };
   }
   if (userComponent.score >= minScore) {
-    return { status: "good", text: `Score meets (${userComponent.name}, ${userComponent.score} vs ${minScore})`, method: "score" };
+    return { status: "good", text: `${userComponent.name} ${userComponent.score} > ${minScore}`, method: "score" };
   }
-  return { status: "bad", text: `Score below (${userComponent.name}, ${userComponent.score} vs ${minScore})`, method: "score" };
+  return { status: "bad", text: `${userComponent.name} ${userComponent.score} < ${minScore}`, method: "score" };
 }
 
 function comparisonSummary(req, build, platform) {
-  if (!hasUsableRequirement(req)) return { status: "warn", text: "Missing" };
-  if (!build?.specs) return { status: "warn", text: "Add your specs" };
-  if ((build.platform || "pc") !== platform) return { status: "warn", text: "Wrong platform" };
+  if (!hasUsableRequirement(req)) return { status: "unknown", text: "Unknown" };
+  if (!build?.specs) return { status: "unknown", text: "Unknown" };
+  if ((build.platform || "pc") !== platform) return { status: "unknown", text: "Unknown" };
 
   const checks = buildRequirementChecks(req, build);
   const results = checks.map(check => check.result);
@@ -636,8 +674,8 @@ function renderReqCard(title, req, build, platform) {
   if (!hasUsableRequirement(req)) {
     return `
       <div class="reqCard">
-        <div class="reqTitle"><span>${title}</span><span class="badge warn">Missing</span></div>
-        <div class="reqList">No reliable requirements data for this platform and level.</div>
+        <div class="reqTitle"><span>${title}</span><span class="badge unknown">Unknown</span></div>
+        <div class="reqList">No data</div>
       </div>
     `;
   }
@@ -645,8 +683,8 @@ function renderReqCard(title, req, build, platform) {
   const summary = comparisonSummary(req, build, platform);
   const cpuCmp = compareCpuRequirement(req, build?.specs?.cpu);
   const gpuCmp = compareGpuRequirement(req, build?.specs?.gpu);
-  const ramCmp = compareNumeric(build?.specs?.ram_gb, req.ram_gb);
-  const storageCmp = compareNumeric(build?.specs?.storage_gb, req.storage_gb);
+  const ramCmp = compareNumeric(build?.specs?.ram_gb, req.ram_gb, "ram");
+  const storageCmp = compareNumeric(build?.specs?.storage_gb, req.storage_gb, "storage");
 
   return `
     <div class="reqCard">
@@ -669,8 +707,8 @@ function renderReqCard(title, req, build, platform) {
   if (!hasUsableRequirement(req)) {
     return `
       <div class="reqCard">
-        <div class="reqTitle"><span>${title}</span><span class="badge warn">Missing</span></div>
-        <div class="reqList">No reliable requirements data for this platform and level.</div>
+        <div class="reqTitle"><span>${title}</span><span class="badge unknown">Unknown</span></div>
+        <div class="reqList">No data</div>
       </div>
     `;
   }
@@ -678,8 +716,8 @@ function renderReqCard(title, req, build, platform) {
   const summary = comparisonSummary(req, build, platform);
   const cpuCmp = compareCpuRequirement(req, build?.specs?.cpu);
   const gpuCmp = compareGpuRequirement(req, build?.specs?.gpu);
-  const ramCmp = compareNumeric(build?.specs?.ram_gb, req.ram_gb);
-  const storageCmp = compareNumeric(build?.specs?.storage_gb, req.storage_gb);
+  const ramCmp = compareNumeric(build?.specs?.ram_gb, req.ram_gb, "ram");
+  const storageCmp = compareNumeric(build?.specs?.storage_gb, req.storage_gb, "storage");
 
   return `
     <div class="reqCard">
@@ -747,7 +785,7 @@ function renderDetail(app) {
     els.detail.innerHTML = `
       <div class="h1">${app.name || `(appid ${app.appid})`}</div>
       <div class="h2">${app.type || "unknown"} · appid ${app.appid}</div>
-      <div class="h2">${hasAny ? "Parsed from current scrape data." : "This record does not have usable requirements for this platform."}</div>
+      ${hasAny ? "" : `<div class="h2">No data</div>`}
 
       <div class="tabs">
         <button class="tab ${platform === "pc" ? "active" : ""}" data-p="pc">Windows</button>
@@ -762,9 +800,6 @@ function renderDetail(app) {
 
       ${renderSavedBuildComparisons(min, rec, platform)}
 
-      <div style="margin-top:12px;color:var(--muted);font-size:12px">
-        CPU and GPU rows now show how they were evaluated: Exact for direct catalog matches, Score for normalized benchmark comparisons, and Clock for old CPU MHz or GHz fallback checks. Windows builds are not treated as macOS or Linux builds.
-      </div>
     `;
 
     els.detail.querySelectorAll(".tab").forEach(btn => {

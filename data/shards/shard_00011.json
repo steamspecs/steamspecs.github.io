@@ -1032,19 +1032,13 @@
             "raw": "256mb video ram or better (GeForce 7 series or higher/Radeon HD3000 series or higher)",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "256mb video ram"
-              },
-              {
-                "id": "gpu_radeon_3000",
-                "name": "Radeon 3000",
-                "score": 98,
-                "matched_from": "Radeon HD3000 series"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "256mb video ram or better (GeForce 7 series or higher/Radeon HD3000 series or higher)"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1517,8 +1511,15 @@
           },
           "gpu_match": {
             "raw": "32MB Direct3D Compatible video card with 32-bit color support and DirectX 8.1",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "32MB Direct3D Compatible video card with 32-bit color support and DirectX 8.1"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -2819,8 +2820,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 6 series, ATI 1300XT series",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 6 series, ATI 1300XT series"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -3937,8 +3945,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 6 series, ATI 1300XT series",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 6 series, ATI 1300XT series"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -4618,13 +4633,13 @@
             "raw": "Nvidia Geforce 8600, Radeon X1600 or better",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
-                "matched_from": "Nvidia Geforce 8600, Radeon X1600"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Nvidia Geforce 8600, Radeon X1600 or better"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -4735,19 +4750,13 @@
             "raw": "NVIDIA 6800+ or ATI Radeon X700+ Video Card",
             "candidates": [
               {
-                "id": "gpu_geforce_6800",
-                "name": "GeForce 6800",
-                "score": 112,
-                "matched_from": "NVIDIA 6800+"
-              },
-              {
-                "id": "gpu_radeon_x700",
-                "name": "RADEON X700",
-                "score": 72,
-                "matched_from": "ATI Radeon X700+ Video Card"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA 6800+ or ATI Radeon X700+ Video Card"
               }
             ],
-            "min_score": 72
+            "min_score": 3
           }
         },
         "recommended": {
@@ -5509,19 +5518,13 @@
             "raw": "NVIDIA 6800+ or ATI Radeon X700+ Video Card",
             "candidates": [
               {
-                "id": "gpu_geforce_6800",
-                "name": "GeForce 6800",
-                "score": 112,
-                "matched_from": "NVIDIA 6800+"
-              },
-              {
-                "id": "gpu_radeon_x700",
-                "name": "RADEON X700",
-                "score": 72,
-                "matched_from": "ATI Radeon X700+ Video Card"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA 6800+ or ATI Radeon X700+ Video Card"
               }
             ],
-            "min_score": 72
+            "min_score": 3
           }
         },
         "recommended": {
@@ -5673,19 +5676,13 @@
             "raw": "NVIDIA 6800+ or ATI Radeon X700+ Video Card",
             "candidates": [
               {
-                "id": "gpu_geforce_6800",
-                "name": "GeForce 6800",
-                "score": 112,
-                "matched_from": "NVIDIA 6800+"
-              },
-              {
-                "id": "gpu_radeon_x700",
-                "name": "RADEON X700",
-                "score": 72,
-                "matched_from": "ATI Radeon X700+ Video Card"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA 6800+ or ATI Radeon X700+ Video Card"
               }
             ],
-            "min_score": 72
+            "min_score": 3
           }
         },
         "recommended": {
@@ -6137,8 +6134,15 @@
           },
           "gpu_match": {
             "raw": "DirectX 9 compatible video card with Shader model 2.0 Capability",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DirectX 9 compatible video card with Shader model 2.0 Capability"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -6290,13 +6294,13 @@
             "raw": "Graphics Card:DirectX 9 Compatible with 128MB VRAM",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
                 "matched_from": "Graphics Card:DirectX 9 Compatible with 128MB VRAM"
               }
             ],
-            "min_score": 3183
+            "min_score": 1
           }
         },
         "recommended": {
@@ -6446,8 +6450,15 @@
           },
           "gpu_match": {
             "raw": "Direct X 9.0c compatible video card with at least 128mb & support for pixelshader 2.0",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "Direct X 9.0c compatible video card with at least 128mb & support for pixelshader 2.0"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -7236,19 +7247,13 @@
             "raw": "256 Mb (GeForce\u00ae 7 / Radeon\u00ae X800)",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "256 Mb (GeForce\u00ae 7"
-              },
-              {
-                "id": "gpu_radeon_x800_se",
-                "name": "RADEON X800 SE",
-                "score": 129,
-                "matched_from": "Radeon\u00ae X800)"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "256 Mb (GeForce\u00ae 7 / Radeon\u00ae X800)"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {

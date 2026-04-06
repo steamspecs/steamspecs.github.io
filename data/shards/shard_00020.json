@@ -26,13 +26,13 @@
             "raw": "256 MB VRAM with Pixel Shader 3.0",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
                 "matched_from": "256 MB VRAM with Pixel Shader 3.0"
               }
             ],
-            "min_score": 5
+            "min_score": 12
           }
         },
         "recommended": {
@@ -56,13 +56,13 @@
             "raw": "256 MB VRAM DX9 compliant with Pixel Shader 3.0",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
                 "matched_from": "256 MB VRAM DX9 compliant with Pixel Shader 3.0"
               }
             ],
-            "min_score": 5
+            "min_score": 12
           }
         }
       },
@@ -513,13 +513,13 @@
             "raw": "256 MB DirectX\u2122 9.0c compatible graphics card (nVidia\u00ae GeForce\u00ae 7900/ATI Radeon\u2122 X1800 or better)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "256 MB DirectX\u2122 9.0c compatible graphics card (nVidia\u00ae GeForce\u00ae 7900"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "256 MB DirectX\u2122 9.0c compatible graphics card (nVidia\u00ae GeForce\u00ae 7900/ATI Radeon\u2122 X1800 or better)"
               }
             ],
-            "min_score": 3183
+            "min_score": 3
           }
         },
         "recommended": {
@@ -998,8 +998,15 @@
           },
           "gpu_match": {
             "raw": "DirectX\u00ae 9 compatible AGP or PCI Express video card (at least 32 MB)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DirectX\u00ae 9 compatible AGP or PCI Express video card (at least 32 MB)"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -1149,8 +1156,15 @@
           },
           "gpu_match": {
             "raw": "DirectX\u00ae 9-compatible AGP or PCI Express 64 MB video card or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DirectX\u00ae 9-compatible AGP or PCI Express 64 MB video card or better"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -2813,13 +2827,13 @@
             "raw": "256 MB DirectX\u2122 9 compatible graphics card (NVidia 7600, ATI X1600) or better",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "256 MB DirectX\u2122 9 compatible graphics card (NVidia 7600, ATI X1600)"
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "256 MB DirectX\u2122 9 compatible graphics card (NVidia 7600, ATI X1600) or better"
               }
             ],
-            "min_score": 3183
+            "min_score": 1
           }
         },
         "recommended": {
@@ -3273,13 +3287,13 @@
             "raw": "Graphics Card made within the last 4 years (Pixel Shader 3.0, Vertex Shader 3.0)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
                 "matched_from": "Graphics Card made within the last 4 years (Pixel Shader 3.0, Vertex Shader 3.0)"
               }
             ],
-            "min_score": 3183
+            "min_score": 12
           }
         },
         "recommended": {
@@ -3328,13 +3342,13 @@
             "raw": "Graphics Card made within the last 4 years (Pixel Shader 3.0, Vertex Shader 3.0)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
                 "matched_from": "Graphics Card made within the last 4 years (Pixel Shader 3.0, Vertex Shader 3.0)"
               }
             ],
-            "min_score": 3183
+            "min_score": 12
           }
         },
         "recommended": {
@@ -3383,13 +3397,13 @@
             "raw": "Graphics Card made within the last 4 years (Pixel Shader 3.0, Vertex Shader 3.0)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
                 "matched_from": "Graphics Card made within the last 4 years (Pixel Shader 3.0, Vertex Shader 3.0)"
               }
             ],
-            "min_score": 3183
+            "min_score": 12
           }
         },
         "recommended": {
@@ -3445,19 +3459,13 @@
             "raw": "DirectX\u00ae 9.0c-compatible 128 MB video card with Shader Model 2.0, GeForce 6200 or better, Radeon X1300 or better",
             "candidates": [
               {
-                "id": "gpu_radeon_620",
-                "name": "Radeon 620",
-                "score": 935,
-                "matched_from": "DirectX\u00ae 9.0c-compatible 128 MB video card with Shader Model 2.0, GeForce 6200"
-              },
-              {
-                "id": "gpu_radeon_x1300",
-                "name": "Radeon X1300",
-                "score": 58,
-                "matched_from": "better, Radeon X1300"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "DirectX\u00ae 9.0c-compatible 128 MB video card with Shader Model 2.0, GeForce 6200 or better, Radeon X1300 or better"
               }
             ],
-            "min_score": 58
+            "min_score": 3
           }
         },
         "recommended": {
@@ -3923,8 +3931,15 @@
           },
           "gpu_match": {
             "raw": "64MB DirectX 8.1 Compatible",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "64MB DirectX 8.1 Compatible"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -4392,13 +4407,13 @@
             "raw": "nVidia GeForce 7600, ATI Radeon X1600 (Shader Model 3.0 Highly Recommended)",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "nVidia GeForce 7600, ATI Radeon X1600 (Shader Model 3.0 Highly Recommended)"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -4550,13 +4565,13 @@
             "raw": "nVidia GeForce 7600, ATI Radeon X1600 (Shader Model 3.0 Required)",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "nVidia GeForce 7600, ATI Radeon X1600 (Shader Model 3.0 Required)"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -4708,13 +4723,13 @@
             "raw": "nVidia GeForce 7600, ATI Radeon X1600 (Shader Model 3.0 Required)",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "nVidia GeForce 7600, ATI Radeon X1600 (Shader Model 3.0 Required)"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -6375,13 +6390,13 @@
             "raw": "OpenGL 2.0 compatible video card with 256MB dedicated RAM (ATI Radeon X1600 or nVidia equivalent)",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
-                "matched_from": "OpenGL 2.0 compatible video card with 256MB dedicated RAM (ATI Radeon X1600"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "OpenGL 2.0 compatible video card with 256MB dedicated RAM (ATI Radeon X1600 or nVidia equivalent)"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -7109,13 +7124,13 @@
             "raw": "128 MB or more, DirectX 9-compatible with support for Pixel Shader 2.0 (ATI Radeon X800 / NVIDIA GeForce 7600 / Intel GMA HD Graphics)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Intel GMA HD Graphics)"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "128 MB or more, DirectX 9-compatible with support for Pixel Shader 2.0 (ATI Radeon X800 / NVIDIA GeForce 7600 / Intel GMA HD Graphics)"
               }
             ],
-            "min_score": 3183
+            "min_score": 3
           }
         },
         "recommended": {
@@ -8322,8 +8337,15 @@
           },
           "gpu_match": {
             "raw": "GeForce FX5700 or better / ATI Radeon 9600 or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "GeForce FX5700 or better / ATI Radeon 9600 or better"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -8418,8 +8440,15 @@
           },
           "gpu_match": {
             "raw": "GeForce FX5700 or better / ATI Radeon 9600 or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "GeForce FX5700 or better / ATI Radeon 9600 or better"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {

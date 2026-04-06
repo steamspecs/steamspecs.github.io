@@ -335,13 +335,13 @@
             "raw": "ATI Radeon X800 XL or better",
             "candidates": [
               {
-                "id": "gpu_radeon_x800_xl",
-                "name": "RADEON X800 XL",
-                "score": 69,
-                "matched_from": "ATI Radeon X800 XL"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X800 XL or better"
               }
             ],
-            "min_score": 69
+            "min_score": 3
           }
         },
         "recommended": {
@@ -390,13 +390,13 @@
             "raw": "ATI Radeon X800 XL or better",
             "candidates": [
               {
-                "id": "gpu_radeon_x800_xl",
-                "name": "RADEON X800 XL",
-                "score": 69,
-                "matched_from": "ATI Radeon X800 XL"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X800 XL or better"
               }
             ],
-            "min_score": 69
+            "min_score": 3
           }
         },
         "recommended": {
@@ -445,13 +445,13 @@
             "raw": "ATI Radeon X800 XL or better",
             "candidates": [
               {
-                "id": "gpu_radeon_x800_xl",
-                "name": "RADEON X800 XL",
-                "score": 69,
-                "matched_from": "ATI Radeon X800 XL"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X800 XL or better"
               }
             ],
-            "min_score": 69
+            "min_score": 3
           }
         },
         "recommended": {
@@ -507,13 +507,13 @@
             "raw": "ATI Radeon X800 XL or better",
             "candidates": [
               {
-                "id": "gpu_radeon_x800_xl",
-                "name": "RADEON X800 XL",
-                "score": 69,
-                "matched_from": "ATI Radeon X800 XL"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X800 XL or better"
               }
             ],
-            "min_score": 69
+            "min_score": 3
           }
         },
         "recommended": {
@@ -562,13 +562,13 @@
             "raw": "ATI Radeon X800 XL or better",
             "candidates": [
               {
-                "id": "gpu_radeon_x800_xl",
-                "name": "RADEON X800 XL",
-                "score": 69,
-                "matched_from": "ATI Radeon X800 XL"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X800 XL or better"
               }
             ],
-            "min_score": 69
+            "min_score": 3
           }
         },
         "recommended": {
@@ -672,13 +672,13 @@
             "raw": "ATI Radeon X800 XL or better",
             "candidates": [
               {
-                "id": "gpu_radeon_x800_xl",
-                "name": "RADEON X800 XL",
-                "score": 69,
-                "matched_from": "ATI Radeon X800 XL"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X800 XL or better"
               }
             ],
-            "min_score": 69
+            "min_score": 3
           }
         },
         "recommended": {
@@ -727,13 +727,13 @@
             "raw": "ATI Radeon X800 XL or better",
             "candidates": [
               {
-                "id": "gpu_radeon_x800_xl",
-                "name": "RADEON X800 XL",
-                "score": 69,
-                "matched_from": "ATI Radeon X800 XL"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X800 XL or better"
               }
             ],
-            "min_score": 69
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1001,13 +1001,13 @@
             "raw": "DirectX 9.0c/Shader3.0 compatible, VRAM 512 MB (NVIDIA GeForce 7800 series or ATI Radeon X1900)",
             "candidates": [
               {
-                "id": "gpu_radeon_r3",
-                "name": "Radeon R3",
-                "score": 316,
-                "matched_from": "Shader3.0 compatible, VRAM 512 MB (NVIDIA GeForce 7800 series"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "DirectX 9.0c/Shader3.0 compatible, VRAM 512 MB (NVIDIA GeForce 7800 series or ATI Radeon X1900)"
               }
             ],
-            "min_score": 316
+            "min_score": 3
           }
         },
         "recommended": {
@@ -3505,13 +3505,13 @@
             "raw": "NVIDIA (GeForce 8800/GeForce GT220) 256MB graphics card or better, ATI Radeon X1900 256MB graphics card or better ( must support pixel shader 3 )",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "GeForce GT220) 256MB graphics card"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA (GeForce 8800/GeForce GT220) 256MB graphics card or better, ATI Radeon X1900 256MB graphics card or better ( must support pixel shader 3 )"
               }
             ],
-            "min_score": 3183
+            "min_score": 3
           }
         },
         "recommended": {
@@ -3865,13 +3865,13 @@
             "raw": "GeForce FX 8800 (Radeon HD3850) 256Mb",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "GeForce FX 8800 (Radeon HD3850) 256Mb"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         }
       },
@@ -4037,13 +4037,13 @@
             "raw": "GeForce FX 8800 (Radeon HD3850) 256Mb",
             "candidates": [
               {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "GeForce FX 8800 (Radeon HD3850) 256Mb"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         }
       },
@@ -4323,19 +4323,13 @@
             "raw": "nVidia GeForce 6600 or ATI Radeon X800 with 256MB RAM or better",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "nVidia GeForce 6600"
-              },
-              {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "ATI Radeon X800 with 256MB RAM"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "nVidia GeForce 6600 or ATI Radeon X800 with 256MB RAM or better"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {

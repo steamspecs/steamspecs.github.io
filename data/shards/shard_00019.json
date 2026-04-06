@@ -2319,19 +2319,13 @@
             "raw": "Nvidia 6200+ or ATI Radeon 9600+ with 256MB / Direct X 9.0c / Shader 2.0 support",
             "candidates": [
               {
-                "id": "gpu_radeon_620",
-                "name": "Radeon 620",
-                "score": 935,
-                "matched_from": "Nvidia 6200+"
-              },
-              {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "ATI Radeon 9600+ with 256MB"
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "Nvidia 6200+ or ATI Radeon 9600+ with 256MB / Direct X 9.0c / Shader 2.0 support"
               }
             ],
-            "min_score": 5
+            "min_score": 1
           }
         },
         "recommended": {
@@ -2355,19 +2349,13 @@
             "raw": "Nvidia 6200+ or ATI Radeon 9600+ with 256MB / Direct X 9.0c / Shader 2.0 support",
             "candidates": [
               {
-                "id": "gpu_radeon_620",
-                "name": "Radeon 620",
-                "score": 935,
-                "matched_from": "Nvidia 6200+"
-              },
-              {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "ATI Radeon 9600+ with 256MB"
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "Nvidia 6200+ or ATI Radeon 9600+ with 256MB / Direct X 9.0c / Shader 2.0 support"
               }
             ],
-            "min_score": 5
+            "min_score": 1
           }
         }
       },
@@ -4230,8 +4218,15 @@
           },
           "gpu_match": {
             "raw": "DirectX 9 compatible, 128MB VRAM",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DirectX 9 compatible, 128MB VRAM"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -4615,8 +4610,15 @@
           },
           "gpu_match": {
             "raw": "DirectX 9 compatible, 64MB VRAM",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DirectX 9 compatible, 64MB VRAM"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -4789,19 +4791,13 @@
             "raw": "Geforce 5 / ATI Radeon X100 / Intel 965 onboard graphics or higher",
             "candidates": [
               {
-                "id": "gpu_geforce_510",
-                "name": "GeForce 510",
-                "score": 290,
-                "matched_from": "Geforce 5"
-              },
-              {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Intel 965 onboard graphics"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Geforce 5 / ATI Radeon X100 / Intel 965 onboard graphics or higher"
               }
             ],
-            "min_score": 290
+            "min_score": 3
           }
         },
         "recommended": {
@@ -4960,19 +4956,13 @@
             "raw": "Geforce 5 / ATI Radeon X100 / Intel 965 onboard graphics or higher",
             "candidates": [
               {
-                "id": "gpu_geforce_510",
-                "name": "GeForce 510",
-                "score": 290,
-                "matched_from": "Geforce 5"
-              },
-              {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Intel 965 onboard graphics"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Geforce 5 / ATI Radeon X100 / Intel 965 onboard graphics or higher"
               }
             ],
-            "min_score": 290
+            "min_score": 3
           }
         },
         "recommended": {
@@ -5131,19 +5121,13 @@
             "raw": "Geforce 5 / ATI Radeon X100 / Intel 965 onboard graphics or higher",
             "candidates": [
               {
-                "id": "gpu_geforce_510",
-                "name": "GeForce 510",
-                "score": 290,
-                "matched_from": "Geforce 5"
-              },
-              {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Intel 965 onboard graphics"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Geforce 5 / ATI Radeon X100 / Intel 965 onboard graphics or higher"
               }
             ],
-            "min_score": 290
+            "min_score": 3
           }
         },
         "recommended": {
@@ -5302,19 +5286,13 @@
             "raw": "Geforce 5 / ATI Radeon X100 / Intel 965 onboard graphics or higher",
             "candidates": [
               {
-                "id": "gpu_geforce_510",
-                "name": "GeForce 510",
-                "score": 290,
-                "matched_from": "Geforce 5"
-              },
-              {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Intel 965 onboard graphics"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Geforce 5 / ATI Radeon X100 / Intel 965 onboard graphics or higher"
               }
             ],
-            "min_score": 290
+            "min_score": 3
           }
         },
         "recommended": {
@@ -5473,19 +5451,13 @@
             "raw": "Geforce 5 / ATI Radeon X100 / Intel 965 onboard graphics or higher",
             "candidates": [
               {
-                "id": "gpu_geforce_510",
-                "name": "GeForce 510",
-                "score": 290,
-                "matched_from": "Geforce 5"
-              },
-              {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Intel 965 onboard graphics"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Geforce 5 / ATI Radeon X100 / Intel 965 onboard graphics or higher"
               }
             ],
-            "min_score": 290
+            "min_score": 3
           }
         },
         "recommended": {
@@ -5642,8 +5614,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA 7000-series or ATI Radeon X1900 Video Card",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA 7000-series or ATI Radeon X1900 Video Card"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -5953,13 +5932,13 @@
             "raw": "Nvidia GeForce FX 5900, ATI/AMD Radeon X300, Intel GMA X4500 or better.",
             "candidates": [
               {
-                "id": "gpu_geforce_fx_5900",
-                "name": "GeForce FX 5900",
-                "score": 34,
-                "matched_from": "Nvidia GeForce FX 5900, ATI"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Nvidia GeForce FX 5900, ATI/AMD Radeon X300, Intel GMA X4500 or better."
               }
             ],
-            "min_score": 34
+            "min_score": 3
           }
         },
         "recommended": {
@@ -9202,8 +9181,15 @@
           },
           "gpu_match": {
             "raw": "DirectX\u00ae 8.1 3D graphic card (32 MB)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DirectX\u00ae 8.1 3D graphic card (32 MB)"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -9225,8 +9211,15 @@
           },
           "gpu_match": {
             "raw": "DirectX\u00ae 8.1 3D graphic card (64 MB)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DirectX\u00ae 8.1 3D graphic card (64 MB)"
+              }
+            ],
+            "min_score": 1
           }
         }
       },
@@ -9678,15 +9671,8 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP, Vista\u2122, Windows 7, Windows 8, Windows 10<br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel / AMD CPU<br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 256MB RAM<br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong>Graphics with shader model 2.0 or better<br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 9.0c<br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 500MB of uncompressed Hard Drive Space<br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible sound card<br>\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel / AMD CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Graphics with shader model 2.0 or better",

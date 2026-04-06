@@ -26,13 +26,13 @@
             "raw": "Video card must be 128 MB or more and with support for Pixel Shader 2.0b (ATI Radeon X800 or higher / NVIDIA GeForce 7600 or higher / Intel HD Graphics 2000 or higher).",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Intel HD Graphics 2000"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Video card must be 128 MB or more and with support for Pixel Shader 2.0b (ATI Radeon X800 or higher / NVIDIA GeForce 7600 or higher / Intel HD Graphics 2000 or higher)."
               }
             ],
-            "min_score": 3183
+            "min_score": 3
           }
         },
         "recommended": {
@@ -795,13 +795,13 @@
             "raw": "DirectX 8.1-compatible video card of any type with at least 64 megabytes of video RAM; Nvidia and ATI tested (Intel Intregrated Graphics below X4000 series not",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Nvidia and ATI tested (Intel Intregrated Graphics below X4000 series not"
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DirectX 8.1-compatible video card of any type with at least 64 megabytes of video RAM; Nvidia and ATI tested (Intel Intregrated Graphics below X4000 series not"
               }
             ],
-            "min_score": 3183
+            "min_score": 1
           }
         },
         "recommended": {
@@ -953,13 +953,13 @@
             "raw": "DirectX 8.1-compatible video card of any type with at least 64 megabytes of video RAM; Nvidia and ATI tested (Intel Integrated Graphics below IntelHD series not recommended)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Nvidia and ATI tested (Intel Integrated Graphics below IntelHD series not recommended)"
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DirectX 8.1-compatible video card of any type with at least 64 megabytes of video RAM; Nvidia and ATI tested (Intel Integrated Graphics below IntelHD series not recommended)"
               }
             ],
-            "min_score": 3183
+            "min_score": 1
           }
         },
         "recommended": {
@@ -1966,13 +1966,13 @@
             "raw": "Nvidia Geforce 8600, Radeon X1600 or better",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
-                "matched_from": "Nvidia Geforce 8600, Radeon X1600"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Nvidia Geforce 8600, Radeon X1600 or better"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2838,13 +2838,13 @@
             "raw": "DirectX 9.0c compatible, NVIDIA GeForce 7300 series, ATI Radeon\u2122 X1600 Video Card with 256MB RAM",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "DirectX 9.0c compatible, NVIDIA GeForce 7300 series, ATI Radeon\u2122 X1600 Video Card with 256MB RAM"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2868,13 +2868,13 @@
             "raw": "DirectX 9.0c/Shader3.0 compatible, NVIDIA GeForce 8800 series or higher, ATI Radeon\u2122 X1900 Video Card with 512MB RAM",
             "candidates": [
               {
-                "id": "gpu_radeon_r3",
-                "name": "Radeon R3",
-                "score": 316,
-                "matched_from": "Shader3.0 compatible, NVIDIA GeForce 8800 series"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "DirectX 9.0c/Shader3.0 compatible, NVIDIA GeForce 8800 series or higher, ATI Radeon\u2122 X1900 Video Card with 512MB RAM"
               }
             ],
-            "min_score": 316
+            "min_score": 3
           }
         }
       },

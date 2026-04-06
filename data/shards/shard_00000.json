@@ -79,8 +79,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8 or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8 or higher"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -237,8 +244,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8 or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8 or higher"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -395,8 +409,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8 or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8 or higher"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -553,8 +574,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8 or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8 or higher"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -711,8 +739,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8 or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8 or higher"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -869,8 +904,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8 or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8 or higher"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1027,8 +1069,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8 or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8 or higher"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1336,8 +1385,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8 or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8 or higher"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1441,13 +1497,13 @@
             "raw": "DirectX 8.1 level Graphics Card (requires support for SSE)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
                 "matched_from": "DirectX 8.1 level Graphics Card (requires support for SSE)"
               }
             ],
-            "min_score": 3183
+            "min_score": 1
           }
         },
         "recommended": {
@@ -1612,13 +1668,13 @@
             "raw": "DirectX\u00ae 8.1 level Graphics Card (Requires support for SSE)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
                 "matched_from": "DirectX\u00ae 8.1 level Graphics Card (Requires support for SSE)"
               }
             ],
-            "min_score": 3183
+            "min_score": 1
           }
         },
         "recommended": {
@@ -1679,8 +1735,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8 or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8 or higher"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1784,13 +1847,13 @@
             "raw": "DirectX\u00ae 8.1 level Graphics Card (Requires support for SSE)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
                 "matched_from": "DirectX\u00ae 8.1 level Graphics Card (Requires support for SSE)"
               }
             ],
-            "min_score": 3183
+            "min_score": 1
           }
         },
         "recommended": {
@@ -1851,8 +1914,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8 or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8 or higher"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2023,8 +2093,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8 or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8 or higher"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2305,13 +2382,13 @@
             "raw": "DirectX\u00ae 8.1 level Graphics Card (Requires support for SSE)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
                 "matched_from": "DirectX\u00ae 8.1 level Graphics Card (Requires support for SSE)"
               }
             ],
-            "min_score": 3183
+            "min_score": 1
           }
         },
         "recommended": {
@@ -2372,8 +2449,15 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8 or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8 or higher"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2525,19 +2609,13 @@
             "raw": "NVIDIA GeForce 8 or higher, ATI X1600 or higher, Intel HD 3000 or higher",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
-                "matched_from": "higher, ATI X1600"
-              },
-              {
-                "id": "gpu_radeon_3000",
-                "name": "Radeon 3000",
-                "score": 98,
-                "matched_from": "higher, Intel HD 3000"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 8 or higher, ATI X1600 or higher, Intel HD 3000 or higher"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -3177,13 +3255,13 @@
             "raw": "Video card must be 128 MB or more and with support for Pixel Shader 2.0b (ATI Radeon X800 or higher / NVIDIA GeForce 7600 or higher / Intel HD Graphics 2000 or higher).",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Intel HD Graphics 2000"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Video card must be 128 MB or more and with support for Pixel Shader 2.0b (ATI Radeon X800 or higher / NVIDIA GeForce 7600 or higher / Intel HD Graphics 2000 or higher)."
               }
             ],
-            "min_score": 3183
+            "min_score": 3
           }
         },
         "recommended": {
@@ -3349,13 +3427,13 @@
             "raw": "DirectX 9 compatible video card with 128 MB, Shader model 2.0. ATI X800, NVidia 6600 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "DirectX 9 compatible video card with 128 MB, Shader model 2.0. ATI X800, NVidia 6600"
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DirectX 9 compatible video card with 128 MB, Shader model 2.0. ATI X800, NVidia 6600 or better"
               }
             ],
-            "min_score": 85
+            "min_score": 1
           }
         },
         "recommended": {
@@ -3379,13 +3457,13 @@
             "raw": "DirectX 9 compatible video card with Shader model 3.0. NVidia 7600, ATI X1600 or better",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
-                "matched_from": "DirectX 9 compatible video card with Shader model 3.0. NVidia 7600, ATI X1600"
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DirectX 9 compatible video card with Shader model 3.0. NVidia 7600, ATI X1600 or better"
               }
             ],
-            "min_score": 49
+            "min_score": 1
           }
         }
       },
@@ -3514,13 +3592,13 @@
             "raw": "Video card must be 128 MB or more and should be a DirectX 9-compatible with support for Pixel Shader 2.0b (ATI Radeon X800 or higher / NVIDIA GeForce 7600 or higher / Intel HD Graphics 2000 or higher).",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "Intel HD Graphics 2000"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Video card must be 128 MB or more and should be a DirectX 9-compatible with support for Pixel Shader 2.0b (ATI Radeon X800 or higher / NVIDIA GeForce 7600 or higher / Intel HD Graphics 2000 or higher)."
               }
             ],
-            "min_score": 3183
+            "min_score": 3
           }
         },
         "recommended": {
@@ -3860,13 +3938,13 @@
             "raw": "DirectX 9 compatible graphics card",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
                 "matched_from": "DirectX 9 compatible graphics card"
               }
             ],
-            "min_score": 3183
+            "min_score": 1
           }
         }
       },
@@ -6711,15 +6789,8 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li>Windows XP / Vista / 7 / 8<br></li><li>Intel/AMD Single Core CPU with 2.0 GHz<br></li><li>1 GB RAM<br></li><li>DirectX 9.0 compatible graphics card with 128 MB RAM<br></li><li>DirectX compatible sound card<br></li><li>2.0 GB free disk space<br></li><li>Broad band Internet connection<br></li><li>Keyboard and Mouse</li></ul>",
           "cpu_match": {
             "raw": "Intel/AMD Single Core CPU with 2.0 GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": null,
@@ -6741,27 +6812,20 @@
           "raw_html": "<strong>Recommended:</strong> <br><ul class=\"bb_ul\"><li>Windows XP / Vista / 7 / 8<br></li><li>Intel/AMD Core Duo CPU with 2.0 GHz<br></li><li>2 GB RAM<br></li><li>Graphics Card with Shader 2.0 support and 256 MB<br></li><li>DirectX compatible sound card<br></li><li>2.5 GB free disk space<br></li><li>Broad band Internet connection<br></li><li>Keyboard and Mouse</li></ul>",
           "cpu_match": {
             "raw": "Intel/AMD Core Duo CPU with 2.0 GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Graphics Card with Shader 2.0 support and 256 MB",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
                 "matched_from": "Graphics Card with Shader 2.0 support and 256 MB"
               }
             ],
-            "min_score": 3183
+            "min_score": 1
           }
         }
       },
@@ -6828,15 +6892,8 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li>Ubuntu 21.04<br></li><li>Intel/AMD Single Core CPU with 2.0 GHz<br></li><li>1 GB RAM<br></li><li>DirectX 9.0 compatible graphics card with 128 MB RAM<br></li><li>DirectX compatible sound card<br></li><li>2.0 GB free disk space<br></li><li>Broad band Internet connection<br></li><li>Keyboard and Mouse</li></ul>",
           "cpu_match": {
             "raw": "Intel/AMD Single Core CPU with 2.0 GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": null,
@@ -6858,27 +6915,20 @@
           "raw_html": "<strong>Recommended:</strong> <br><ul class=\"bb_ul\"><li>Ubuntu 21.04<br></li><li>Intel/AMD Core Duo CPU with 2.0 GHz<br></li><li>2 GB RAM<br></li><li>Graphics Card with Shader 2.0 support and 256 MB<br></li><li>DirectX compatible sound card<br></li><li>2.5 GB free disk space<br></li><li>Broad band Internet connection<br></li><li>Keyboard and Mouse</li></ul>",
           "cpu_match": {
             "raw": "Intel/AMD Core Duo CPU with 2.0 GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Graphics Card with Shader 2.0 support and 256 MB",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
                 "matched_from": "Graphics Card with Shader 2.0 support and 256 MB"
               }
             ],
-            "min_score": 3183
+            "min_score": 1
           }
         }
       }
@@ -6909,8 +6959,15 @@
           },
           "gpu_match": {
             "raw": "GeForce FX 6, 7 and 8 series, AMD/ATI Radeon X-series with Shader 2.0b support",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "GeForce FX 6, 7 and 8 series, AMD/ATI Radeon X-series with Shader 2.0b support"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -6927,20 +6984,20 @@
           "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP SP2 / Vista / 7 / 8<br></li><li><strong>Processor:</strong> Intel/AMD Multicore CPU<br></li><li><strong>Memory:</strong> 2 GB<br></li><li><strong>Graphics:</strong> with Per-Pixel-Shader 3.0 support<br></li><li><strong>Hard Drive:</strong> 7 GB Free Space<br></li><li><strong>Sound:</strong> 5.1<br></li><li><strong>Misc:</strong> Keyboard, Mouse, Broadband Internet Connection </li></ul>",
           "cpu_match": {
             "raw": "Intel/AMD Multicore CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "with Per-Pixel-Shader 3.0 support",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "with Per-Pixel-Shader 3.0 support"
+              }
+            ],
+            "min_score": 12
           }
         }
       },
@@ -6964,8 +7021,15 @@
           },
           "gpu_match": {
             "raw": "GeForce FX 6, 7 and 8 series, AMD/ATI Radeon X-series with Shader 2.0b support",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "GeForce FX 6, 7 and 8 series, AMD/ATI Radeon X-series with Shader 2.0b support"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -6987,8 +7051,15 @@
           },
           "gpu_match": {
             "raw": "with Per-Pixel-Shader 3.0 support",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "with Per-Pixel-Shader 3.0 support"
+              }
+            ],
+            "min_score": 12
           }
         }
       },
@@ -7012,8 +7083,15 @@
           },
           "gpu_match": {
             "raw": "GeForce FX 6, 7 and 8 series, AMD/ATI Radeon X-series with Shader 2.0b support",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "GeForce FX 6, 7 and 8 series, AMD/ATI Radeon X-series with Shader 2.0b support"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -7030,20 +7108,20 @@
           "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 15.10 or SteamOS<br></li><li><strong>Processor:</strong> Intel/AMD Multicore CPU<br></li><li><strong>Memory:</strong> 2 GB<br></li><li><strong>Graphics:</strong> with Per-Pixel-Shader 3.0 support<br></li><li><strong>Hard Drive:</strong> 7 GB Free Space<br></li><li><strong>Sound:</strong> 5.1<br></li><li><strong>Misc:</strong> Keyboard, Mouse, Broadband Internet Connection </li></ul>",
           "cpu_match": {
             "raw": "Intel/AMD Multicore CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "with Per-Pixel-Shader 3.0 support",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_3",
+                "name": "Legacy Shader Model 3 GPU",
+                "score": 12,
+                "matched_from": "with Per-Pixel-Shader 3.0 support"
+              }
+            ],
+            "min_score": 12
           }
         }
       }

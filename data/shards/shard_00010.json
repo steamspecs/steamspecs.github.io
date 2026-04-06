@@ -184,13 +184,13 @@
             "raw": "128 MB 3D Video Card w/Shader Model 3.0 Support (Nvidia GeForce 7600/ATI Radeon X1300)",
             "candidates": [
               {
-                "id": "gpu_radeon_x1300",
-                "name": "Radeon X1300",
-                "score": 58,
-                "matched_from": "ATI Radeon X1300)"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "128 MB 3D Video Card w/Shader Model 3.0 Support (Nvidia GeForce 7600/ATI Radeon X1300)"
               }
             ],
-            "min_score": 58
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1146,13 +1146,13 @@
             "raw": "128MB dedicated graphics processor with shader model 2 support (e.g. NVIDIA GeForce FX 5600 or ATi Radeon 9600)",
             "candidates": [
               {
-                "id": "gpu_intel_graphics",
-                "name": "Intel Graphics",
-                "score": 3183,
-                "matched_from": "128MB dedicated graphics processor with shader model 2 support (e.g. NVIDIA GeForce FX 5600"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "128MB dedicated graphics processor with shader model 2 support (e.g. NVIDIA GeForce FX 5600 or ATi Radeon 9600)"
               }
             ],
-            "min_score": 3183
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1858,19 +1858,13 @@
             "raw": "Geforce\u00ae 6 Series or greater, ATI Radeon\u2122 x800 series or greater, shader 3.0 and 256MB video memory required",
             "candidates": [
               {
-                "id": "gpu_radeon_x800_se",
-                "name": "RADEON X800 SE",
-                "score": 129,
-                "matched_from": "greater, ATI Radeon\u2122 x800 series"
-              },
-              {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "greater, shader 3.0 and 256MB video memory required"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Geforce\u00ae 6 Series or greater, ATI Radeon\u2122 x800 series or greater, shader 3.0 and 256MB video memory required"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2022,19 +2016,13 @@
             "raw": "Geforce\u00ae 6 Series or greater, ATI Radeon\u2122 x800 series or greater, shader 3.0 and 256MB video memory required",
             "candidates": [
               {
-                "id": "gpu_radeon_x800_se",
-                "name": "RADEON X800 SE",
-                "score": 129,
-                "matched_from": "greater, ATI Radeon\u2122 x800 series"
-              },
-              {
-                "id": "gpu_geforce_256",
-                "name": "GeForce 256",
-                "score": 5,
-                "matched_from": "greater, shader 3.0 and 256MB video memory required"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Geforce\u00ae 6 Series or greater, ATI Radeon\u2122 x800 series or greater, shader 3.0 and 256MB video memory required"
               }
             ],
-            "min_score": 5
+            "min_score": 3
           }
         },
         "recommended": {
@@ -3161,13 +3149,13 @@
             "raw": "DirectX\u00ae9.0c/Shader3.0 compatible, VRAM 512 MB (NVIDIA\u00ae GeForce\u00ae 7800 series or ATI Radeon\u2122 X1900)",
             "candidates": [
               {
-                "id": "gpu_radeon_r3",
-                "name": "Radeon R3",
-                "score": 316,
-                "matched_from": "Shader3.0 compatible, VRAM 512 MB (NVIDIA\u00ae GeForce\u00ae 7800 series"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "DirectX\u00ae9.0c/Shader3.0 compatible, VRAM 512 MB (NVIDIA\u00ae GeForce\u00ae 7800 series or ATI Radeon\u2122 X1900)"
               }
             ],
-            "min_score": 316
+            "min_score": 3
           }
         },
         "recommended": {

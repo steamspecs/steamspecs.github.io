@@ -26,19 +26,13 @@
             "raw": "ATI Radeon\u2122 9500 or better, NVIDIA GeForce\u2122 FX 5200 or better, Intel\u00ae GMA 950 or better with 64 MB of video memory (shared or dedicated)*",
             "candidates": [
               {
-                "id": "gpu_radeon_9500",
-                "name": "RADEON 9500",
-                "score": 36,
-                "matched_from": "ATI Radeon\u2122 9500"
-              },
-              {
-                "id": "gpu_radeon_520",
-                "name": "Radeon 520",
-                "score": 883,
-                "matched_from": "better, NVIDIA GeForce\u2122 FX 5200"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon\u2122 9500 or better, NVIDIA GeForce\u2122 FX 5200 or better, Intel\u00ae GMA 950 or better with 64 MB of video memory (shared or dedicated)*"
               }
             ],
-            "min_score": 36
+            "min_score": 3
           }
         },
         "recommended": {
@@ -87,19 +81,13 @@
             "raw": "ATI Radeon x1600 or better, NVIDIA GeForce 9400 or better",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
-                "matched_from": "ATI Radeon x1600"
-              },
-              {
-                "id": "gpu_geforce_9400",
-                "name": "GeForce 9400",
-                "score": 146,
-                "matched_from": "better, NVIDIA GeForce 9400"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon x1600 or better, NVIDIA GeForce 9400 or better"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -203,19 +191,13 @@
             "raw": "ATI Radeon\u2122 9500 or better, NVIDIA GeForce\u2122 FX 5200 or better, Intel\u00ae GMA 950 or better with 64 MB of video memory (shared or dedicated)*",
             "candidates": [
               {
-                "id": "gpu_radeon_9500",
-                "name": "RADEON 9500",
-                "score": 36,
-                "matched_from": "ATI Radeon\u2122 9500"
-              },
-              {
-                "id": "gpu_radeon_520",
-                "name": "Radeon 520",
-                "score": 883,
-                "matched_from": "better, NVIDIA GeForce\u2122 FX 5200"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon\u2122 9500 or better, NVIDIA GeForce\u2122 FX 5200 or better, Intel\u00ae GMA 950 or better with 64 MB of video memory (shared or dedicated)*"
               }
             ],
-            "min_score": 36
+            "min_score": 3
           }
         },
         "recommended": {
@@ -264,19 +246,13 @@
             "raw": "ATI Radeon x1600 or better, NVIDIA GeForce 9400 or better",
             "candidates": [
               {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
-                "matched_from": "ATI Radeon x1600"
-              },
-              {
-                "id": "gpu_geforce_9400",
-                "name": "GeForce 9400",
-                "score": 146,
-                "matched_from": "better, NVIDIA GeForce 9400"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon x1600 or better, NVIDIA GeForce 9400 or better"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {
@@ -380,13 +356,13 @@
             "raw": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB cards; Shader 2.0 and 24 bit depth buffer support required",
             "candidates": [
               {
-                "id": "gpu_radeon_x1900_gt",
-                "name": "Radeon X1900 GT",
-                "score": 145,
-                "matched_from": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB cards"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB cards; Shader 2.0 and 24 bit depth buffer support required"
               }
             ],
-            "min_score": 145
+            "min_score": 3
           }
         },
         "recommended": {
@@ -433,8 +409,15 @@
           },
           "gpu_match": {
             "raw": "ATI Radeon x1900 or better / NVIDIA 8600 or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon x1900 or better / NVIDIA 8600 or better"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -538,13 +521,13 @@
             "raw": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB cards; Shader 2.0 and 24 bit depth buffer support required",
             "candidates": [
               {
-                "id": "gpu_radeon_x1900_gt",
-                "name": "Radeon X1900 GT",
-                "score": 145,
-                "matched_from": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB cards"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB cards; Shader 2.0 and 24 bit depth buffer support required"
               }
             ],
-            "min_score": 145
+            "min_score": 3
           }
         },
         "recommended": {
@@ -591,8 +574,15 @@
           },
           "gpu_match": {
             "raw": "ATI Radeon x1900 or better / NVIDIA 8600 or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon x1900 or better / NVIDIA 8600 or better"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -703,13 +693,13 @@
             "raw": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)",
             "candidates": [
               {
-                "id": "gpu_radeon_x1900_gt",
-                "name": "Radeon X1900 GT",
-                "score": 145,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)"
               }
             ],
-            "min_score": 145
+            "min_score": 3
           }
         },
         "recommended": {
@@ -740,13 +730,13 @@
             "raw": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)",
             "candidates": [
               {
-                "id": "gpu_radeon_x1900_gt",
-                "name": "Radeon X1900 GT",
-                "score": 145,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)"
               }
             ],
-            "min_score": 145
+            "min_score": 3
           }
         }
       },
@@ -770,8 +760,15 @@
           },
           "gpu_match": {
             "raw": "ATI Radeon x1900 or better / NVIDIA 8600M or better with 128 MB or higher Video Memory (VRAM)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon x1900 or better / NVIDIA 8600M or better with 128 MB or higher Video Memory (VRAM)"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -882,13 +879,13 @@
             "raw": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)",
             "candidates": [
               {
-                "id": "gpu_radeon_x1900_gt",
-                "name": "Radeon X1900 GT",
-                "score": 145,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)"
               }
             ],
-            "min_score": 145
+            "min_score": 3
           }
         },
         "recommended": {
@@ -919,13 +916,13 @@
             "raw": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)",
             "candidates": [
               {
-                "id": "gpu_radeon_x1900_gt",
-                "name": "Radeon X1900 GT",
-                "score": 145,
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
                 "matched_from": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)"
               }
             ],
-            "min_score": 145
+            "min_score": 3
           }
         }
       },
@@ -949,8 +946,15 @@
           },
           "gpu_match": {
             "raw": "ATI Radeon x1900 or better / NVIDIA 8600M or better with 128 MB or higher Video Memory (VRAM)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon x1900 or better / NVIDIA 8600M or better with 128 MB or higher Video Memory (VRAM)"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1223,8 +1227,15 @@
           },
           "gpu_match": {
             "raw": "nVidia Geforce\u00ae 5600 or equivalent (must support Pixel Shader 2.0)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "nVidia Geforce\u00ae 5600 or equivalent (must support Pixel Shader 2.0)"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -1319,8 +1330,15 @@
           },
           "gpu_match": {
             "raw": "nVidia Geforce\u00ae 5600 or equivalent (must support Pixel Shader 2.0)",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "nVidia Geforce\u00ae 5600 or equivalent (must support Pixel Shader 2.0)"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -1383,19 +1401,13 @@
             "raw": "DirectX 9 compliant card NVIDIA GeForce 6600 series or ATI Radeon X700 or higher",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "DirectX 9 compliant card NVIDIA GeForce 6600 series"
-              },
-              {
-                "id": "gpu_radeon_x700",
-                "name": "RADEON X700",
-                "score": 72,
-                "matched_from": "ATI Radeon X700"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "DirectX 9 compliant card NVIDIA GeForce 6600 series or ATI Radeon X700 or higher"
               }
             ],
-            "min_score": 72
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1705,19 +1717,13 @@
             "raw": "DirectX 9.0 compliant card NVIDIA GeForce 6600 series or ATI Radeon x700 or higher, 64 MB and Pixelshader 2.0",
             "candidates": [
               {
-                "id": "gpu_geforce_6600",
-                "name": "GeForce 6600",
-                "score": 85,
-                "matched_from": "DirectX 9.0 compliant card NVIDIA GeForce 6600 series"
-              },
-              {
-                "id": "gpu_radeon_x700",
-                "name": "RADEON X700",
-                "score": 72,
-                "matched_from": "ATI Radeon x700"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "DirectX 9.0 compliant card NVIDIA GeForce 6600 series or ATI Radeon x700 or higher, 64 MB and Pixelshader 2.0"
               }
             ],
-            "min_score": 72
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2025,8 +2031,15 @@
           },
           "gpu_match": {
             "raw": "DirectX 9 compatible graphic card with 32MB RAM",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DirectX 9 compatible graphic card with 32MB RAM"
+              }
+            ],
+            "min_score": 1
           }
         },
         "recommended": {
@@ -3464,13 +3477,13 @@
             "raw": "DirectX9 video card with shader 3 support and 256MB VRAM such as AMD Radeon X700 or newer or NVIDIA GeForce 7600 or newer",
             "candidates": [
               {
-                "id": "gpu_radeon_x700",
-                "name": "RADEON X700",
-                "score": 72,
-                "matched_from": "DirectX9 video card with shader 3 support and 256MB VRAM such as AMD Radeon X700"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "DirectX9 video card with shader 3 support and 256MB VRAM such as AMD Radeon X700 or newer or NVIDIA GeForce 7600 or newer"
               }
             ],
-            "min_score": 72
+            "min_score": 3
           }
         }
       },
@@ -4229,19 +4242,13 @@
             "raw": "DirectX 9.0c/Shader3.0, NVIDIA GeForce 6600 series or higher, or ATI Radeon X1600 or higher",
             "candidates": [
               {
-                "id": "gpu_radeon_r3",
-                "name": "Radeon R3",
-                "score": 316,
-                "matched_from": "Shader3.0, NVIDIA GeForce 6600 series"
-              },
-              {
-                "id": "gpu_radeon_x1600",
-                "name": "Radeon X1600",
-                "score": 49,
-                "matched_from": "ATI Radeon X1600"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "DirectX 9.0c/Shader3.0, NVIDIA GeForce 6600 series or higher, or ATI Radeon X1600 or higher"
               }
             ],
-            "min_score": 49
+            "min_score": 3
           }
         },
         "recommended": {

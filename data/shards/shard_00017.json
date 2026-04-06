@@ -62,13 +62,13 @@
             "raw": "NVIDIA GeForce 6 Series (6800GT or better) / ATI 1300XT or better",
             "candidates": [
               {
-                "id": "gpu_geforce_6800",
-                "name": "GeForce 6800",
-                "score": 112,
-                "matched_from": "NVIDIA GeForce 6 Series (6800GT"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 6 Series (6800GT or better) / ATI 1300XT or better"
               }
             ],
-            "min_score": 112
+            "min_score": 3
           }
         },
         "recommended": {
@@ -220,13 +220,13 @@
             "raw": "NVIDIA GeForce 6 Series (6800GT or better) / ATI 1300XT or better",
             "candidates": [
               {
-                "id": "gpu_geforce_6800",
-                "name": "GeForce 6800",
-                "score": 112,
-                "matched_from": "NVIDIA GeForce 6 Series (6800GT"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 6 Series (6800GT or better) / ATI 1300XT or better"
               }
             ],
-            "min_score": 112
+            "min_score": 3
           }
         },
         "recommended": {
@@ -378,13 +378,13 @@
             "raw": "NVIDIA GeForce 6 Series (6800GT or better) / ATI 1300XT or better",
             "candidates": [
               {
-                "id": "gpu_geforce_6800",
-                "name": "GeForce 6800",
-                "score": 112,
-                "matched_from": "NVIDIA GeForce 6 Series (6800GT"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 6 Series (6800GT or better) / ATI 1300XT or better"
               }
             ],
-            "min_score": 112
+            "min_score": 3
           }
         },
         "recommended": {
@@ -536,13 +536,13 @@
             "raw": "NVIDIA GeForce 6 Series (6800GT or better) / ATI 1300XT or better",
             "candidates": [
               {
-                "id": "gpu_geforce_6800",
-                "name": "GeForce 6800",
-                "score": 112,
-                "matched_from": "NVIDIA GeForce 6 Series (6800GT"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 6 Series (6800GT or better) / ATI 1300XT or better"
               }
             ],
-            "min_score": 112
+            "min_score": 3
           }
         },
         "recommended": {
@@ -694,13 +694,13 @@
             "raw": "NVIDIA GeForce 6 Series (6800GT or better) / ATI 1300XT or better",
             "candidates": [
               {
-                "id": "gpu_geforce_6800",
-                "name": "GeForce 6800",
-                "score": 112,
-                "matched_from": "NVIDIA GeForce 6 Series (6800GT"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "NVIDIA GeForce 6 Series (6800GT or better) / ATI 1300XT or better"
               }
             ],
-            "min_score": 112
+            "min_score": 3
           }
         },
         "recommended": {
@@ -1331,8 +1331,15 @@
           },
           "gpu_match": {
             "raw": "GeForce 7900GTX/ATI RADEON X1900 XT or higher",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "GeForce 7900GTX/ATI RADEON X1900 XT or higher"
+              }
+            ],
+            "min_score": 3
           }
         },
         "recommended": {
@@ -2669,19 +2676,13 @@
             "raw": "Radeon X800 or GeForce 6800 or better*",
             "candidates": [
               {
-                "id": "gpu_radeon_x800_se",
-                "name": "RADEON X800 SE",
-                "score": 129,
-                "matched_from": "Radeon X800"
-              },
-              {
-                "id": "gpu_geforce_6800",
-                "name": "GeForce 6800",
-                "score": 112,
-                "matched_from": "GeForce 6800"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "Radeon X800 or GeForce 6800 or better*"
               }
             ],
-            "min_score": 112
+            "min_score": 3
           }
         }
       },
@@ -3023,19 +3024,13 @@
             "raw": "ATI Radeon X700+ or NVidia 6800+ video card, OpenGL 1.1 compatible video drivers",
             "candidates": [
               {
-                "id": "gpu_radeon_x700",
-                "name": "RADEON X700",
-                "score": 72,
-                "matched_from": "ATI Radeon X700+"
-              },
-              {
-                "id": "gpu_geforce_6800",
-                "name": "GeForce 6800",
-                "score": 112,
-                "matched_from": "NVidia 6800+ video card, OpenGL 1.1 compatible video drivers"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X700+ or NVidia 6800+ video card, OpenGL 1.1 compatible video drivers"
               }
             ],
-            "min_score": 72
+            "min_score": 3
           }
         },
         "recommended": {

@@ -498,19 +498,13 @@
             "raw": "256MB GPU with Shader Model 3 nVidia GeForce 7900 / ATI Radeon X1300 or faster",
             "candidates": [
               {
-                "id": "gpu_geforce_gpu",
-                "name": "GeForce GPU",
-                "score": 1152,
-                "matched_from": "256MB GPU with Shader Model 3 nVidia GeForce 7900"
-              },
-              {
-                "id": "gpu_radeon_x1300",
-                "name": "Radeon X1300",
-                "score": 58,
-                "matched_from": "ATI Radeon X1300"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "256MB GPU with Shader Model 3 nVidia GeForce 7900 / ATI Radeon X1300 or faster"
               }
             ],
-            "min_score": 58
+            "min_score": 3
           }
         },
         "recommended": {
@@ -669,19 +663,13 @@
             "raw": "256MB GPU with Shader Model 3 (nVidia GeForce 7900 / ATI Radeon X1300 or faster)",
             "candidates": [
               {
-                "id": "gpu_geforce_gpu",
-                "name": "GeForce GPU",
-                "score": 1152,
-                "matched_from": "256MB GPU with Shader Model 3 (nVidia GeForce 7900"
-              },
-              {
-                "id": "gpu_radeon_x1300",
-                "name": "Radeon X1300",
-                "score": 58,
-                "matched_from": "ATI Radeon X1300"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "256MB GPU with Shader Model 3 (nVidia GeForce 7900 / ATI Radeon X1300 or faster)"
               }
             ],
-            "min_score": 58
+            "min_score": 3
           }
         },
         "recommended": {
@@ -840,13 +828,13 @@
             "raw": "128 MB DirectX\u00ae 9.0c compatible video card (e.g. NVIDIA\u00ae GeForce\u2122 FX 5600 or ATi\u00ae Radeon\u2122 9600)",
             "candidates": [
               {
-                "id": "gpu_geforce_fx_5600",
-                "name": "GeForce FX 5600",
-                "score": 12,
-                "matched_from": "128 MB DirectX\u00ae 9.0c compatible video card (e.g. NVIDIA\u00ae GeForce\u2122 FX 5600"
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "128 MB DirectX\u00ae 9.0c compatible video card (e.g. NVIDIA\u00ae GeForce\u2122 FX 5600 or ATi\u00ae Radeon\u2122 9600)"
               }
             ],
-            "min_score": 12
+            "min_score": 3
           }
         },
         "recommended": {
