@@ -26,19 +26,13 @@
             "raw": "Video card must be 128 MB or more and with support for Pixel Shader 2.0b (ATI Radeon X800 or higher / NVIDIA GeForce 7600 or higher / Intel HD Graphics 2000 or higher).",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA GeForce 7600"
-              },
-              {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
                 "matched_from": "Intel HD Graphics 2000"
               }
             ],
-            "min_score": 630
+            "min_score": 3183
           }
         },
         "recommended": {
@@ -684,15 +678,8 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS:</strong> OS X version Leopard 10.5.8, Snow Leopard 10.6.3, or later<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Mac 2 GHz<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 256MB<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 42MB<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> Standard audio<br>\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Mac 2 GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Mac 2 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": null,
@@ -746,13 +733,13 @@
             "raw": "Graphics:",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
                 "matched_from": "Graphics:"
               }
             ],
-            "min_score": 7921
+            "min_score": 3183
           }
         },
         "recommended": {
@@ -808,13 +795,13 @@
             "raw": "DirectX 8.1-compatible video card of any type with at least 64 megabytes of video RAM; Nvidia and ATI tested (Intel Intregrated Graphics below X4000 series not",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
                 "matched_from": "Nvidia and ATI tested (Intel Intregrated Graphics below X4000 series not"
               }
             ],
-            "min_score": 5044
+            "min_score": 3183
           }
         },
         "recommended": {
@@ -966,13 +953,13 @@
             "raw": "DirectX 8.1-compatible video card of any type with at least 64 megabytes of video RAM; Nvidia and ATI tested (Intel Integrated Graphics below IntelHD series not recommended)",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
                 "matched_from": "Nvidia and ATI tested (Intel Integrated Graphics below IntelHD series not recommended)"
               }
             ],
-            "min_score": 5044
+            "min_score": 3183
           }
         },
         "recommended": {
@@ -1275,19 +1262,19 @@
             "raw": "512 MB NVIDIA GeForce 8400 / ATI Radeon HD 4650 or higher",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_8400",
+                "name": "GeForce 8400",
+                "score": 81,
                 "matched_from": "512 MB NVIDIA GeForce 8400"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_4650",
+                "name": "Radeon HD 4650",
+                "score": 248,
                 "matched_from": "ATI Radeon HD 4650"
               }
             ],
-            "min_score": 5044
+            "min_score": 81
           }
         },
         "recommended": {
@@ -1439,19 +1426,19 @@
             "raw": "512 MB NVIDIA GeForce 8400 / ATI Radeon HD 4650 or higher",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_8400",
+                "name": "GeForce 8400",
+                "score": 81,
                 "matched_from": "512 MB NVIDIA GeForce 8400"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_4650",
+                "name": "Radeon HD 4650",
+                "score": 248,
                 "matched_from": "ATI Radeon HD 4650"
               }
             ],
-            "min_score": 5044
+            "min_score": 81
           }
         },
         "recommended": {
@@ -1603,19 +1590,19 @@
             "raw": "512 MB NVIDIA GeForce 8400 / ATI Radeon HD 4650 or higher",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_8400",
+                "name": "GeForce 8400",
+                "score": 81,
                 "matched_from": "512 MB NVIDIA GeForce 8400"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_4650",
+                "name": "Radeon HD 4650",
+                "score": 248,
                 "matched_from": "ATI Radeon HD 4650"
               }
             ],
-            "min_score": 5044
+            "min_score": 81
           }
         },
         "recommended": {
@@ -1767,19 +1754,19 @@
             "raw": "512 MB NVIDIA GeForce 8400 / ATI Radeon HD 4650 or higher",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_8400",
+                "name": "GeForce 8400",
+                "score": 81,
                 "matched_from": "512 MB NVIDIA GeForce 8400"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_4650",
+                "name": "Radeon HD 4650",
+                "score": 248,
                 "matched_from": "ATI Radeon HD 4650"
               }
             ],
-            "min_score": 5044
+            "min_score": 81
           }
         },
         "recommended": {
@@ -1924,15 +1911,8 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP, Vista, 7<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 1.25GHz AMD Athlon or Intel equivalent<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 128MB Video Card (GeForce4 or equivalent card)<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 9 or above<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 626 MB Space Free<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX\u00ae 9.0c-compliant sound card <br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Other Requirements:</strong> Internet connection required<br>\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "1.25GHz AMD Athlon or Intel equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel equivalent"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "128MB Video Card (GeForce4 or equivalent card)",
@@ -1979,27 +1959,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong>OS X 10.6 or later<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong>1GB<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 1.83 GHz Intel Core Duo or better<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> Nvidia Geforce 8600, Radeon X1600 or better<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 4.3 GB<br>\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "1.83 GHz Intel Core Duo or better",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "1.83 GHz Intel Core Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Nvidia Geforce 8600, Radeon X1600 or better",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_x1600",
+                "name": "Radeon X1600",
+                "score": 49,
                 "matched_from": "Nvidia Geforce 8600, Radeon X1600"
               }
             ],
-            "min_score": 7921
+            "min_score": 49
           }
         },
         "recommended": {
@@ -2702,13 +2675,13 @@
             "raw": "2.0 GHz AMD/Intel",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
+                "id": "cpu_intel_xeon_6960p",
+                "name": "Intel Xeon 6960P",
+                "score": 130659,
                 "matched_from": "Intel"
               }
             ],
-            "min_score": 6100
+            "min_score": 130659
           },
           "gpu_match": {
             "raw": "128 MB DirectX Compatible",
@@ -2858,27 +2831,20 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 3.0 GHz Intel Pentium 4<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> DirectX 9.0c compatible, NVIDIA GeForce 7300 series, ATI Radeon\u2122 X1600 Video Card with 256MB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0c<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 1.8GB Hard Drive space<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible Sound Card<br></li><li><strong>Additional Notes:</strong> Microsoft no longer supports Windows 10 or older versions.<br>\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "3.0 GHz Intel Pentium 4",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "3.0 GHz Intel Pentium 4"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "DirectX 9.0c compatible, NVIDIA GeForce 7300 series, ATI Radeon\u2122 X1600 Video Card with 256MB RAM",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_x1600",
+                "name": "Radeon X1600",
+                "score": 49,
                 "matched_from": "DirectX 9.0c compatible, NVIDIA GeForce 7300 series, ATI Radeon\u2122 X1600 Video Card with 256MB RAM"
               }
             ],
-            "min_score": 7921
+            "min_score": 49
           }
         },
         "recommended": {
@@ -2895,27 +2861,20 @@
           "raw_html": "<strong>Recommended:</strong><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2.0 GHz Intel Core 2 Duo<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB RAM or more<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> DirectX 9.0c/Shader3.0 compatible, NVIDIA GeForce 8800 series or higher, ATI Radeon\u2122 X1900 Video Card with 512MB RAM<br>\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0c<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 4GB Hard Drive space<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible Sound Card<br></li><li><strong>Additional Notes:</strong> Microsoft no longer supports Windows 10 or older versions.<br>\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2.0 GHz Intel Core 2 Duo",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2.0 GHz Intel Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "DirectX 9.0c/Shader3.0 compatible, NVIDIA GeForce 8800 series or higher, ATI Radeon\u2122 X1900 Video Card with 512MB RAM",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_r3",
+                "name": "Radeon R3",
+                "score": 316,
                 "matched_from": "Shader3.0 compatible, NVIDIA GeForce 8800 series"
               }
             ],
-            "min_score": 5044
+            "min_score": 316
           }
         }
       },
@@ -3037,27 +2996,13 @@
           "raw_html": "<br>\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows 7/Vista/XP<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Pentium Dual-Core T4200 (2x2.0GHz) or AMD equivalent<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB RAM (XP)/3GB RAM (Windows 7 / Vista)<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> NVIDIA GeForce 8800 (512MB) / ATI Radeon HD 2900 (512MB)<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 11 GB free hard drive space<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> <br></li><li><strong>Additional Notes:</strong> Microsoft no longer supports Windows 10 or older versions.<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium Dual-Core T4200 (2x2.0GHz) or AMD equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium Dual-Core T4200 (2x2.0GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8800 (512MB) / ATI Radeon HD 2900 (512MB)",
-            "candidates": [
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA GeForce 8800 (512MB)"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         },
         "recommended": {
@@ -3074,33 +3019,26 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core i5 @ 2.66 GHz / AMD Phenom II X4 @ 3.0 GHz<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 3GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> NVIDIA GeForce GTX 460 (1GB) / ATI Radeon HD 5850 (1GB)<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 11 GB free hard drive space<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> <br></li><li><strong>Additional Notes:</strong> Microsoft no longer supports Windows 10 or older versions.<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5 @ 2.66 GHz / AMD Phenom II X4 @ 3.0 GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5 @ 2.66 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce GTX 460 (1GB) / ATI Radeon HD 5850 (1GB)",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_460",
+                "name": "GeForce GTX 460",
+                "score": 2270,
                 "matched_from": "NVIDIA GeForce GTX 460 (1GB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_5850",
+                "name": "Radeon HD 5850",
+                "score": 1943,
                 "matched_from": "ATI Radeon HD 5850 (1GB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1943
           }
         }
       },

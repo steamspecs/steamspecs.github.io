@@ -19,27 +19,26 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong>Windows 7/Vista/XP<br>\t</li><li><strong>Processor:</strong>Intel Core 2 Duo or higher<br>\t</li><li><strong>Memory:</strong>512 MB RAM<br>\t</li><li><strong>Graphics:</strong>Dedicated graphics card, 512MB with support for OpenGL 2.0, older or integrated (intel HD) cards probably will not work.<br>\t</li><li><strong>Hard Drive:</strong>512 MB HD space<br>\t</li><li><strong>Additional:</strong>email <a href=\"mailto:support@closuregame.com\">support@closuregame.com</a> if you have problems</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Dedicated graphics card, 512MB with support for OpenGL 2.0, older or integrated (intel HD) cards probably will not work.",
             "candidates": [
               {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
+                "matched_from": "Dedicated graphics card, 512MB with support for OpenGL 2.0, older"
+              },
+              {
+                "id": "gpu_radeon_pro",
+                "name": "Radeon Pro",
+                "score": 2559,
                 "matched_from": "integrated (intel HD) cards probably will not work."
               }
             ],
-            "min_score": 630
+            "min_score": 2559
           }
         },
         "recommended": {
@@ -81,27 +80,26 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS:</strong>10.6<br>\t</li><li><strong>Processor:</strong>Intel Core 2 Duo or higher<br>\t</li><li><strong>Memory:</strong>512 MB RAM<br>\t</li><li><strong>Graphics:</strong>Dedicated graphics card, 512MB with support for OpenGL 2.0, older or integrated (intel HD) cards probably will not work.<br>\t</li><li><strong>Hard Drive:</strong>512 MB HD space<br>\t</li><li><strong>Additional:</strong>email <a href=\"mailto:support@closuregame.com\">support@closuregame.com</a> if you have problems</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Dedicated graphics card, 512MB with support for OpenGL 2.0, older or integrated (intel HD) cards probably will not work.",
             "candidates": [
               {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
+                "matched_from": "Dedicated graphics card, 512MB with support for OpenGL 2.0, older"
+              },
+              {
+                "id": "gpu_radeon_pro",
+                "name": "Radeon Pro",
+                "score": 2559,
                 "matched_from": "integrated (intel HD) cards probably will not work."
               }
             ],
-            "min_score": 630
+            "min_score": 2559
           }
         },
         "recommended": {
@@ -200,19 +198,13 @@
             "raw": "1.5+ GHz Intel or AMD",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "1.5+ GHz Intel"
-              },
-              {
                 "id": "cpu_amd_ryzen_5_3600",
                 "name": "AMD Ryzen 5 3600",
                 "score": 17674,
                 "matched_from": "AMD"
               }
             ],
-            "min_score": 6100
+            "min_score": 17674
           },
           "gpu_match": {
             "raw": "64MB DirectX\u00ae 9.0c",
@@ -367,15 +359,8 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 6 series, ATI 1300XT series",
-            "candidates": [
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA GeForce 6 series, ATI 1300XT series"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         },
         "recommended": {
@@ -525,15 +510,8 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 6 series, ATI 1300XT series",
-            "candidates": [
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA GeForce 6 series, ATI 1300XT series"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         },
         "recommended": {
@@ -683,15 +661,8 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 6 series, ATI 1300XT series",
-            "candidates": [
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA GeForce 6 series, ATI 1300XT series"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         },
         "recommended": {
@@ -841,15 +812,8 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 6 series, ATI 1300XT series",
-            "candidates": [
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA GeForce 6 series, ATI 1300XT series"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         },
         "recommended": {
@@ -999,15 +963,8 @@
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 6 series, ATI 1300XT series",
-            "candidates": [
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA GeForce 6 series, ATI 1300XT series"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         },
         "recommended": {
@@ -1154,13 +1111,13 @@
             "raw": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium 4 3GHz"
+                "id": "cpu_intel_300",
+                "name": "Intel 300",
+                "score": 7251,
+                "matched_from": "AMD Athlon 64 3000 +"
               }
             ],
-            "min_score": 6100
+            "min_score": 7251
           },
           "gpu_match": {
             "raw": "128 Mb, 1280x720",
@@ -1312,13 +1269,13 @@
             "raw": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium 4 3GHz"
+                "id": "cpu_intel_300",
+                "name": "Intel 300",
+                "score": 7251,
+                "matched_from": "AMD Athlon 64 3000 +"
               }
             ],
-            "min_score": 6100
+            "min_score": 7251
           },
           "gpu_match": {
             "raw": "128 Mb, 1280x720",
@@ -1470,13 +1427,13 @@
             "raw": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium 4 3GHz"
+                "id": "cpu_intel_300",
+                "name": "Intel 300",
+                "score": 7251,
+                "matched_from": "AMD Athlon 64 3000 +"
               }
             ],
-            "min_score": 6100
+            "min_score": 7251
           },
           "gpu_match": {
             "raw": "128 Mb, 1280x720",
@@ -1628,13 +1585,13 @@
             "raw": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium 4 3GHz"
+                "id": "cpu_intel_300",
+                "name": "Intel 300",
+                "score": 7251,
+                "matched_from": "AMD Athlon 64 3000 +"
               }
             ],
-            "min_score": 6100
+            "min_score": 7251
           },
           "gpu_match": {
             "raw": "128 Mb, 1280x720",
@@ -1786,13 +1743,13 @@
             "raw": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium 4 3GHz"
+                "id": "cpu_intel_300",
+                "name": "Intel 300",
+                "score": 7251,
+                "matched_from": "AMD Athlon 64 3000 +"
               }
             ],
-            "min_score": 6100
+            "min_score": 7251
           },
           "gpu_match": {
             "raw": "128 Mb, 1280x720",
@@ -1944,13 +1901,13 @@
             "raw": "Intel Pentium 4 3GHz / AMD Athlon 64 3000 +",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium 4 3GHz"
+                "id": "cpu_intel_300",
+                "name": "Intel 300",
+                "score": 7251,
+                "matched_from": "AMD Athlon 64 3000 +"
               }
             ],
-            "min_score": 6100
+            "min_score": 7251
           },
           "gpu_match": {
             "raw": "128 Mb, 1280x720",
@@ -2107,19 +2064,13 @@
             "raw": "NVIDIA GeForce 8800/ATI Radeon HD 3850 or higher (integrated video cards not supported), 512 MB RAM, OpenGL 3.0",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA GeForce 8800"
-              },
-              {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_3850",
+                "name": "Radeon HD 3850",
+                "score": 401,
                 "matched_from": "ATI Radeon HD 3850"
               }
             ],
-            "min_score": 5044
+            "min_score": 401
           }
         },
         "recommended": {
@@ -2168,19 +2119,13 @@
             "raw": "NVIDIA GeForce 8800/ATI Radeon HD 3850 or higher with 512 MB RAM, OpenGL 3.0",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA GeForce 8800"
-              },
-              {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_3850",
+                "name": "Radeon HD 3850",
+                "score": 401,
                 "matched_from": "ATI Radeon HD 3850"
               }
             ],
-            "min_score": 5044
+            "min_score": 401
           }
         },
         "recommended": {
@@ -2222,33 +2167,20 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 12.04 LTS<br>\t</li><li><strong>Processor:</strong>Intel Core Duo Processor (2GHz or better)<br>\t</li><li><strong>Memory:</strong>2 GB RAM<br>\t</li><li><strong>Graphics:</strong>nVIDIA GeForce 8800, 512 MB RAM or ATI Radeon HD 3850, 512 MB RAM<br>\t</li><li><strong>Hard Drive:</strong>2 GB HD space<br>\t</li><li><strong>Other Requirements:</strong>Broadband Internet connection<br>\t</li><li><strong>Additional:</strong>GLSL 1.2, OpenGL 2.1. Controller support: 3-button mouse, keyboard and speakers. Internet Connection or LAN for multiplayer</li></ul>",
           "cpu_match": {
             "raw": "Intel Core Duo Processor (2GHz or better)",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core Duo Processor (2GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "nVIDIA GeForce 8800, 512 MB RAM or ATI Radeon HD 3850, 512 MB RAM",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "nVIDIA GeForce 8800, 512 MB RAM"
-              },
-              {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_3850",
+                "name": "Radeon HD 3850",
+                "score": 401,
                 "matched_from": "ATI Radeon HD 3850, 512 MB RAM"
               }
             ],
-            "min_score": 5044
+            "min_score": 401
           }
         },
         "recommended": {

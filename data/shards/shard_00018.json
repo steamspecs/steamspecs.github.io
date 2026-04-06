@@ -67,33 +67,32 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X 10.5.6 Leopard or greater<br>\t</li><li><strong>Processor:</strong> Intel Core 2 Duo processor<br>\t</li><li><strong>Memory:</strong> 1GB<br>\t</li><li><strong>Graphics:</strong> ATI X1600 or NVidia 9800 GT with 128MB of video RAM, or Intel Integrated GMA X3100<br>\t</li><li><strong>Hard Drive:</strong> 200MB <br>\t</li><li><strong>Sound:</strong> Standard audio<br>\t</li><li><strong>Other Requirements:</strong> Keyboard and mouse</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core 2 Duo processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "ATI X1600 or NVidia 9800 GT with 128MB of video RAM, or Intel Integrated GMA X3100",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_x1600",
+                "name": "Radeon X1600",
+                "score": 49,
+                "matched_from": "ATI X1600"
+              },
+              {
+                "id": "gpu_geforce_9800_gt",
+                "name": "GeForce 9800 GT",
+                "score": 443,
                 "matched_from": "NVidia 9800 GT with 128MB of video RAM"
               },
               {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
+                "id": "gpu_geforce_310",
+                "name": "GeForce 310",
+                "score": 144,
                 "matched_from": "Intel Integrated GMA X3100"
               }
             ],
-            "min_score": 630
+            "min_score": 49
           }
         },
         "recommended": {
@@ -492,33 +491,26 @@
           "raw_html": "<br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP or Windows Vista<br>\t\t\t\t\t\t</li><li><strong>Processor:</strong> Dual Core CPU (Intel Pentium 4 3.4Ghz, AMD Athlon 64 X2 3.0GHz or faster<br>\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB<br>\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 256MB GPU with Shader Model 3 nVidia GeForce 7900 / ATI Radeon X1300 or faster<br>\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0 March 2009 Runtime<br>\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 600 MB<br>\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible (on-board or add-in)<br>\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Dual Core CPU (Intel Pentium 4 3.4Ghz, AMD Athlon 64 X2 3.0GHz or faster",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Dual Core CPU (Intel Pentium 4 3.4Ghz, AMD Athlon 64 X2 3.0GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "256MB GPU with Shader Model 3 nVidia GeForce 7900 / ATI Radeon X1300 or faster",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
                 "matched_from": "256MB GPU with Shader Model 3 nVidia GeForce 7900"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_x1300",
+                "name": "Radeon X1300",
+                "score": 58,
                 "matched_from": "ATI Radeon X1300"
               }
             ],
-            "min_score": 5044
+            "min_score": 58
           }
         },
         "recommended": {
@@ -535,27 +527,20 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP or Windows Vista<br>\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 Duo E6320 / AMD X2 6000 or faster<br>\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB<br>\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 512MB GPU with Shader Model 3 (nVidia GeForce 8600 GTS / Radeon HD2900 XT or faster)<br>\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0 March 2009 Runtime<br>\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 600 MB<br>\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible (on-board or add-in)<br>\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo E6320 / AMD X2 6000 or faster",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core 2 Duo E6320"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "512MB GPU with Shader Model 3 (nVidia GeForce 8600 GTS / Radeon HD2900 XT or faster)",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
                 "matched_from": "512MB GPU with Shader Model 3 (nVidia GeForce 8600 GTS"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -677,33 +662,26 @@
           "raw_html": "<br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP or Windows Vista<br>\t\t\t\t\t\t</li><li><strong>Processor:</strong> Dual Core CPU (Intel Pentium 4 3.4Ghz, AMD Athlon 64 X2 3.0GHz or faster<br>\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB<br>\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 256MB GPU with Shader Model 3 (nVidia GeForce 7900 / ATI Radeon X1300 or faster)<br>\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0 March 2009 Runtime<br>\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 600MB<br>\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible (on-board or add-in)<br>\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Dual Core CPU (Intel Pentium 4 3.4Ghz, AMD Athlon 64 X2 3.0GHz or faster",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Dual Core CPU (Intel Pentium 4 3.4Ghz, AMD Athlon 64 X2 3.0GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "256MB GPU with Shader Model 3 (nVidia GeForce 7900 / ATI Radeon X1300 or faster)",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
                 "matched_from": "256MB GPU with Shader Model 3 (nVidia GeForce 7900"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_x1300",
+                "name": "Radeon X1300",
+                "score": 58,
                 "matched_from": "ATI Radeon X1300"
               }
             ],
-            "min_score": 5044
+            "min_score": 58
           }
         },
         "recommended": {
@@ -720,27 +698,20 @@
           "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP or Windows Vista<br>\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 Duo E6320 / AMD X2 6000 or faster<br>\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB<br>\t\t\t\t\t\t</li><li><strong>Graphics:</strong>512MB GPU with Shader Model 3 (nVidia GeForce 8600 GTS / Radeon HD2900 XT or faster)<br>\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0 March 2009 Runtime<br>\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 1 GB<br>\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible (on-board or add-in)<br>\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo E6320 / AMD X2 6000 or faster",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core 2 Duo E6320"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "512MB GPU with Shader Model 3 (nVidia GeForce 8600 GTS / Radeon HD2900 XT or faster)",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
                 "matched_from": "512MB GPU with Shader Model 3 (nVidia GeForce 8600 GTS"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -869,13 +840,13 @@
             "raw": "128 MB DirectX\u00ae 9.0c compatible video card (e.g. NVIDIA\u00ae GeForce\u2122 FX 5600 or ATi\u00ae Radeon\u2122 9600)",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_fx_5600",
+                "name": "GeForce FX 5600",
+                "score": 12,
                 "matched_from": "128 MB DirectX\u00ae 9.0c compatible video card (e.g. NVIDIA\u00ae GeForce\u2122 FX 5600"
               }
             ],
-            "min_score": 5044
+            "min_score": 12
           }
         },
         "recommended": {
@@ -1370,15 +1341,8 @@
           "raw_html": "<ul>\n\t<li><strong>OS:</strong> OS X version Leopard 10.5.8, Snow Leopard 10.6.3, or later</li>\n\t<li><strong>Processor:</strong> Intel Mac 1.83GHz</li>\n\t<li><strong>Memory:</strong> 512 MB MB RAM</li>\n\t<li><strong>Hard Drive:</strong> 40 MB free space</li>\n\t<li><strong>Other Requirements:</strong> </li>\n</ul>",
           "cpu_match": {
             "raw": "Intel Mac 1.83GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Mac 1.83GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": null,
@@ -1981,15 +1945,8 @@
           "raw_html": "</p>\n<ul>\n\t<li><strong>OS:</strong> OS X version Leopard 10.5.8, Snow Leopard 10.6.3, or later</li>\n\t<li><strong>Processor:</strong> G4 800 MHz or faster, or G5 Intel processor</li>\n\t<li><strong>Min Screen Resolution:</strong> 800x600</li>\n\t<li><strong>Hard Drive:</strong> 21 MB</li>\n</ul>",
           "cpu_match": {
             "raw": "G4 800 MHz or faster, or G5 Intel processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "G5 Intel processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": null,
@@ -2011,15 +1968,8 @@
           "raw_html": "<p><strong>Recommended:</strong></p>\n<ul>\n\t<li><strong>OS:</strong> OS X version Leopard 10.5.8, Snow Leopard 10.6.3, or later</li>\n\t<li><strong>Processor:</strong> G4 800 MHz or faster, or G5 Intel processor</li>\n\t<li><strong>Min Screen Resolution:</strong> 800x600</li>\n\t<li><strong>Hard Drive:</strong> 21 MB</li>\n\t<li><strong>Sound Card:</strong> Recommended</li>\n</ul>",
           "cpu_match": {
             "raw": "G4 800 MHz or faster, or G5 Intel processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "G5 Intel processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": null,
@@ -3052,15 +3002,8 @@
           "raw_html": "<ul>\n<li><strong>OS: OS X version Leopard 10.5.8, Snow Leopard 10.6.3, or later.</strong> </li>\n<li><strong>Processor: Intel Core Duo 1.83GHz</strong> </li>\n<li><strong>Memory: 512 MB</strong> </li>\n<li><strong>Graphics: 64 MB</strong> </li>\n<li><strong>Other Requirements: </strong> </li>\n</ul>",
           "cpu_match": {
             "raw": "Intel Core Duo 1.83GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core Duo 1.83GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "64 MB",
@@ -3622,13 +3565,13 @@
             "raw": "Radeon R300 series (9xxx",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_r3",
+                "name": "Radeon R3",
+                "score": 316,
                 "matched_from": "Radeon R300 series (9xxx"
               }
             ],
-            "min_score": 7921
+            "min_score": 316
           }
         },
         "recommended": {
@@ -3821,15 +3764,8 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>Computer:</strong> Intel Mac, OS X 10.5 or later<br>\t</li><li><strong>Hard Drive:</strong> 8MB of disk space<br>\t</li><li><strong>Peripherals:</strong> Mouse recommended (one button is fine)</li></ul>",
           "cpu_match": {
             "raw": "Computer: Intel Mac",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Computer: Intel Mac"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": null,
@@ -3979,15 +3915,8 @@
           "raw_html": "<ul>\n\t<li><strong>OS:</strong> OS X version Leopard 10.5.8, Snow Leopard 10.6.3, or later</li>\n\t<li><strong>Processor:</strong> Intel Core 2 Duo 1.66 Ghz</li>\n\t<li><strong>Memory:</strong> 256MB of RAM</li>\n\t<li><strong>Hard Drive:</strong> 80MB free space</li>\n\t<li><strong>Other Requirements:</strong> </li>\n</ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo 1.66 Ghz",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core 2 Duo 1.66 Ghz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": null,

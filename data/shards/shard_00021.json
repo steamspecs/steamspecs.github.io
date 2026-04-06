@@ -26,9 +26,9 @@
             "raw": "GeForce 8600 or higher, or comparable ATI. Monitor resolution higher than 1280x720",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_8600_gts",
+                "name": "GeForce 8600 GTS",
+                "score": 185,
                 "matched_from": "GeForce 8600"
               },
               {
@@ -183,27 +183,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> XP/Vista/Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Dual-core processor (Intel Core 2 Duo 2.4 GHz or AMD Athlon X2 5200+ 2.6 GHz)<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1.5 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 2.0 GB free space<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> DirectX 9.0c/Shader3.0 compatible, VRAM 512 MB (NVIDIA GeForce 7800 series or ATI Radeon X1900)<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible sound cards<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0c\t<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Dual-core processor (Intel Core 2 Duo 2.4 GHz or AMD Athlon X2 5200+ 2.6 GHz)",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Dual-core processor (Intel Core 2 Duo 2.4 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "DirectX 9.0c/Shader3.0 compatible, VRAM 512 MB (NVIDIA GeForce 7800 series or ATI Radeon X1900)",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_r3",
+                "name": "Radeon R3",
+                "score": 316,
                 "matched_from": "Shader3.0 compatible, VRAM 512 MB (NVIDIA GeForce 7800 series"
               }
             ],
-            "min_score": 5044
+            "min_score": 316
           }
         },
         "recommended": {
@@ -353,15 +346,8 @@
           },
           "gpu_match": {
             "raw": "Nvidia GeForce 8xxx",
-            "candidates": [
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Nvidia GeForce 8xxx"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         },
         "recommended": {
@@ -511,15 +497,8 @@
           },
           "gpu_match": {
             "raw": "Nvidia GeForce 8xxx",
-            "candidates": [
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Nvidia GeForce 8xxx"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         },
         "recommended": {
@@ -669,15 +648,8 @@
           },
           "gpu_match": {
             "raw": "Nvidia GeForce 8xxx",
-            "candidates": [
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Nvidia GeForce 8xxx"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         },
         "recommended": {
@@ -694,33 +666,26 @@
           "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7 (64 bit)<br>\t</li><li><strong>Processor:</strong> Quad-core Intel or AMD CPU<br>\t</li><li><strong>Memory:</strong> 4GB<br>\t</li><li><strong>Hard Disk Space:</strong> 13GB<br>\t</li><li><strong>Video Card:</strong> DirectX 11 compatible Nvidia or AMD ATI card, ATI Radeon HD6870 or higher, Nvidia GeForce GTX 460 or higher. Graphics card memory: 1 GB<br>\t</li><li><strong>DirectX\u00ae:</strong> DirectX11 drivers (the game support DX10 hardware)<br>\t</li><li><strong>Sound:</strong> DirectX compatible sound card</li></ul>",
           "cpu_match": {
             "raw": "Quad-core Intel or AMD CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Quad-core Intel"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "DirectX 11 compatible Nvidia or AMD ATI card, ATI Radeon HD6870 or higher, Nvidia GeForce GTX 460 or higher. Graphics card memory: 1 GB",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "DirectX 11 compatible Nvidia"
+                "id": "gpu_geforce_gtx_460",
+                "name": "GeForce GTX 460",
+                "score": 2270,
+                "matched_from": "higher, Nvidia GeForce GTX 460"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
-                "matched_from": "AMD ATI card, ATI Radeon HD6870"
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
+                "matched_from": "higher. Graphics card memory: 1 GB"
               }
             ],
-            "min_score": 5044
+            "min_score": 2270
           }
         }
       },
@@ -739,27 +704,13 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> OS X 10.7.5 (Lion), 10.8.2 (Mountain Lion)<br>\t</li><li><strong>Processor:</strong> Intel Core 2 Duo 2.2 GHz<br>\t</li><li><strong>Memory:</strong> 4 GB RAM<br>\t</li><li><strong>Graphics:</strong> NVIDIA GeForce 8800, ATI Radeon HD 2600<br>\t</li><li><strong>Hard Drive:</strong> 13 GB</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo 2.2 GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core 2 Duo 2.2 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8800, ATI Radeon HD 2600",
-            "candidates": [
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA GeForce 8800, ATI Radeon HD 2600"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         },
         "recommended": {
@@ -861,15 +812,8 @@
           },
           "gpu_match": {
             "raw": "Nvidia GeForce 8xxx",
-            "candidates": [
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Nvidia GeForce 8xxx"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         },
         "recommended": {
@@ -1213,27 +1157,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> OS X version Leopard 10.5.8, Snow Leopard 10.6.3, or later. Will not run on Mojave or Catalina<br>\t</li><li><strong>Processor:</strong> Intel processor<br>\t</li><li><strong>Memory:</strong> 512 MB<br>\t</li><li><strong>Graphics:</strong> Intel GMA 950, ATI X160, NVIDIA 7300 graphics card or better<br>\t</li><li><strong>Hard Drive:</strong> 600 MB<br>\t</li><li><strong>Other:</strong> Internet connection</li></ul>",
           "cpu_match": {
             "raw": "Intel processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Intel GMA 950, ATI X160, NVIDIA 7300 graphics card or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
                 "matched_from": "Intel GMA 950, ATI X160, NVIDIA 7300 graphics card"
               }
             ],
-            "min_score": 5044
+            "min_score": 3183
           }
         },
         "recommended": {
@@ -1378,27 +1315,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X: 10.5.8 Leopard/10.6.8 Snow Leopard/10.7 Lion/10.8 Mountain Lion/10.9 Mavericks/10.10 Yosemite/10.11 El Capitan/10.12 Sierra/High Sierra.<br>\t</li><li><strong>Processor:</strong> Intel processor<br>\t</li><li><strong>Memory:</strong> 512 MB<br>\t</li><li><strong>Graphics:</strong> Intel GMA 950, ATI X160, NVIDIA 7300 graphics card or better<br>\t</li><li><strong>Hard Drive:</strong> 2.1 GB<br>\t</li><li><strong>Other:</strong> Internet connection<br>\t</li><li><strong>Additional:</strong> The game will not work on PowerPC (G3/G4/G5) based Mac systems (PowerMac)<br>\t</li><li><strong>Attention Mac Users:</strong>\u26a0\ufe0fThis game will <u>not</u> run on Mojave, Catalina, Big Sur, Monterey, Ventura, or higher Mac operating systems.</li></ul>",
           "cpu_match": {
             "raw": "Intel processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Intel GMA 950, ATI X160, NVIDIA 7300 graphics card or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
                 "matched_from": "Intel GMA 950, ATI X160, NVIDIA 7300 graphics card"
               }
             ],
-            "min_score": 5044
+            "min_score": 3183
           }
         },
         "recommended": {
@@ -1497,13 +1427,13 @@
             "raw": "1GHz or greater Pentium 3 or equivalent class CPU",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
+                "id": "cpu_intel_atom_c2750_2_41ghz",
+                "name": "Intel Atom C2750 @ 2.41GHz",
+                "score": 2174,
                 "matched_from": "1GHz"
               }
             ],
-            "min_score": 6100
+            "min_score": 2174
           },
           "gpu_match": {
             "raw": "32MB DirectX 9.0 compatible video card",
@@ -1550,27 +1480,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X: 10.5.8 Leopard/10.6.8 Snow Leopard/10.7 Lion/10.8 Mountain Lion/10.9 Mavericks/10.10 Yosemite/10.11 El Capitan/10.12 Sierra/High Sierra.<br>\t</li><li><strong>Processor:</strong> Intel processor<br>\t</li><li><strong>Memory:</strong> 512 MB<br>\t</li><li><strong>Graphics:</strong> Intel GMA 950, ATI X160, NVIDIA 7300 graphics card or better<br>\t</li><li><strong>Hard Drive:</strong> 1.1 GB<br>\t</li><li><strong>Other:</strong> Internet connection<br>\t</li><li><strong>Attention Mac Users:</strong>\u26a0\ufe0fThis game will <u>not</u> run on Mojave, Catalina, Big Sur, Monterey, Ventura, or higher Mac operating systems.</li></ul>",
           "cpu_match": {
             "raw": "Intel processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Intel GMA 950, ATI X160, NVIDIA 7300 graphics card or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
                 "matched_from": "Intel GMA 950, ATI X160, NVIDIA 7300 graphics card"
               }
             ],
-            "min_score": 5044
+            "min_score": 3183
           }
         },
         "recommended": {
@@ -1672,8 +1595,15 @@
           },
           "gpu_match": {
             "raw": "256MB DirectX\u00ae 9.0c compliant supporting Pixel Shader 2.0 or better",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
+                "matched_from": "256MB DirectX\u00ae 9.0c compliant supporting Pixel Shader 2.0"
+              }
+            ],
+            "min_score": 5
           }
         },
         "recommended": {
@@ -1818,20 +1748,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP/Vista/Windows 7 (Does not support Windows 2000)<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Dual Core 2.8 GHz or AMD Ahtlon 64 x2 Dual-Core 4800+ or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB for XP, 2GB for Vista/Win7<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 3D hardware accelerator card required - 100% DirectX\u00ae 9.0c-compliant 256 MB video card and drivers*<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 9.0c (Included)<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 8GB of uncompressed hard disk space (plus 400 MB for the Windows\u00ae swap file and 12 KB free for saved games)<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0c-compliant true 16-bit sound card and drivers<br>\t\t\t\t\t\t\t\t</li><li><strong>Other Requirements:</strong> A 100% Windows\u00ae XP/Vista/Windows 7-compatible computer system<br>\t\t\t\t\t\t\t\t</li><li><strong>Keyboard/Mouse:</strong>100% Windows\u00ae XP/Vista/Windows 7-compatible mouse, keyboard and drivers<br>\t\t\t\t\t\t\t</li></ul>*Supported Chipsets for Windows\u00ae XP/Vista/Windows 7<br><br>\t\t\t\t\t\t\t&amp;nbsp - All NVIDIA\u00ae GeForce\u00ae 8800 GT 256 MB RAM and better chipsets (excluding 9400 cards)<br><br>\t\t\t\t\t\t\t&amp;nbsp - All ATI Radeon\u2122 X1800 256 MB RAM and better (excludes X1800 GTO, HD2400, HD2600, and HD3450)<br><br>\t\t\t\t\t\t\t&amp;nbsp - Motherboard integrated video chipsets not supported",
           "cpu_match": {
             "raw": "Intel Dual Core 2.8 GHz or AMD Ahtlon 64 x2 Dual-Core 4800+ or better",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Dual Core 2.8 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "3D hardware accelerator card required - 100% DirectX\u00ae 9.0c-compliant 256 MB video card and drivers*",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
+                "matched_from": "3D hardware accelerator card required - 100% DirectX\u00ae 9.0c-compliant 256 MB video card and drivers*"
+              }
+            ],
+            "min_score": 5
           }
         },
         "recommended": {
@@ -1976,27 +1906,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP, Vista, 7<br>\t</li><li><strong>Processor:</strong> Intel\u00ae Core\u2122 2 Duo E6600 or AMD Phenom\u2122 X3 8750 processor or better<br>\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t</li><li><strong>Hard Disk Space:</strong> 16 GB free hard drive space\t<br>\t</li><li><strong>Video Card:</strong> Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better<br>\t</li><li><strong>DirectX\u00ae:</strong> 9.0c or later<br>\t</li><li><strong>Sound:</strong> DirectX\u00ae 9.0c or later<br>\t</li><li><strong>Additional:</strong> Broadband connection and service required for Multiplayer Connectivity. Internet connection required for activation.\t</li></ul>",
           "cpu_match": {
             "raw": "Intel\u00ae Core\u2122 2 Duo E6600 or AMD Phenom\u2122 X3 8750 processor or better",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel\u00ae Core\u2122 2 Duo E6600"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
                 "matched_from": "better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT"
               }
             ],
-            "min_score": 5044
+            "min_score": 5
           }
         },
         "recommended": {
@@ -2038,27 +1961,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>Operating System:</strong> 10.9.2 (Mavericks)<br></li><li><strong>CPU Processor:</strong> Intel i3 (Dual-Core)<br></li><li><strong>CPU Speed:</strong> 2.2GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Hard Disk Space:</strong> 13 GB<br></li><li><strong>Video Card (ATI):</strong> Radeon HD 4850<br></li><li><strong>Video Card (NVidia):</strong> Geforce 640M<br></li><li><strong>Video Card (Intel):</strong> Iris<br></li><li><strong>Video Memory (VRam):</strong> 512 MB<br></li><li><strong>Peripherals:</strong> Macintosh mouse and keyboard<br><br><br></li><li><strong>NOTICE:</strong> The following video chipsets are unsupported for Call of Duty\u00ae: Modern Warfare\u00ae 3:<br>\u2022\tATI RADEON HD 2000 Series<br>\u2022\tATI RADEON HD 6490M, 6630M, 3870<br>\u2022\tNVIDIA 9000 Series<br>\u2022\tNVIDIA 320M, 330M<br>\u2022\tIntel HD 3000, 4000, 5000<br><br></li><li><strong>NOTICE:</strong> This game is not supported on volumes formatted as Mac OS Extended (Case Sensitive)</li></ul>",
           "cpu_match": {
             "raw": "Intel i3 (Dual-Core)",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel i3 (Dual-Core)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Radeon HD 4850",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_4850",
+                "name": "Radeon HD 4850",
+                "score": 947,
                 "matched_from": "Radeon HD 4850"
               }
             ],
-            "min_score": 7921
+            "min_score": 947
           }
         },
         "recommended": {
@@ -2155,27 +2071,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP/ Windows\u00ae Vista / Windows\u00ae 7<br>\t</li><li><strong>Processor:</strong> Intel\u00ae Core\u2122 2 Duo E6600 or AMD Phenom\u2122 X3 8750 processor or better<br>\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t</li><li><strong>Hard Disk Space:</strong> 16 GB free hard drive space\t<br>\t</li><li><strong>Video Card:</strong> Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better<br>\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 9.0c or later<br>\t</li><li><strong>Internet:</strong> Broadband connection and service required for Multiplayer Connectivity. Internet connection required for activation.\t</li></ul>",
           "cpu_match": {
             "raw": "Intel\u00ae Core\u2122 2 Duo E6600 or AMD Phenom\u2122 X3 8750 processor or better",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel\u00ae Core\u2122 2 Duo E6600"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
                 "matched_from": "better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT"
               }
             ],
-            "min_score": 5044
+            "min_score": 5
           }
         },
         "recommended": {
@@ -2217,27 +2126,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>Operating System:</strong> 10.9.2 (Mavericks)<br></li><li><strong>CPU Processor:</strong> Intel i3 (Dual-Core)<br></li><li><strong>CPU Speed:</strong> 2.2GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Hard Disk Space:</strong> 13 GB<br></li><li><strong>Video Card (ATI):</strong> Radeon HD 4850<br></li><li><strong>Video Card (NVidia):</strong> Geforce 640M<br></li><li><strong>Video Card (Intel):</strong> Iris<br></li><li><strong>Video Memory (VRam):</strong> 512 MB<br></li><li><strong>Peripherals:</strong> Macintosh mouse and keyboard<br><br><br></li><li><strong>NOTICE:</strong> The following video chipsets are unsupported for Call of Duty\u00ae: Modern Warfare\u00ae 3:<br>\u2022\tATI RADEON HD 2000 Series<br>\u2022\tATI RADEON HD 6490M, 6630M, 3870<br>\u2022\tNVIDIA 9000 Series<br>\u2022\tNVIDIA 320M, 330M<br>\u2022\tIntel HD 3000, 4000, 5000<br><br></li><li><strong>NOTICE:</strong> This game is not supported on volumes formatted as Mac OS Extended (Case Sensitive)</li></ul>",
           "cpu_match": {
             "raw": "Intel i3 (Dual-Core)",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel i3 (Dual-Core)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Radeon HD 4850",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_4850",
+                "name": "Radeon HD 4850",
+                "score": 947,
                 "matched_from": "Radeon HD 4850"
               }
             ],
-            "min_score": 7921
+            "min_score": 947
           }
         },
         "recommended": {
@@ -2334,27 +2236,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP/ Windows\u00ae Vista / Windows\u00ae 7<br>\t</li><li><strong>Processor:</strong> Intel\u00ae Core\u2122 2 Duo E6600 or AMD Phenom\u2122 X3 8750 processor or better<br>\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t</li><li><strong>Hard Disk Space:</strong> 16 GB free hard drive space\t<br>\t</li><li><strong>Video Card:</strong> Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better<br>\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 9.0c or later<br>\t</li><li><strong>Internet:</strong> Broadband connection and service required for Multiplayer Connectivity. Internet connection required for activation.\t</li></ul>",
           "cpu_match": {
             "raw": "Intel\u00ae Core\u2122 2 Duo E6600 or AMD Phenom\u2122 X3 8750 processor or better",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel\u00ae Core\u2122 2 Duo E6600"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
                 "matched_from": "better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT"
               }
             ],
-            "min_score": 5044
+            "min_score": 5
           }
         },
         "recommended": {
@@ -2396,27 +2291,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>Operating System:</strong> 10.9.2 (Mavericks)<br></li><li><strong>CPU Processor:</strong> Intel i3 (Dual-Core)<br></li><li><strong>CPU Speed:</strong> 2.2GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Hard Disk Space:</strong> 13 GB<br></li><li><strong>Video Card (ATI):</strong> Radeon HD 4850<br></li><li><strong>Video Card (NVidia):</strong> Geforce 640M<br></li><li><strong>Video Card (Intel):</strong> Iris<br></li><li><strong>Video Memory (VRam):</strong> 512 MB<br></li><li><strong>Peripherals:</strong> Macintosh mouse and keyboard<br><br><br></li><li><strong>NOTICE:</strong> The following video chipsets are unsupported for Call of Duty\u00ae: Modern Warfare\u00ae 3:<br>\u2022\tATI RADEON HD 2000 Series<br>\u2022\tATI RADEON HD 6490M, 6630M, 3870<br>\u2022\tNVIDIA 9000 Series<br>\u2022\tNVIDIA 320M, 330M<br>\u2022\tIntel HD 3000, 4000, 5000<br><br></li><li><strong>NOTICE:</strong> This game is not supported on volumes formatted as Mac OS Extended (Case Sensitive)</li></ul>",
           "cpu_match": {
             "raw": "Intel i3 (Dual-Core)",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel i3 (Dual-Core)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Radeon HD 4850",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_4850",
+                "name": "Radeon HD 4850",
+                "score": 947,
                 "matched_from": "Radeon HD 4850"
               }
             ],
-            "min_score": 7921
+            "min_score": 947
           }
         },
         "recommended": {
@@ -2513,27 +2401,20 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP/ Windows\u00ae Vista / Windows\u00ae 7<br>\t</li><li><strong>Processor:</strong> Intel\u00ae Core\u2122 2 Duo E6600 or AMD Phenom\u2122 X3 8750 processor or better<br>\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t</li><li><strong>Graphics:</strong> Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better<br>\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t</li><li><strong>Hard Drive:</strong> 16 GB HD space<br>\t</li><li><strong>Sound:</strong> DirectX 9.0\u2013compliant sound card<br>\t</li><li><strong>Other Requirements:</strong> Broadband Internet connection</li></ul>",
           "cpu_match": {
             "raw": "Intel\u00ae Core\u2122 2 Duo E6600 or AMD Phenom\u2122 X3 8750 processor or better",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel\u00ae Core\u2122 2 Duo E6600"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Shader 3.0 or better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT / ATI\u00ae Radeon\u2122 X1950 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
                 "matched_from": "better 256 MB NVIDIA\u00ae GeForce\u2122 8600GT"
               }
             ],
-            "min_score": 5044
+            "min_score": 5
           }
         },
         "recommended": {
@@ -2575,27 +2456,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>Operating System:</strong> 10.9.2 (Mavericks)<br></li><li><strong>CPU Processor:</strong> Intel i3 (Dual-Core)<br></li><li><strong>CPU Speed:</strong> 2.2GHz<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Hard Disk Space:</strong> 13 GB<br></li><li><strong>Video Card (ATI):</strong> Radeon HD 4850<br></li><li><strong>Video Card (NVidia):</strong> Geforce 640M<br></li><li><strong>Video Card (Intel):</strong> Iris<br></li><li><strong>Video Memory (VRam):</strong> 512 MB<br></li><li><strong>Peripherals:</strong> Macintosh mouse and keyboard<br><br><br></li><li><strong>NOTICE:</strong> The following video chipsets are unsupported for Call of Duty\u00ae: Modern Warfare\u00ae 3:<br>\u2022\tATI RADEON HD 2000 Series<br>\u2022\tATI RADEON HD 6490M, 6630M, 3870<br>\u2022\tNVIDIA 9000 Series<br>\u2022\tNVIDIA 320M, 330M<br>\u2022\tIntel HD 3000, 4000, 5000<br><br></li><li><strong>NOTICE:</strong> This game is not supported on volumes formatted as Mac OS Extended (Case Sensitive)</li></ul>",
           "cpu_match": {
             "raw": "Intel i3 (Dual-Core)",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel i3 (Dual-Core)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Radeon HD 4850",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_4850",
+                "name": "Radeon HD 4850",
+                "score": 947,
                 "matched_from": "Radeon HD 4850"
               }
             ],
-            "min_score": 7921
+            "min_score": 947
           }
         },
         "recommended": {
@@ -2694,25 +2568,31 @@
             "raw": "Intel\u00ae Core\u21222 Duo E6600 or AMD Phenom\u2122 X3 8750 or better",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
+                "id": "cpu_intel_core2_duo_e6600_2_40ghz",
+                "name": "Intel Core2 Duo E6600 @ 2.40GHz",
+                "score": 939,
                 "matched_from": "Intel\u00ae Core\u21222 Duo E6600"
               }
             ],
-            "min_score": 6100
+            "min_score": 939
           },
           "gpu_match": {
             "raw": "Shader 3.0 or better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT / ATI Radeon\u00ae X1950Pro or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
                 "matched_from": "better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT"
+              },
+              {
+                "id": "gpu_radeon_pro",
+                "name": "Radeon Pro",
+                "score": 2559,
+                "matched_from": "ATI Radeon\u00ae X1950Pro"
               }
             ],
-            "min_score": 5044
+            "min_score": 5
           }
         },
         "recommended": {
@@ -2859,25 +2739,31 @@
             "raw": "Intel\u00ae Core\u21222 Duo E6600 or AMD Phenom\u2122 X3 8750 or better",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
+                "id": "cpu_intel_core2_duo_e6600_2_40ghz",
+                "name": "Intel Core2 Duo E6600 @ 2.40GHz",
+                "score": 939,
                 "matched_from": "Intel\u00ae Core\u21222 Duo E6600"
               }
             ],
-            "min_score": 6100
+            "min_score": 939
           },
           "gpu_match": {
             "raw": "Shader 3.0 or better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT / ATI Radeon\u00ae X1950Pro or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
                 "matched_from": "better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT"
+              },
+              {
+                "id": "gpu_radeon_pro",
+                "name": "Radeon Pro",
+                "score": 2559,
+                "matched_from": "ATI Radeon\u00ae X1950Pro"
               }
             ],
-            "min_score": 5044
+            "min_score": 5
           }
         },
         "recommended": {
@@ -3024,25 +2910,31 @@
             "raw": "Intel\u00ae Core\u21222 Duo E6600 or AMD Phenom\u2122 X3 8750 or better",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
+                "id": "cpu_intel_core2_duo_e6600_2_40ghz",
+                "name": "Intel Core2 Duo E6600 @ 2.40GHz",
+                "score": 939,
                 "matched_from": "Intel\u00ae Core\u21222 Duo E6600"
               }
             ],
-            "min_score": 6100
+            "min_score": 939
           },
           "gpu_match": {
             "raw": "Shader 3.0 or better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT / ATI Radeon\u00ae X1950Pro or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
                 "matched_from": "better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT"
+              },
+              {
+                "id": "gpu_radeon_pro",
+                "name": "Radeon Pro",
+                "score": 2559,
+                "matched_from": "ATI Radeon\u00ae X1950Pro"
               }
             ],
-            "min_score": 5044
+            "min_score": 5
           }
         },
         "recommended": {
@@ -3189,25 +3081,31 @@
             "raw": "Intel\u00ae Core\u21222 Duo E6600 or AMD Phenom\u2122 X3 8750 or better",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
+                "id": "cpu_intel_core2_duo_e6600_2_40ghz",
+                "name": "Intel Core2 Duo E6600 @ 2.40GHz",
+                "score": 939,
                 "matched_from": "Intel\u00ae Core\u21222 Duo E6600"
               }
             ],
-            "min_score": 6100
+            "min_score": 939
           },
           "gpu_match": {
             "raw": "Shader 3.0 or better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT / ATI Radeon\u00ae X1950Pro or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
                 "matched_from": "better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT"
+              },
+              {
+                "id": "gpu_radeon_pro",
+                "name": "Radeon Pro",
+                "score": 2559,
+                "matched_from": "ATI Radeon\u00ae X1950Pro"
               }
             ],
-            "min_score": 5044
+            "min_score": 5
           }
         },
         "recommended": {
@@ -3354,25 +3252,31 @@
             "raw": "Intel\u00ae Core\u21222 Duo E6600 or AMD Phenom\u2122 X3 8750 or better",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
+                "id": "cpu_intel_core2_duo_e6600_2_40ghz",
+                "name": "Intel Core2 Duo E6600 @ 2.40GHz",
+                "score": 939,
                 "matched_from": "Intel\u00ae Core\u21222 Duo E6600"
               }
             ],
-            "min_score": 6100
+            "min_score": 939
           },
           "gpu_match": {
             "raw": "Shader 3.0 or better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT / ATI Radeon\u00ae X1950Pro or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
                 "matched_from": "better 256MB NVIDIA\u00ae GeForce\u00ae 8600GT"
+              },
+              {
+                "id": "gpu_radeon_pro",
+                "name": "Radeon Pro",
+                "score": 2559,
+                "matched_from": "ATI Radeon\u00ae X1950Pro"
               }
             ],
-            "min_score": 5044
+            "min_score": 5
           }
         },
         "recommended": {
@@ -3517,15 +3421,8 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 1.6 GHz Intel Pentium processor or equivalent AMD Athlon processor<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 128 MB DirectX 9.0c compatible or better video card with Pixel Shader 2.0<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 6 GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible sound card<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "1.6 GHz Intel Pentium processor or equivalent AMD Athlon processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "1.6 GHz Intel Pentium processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "128 MB DirectX 9.0c compatible or better video card with Pixel Shader 2.0",
@@ -3826,27 +3723,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista,<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Pentium IV 1.6 GHz or AMD 2000+ (single core)<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB RAM<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> nVidia GeForce FX 5700 or ATI Radeon 9600<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0c<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 6 GB free hard\tdrive space<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c compatible soundcard<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium IV 1.6 GHz or AMD 2000+ (single core)",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium IV 1.6 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "nVidia GeForce FX 5700 or ATI Radeon 9600",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_fx_5700",
+                "name": "GeForce FX 5700",
+                "score": 40,
                 "matched_from": "nVidia GeForce FX 5700"
               }
             ],
-            "min_score": 5044
+            "min_score": 40
           }
         },
         "recommended": {
@@ -3993,13 +3883,13 @@
             "raw": "1.0GHz Athlon/Pentium 3 or better",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
+                "id": "cpu_intel_pentium_3560m_2_40ghz",
+                "name": "Intel Pentium 3560M @ 2.40GHz",
+                "score": 1436,
                 "matched_from": "Pentium 3"
               }
             ],
-            "min_score": 6100
+            "min_score": 1436
           },
           "gpu_match": {
             "raw": "Windows/DirectX Compatible videocard",
@@ -4023,13 +3913,13 @@
             "raw": "1.6GHz Athlon/Pentium 4 or better",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
+                "id": "cpu_intel_pentium_4415u_2_30ghz",
+                "name": "Intel Pentium 4415U @ 2.30GHz",
+                "score": 2255,
                 "matched_from": "Pentium 4"
               }
             ],
-            "min_score": 6100
+            "min_score": 2255
           },
           "gpu_match": {
             "raw": "Windows/DirectX Compatible videocard",
@@ -4163,13 +4053,13 @@
             "raw": "PS 2.0 GeForce 6800GTX or better video card",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_6800",
+                "name": "GeForce 6800",
+                "score": 112,
                 "matched_from": "PS 2.0 GeForce 6800GTX"
               }
             ],
-            "min_score": 5044
+            "min_score": 112
           }
         },
         "recommended": {
@@ -4314,15 +4204,8 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>Operating System: </strong>Microsoft\u00ae Windows\u00ae 2000/XP/Vista<br>                    </li><li><strong>Processor: </strong>1.5 Ghz Intel\u00ae Pentium\u00ae or equivalent<br>                    </li><li><strong>Memory: </strong>1 GB RAM (2 GB for Vista)<br>                    </li><li><strong>Hard Disk Space: </strong>3 GB Available<br>                    </li><li><strong>Video Card: </strong>DirectX\u00ae 9 compliant video card with 128MB RAM<br>                    </li><li><strong>Sound Card: </strong>DirectX\u00ae 8.1 or better compatible<br>                    </li><li><strong>DirectX\u00ae Version: </strong>DirectX\u00ae 9c<br>                    </li><li><strong>Internet Connection: </strong>at least 56k modem<br>                    </li><li><strong>Multiplayer Requirement: </strong> Gamespy key (provided by publisher)<br>                    </li></ul>",
           "cpu_match": {
             "raw": "1.5 Ghz Intel\u00ae Pentium\u00ae or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "1.5 Ghz Intel\u00ae Pentium\u00ae"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "DirectX\u00ae 9 compliant video card with 128MB RAM",
@@ -4472,27 +4355,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Pentium IV 2.4 GHz or AMD 3500+ (quad core)<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2Gb RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0c or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 2GB HDD space<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX-Compatible soundcard<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video:</strong> GeForce 8800 or ATI Radeon X1900 videocard<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Contoller Support:</strong> 3-button mouse, keyboard and speakers<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium IV 2.4 GHz or AMD 3500+ (quad core)",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium IV 2.4 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GeForce 8800 or ATI Radeon X1900 videocard",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_8800_ultra",
+                "name": "GeForce 8800 Ultra",
+                "score": 642,
                 "matched_from": "GeForce 8800"
               }
             ],
-            "min_score": 5044
+            "min_score": 642
           }
         },
         "recommended": {
@@ -4637,27 +4513,20 @@
           "raw_html": "<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> Windows XP/Vista/7</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> Intel Pentium IV 2.4 GHz or AMD 3500+ (quad core)</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong> 2Gb RAM</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>DirectX&reg;:</strong> DirectX 9.0c or better</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Hard Drive:</strong> 2GB HDD space</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Sound:</strong> DirectX-Compatible soundcard</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Video:</strong> GeForce 8800 or ATI Radeon X1900 videocard</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Contoller Support:</strong> 3-button mouse, keyboard and speakers</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</ul>",
           "cpu_match": {
             "raw": "Intel Pentium IV 2.4 GHz or AMD 3500+ (quad core)",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium IV 2.4 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GeForce 8800 or ATI Radeon X1900 videocard",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_8800_ultra",
+                "name": "GeForce 8800 Ultra",
+                "score": 642,
                 "matched_from": "GeForce 8800"
               }
             ],
-            "min_score": 5044
+            "min_score": 642
           }
         },
         "recommended": {
@@ -4802,27 +4671,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Pentium IV 2.4 GHz or AMD 3500+ (quad core)<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2Gb RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9.0c or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 2GB HDD space<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX-Compatible soundcard<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video:</strong> GeForce 8800 or ATI Radeon X1900 videocard<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Contoller Support:</strong> 3-button mouse, keyboard and speakers<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium IV 2.4 GHz or AMD 3500+ (quad core)",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium IV 2.4 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GeForce 8800 or ATI Radeon X1900 videocard",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_8800_ultra",
+                "name": "GeForce 8800 Ultra",
+                "score": 642,
                 "matched_from": "GeForce 8800"
               }
             ],
-            "min_score": 5044
+            "min_score": 642
           }
         },
         "recommended": {
@@ -4967,27 +4829,13 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>Operating System: </strong>Microsoft\u00ae Windows\u00ae 2000/XP/Vista<br>                </li><li><strong>Processor: </strong>Intel Pentium IV 2.4 GHz or AMD 3500+ (quad core)<br>                </li><li><strong>Memory: </strong>2 GB of RAM<br>                </li><li><strong>Hard Disk Space: </strong>2 GB<br>                </li><li><strong>Video Card: </strong>NVIDIA GeForce 8800 or ATI Radeon X1900 videocard<br>                </li><li><strong>Sound: </strong>Direct X-compatible sound card<br>                </li><li><strong>DirectX\u00ae: </strong>Direct X 9.0<br>                </li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium IV 2.4 GHz or AMD 3500+ (quad core)",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium IV 2.4 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8800 or ATI Radeon X1900 videocard",
-            "candidates": [
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA GeForce 8800"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         },
         "recommended": {
@@ -5132,27 +4980,13 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>Operating System: </strong>Microsoft\u00ae Windows\u00ae 2000/XP/Vista<br>                </li><li><strong>Processor: </strong>Intel Pentium IV 2.4 GHz or AMD 3500+ (quad core)<br>                </li><li><strong>Memory: </strong>2 GB of RAM<br>                </li><li><strong>Hard Disk Space: </strong>2 GB<br>                </li><li><strong>Video Card: </strong>NVIDIA GeForce 8800 or ATI Radeon X1900 videocard<br>                </li><li><strong>Sound: </strong>Direct X-compatible sound card<br>                </li><li><strong>DirectX\u00ae: </strong>Direct X 9.0<br>                </li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium IV 2.4 GHz or AMD 3500+ (quad core)",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium IV 2.4 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8800 or ATI Radeon X1900 videocard",
-            "candidates": [
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA GeForce 8800"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         },
         "recommended": {
@@ -5297,27 +5131,13 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7 (32- or 64-bit)<br>\t</li><li><strong>Processor:</strong> Intel\u00ae Pentium\u00ae IV 2.4 GHz or AMD 3500+<br>\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t</li><li><strong>Hard Disk Space:</strong> 2 GB Available Space<br>\t</li><li><strong>Video Card:</strong> NVIDIA\u00ae GeForce 8800 or ATI Radeon\u00ae X1900 (Integrated Video Cards not recommended)<br>\t</li><li><strong>DirectX\u00ae:</strong> DirectX 9<br>\t</li><li><strong>Sound:</strong> DirectX-compatible sound card<br>\t</li><li><strong>Additional:</strong> 3-button mouse, keyboard and speakers. DSL Internet connection for multiplayer. .NET 3.5 required</li></ul>",
           "cpu_match": {
             "raw": "Intel\u00ae Pentium\u00ae IV 2.4 GHz or AMD 3500+",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel\u00ae Pentium\u00ae IV 2.4 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "NVIDIA\u00ae GeForce 8800 or ATI Radeon\u00ae X1900 (Integrated Video Cards not recommended)",
-            "candidates": [
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA\u00ae GeForce 8800"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         },
         "recommended": {

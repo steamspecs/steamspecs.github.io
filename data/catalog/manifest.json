@@ -1,7 +1,7 @@
 {
-  "generated_components": 852,
-  "cpu_count": 102,
-  "gpu_count": 750,
+  "generated_components": 5668,
+  "cpu_count": 2883,
+  "gpu_count": 2785,
   "sources": [
     {
       "id": "passmark_cpu_catalog",

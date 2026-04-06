@@ -19,27 +19,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP, Vista, Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Athlon 64 Processor 3800+ 2.4Ghz or better, Intel Pentium 4 530 3.0 Ghz Processor or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB XP, 2GB Vista/Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> NVIDIA GeForce 8000 series 256MB graphics card or better, ATI Radeon HD 2000 series 256MB graphics card or better<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> Latest 9.0c or better<br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 8GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> Windows compatible sound card<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Athlon 64 Processor 3800+ 2.4Ghz or better, Intel Pentium 4 530 3.0 Ghz Processor or better",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "better, Intel Pentium 4 530 3.0 Ghz Processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce 8000 series 256MB graphics card or better, ATI Radeon HD 2000 series 256MB graphics card or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
                 "matched_from": "NVIDIA GeForce 8000 series 256MB graphics card"
               }
             ],
-            "min_score": 5044
+            "min_score": 3183
           }
         },
         "recommended": {
@@ -191,13 +184,13 @@
             "raw": "256MB Video Card using Shader Model 3 (Nvidia GeForce 8800GT, AMD Radeon 3850 and above)",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
                 "matched_from": "256MB Video Card using Shader Model 3 (Nvidia GeForce 8800GT, AMD Radeon 3850 and above)"
               }
             ],
-            "min_score": 7921
+            "min_score": 5
           }
         },
         "recommended": {
@@ -214,27 +207,13 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad-core Intel or AMD Processor<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB (XP), 2GB (Vista), 2GB (Windows 7)<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 512MB Video Card using Shader Model 3 (Performance equivalent to an AMD Radeon 5750 or better)<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 20 GB space free (10 GB free after install)<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong><br>\t\t\t\t\t\t\t\t\t\t\t\tLaptop and Notebook users will need to download the newest Nvidia 280.26 or AMD Catalyst 11.8 drivers.<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad-core Intel or AMD Processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad-core Intel"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "512MB Video Card using Shader Model 3 (Performance equivalent to an AMD Radeon 5750 or better)",
-            "candidates": [
-              {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
-                "matched_from": "512MB Video Card using Shader Model 3 (Performance equivalent to an AMD Radeon 5750"
-              }
-            ],
-            "min_score": 7921
+            "candidates": [],
+            "min_score": null
           }
         }
       },
@@ -356,27 +335,20 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP, Windows Vista or Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM <br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS or ATI Radeon 1900XT<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB of free hard drive space <br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> <br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium Core 2 Duo 2.4 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS or ATI Radeon 1900XT",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
                 "matched_from": "Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS"
               }
             ],
-            "min_score": 5044
+            "min_score": 3183
           }
         },
         "recommended": {
@@ -395,25 +367,25 @@
             "raw": "Intel or AMD Quad Core 2 GHz+ CPU",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
+                "id": "cpu_intel_xeon_6960p",
+                "name": "Intel Xeon 6960P",
+                "score": 130659,
                 "matched_from": "Intel"
               }
             ],
-            "min_score": 6100
+            "min_score": 130659
           },
           "gpu_match": {
             "raw": "3D Compatible NVIDIA GeForce 480/570 Series GPU, NVIDIA 3D Vision Kit",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "3D Compatible NVIDIA GeForce 480"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "570 Series GPU, NVIDIA 3D Vision Kit"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -535,27 +507,20 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP, Windows Vista or Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM <br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS or ATI Radeon 1900XT<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB of free hard drive space <br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> <br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium Core 2 Duo 2.4 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS or ATI Radeon 1900XT",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
                 "matched_from": "Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS"
               }
             ],
-            "min_score": 5044
+            "min_score": 3183
           }
         },
         "recommended": {
@@ -574,25 +539,25 @@
             "raw": "Intel or AMD Quad Core 2 GHz+ CPU",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
+                "id": "cpu_intel_xeon_6960p",
+                "name": "Intel Xeon 6960P",
+                "score": 130659,
                 "matched_from": "Intel"
               }
             ],
-            "min_score": 6100
+            "min_score": 130659
           },
           "gpu_match": {
             "raw": "3D Compatible NVIDIA GeForce 480/570 Series GPU, NVIDIA 3D Vision Kit",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "3D Compatible NVIDIA GeForce 480"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "570 Series GPU, NVIDIA 3D Vision Kit"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -714,27 +679,20 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP, Windows Vista or Windows 7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2 GB RAM <br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS or ATI Radeon 1900XT<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB of free hard drive space <br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> <br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Pentium Core 2 Duo 2.4 GHz or AMD Athlon X2 2.8GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Pentium Core 2 Duo 2.4 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS or ATI Radeon 1900XT",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
                 "matched_from": "Shader Model 3.0 graphics card with 256MB of memory, NVIDIA GeForce 7900GS"
               }
             ],
-            "min_score": 5044
+            "min_score": 3183
           }
         },
         "recommended": {
@@ -753,25 +711,25 @@
             "raw": "Intel or AMD Quad Core 2 GHz+ CPU",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
+                "id": "cpu_intel_xeon_6960p",
+                "name": "Intel Xeon 6960P",
+                "score": 130659,
                 "matched_from": "Intel"
               }
             ],
-            "min_score": 6100
+            "min_score": 130659
           },
           "gpu_match": {
             "raw": "3D Compatible NVIDIA GeForce 480/570 Series GPU, NVIDIA 3D Vision Kit",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "3D Compatible NVIDIA GeForce 480"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "570 Series GPU, NVIDIA 3D Vision Kit"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -893,27 +851,20 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul><strong></strong>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -930,27 +881,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -1017,33 +961,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t<br></li><li>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -1062,25 +999,25 @@
             "raw": "355 or 358 series driver / AMD: AMD Catalyst (fglrx) 15.9 or better. MESA drivers and Intel Graphics are not currently supported.",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
+                "id": "cpu_intel_xeon_w7_3555",
+                "name": "Intel Xeon w7-3555",
+                "score": 67754,
                 "matched_from": "355"
               }
             ],
-            "min_score": 6100
+            "min_score": 67754
           },
           "gpu_match": {
             "raw": "Graphics Drivers: Nvidia: 352",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
                 "matched_from": "Graphics Drivers: Nvidia: 352"
               }
             ],
-            "min_score": 5044
+            "min_score": 3183
           }
         }
       }
@@ -1106,27 +1043,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -1143,27 +1073,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -1230,33 +1153,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -1273,27 +1189,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -1319,27 +1228,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -1356,27 +1258,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -1443,33 +1338,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -1486,27 +1374,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -1532,27 +1413,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -1569,27 +1443,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -1656,33 +1523,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -1699,27 +1559,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -1745,27 +1598,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -1782,27 +1628,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -1869,33 +1708,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -1912,27 +1744,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -1958,27 +1783,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -1995,27 +1813,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -2082,33 +1893,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -2125,27 +1929,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -2171,27 +1968,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -2208,27 +1998,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -2295,33 +2078,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -2338,27 +2114,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -2384,27 +2153,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -2421,27 +2183,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -2508,33 +2263,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -2551,27 +2299,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -2597,27 +2338,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -2634,27 +2368,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -2721,33 +2448,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -2764,27 +2484,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -2810,27 +2523,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -2847,27 +2553,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -2934,33 +2633,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -2977,27 +2669,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -3023,27 +2708,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -3060,27 +2738,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -3147,33 +2818,26 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -3190,27 +2854,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -3236,27 +2893,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -3273,27 +2923,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -3360,33 +3003,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -3403,27 +3039,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -3449,27 +3078,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -3486,27 +3108,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -3573,33 +3188,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -3616,27 +3224,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -3662,27 +3263,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -3699,27 +3293,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -3786,33 +3373,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -3829,27 +3409,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -3875,27 +3448,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -3912,27 +3478,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -3999,33 +3558,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -4042,27 +3594,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -4088,27 +3633,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -4125,27 +3663,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -4212,33 +3743,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -4255,27 +3779,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -4301,27 +3818,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul><strong></strong>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -4338,27 +3848,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -4425,33 +3928,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -4468,27 +3964,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -4514,27 +4003,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -4551,27 +4033,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -4638,33 +4113,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -4681,27 +4149,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -4727,27 +4188,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -4764,27 +4218,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -4851,33 +4298,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -4894,27 +4334,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }
@@ -4940,27 +4373,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 320MB Video RAM GPU w/ Shader Model 3.0 support.  NVIDIA\u00ae GeForce\u00ae 8800 series or better.  ATI Radeon\u2122 HD3800 series or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Co-Op Play:</strong>NVIDIA\u00ae GeForce\u00ae 8800 cards require 640MB of Video RAM.  ATI Radeon\u2122 HD3800 cards require 1GB of Video RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo or AMD Athlon\u2122 X2) or higher",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2GHz Dual Core Processor (Intel\u00ae Core 2 Duo"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "320MB Video RAM GPU w/ Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series or better. ATI Radeon\u2122 HD3800 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 3.0 support. NVIDIA\u00ae GeForce\u00ae 8800 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "320MB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         },
         "recommended": {
@@ -4977,27 +4403,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft\u00ae Windows\u00ae 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 4GB System RAM or more<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> 1GB Video RAM GPU w/ Shader Model 4.0 support.  NVIDIA\u00ae GeForce\u00ae GTX 400 series or better.  ATI Radeon\u2122 HD5000 series or better <br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 11<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> 100% DirectX\u00ae 9.0C compliant sound card or equivalent onboard sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Any Quad Core Processor (Intel\u00ae Core i5 or AMD Phenom\u2122 II X4) or 3.0+ Dual Core CPU",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Any Quad Core Processor (Intel\u00ae Core i5"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "1GB Video RAM GPU w/ Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series or better. ATI Radeon\u2122 HD5000 series or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Shader Model 4.0 support. NVIDIA\u00ae GeForce\u00ae GTX 400 series"
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "1GB Video RAM GPU w"
               }
             ],
-            "min_score": 5044
+            "min_score": 1152
           }
         }
       },
@@ -5064,33 +4483,26 @@
           "raw_html": "<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4570T (2.9 GHz) or equivalent\tor AMD Athlon II X2 270 (3.8 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong> 4096 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong> Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4570T (2.9 GHz) or equivalent or AMD Athlon II X2 270 (3.8 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4570T (2.9 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GT 630 (1024 MB) or equivalent or Radeon HD 6850 (1024 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_630",
+                "name": "Radeon 630",
+                "score": 1619,
                 "matched_from": "GPU:GeForce GT 630 (1024 MB)"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6850",
+                "name": "Radeon HD 6850",
+                "score": 1933,
                 "matched_from": "Radeon HD 6850 (1024 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 1619
           }
         },
         "recommended": {
@@ -5107,27 +4519,20 @@
           "raw_html": "<strong>Recommended:</strong><br><br><ul class=\"bb_ul\"><li><strong>OS:</strong>Ubuntu 14.04.3 LTS, Ubuntu 15.04, Linux Mint 17.1, Steam OS Brewmaster<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU:</strong> Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent\t\t\t\t\t\t\t\t\t\t\t<br></li><li><strong>GPU:</strong>GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent\t\t\t<br></li><li><strong>RAM:</strong>8192 MB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Disk Space:</strong>Around 7 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i5-4670K (3.4 GHz) or equivalent or AMD Athlon X4 860K (3.7 GHz) or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i5-4670K (3.4 GHz)"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "GPU:GeForce GTX 760 (2048 MB) or equivalent or Radeon HD 7950 (2048 MB) or equivalent",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_760",
+                "name": "GeForce GTX 760",
+                "score": 4822,
                 "matched_from": "GPU:GeForce GTX 760 (2048 MB)"
               }
             ],
-            "min_score": 5044
+            "min_score": 4822
           }
         }
       }

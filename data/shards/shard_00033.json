@@ -19,33 +19,26 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista Service Pack 2 32-bit<br></li><li><strong>Processor:</strong> Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT<br></li><li><strong>Storage:</strong> 12 GB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible<br></li><li><strong>Additional Notes:</strong> Incompatible with Intel HD 3000 Integrated Graphics</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core 2 DUO 2.4 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_3870",
+                "name": "Radeon HD 3870",
+                "score": 551,
                 "matched_from": "DirectX9 Compatible ATI Radeon HD 3870"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_8800_gt",
+                "name": "GeForce 8800 GT",
+                "score": 455,
                 "matched_from": "NVIDIA 8800 GT"
               }
             ],
-            "min_score": 5044
+            "min_score": 455
           }
         },
         "recommended": {
@@ -69,19 +62,19 @@
             "raw": "DirectX11 Compatible, AMD Radeon HD 6950 / NVIDIA GeForce GTX 560",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6950",
+                "name": "Radeon HD 6950",
+                "score": 2593,
                 "matched_from": "DirectX11 Compatible, AMD Radeon HD 6950"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_560",
+                "name": "GeForce GTX 560",
+                "score": 2780,
                 "matched_from": "NVIDIA GeForce GTX 560"
               }
             ],
-            "min_score": 5044
+            "min_score": 2593
           }
         }
       },
@@ -100,39 +93,20 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Mountain Lion 10.7.5 or higher<br></li><li><strong>Processor:</strong> Intel Core i series processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> AMD HD4870 / NVIDIA 8800GT / Intel Iris Graphics or better<br></li><li><strong>Storage:</strong> 15 GB available space<br></li><li><strong>Additional Notes:</strong> Keyboard and 3 button Mouse or Logitech Dual Analog Stick Gamepad</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i series processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i series processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "AMD HD4870 / NVIDIA 8800GT / Intel Iris Graphics or better",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
-                "matched_from": "AMD HD4870"
-              },
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA 8800GT"
-              },
-              {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
                 "matched_from": "Intel Iris Graphics"
               }
             ],
-            "min_score": 630
+            "min_score": 3183
           }
         },
         "recommended": {
@@ -149,33 +123,13 @@
           "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Lion 10.9 or higher<br></li><li><strong>Processor:</strong> Intel Core i series processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> AMD HD5870 / Nvidia 650M or better<br></li><li><strong>Storage:</strong> 15 GB available space<br></li><li><strong>Additional Notes:</strong> Keyboard and 3 button Mouse or Logitech Dual Analog Stick Gamepad</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i series processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i series processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "AMD HD5870 / Nvidia 650M or better",
-            "candidates": [
-              {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
-                "matched_from": "AMD HD5870"
-              },
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Nvidia 650M"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         }
       },
@@ -249,33 +203,26 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista Service Pack 2 32-bit<br></li><li><strong>Processor:</strong> Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT<br></li><li><strong>Storage:</strong> 12 GB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible<br></li><li><strong>Additional Notes:</strong> Incompatible with Intel HD 3000 Integrated Graphics</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core 2 DUO 2.4 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_3870",
+                "name": "Radeon HD 3870",
+                "score": 551,
                 "matched_from": "DirectX9 Compatible ATI Radeon HD 3870"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_8800_gt",
+                "name": "GeForce 8800 GT",
+                "score": 455,
                 "matched_from": "NVIDIA 8800 GT"
               }
             ],
-            "min_score": 5044
+            "min_score": 455
           }
         },
         "recommended": {
@@ -299,19 +246,19 @@
             "raw": "DirectX11 Compatible, AMD Radeon HD 6950 / NVIDIA GeForce GTX 560",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6950",
+                "name": "Radeon HD 6950",
+                "score": 2593,
                 "matched_from": "DirectX11 Compatible, AMD Radeon HD 6950"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_560",
+                "name": "GeForce GTX 560",
+                "score": 2780,
                 "matched_from": "NVIDIA GeForce GTX 560"
               }
             ],
-            "min_score": 5044
+            "min_score": 2593
           }
         }
       },
@@ -330,39 +277,20 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Mountain Lion 10.7.5 or higher<br></li><li><strong>Processor:</strong> Intel Core i series processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> AMD HD4870 / NVIDIA 8800GT / Intel Iris Graphics or better<br></li><li><strong>Storage:</strong> 15 GB available space<br></li><li><strong>Additional Notes:</strong> Keyboard and 3 button Mouse or Logitech Dual Analog Stick Gamepad</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i series processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i series processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "AMD HD4870 / NVIDIA 8800GT / Intel Iris Graphics or better",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
-                "matched_from": "AMD HD4870"
-              },
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA 8800GT"
-              },
-              {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
                 "matched_from": "Intel Iris Graphics"
               }
             ],
-            "min_score": 630
+            "min_score": 3183
           }
         },
         "recommended": {
@@ -379,33 +307,13 @@
           "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Lion 10.9 or higher<br></li><li><strong>Processor:</strong> Intel Core i series processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> AMD HD5870 / Nvidia 650M or better<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 15 GB available space<br></li><li><strong>Additional Notes:</strong> Keyboard and 3 button Mouse or Logitech Dual Analog Stick Gamepad</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i series processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i series processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "AMD HD5870 / Nvidia 650M or better",
-            "candidates": [
-              {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
-                "matched_from": "AMD HD5870"
-              },
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Nvidia 650M"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         }
       },
@@ -479,33 +387,26 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista Service Pack 2 32-bit<br></li><li><strong>Processor:</strong> Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT<br></li><li><strong>Storage:</strong> 12 MB available space<br></li><li><strong>Sound Card:</strong> DirectX Compatible<br></li><li><strong>Additional Notes:</strong> Incompatible with Intel HD 3000 Integrated Graphics</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 DUO 2.4 GHz / AMD Athlon X2 2.7 GHz",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core 2 DUO 2.4 GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "DirectX9 Compatible ATI Radeon HD 3870 / NVIDIA 8800 GT",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_3870",
+                "name": "Radeon HD 3870",
+                "score": 551,
                 "matched_from": "DirectX9 Compatible ATI Radeon HD 3870"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_8800_gt",
+                "name": "GeForce 8800 GT",
+                "score": 455,
                 "matched_from": "NVIDIA 8800 GT"
               }
             ],
-            "min_score": 5044
+            "min_score": 455
           }
         },
         "recommended": {
@@ -529,19 +430,19 @@
             "raw": "DirectX11 Compatible, AMD Radeon HD 6950 / NVIDIA GeForce GTX 560",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_6950",
+                "name": "Radeon HD 6950",
+                "score": 2593,
                 "matched_from": "DirectX11 Compatible, AMD Radeon HD 6950"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_gtx_560",
+                "name": "GeForce GTX 560",
+                "score": 2780,
                 "matched_from": "NVIDIA GeForce GTX 560"
               }
             ],
-            "min_score": 5044
+            "min_score": 2593
           }
         }
       },
@@ -560,39 +461,20 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Mountain Lion 10.7.5 or higher<br></li><li><strong>Processor:</strong> Intel Core i series processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> AMD HD4870 / NVIDIA 8800GT / Intel Iris Graphics or better<br></li><li><strong>Storage:</strong> 15 GB available space<br></li><li><strong>Additional Notes:</strong> Keyboard and 3 button Mouse or Logitech Dual Analog Stick Gamepad</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i series processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i series processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "AMD HD4870 / NVIDIA 8800GT / Intel Iris Graphics or better",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
-                "matched_from": "AMD HD4870"
-              },
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA 8800GT"
-              },
-              {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
                 "matched_from": "Intel Iris Graphics"
               }
             ],
-            "min_score": 630
+            "min_score": 3183
           }
         },
         "recommended": {
@@ -609,33 +491,13 @@
           "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Lion 10.9 or higher<br></li><li><strong>Processor:</strong> Intel Core i series processor<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> AMD HD5870 / Nvidia 650M or better<br></li><li><strong>Storage:</strong> 15 GB available space<br></li><li><strong>Additional Notes:</strong> Keyboard and 3 button Mouse or Logitech Dual Analog Stick Gamepad</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i series processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i series processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "AMD HD5870 / Nvidia 650M or better",
-            "candidates": [
-              {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
-                "matched_from": "AMD HD5870"
-              },
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "Nvidia 650M"
-              }
-            ],
-            "min_score": 5044
+            "candidates": [],
+            "min_score": null
           }
         }
       },
@@ -709,33 +571,32 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP, Windows Vista, or Windows 7, 32 or 64-bit<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Video:</strong> OpenGL: 2.1 , GLSL: 1.2<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 100MB<br>\t\t\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core 2 1.8GHz, AMD Athlon 2GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA\u00ae GeForce\u00ae 7600"
+                "id": "gpu_intel_hd_2000",
+                "name": "Intel HD 2000",
+                "score": 213,
+                "matched_from": "better, ATI Radeon\u00ae HD 2000 series"
               },
               {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
                 "matched_from": "better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up"
+              },
+              {
+                "id": "gpu_radeon_ve",
+                "name": "Radeon VE",
+                "score": 2,
+                "matched_from": "have very low framerate."
               }
             ],
-            "min_score": 630
+            "min_score": 2
           }
         },
         "recommended": {
@@ -759,13 +620,13 @@
             "raw": "). Intel HD cards may hang up or have very low framerate.",
             "candidates": [
               {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
-                "matched_from": "). Intel HD cards may hang up"
+                "id": "gpu_radeon_ve",
+                "name": "Radeon VE",
+                "score": 2,
+                "matched_from": "have very low framerate."
               }
             ],
-            "min_score": 630
+            "min_score": 2
           }
         }
       },
@@ -784,33 +645,32 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> OS X Snow Leopard 10.6.3, or later. (10.5 is not supported)<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Mac 1.8GHz or better<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Video:</strong> OpenGL: 2.1 , GLSL: 1.2<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 100MB<br>\t\t\t\t\t\t\t\t  </li></ul>",
           "cpu_match": {
             "raw": "Intel Mac 1.8GHz or better",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Mac 1.8GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA\u00ae GeForce\u00ae 7600"
+                "id": "gpu_intel_hd_2000",
+                "name": "Intel HD 2000",
+                "score": 213,
+                "matched_from": "better, ATI Radeon\u00ae HD 2000 series"
               },
               {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
                 "matched_from": "better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up"
+              },
+              {
+                "id": "gpu_radeon_ve",
+                "name": "Radeon VE",
+                "score": 2,
+                "matched_from": "have very low framerate."
               }
             ],
-            "min_score": 630
+            "min_score": 2
           }
         },
         "recommended": {
@@ -834,13 +694,13 @@
             "raw": "). Intel HD cards may hang up or have very low framerate.",
             "candidates": [
               {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
-                "matched_from": "). Intel HD cards may hang up"
+                "id": "gpu_radeon_ve",
+                "name": "Radeon VE",
+                "score": 2,
+                "matched_from": "have very low framerate."
               }
             ],
-            "min_score": 630
+            "min_score": 2
           }
         }
       },
@@ -859,33 +719,32 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Ubuntu 12.04 LTS, fully updated<br>\t</li><li><strong>Processor:</strong> Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better<br>\t</li><li><strong>Memory:</strong> 1GB RAM<br>\t</li><li><strong>Graphics:</strong> NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.<br>\t</li><li><strong>Hard Drive:</strong> 100MB</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 1.8GHz, AMD Athlon 2GHz, or better",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core 2 1.8GHz, AMD Athlon 2GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "NVIDIA\u00ae GeForce\u00ae 7600 or better, ATI Radeon\u00ae HD 2000 series or better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up or have very low framerate.",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA\u00ae GeForce\u00ae 7600"
+                "id": "gpu_intel_hd_2000",
+                "name": "Intel HD 2000",
+                "score": 213,
+                "matched_from": "better, ATI Radeon\u00ae HD 2000 series"
               },
               {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
                 "matched_from": "better, with 256MB video memory (512 MB recommended). Intel HD cards may hang up"
+              },
+              {
+                "id": "gpu_radeon_ve",
+                "name": "Radeon VE",
+                "score": 2,
+                "matched_from": "have very low framerate."
               }
             ],
-            "min_score": 630
+            "min_score": 2
           }
         },
         "recommended": {
@@ -909,13 +768,13 @@
             "raw": "). Intel HD cards may hang up or have very low framerate.",
             "candidates": [
               {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
-                "matched_from": "). Intel HD cards may hang up"
+                "id": "gpu_radeon_ve",
+                "name": "Radeon VE",
+                "score": 2,
+                "matched_from": "have very low framerate."
               }
             ],
-            "min_score": 630
+            "min_score": 2
           }
         }
       }
@@ -948,13 +807,13 @@
             "raw": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "nVidia GeForce 8600"
+                "id": "gpu_radeon_pro",
+                "name": "Radeon Pro",
+                "score": 2559,
+                "matched_from": "ATI HD2600 Pro"
               }
             ],
-            "min_score": 5044
+            "min_score": 2559
           }
         },
         "recommended": {
@@ -978,19 +837,19 @@
             "raw": "nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_9800_gtx",
+                "name": "GeForce 9800 GTX",
+                "score": 488,
                 "matched_from": "nVidia GeForce 9800 GTX"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_3870",
+                "name": "Radeon HD 3870",
+                "score": 551,
                 "matched_from": "ATI Radeon HD 3870"
               }
             ],
-            "min_score": 5044
+            "min_score": 488
           }
         }
       },
@@ -1119,13 +978,13 @@
             "raw": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "nVidia GeForce 8600"
+                "id": "gpu_radeon_pro",
+                "name": "Radeon Pro",
+                "score": 2559,
+                "matched_from": "ATI HD2600 Pro"
               }
             ],
-            "min_score": 5044
+            "min_score": 2559
           }
         },
         "recommended": {
@@ -1149,19 +1008,19 @@
             "raw": "nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_9800_gtx",
+                "name": "GeForce 9800 GTX",
+                "score": 488,
                 "matched_from": "nVidia GeForce 9800 GTX"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_3870",
+                "name": "Radeon HD 3870",
+                "score": 551,
                 "matched_from": "ATI Radeon HD 3870"
               }
             ],
-            "min_score": 5044
+            "min_score": 488
           }
         }
       },
@@ -1290,13 +1149,13 @@
             "raw": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "nVidia GeForce 8600"
+                "id": "gpu_radeon_pro",
+                "name": "Radeon Pro",
+                "score": 2559,
+                "matched_from": "ATI HD2600 Pro"
               }
             ],
-            "min_score": 5044
+            "min_score": 2559
           }
         },
         "recommended": {
@@ -1320,19 +1179,19 @@
             "raw": "nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_9800_gtx",
+                "name": "GeForce 9800 GTX",
+                "score": 488,
                 "matched_from": "nVidia GeForce 9800 GTX"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_3870",
+                "name": "Radeon HD 3870",
+                "score": 551,
                 "matched_from": "ATI Radeon HD 3870"
               }
             ],
-            "min_score": 5044
+            "min_score": 488
           }
         }
       },
@@ -1461,13 +1320,13 @@
             "raw": "nVidia GeForce 8600 / ATI HD2600 Pro or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "nVidia GeForce 8600"
+                "id": "gpu_radeon_pro",
+                "name": "Radeon Pro",
+                "score": 2559,
+                "matched_from": "ATI HD2600 Pro"
               }
             ],
-            "min_score": 5044
+            "min_score": 2559
           }
         },
         "recommended": {
@@ -1491,19 +1350,19 @@
             "raw": "nVidia GeForce 9800 GTX / ATI Radeon HD 3870 or better",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_9800_gtx",
+                "name": "GeForce 9800 GTX",
+                "score": 488,
                 "matched_from": "nVidia GeForce 9800 GTX"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_3870",
+                "name": "Radeon HD 3870",
+                "score": 551,
                 "matched_from": "ATI Radeon HD 3870"
               }
             ],
-            "min_score": 5044
+            "min_score": 488
           }
         }
       },
@@ -1625,27 +1484,20 @@
           "raw_html": "<br>\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Core 2 @ 2GHz / AMD Athlon 64 X2 4200+<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1.5GB RAM <br>\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 10GB<br>\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> 256MB NVIDIA GeForce 8600 / ATI Radeon HD 2600<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX Compatible<br>\t\t\t\t\t\t\t\t</li><li><strong>Additional:</strong> Requires installation of Visual C++ 2008 Redistributable, DirectX and nVidia PhysX version 9.11.1107 (included with download)<br>\t\t\t\t\t\t\t</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 @ 2GHz / AMD Athlon 64 X2 4200+",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core 2 @ 2GHz"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "256MB NVIDIA GeForce 8600 / ATI Radeon HD 2600",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
                 "matched_from": "256MB NVIDIA GeForce 8600"
               }
             ],
-            "min_score": 5044
+            "min_score": 5
           }
         },
         "recommended": {
@@ -1669,13 +1521,13 @@
             "raw": "512+ MB NVIDIA GeForce 9800 GTX",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_9800_gtx",
+                "name": "GeForce 9800 GTX",
+                "score": 488,
                 "matched_from": "512+ MB NVIDIA GeForce 9800 GTX"
               }
             ],
-            "min_score": 5044
+            "min_score": 488
           }
         }
       },
@@ -1694,33 +1546,20 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Snow Leopard 10.6.8 or higher<br>\t</li><li><strong>Processor:</strong> Intel Core 2 Duo processor<br>\t</li><li><strong>Memory:</strong> 2 GB RAM<br>\t</li><li><strong>Hard Disk Space:</strong> 10 GB free<br>\t</li><li><strong>Video Memory:</strong> 256MB<br>\t</li><li><strong>Video Card:</strong> AMD HD2600 / Nvidia 9600GT with at least 256 MB VRAM<br>\t</li><li><strong>Additional:</strong> Initial installation requires one-time internet connection for Steam authentication; software installations required (included with the game) include Steam Client for Mac OS X.</li></ul>",
           "cpu_match": {
             "raw": "Intel Core 2 Duo processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core 2 Duo processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "AMD HD2600 / Nvidia 9600GT with at least 256 MB VRAM",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
-                "matched_from": "AMD HD2600"
-              },
-              {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
                 "matched_from": "Nvidia 9600GT with at least 256 MB VRAM"
               }
             ],
-            "min_score": 5044
+            "min_score": 5
           }
         },
         "recommended": {
@@ -1737,27 +1576,13 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X Lion 10.7.3 or higher<br>\t</li><li><strong>Processor:</strong> Intel Core i Series processor<br>\t</li><li><strong>Memory:</strong> 4 GB RAM or higher<br>\t</li><li><strong>Hard Disk Space:</strong> 10 GB free<br>\t</li><li><strong>Video Memory:</strong> 512+ MB<br>\t</li><li><strong>Video Card:</strong> AMD HD4870 with at least 512 MB VRAM</li></ul>",
           "cpu_match": {
             "raw": "Intel Core i Series processor",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "Intel Core i Series processor"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "AMD HD4870 with at least 512 MB VRAM",
-            "candidates": [
-              {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
-                "matched_from": "AMD HD4870 with at least 512 MB VRAM"
-              }
-            ],
-            "min_score": 7921
+            "candidates": [],
+            "min_score": null
           }
         }
       },

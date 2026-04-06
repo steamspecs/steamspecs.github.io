@@ -72,17 +72,50 @@ def build_component_aliases(component: dict) -> list[str]:
     aliases: list[str] = []
     raw_aliases = list(component.get("aliases") or [])
 
-    for value in [
-        component.get("name"),
-        f"{component.get('brand') or ''} {component.get('family') or ''} {component.get('model') or ''}".strip(),
-        f"{component.get('family') or ''} {component.get('model') or ''}".strip(),
-        *raw_aliases,
-    ]:
+    derived_values = [component.get("name")]
+
+    family = clean_text(component.get("family"))
+    model = clean_text(component.get("model"))
+    brand = clean_text(component.get("brand"))
+
+    # Avoid aliases that are too generic, like just "intel" or "amd",
+    # because they collapse many distinct components into one record.
+    if family or model:
+        derived_values.append(f"{brand or ''} {family or ''} {model or ''}".strip())
+        derived_values.append(f"{family or ''} {model or ''}".strip())
+    elif model and brand:
+        derived_values.append(f"{brand} {model}".strip())
+
+    for value in [*derived_values, *raw_aliases]:
         normalized = normalize_alias(value)
         if normalized and normalized not in aliases:
             aliases.append(normalized)
 
-    return aliases
+    expanded_aliases = list(aliases)
+    for alias in list(aliases):
+        for prefix in [
+            "nvidia ",
+            "geforce ",
+            "amd ",
+            "radeon ",
+            "intel ",
+        ]:
+            if alias.startswith(prefix):
+                trimmed = alias[len(prefix):].strip()
+                if trimmed and trimmed not in expanded_aliases:
+                    expanded_aliases.append(trimmed)
+
+        if alias.startswith("nvidia geforce "):
+            trimmed = alias[len("nvidia "):].strip()
+            if trimmed and trimmed not in expanded_aliases:
+                expanded_aliases.append(trimmed)
+
+        if alias.startswith("amd radeon "):
+            trimmed = alias[len("amd "):].strip()
+            if trimmed and trimmed not in expanded_aliases:
+                expanded_aliases.append(trimmed)
+
+    return expanded_aliases
 
 
 def infer_brand(name: str | None) -> str | None:

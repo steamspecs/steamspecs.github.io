@@ -175,8 +175,15 @@
           },
           "gpu_match": {
             "raw": "256MB VRAM",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
+                "matched_from": "256MB VRAM"
+              }
+            ],
+            "min_score": 5
           }
         },
         "recommended": {
@@ -223,8 +230,15 @@
           },
           "gpu_match": {
             "raw": "256MB VRAM",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
+                "matched_from": "256MB VRAM"
+              }
+            ],
+            "min_score": 5
           }
         },
         "recommended": {
@@ -246,8 +260,15 @@
           },
           "gpu_match": {
             "raw": "256MB VRAM",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
+                "matched_from": "256MB VRAM"
+              }
+            ],
+            "min_score": 5
           }
         }
       },
@@ -271,8 +292,15 @@
           },
           "gpu_match": {
             "raw": "256MB VRAM",
-            "candidates": [],
-            "min_score": null
+            "candidates": [
+              {
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
+                "matched_from": "256MB VRAM"
+              }
+            ],
+            "min_score": 5
           }
         },
         "recommended": {
@@ -321,27 +349,20 @@
           "raw_html": "<ul>\n\t\t\t\t\t\t<li><strong>OS:</strong> Microsoft\u00ae Windows\u00ae XP/Vista/7 </li>\n\t\t\t\t\t\t<li><strong>Processor:</strong> 2.5 GHz Intel\u00ae Pentium\u00ae 4</li>\n\t\t\t\t\t\t<li><strong>Memory:</strong> 512 MB</li>\n\t\t\t\t\t\t<li><strong>Graphics:</strong> NVIDIA GeForce FX 5200 (can run on integrated machines, but performance might suffer)</li>\n\t\t\t\t\t\t<li><strong>DirectX&reg;:</strong> DirectX\u00ae 9.0c required</li>\n\t\t\t\t\t\t<li><strong>Hard Drive:</strong> 35 MB</li>\n\t\t\t\t\t\t<li><strong>Sound:</strong> DirectX\u00ae 9.0c-compliant sound card</li>\n\t\t\t\t\t\t<li><strong>Other Requirements:</strong> </li>\n\t\t\t\t\t</ul>\n\t\t\t\t\t",
           "cpu_match": {
             "raw": "2.5 GHz Intel\u00ae Pentium\u00ae 4",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "2.5 GHz Intel\u00ae Pentium\u00ae 4"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "NVIDIA GeForce FX 5200 (can run on integrated machines, but performance might suffer)",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_radeon_520",
+                "name": "Radeon 520",
+                "score": 883,
                 "matched_from": "NVIDIA GeForce FX 5200 (can run on integrated machines, but performance might suffer)"
               }
             ],
-            "min_score": 5044
+            "min_score": 883
           }
         },
         "recommended": {
@@ -493,25 +514,25 @@
             "raw": "128 MB 100% DirectX\u00ae 9 and shaders 2.0 compatible (NVIDIA GEFORCE 6600 / ATI RADEON X700 or higher) Not compatible with SLI. Intel, SIS and Via/S3G graphics controllers non-supported",
             "candidates": [
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_6600",
+                "name": "GeForce 6600",
+                "score": 85,
                 "matched_from": "128 MB 100% DirectX\u00ae 9 and shaders 2.0 compatible (NVIDIA GEFORCE 6600"
               },
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_x700",
+                "name": "RADEON X700",
+                "score": 72,
                 "matched_from": "ATI RADEON X700"
               },
               {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
-                "matched_from": "higher) Not compatible with SLI. Intel, SIS and Via"
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
+                "matched_from": "S3G graphics controllers non-supported"
               }
             ],
-            "min_score": 630
+            "min_score": 72
           }
         },
         "recommended": {
@@ -662,39 +683,33 @@
                 "name": "AMD Ryzen 5 3600",
                 "score": 17674,
                 "matched_from": "AMD"
-              },
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "INTEL DUAL-CORE 2.2 GHZ"
               }
             ],
-            "min_score": 6100
+            "min_score": 17674
           },
           "gpu_match": {
             "raw": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1600 XT/INTEL HD/NVIDIA GEFORCE 6600 GT OR HIGHER",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_x1600_xt",
+                "name": "Radeon X1600 XT",
+                "score": 115,
                 "matched_from": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1600 XT"
               },
               {
-                "id": "gpu_tensor_1_0_driver_intel_hd_630",
-                "name": "TENSOR 1.0 Driver Intel HD 630",
-                "score": 1299,
+                "id": "gpu_intel_hd_5600",
+                "name": "Intel HD 5600",
+                "score": 1868,
                 "matched_from": "INTEL HD"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_6600_gt",
+                "name": "GeForce 6600 GT",
+                "score": 142,
                 "matched_from": "NVIDIA GEFORCE 6600 GT"
               }
             ],
-            "min_score": 1299
+            "min_score": 115
           }
         },
         "recommended": {
@@ -846,25 +861,25 @@
             "raw": ") ATI Radeon 9800/Intel GMA 3000/Nvidia GeForce FX 5900 or Higher*",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_9800",
+                "name": "RADEON 9800",
+                "score": 57,
                 "matched_from": ") ATI Radeon 9800"
               },
               {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
+                "id": "gpu_radeon_3000",
+                "name": "Radeon 3000",
+                "score": 98,
                 "matched_from": "Intel GMA 3000"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_fx_5900",
+                "name": "GeForce FX 5900",
+                "score": 34,
                 "matched_from": "Nvidia GeForce FX 5900"
               }
             ],
-            "min_score": 630
+            "min_score": 34
           }
         },
         "recommended": {
@@ -913,25 +928,25 @@
             "raw": "256 MB ATI Radeon 9800/Intel GMA 3000/Nvidia Geforce FX 5900 or Higher*",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_9800",
+                "name": "RADEON 9800",
+                "score": 57,
                 "matched_from": "256 MB ATI Radeon 9800"
               },
               {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
+                "id": "gpu_radeon_3000",
+                "name": "Radeon 3000",
+                "score": 98,
                 "matched_from": "Intel GMA 3000"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_fx_5900",
+                "name": "GeForce FX 5900",
+                "score": 34,
                 "matched_from": "Nvidia Geforce FX 5900"
               }
             ],
-            "min_score": 630
+            "min_score": 34
           }
         },
         "recommended": {
@@ -1030,31 +1045,37 @@
             "raw": "Intel/AMD 2.0GHZ equivalent, or higher",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
+                "id": "cpu_intel_xeon_6960p",
+                "name": "Intel Xeon 6960P",
+                "score": 130659,
                 "matched_from": "Intel"
               }
             ],
-            "min_score": 6100
+            "min_score": 130659
           },
           "gpu_match": {
             "raw": ": 256 MB 100% DirectX 9 compatible, ATI Radeon X800/Intel GMA 3000/Nvidia GeForce 6800 or Higher*",
             "candidates": [
               {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
+                "matched_from": ": 256 MB 100% DirectX 9 compatible, ATI Radeon X800"
+              },
+              {
+                "id": "gpu_radeon_3000",
+                "name": "Radeon 3000",
+                "score": 98,
                 "matched_from": "Intel GMA 3000"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_6800",
+                "name": "GeForce 6800",
+                "score": 112,
                 "matched_from": "Nvidia GeForce 6800"
               }
             ],
-            "min_score": 630
+            "min_score": 5
           }
         },
         "recommended": {
@@ -1098,31 +1119,37 @@
             "raw": "Intel/AMD, 2 GHz or better",
             "candidates": [
               {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
+                "id": "cpu_intel_xeon_6960p",
+                "name": "Intel Xeon 6960P",
+                "score": 130659,
                 "matched_from": "Intel"
               }
             ],
-            "min_score": 6100
+            "min_score": 130659
           },
           "gpu_match": {
             "raw": ": 256 MB ATI Radeon X800/Intel GMA 3000/NVIDIA GeForce 6800 or higher",
             "candidates": [
               {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
+                "matched_from": ": 256 MB ATI Radeon X800"
+              },
+              {
+                "id": "gpu_radeon_3000",
+                "name": "Radeon 3000",
+                "score": 98,
                 "matched_from": "Intel GMA 3000"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_6800",
+                "name": "GeForce 6800",
+                "score": 112,
                 "matched_from": "NVIDIA GeForce 6800"
               }
             ],
-            "min_score": 630
+            "min_score": 5
           }
         },
         "recommended": {
@@ -1225,33 +1252,27 @@
                 "name": "AMD Ryzen 5 3600",
                 "score": 17674,
                 "matched_from": "AMD"
-              },
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "INTEL DUAL-CORE 2.5 GHZ"
               }
             ],
-            "min_score": 6100
+            "min_score": 17674
           },
           "gpu_match": {
             "raw": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT OR HIGHER",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_x1800_gto",
+                "name": "Radeon X1800 GTO",
+                "score": 140,
                 "matched_from": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_7600_gt",
+                "name": "GeForce 7600 GT",
+                "score": 234,
                 "matched_from": "NVIDIA GEFORCE 7600 GT"
               }
             ],
-            "min_score": 5044
+            "min_score": 140
           }
         },
         "recommended": {
@@ -1293,33 +1314,26 @@
           "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> MAC OS X 10.6.8<br>\t</li><li><strong>Processor:</strong> INTEL CORE 2 DUO 2.4 GHZ<br>\t</li><li><strong>Memory:</strong> 2048 MB<br>\t</li><li><strong>Graphics:</strong> 256 MB ATI RADEON HD 4670/NVIDIA GEFORCE GT120/320M OR HIGHER<br>\t</li><li><strong>Hard Drive:</strong> 10 GB<br>\t</li><li><strong>Other:</strong> INTERNET CONNECTION REQUIRED FOR ONLINE GAMING</li></ul>",
           "cpu_match": {
             "raw": "INTEL CORE 2 DUO 2.4 GHZ",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "INTEL CORE 2 DUO 2.4 GHZ"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "256 MB ATI RADEON HD 4670/NVIDIA GEFORCE GT120/320M OR HIGHER",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_4670",
+                "name": "Radeon HD 4670",
+                "score": 381,
                 "matched_from": "256 MB ATI RADEON HD 4670"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
-                "matched_from": "NVIDIA GEFORCE GT120"
+                "id": "gpu_geforce_320m",
+                "name": "GeForce 320M",
+                "score": 190,
+                "matched_from": "320M"
               }
             ],
-            "min_score": 5044
+            "min_score": 190
           }
         },
         "recommended": {
@@ -1367,39 +1381,33 @@
                 "name": "AMD Ryzen 5 3600",
                 "score": 17674,
                 "matched_from": "AMD"
-              },
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "INTEL DUAL-CORE 2.5 GHZ"
               }
             ],
-            "min_score": 6100
+            "min_score": 17674
           },
           "gpu_match": {
             "raw": "256 MB SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT/INTEL HD 3000 OR HIGHER",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_x1800_gto",
+                "name": "Radeon X1800 GTO",
+                "score": 140,
                 "matched_from": "256 MB SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_7600_gt",
+                "name": "GeForce 7600 GT",
+                "score": 234,
                 "matched_from": "NVIDIA GEFORCE 7600 GT"
               },
               {
-                "id": "gpu_intel_express_chipset_g41",
-                "name": "Intel - Express Chipset G41",
-                "score": 630,
+                "id": "gpu_intel_hd_3000",
+                "name": "Intel HD 3000",
+                "score": 95,
                 "matched_from": "INTEL HD 3000"
               }
             ],
-            "min_score": 630
+            "min_score": 95
           }
         },
         "recommended": {
@@ -1448,33 +1456,26 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS *:</strong>WINDOWS XP SP3/WINDOWS VISTA SP2/WINDOWS 7 <br>\t</li><li><strong>Processor:</strong>INTEL DUAL-CORE 2.5 GHZ or equivalent<br>\t</li><li><strong>Memory:</strong>1024 MB RAM<br>\t</li><li><strong>Graphics:</strong> 256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT OR HIGHER <br>\t</li><li><strong>DirectX\u00ae:</strong>9.0<br>\t</li><li><strong>Hard Drive:</strong>10 GB HD space<br>\t</li><li><strong>Sound:</strong>DIRECTX 9 COMPATIBLE <br>\t</li><li><strong>Other:</strong>",
           "cpu_match": {
             "raw": "INTEL DUAL-CORE 2.5 GHZ or equivalent",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "INTEL DUAL-CORE 2.5 GHZ"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT OR HIGHER",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_x1800_gto",
+                "name": "Radeon X1800 GTO",
+                "score": 140,
                 "matched_from": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_7600_gt",
+                "name": "GeForce 7600 GT",
+                "score": 234,
                 "matched_from": "NVIDIA GEFORCE 7600 GT"
               }
             ],
-            "min_score": 5044
+            "min_score": 140
           }
         },
         "recommended": {
@@ -1491,15 +1492,8 @@
           "raw_html": "for the best experience : Ultrabook\u2122 Inspired by Intel Corporation</li></ul>",
           "cpu_match": {
             "raw": "for the best experience : Ultrabook\u2122 Inspired by Intel Corporation",
-            "candidates": [
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "for the best experience : Ultrabook\u2122 Inspired by Intel Corporation"
-              }
-            ],
-            "min_score": 6100
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": null,
@@ -1632,33 +1626,27 @@
                 "name": "AMD Ryzen 5 3600",
                 "score": 17674,
                 "matched_from": "AMD"
-              },
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "INTEL DUAL-CORE 2.5 GHZ"
               }
             ],
-            "min_score": 6100
+            "min_score": 17674
           },
           "gpu_match": {
             "raw": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT OR HIGHER",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_x1800_gto",
+                "name": "Radeon X1800 GTO",
+                "score": 140,
                 "matched_from": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_7600_gt",
+                "name": "GeForce 7600 GT",
+                "score": 234,
                 "matched_from": "NVIDIA GEFORCE 7600 GT"
               }
             ],
-            "min_score": 5044
+            "min_score": 140
           }
         },
         "recommended": {
@@ -1681,33 +1669,27 @@
                 "name": "AMD Ryzen 5 3600",
                 "score": 17674,
                 "matched_from": "AMD"
-              },
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "INTEL DUAL-CORE 3.2 GHZ"
               }
             ],
-            "min_score": 6100
+            "min_score": 17674
           },
           "gpu_match": {
             "raw": "512 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON HD 3850/NVIDIA GEFORCE 8800 GT OR HIGHER",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_hd_3850",
+                "name": "Radeon HD 3850",
+                "score": 401,
                 "matched_from": "512 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON HD 3850"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_8800_gt",
+                "name": "GeForce 8800 GT",
+                "score": 455,
                 "matched_from": "NVIDIA GEFORCE 8800 GT"
               }
             ],
-            "min_score": 5044
+            "min_score": 401
           }
         }
       },
@@ -1835,33 +1817,27 @@
                 "name": "AMD Ryzen 5 3600",
                 "score": 17674,
                 "matched_from": "AMD"
-              },
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "INTEL DUAL-CORE 2.5 GHZ"
               }
             ],
-            "min_score": 6100
+            "min_score": 17674
           },
           "gpu_match": {
             "raw": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT OR HIGHER",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_x1800_gto",
+                "name": "Radeon X1800 GTO",
+                "score": 140,
                 "matched_from": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_7600_gt",
+                "name": "GeForce 7600 GT",
+                "score": 234,
                 "matched_from": "NVIDIA GEFORCE 7600 GT"
               }
             ],
-            "min_score": 5044
+            "min_score": 140
           }
         },
         "recommended": {
@@ -2012,33 +1988,27 @@
                 "name": "AMD Ryzen 5 3600",
                 "score": 17674,
                 "matched_from": "AMD"
-              },
-              {
-                "id": "cpu_intel_1300_1_66ghz",
-                "name": "Intel 1300 @ 1.66GHz",
-                "score": 6100,
-                "matched_from": "INTEL DUAL-CORE 2.5 GHZ"
               }
             ],
-            "min_score": 6100
+            "min_score": 17674
           },
           "gpu_match": {
             "raw": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO/NVIDIA GEFORCE 7600 GT OR HIGHER",
             "candidates": [
               {
-                "id": "gpu_256mb_ddr_radeon_9800_xt",
-                "name": "256MB DDR Radeon 9800 XT",
-                "score": 7921,
+                "id": "gpu_radeon_x1800_gto",
+                "name": "Radeon X1800 GTO",
+                "score": 140,
                 "matched_from": "256 MB 100% DIRECTX 9 AND SHADERS 3.0 COMPATIBLE. ATI RADEON X1800 GTO"
               },
               {
-                "id": "gpu_geforce_205",
-                "name": "GeForce 205",
-                "score": 5044,
+                "id": "gpu_geforce_7600_gt",
+                "name": "GeForce 7600 GT",
+                "score": 234,
                 "matched_from": "NVIDIA GEFORCE 7600 GT"
               }
             ],
-            "min_score": 5044
+            "min_score": 140
           }
         },
         "recommended": {

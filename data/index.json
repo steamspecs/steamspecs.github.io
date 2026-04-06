@@ -1,9 +1,9 @@
 {
   "version": 2,
   "shard_size": 2000,
-  "total_apps": 796,
+  "total_apps": 798,
   "total_shards": 37,
-  "generated_at": "2026-04-06T14:41:02Z",
+  "generated_at": "2026-04-06T15:16:43Z",
   "apps": [
     {
       "appid": 10,
@@ -1202,6 +1202,18 @@
     {
       "appid": 7650,
       "name": "X-COM: Terror From the Deep",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 7660,
+      "name": "X-COM: Apocalypse",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 7670,
+      "name": "BioShock\u2122",
       "type": "game",
       "has_requirements": true
     },
