@@ -21,7 +21,8 @@ const state = {
   buildStore: null,
   catalogs: { cpu: [], gpu: [] },
   catalogNameMap: { cpu: new Map(), gpu: new Map() },
-  shardCache: new Map()
+  shardCache: new Map(),
+  listRenderToken: 0
 };
 
 const els = {
@@ -506,11 +507,28 @@ function applyFilters() {
   if (mode === "hasreqs") apps = apps.filter(a => a.has_requirements);
   if (q) apps = apps.filter(a => (a.name || "").toLowerCase().includes(q));
 
-  state.filtered = apps.slice(0, 200);
+  state.filtered = apps;
   renderList();
 }
 
-function renderList() {
+function summarizeListMinimum(app, build) {
+  if (!build?.specs) return { status: "warn", text: "Unknown" };
+  if (!app?.requirements) return { status: "warn", text: "Unknown" };
+
+  const platform = build.platform || "pc";
+  const minReq = app.requirements?.[platform]?.minimum || null;
+  if (!hasUsableRequirement(minReq)) return { status: "warn", text: "Unknown" };
+
+  const summary = comparisonSummary(minReq, build, platform);
+  if (summary.status === "good") return { status: "good", text: "Pass" };
+  if (summary.status === "bad") return { status: "bad", text: "Fail" };
+  if (summary.text === "Partial match") return { status: "warn", text: "Partial" };
+  return { status: "warn", text: "Unknown" };
+}
+
+async function renderList() {
+  const renderToken = ++state.listRenderToken;
+  const activeBuild = getActiveBuild();
   els.list.innerHTML = "";
   els.meta.textContent = `Loaded ${state.index.total_apps} apps. Showing ${state.filtered.length} results.`;
 
@@ -526,12 +544,33 @@ function renderList() {
     `;
 
     const badge = document.createElement("div");
-    badge.className = app.has_requirements ? "badge good" : "badge warn";
-    badge.textContent = app.has_requirements ? "Requirements" : "No reqs";
+    badge.className = "badge warn";
+    badge.textContent = "Unknown";
+    div.dataset.appid = String(app.appid);
 
     div.appendChild(left);
     div.appendChild(badge);
     els.list.appendChild(div);
+  }
+
+  if (!state.filtered.length) return;
+
+  const uniqueShardIds = [...new Set(state.filtered.map(app => shardForAppid(app.appid)))];
+  await Promise.all(uniqueShardIds.map(id => loadShard(id)));
+  if (renderToken !== state.listRenderToken) return;
+
+  for (const app of state.filtered) {
+    const div = els.list.querySelector(`[data-appid="${app.appid}"]`);
+    if (!div) continue;
+
+    const badge = div.querySelector(".badge");
+    if (!badge) continue;
+
+    const shard = state.shardCache.get(shardForAppid(app.appid)) || [];
+    const detailedApp = shard.find(entry => entry.appid === app.appid) || normalizeApp(app);
+    const summary = summarizeListMinimum(detailedApp, activeBuild);
+    badge.className = badgeClass(summary.status);
+    badge.textContent = summary.text;
   }
 }
 
@@ -774,12 +813,14 @@ async function init() {
   els.newBuild.onclick = () => loadBuildIntoForm("");
   els.deleteBuild.onclick = () => {
     deleteSelectedBuild();
+    renderList();
     if (state.selected) renderDetail(state.selected);
   };
   els.saveSpecs.onclick = () => {
     const saved = saveCurrentBuildFromForm();
     if (!saved) return;
     closeModal();
+    renderList();
     if (state.selected) renderDetail(state.selected);
   };
 

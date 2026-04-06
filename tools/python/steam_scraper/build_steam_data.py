@@ -48,6 +48,7 @@ class Args:
     discover_window: int
     discover_miss_limit: int
     request_delay_ms: int
+    retry_failed: bool
 
 
 def parse_args() -> Args:
@@ -67,6 +68,7 @@ def parse_args() -> Args:
     parser.add_argument("--only-build", action="store_true")
     parser.add_argument("--refresh", action="store_true")
     parser.add_argument("--request-delay-ms", type=int, default=75)
+    parser.add_argument("--no-retry-failed", action="store_true")
     ns = parser.parse_args()
 
     appids = None
@@ -89,6 +91,7 @@ def parse_args() -> Args:
         discover_window=max(1, ns.discover_window),
         discover_miss_limit=max(1, ns.discover_miss_limit),
         request_delay_ms=max(0, ns.request_delay_ms),
+        retry_failed=not ns.no_retry_failed,
     )
 
 
@@ -118,6 +121,80 @@ def load_discovery_state(cache_dir: Path) -> dict:
 
 def save_discovery_state(cache_dir: Path, state: dict) -> None:
     write_json(cache_dir / "discovery-state.json", state)
+
+
+def load_scrape_progress(cache_dir: Path) -> dict | None:
+    progress_file = cache_dir / "scrape-progress.json"
+    if not progress_file.exists():
+        return None
+    return read_json(progress_file)
+
+
+def save_scrape_progress(cache_dir: Path, state: dict) -> None:
+    write_json(cache_dir / "scrape-progress.json", state)
+
+
+def load_failed_appdetails(cache_dir: Path) -> dict[int, dict]:
+    failed_file = cache_dir / "failed-appdetails.json"
+    if not failed_file.exists():
+        return {}
+
+    payload = read_json(failed_file)
+    if not isinstance(payload, list):
+        return {}
+
+    failed: dict[int, dict] = {}
+    for entry in payload:
+        if not isinstance(entry, dict):
+            continue
+        appid = entry.get("appid")
+        if appid is None:
+            continue
+        failed[int(appid)] = {
+            "appid": int(appid),
+            "error": clean_text(entry.get("error")),
+            "attempts": int(entry.get("attempts") or 1),
+            "last_attempted_at": clean_text(entry.get("last_attempted_at")),
+        }
+    return failed
+
+
+def save_failed_appdetails(cache_dir: Path, failed: dict[int, dict]) -> None:
+    failed_file = cache_dir / "failed-appdetails.json"
+    if not failed:
+        if failed_file.exists():
+            failed_file.unlink()
+        return
+
+    payload = sorted(failed.values(), key=lambda item: item["appid"])
+    write_json(failed_file, payload)
+
+
+def get_cached_appids(cache_dir: Path) -> set[int]:
+    details_dir = cache_dir / "appdetails"
+    if not details_dir.exists():
+        return set()
+    return {
+        int(file_path.stem)
+        for file_path in details_dir.glob("*.json")
+        if file_path.stem.isdigit()
+    }
+
+
+def utc_timestamp() -> str:
+    return time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+
+
+def dedupe_appids(appids: Iterable[int]) -> list[int]:
+    seen: set[int] = set()
+    ordered: list[int] = []
+    for appid in appids:
+        value = int(appid)
+        if value in seen:
+            continue
+        seen.add(value)
+        ordered.append(value)
+    return ordered
 
 
 def fetch_json(url: str):
@@ -351,10 +428,25 @@ def collect_cached_apps(cache_dir: Path, catalogs: dict[str, list[dict]], select
     return apps
 
 
-def scrape_app_details(appids: list[int], args: Args) -> None:
+def scrape_app_details(appids: list[int], args: Args, skipped_cached: int = 0) -> None:
     completed = 0
     failed = 0
-    failed_ids: list[dict] = []
+    failed_map = load_failed_appdetails(args.cache_dir)
+    started_at = utc_timestamp()
+    last_progress_write = 0.0
+
+    def write_progress(status: str) -> None:
+        save_scrape_progress(args.cache_dir, {
+            "status": status,
+            "started_at": started_at,
+            "updated_at": utc_timestamp(),
+            "target_total": len(appids),
+            "completed": completed,
+            "failed": failed,
+            "remaining": max(len(appids) - completed, 0),
+            "skipped_cached": skipped_cached,
+            "retry_failed": args.retry_failed,
+        })
 
     def worker(appid: int) -> dict:
         try:
@@ -364,6 +456,8 @@ def scrape_app_details(appids: list[int], args: Args) -> None:
             return {"appid": appid, "ok": True, "error": None}
         except Exception as error:
             return {"appid": appid, "ok": False, "error": str(error)}
+
+    write_progress("running")
 
     with ThreadPoolExecutor(max_workers=args.concurrency) as executor:
         pending = {executor.submit(worker, appid): appid for appid in appids}
@@ -385,10 +479,20 @@ def scrape_app_details(appids: list[int], args: Args) -> None:
 
                 if not result["ok"]:
                     failed += 1
-                    failed_ids.append({
+                    previous = failed_map.get(result["appid"], {})
+                    failed_map[result["appid"]] = {
                         "appid": result["appid"],
                         "error": result["error"],
-                    })
+                        "attempts": int(previous.get("attempts") or 0) + 1,
+                        "last_attempted_at": utc_timestamp(),
+                    }
+                else:
+                    failed_map.pop(result["appid"], None)
+
+                now = time.time()
+                if now - last_progress_write >= 10:
+                    write_progress("running")
+                    last_progress_write = now
 
                 if completed % 25 == 0 or completed == len(appids):
                     print(
@@ -396,9 +500,10 @@ def scrape_app_details(appids: list[int], args: Args) -> None:
                         f"(failed: {failed})"
                     )
 
-    if failed_ids:
-        write_json(args.cache_dir / "failed-appdetails.json", failed_ids)
-        print(f"Saved {failed} failed app detail fetches to {args.cache_dir / 'failed-appdetails.json'}")
+    save_failed_appdetails(args.cache_dir, failed_map)
+    write_progress("completed")
+    if failed:
+        print(f"Saved {len(failed_map)} failed app detail fetches to {args.cache_dir / 'failed-appdetails.json'}")
 
 def discover_new_appids(base_appids: list[int], args: Args, catalogs: dict[str, list[dict]]) -> list[int]:
     if not args.discover:
@@ -468,8 +573,41 @@ def main() -> None:
             discovered_ids = discover_new_appids(selected_appids, args, catalogs)
             selected_appids.extend(appid for appid in discovered_ids if appid not in selected_appids)
 
+        previous_failed_ids = []
+        if args.retry_failed:
+            previous_failed_ids = sorted(load_failed_appdetails(args.cache_dir).keys())
+            if previous_failed_ids:
+                print(f"Queued {len(previous_failed_ids)} previously failed app detail fetches for retry")
+
+        if args.refresh:
+            scrape_targets = dedupe_appids([*previous_failed_ids, *selected_appids])
+            skipped_cached = 0
+        else:
+            cached_appids = get_cached_appids(args.cache_dir)
+            pending_selected = [appid for appid in selected_appids if appid not in cached_appids]
+            retry_targets = [appid for appid in previous_failed_ids if appid not in cached_appids]
+            scrape_targets = dedupe_appids([*retry_targets, *pending_selected])
+            skipped_cached = len(selected_appids) - len(pending_selected)
+
         print(f"Preparing to scrape {len(selected_appids)} Steam apps")
-        scrape_app_details(selected_appids, args)
+        if skipped_cached and not args.refresh:
+            print(f"Skipping {skipped_cached} cached app detail payloads already on disk")
+
+        if scrape_targets:
+            scrape_app_details(scrape_targets, args, skipped_cached=skipped_cached)
+        else:
+            save_scrape_progress(args.cache_dir, {
+                "status": "completed",
+                "started_at": utc_timestamp(),
+                "updated_at": utc_timestamp(),
+                "target_total": 0,
+                "completed": 0,
+                "failed": 0,
+                "remaining": 0,
+                "skipped_cached": skipped_cached,
+                "retry_failed": args.retry_failed,
+            })
+            print("No app detail fetches needed; using cached payloads")
 
     normalized_apps = collect_cached_apps(args.cache_dir, catalogs, selected_appids)
     write_dataset(normalized_apps, args.output_dir, args.shard_size)
