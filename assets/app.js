@@ -603,6 +603,31 @@ function hasUsableRequirement(req) {
   return Boolean(req.os || req.cpu || req.gpu || req.ram_gb !== null || req.storage_gb !== null);
 }
 
+function inheritRequirementFields(req, fallbackReq) {
+  if (!req && !fallbackReq) return null;
+  const base = cloneRequirement(req);
+  const fallback = cloneRequirement(fallbackReq);
+
+  for (const key of REQUIREMENT_FIELDS) {
+    if (key === "raw_html") continue;
+    if (key === "cpu_match" || key === "gpu_match") {
+      const current = base[key];
+      const fallbackValue = fallback[key];
+      const hasCurrentCandidates = Array.isArray(current?.candidates) && current.candidates.length > 0;
+      const hasFallbackCandidates = Array.isArray(fallbackValue?.candidates) && fallbackValue.candidates.length > 0;
+      if ((!current?.raw && !hasCurrentCandidates && current?.min_score == null) && (fallbackValue?.raw || hasFallbackCandidates || fallbackValue?.min_score != null)) {
+        base[key] = fallbackValue;
+      }
+      continue;
+    }
+    if ((base[key] === null || base[key] === undefined || base[key] === false) && (fallback[key] !== null && fallback[key] !== undefined && fallback[key] !== false)) {
+      base[key] = fallback[key];
+    }
+  }
+
+  return base;
+}
+
 function normalizeApp(app) {
   return {
     appid: app.appid,
@@ -678,7 +703,7 @@ function summarizePlatformStatus(app, build) {
   const statuses = [minSummary.status, recSummary.status];
   if (statuses.includes("bad")) return { status: "bad", text: "Fail", key: "fail" };
   if (statuses.includes("unlikely")) return { status: "unlikely", text: "Unlikely", key: "unlikely" };
-  if (statuses.includes("partial")) return { status: "partial", text: "Partially unknown", key: "partial" };
+  if (statuses.includes("partial")) return { status: "partial", text: "Partially Unknown", key: "partial" };
   if (statuses.includes("likely")) return { status: "likely", text: "Likely", key: "likely" };
   if (statuses.includes("good")) return { status: "good", text: "Pass", key: "pass" };
   return { status: "unknown", text: "Unknown", key: "unknown" };
@@ -786,7 +811,7 @@ function comparisonSummary(req, build, platform) {
 
   if (results.includes("bad")) return { status: "bad", text: "Below spec" };
   if (results.includes("unlikely")) return { status: "unlikely", text: "Unlikely" };
-  if (hasUnknown && (hasPass || hasLikely)) return { status: "partial", text: "Partial" };
+  if (hasUnknown && (hasPass || hasLikely)) return { status: "partial", text: "Partially Unknown" };
   if (hasLikely) return { status: "likely", text: "Likely" };
   if (hasPass) return { status: "good", text: "Pass" };
   if (hasUnknown) return { status: "unknown", text: "Unknown" };
@@ -910,7 +935,7 @@ function renderDetail(app) {
   function draw() {
     const activeBuild = getActiveBuild();
     const min = app.requirements?.[platform]?.minimum || null;
-    const rec = app.requirements?.[platform]?.recommended || null;
+    const rec = inheritRequirementFields(app.requirements?.[platform]?.recommended || null, min);
     const hasAny = hasUsableRequirement(min) || hasUsableRequirement(rec);
 
     els.detail.innerHTML = `
