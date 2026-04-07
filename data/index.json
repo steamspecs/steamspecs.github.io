@@ -1,76 +1,10 @@
 {
   "version": 2,
   "shard_size": 2000,
-  "total_apps": 600,
-  "total_shards": 14,
-  "generated_at": "2026-04-07T07:57:13Z",
+  "total_apps": 1521,
+  "total_shards": 112,
+  "generated_at": "2026-04-07T11:03:17Z",
   "apps": [
-    {
-      "appid": 10,
-      "name": "Counter-Strike",
-      "type": "game",
-      "has_requirements": true
-    },
-    {
-      "appid": 20,
-      "name": "Team Fortress Classic",
-      "type": "game",
-      "has_requirements": true
-    },
-    {
-      "appid": 30,
-      "name": "Day of Defeat",
-      "type": "game",
-      "has_requirements": true
-    },
-    {
-      "appid": 40,
-      "name": "Deathmatch Classic",
-      "type": "game",
-      "has_requirements": true
-    },
-    {
-      "appid": 50,
-      "name": "Half-Life: Opposing Force",
-      "type": "game",
-      "has_requirements": true
-    },
-    {
-      "appid": 60,
-      "name": "Ricochet",
-      "type": "game",
-      "has_requirements": true
-    },
-    {
-      "appid": 70,
-      "name": "Half-Life",
-      "type": "game",
-      "has_requirements": true
-    },
-    {
-      "appid": 80,
-      "name": "Counter-Strike: Condition Zero",
-      "type": "game",
-      "has_requirements": true
-    },
-    {
-      "appid": 130,
-      "name": "Half-Life: Blue Shift",
-      "type": "game",
-      "has_requirements": true
-    },
-    {
-      "appid": 220,
-      "name": "Half-Life 2",
-      "type": "game",
-      "has_requirements": true
-    },
-    {
-      "appid": 240,
-      "name": "Counter-Strike: Source",
-      "type": "game",
-      "has_requirements": true
-    },
     {
       "appid": 300,
       "name": "Day of Defeat: Source",
@@ -1202,6 +1136,108 @@
     {
       "appid": 7650,
       "name": "X-COM: Terror From the Deep",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 7660,
+      "name": "X-COM: Apocalypse",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 7670,
+      "name": "BioShock\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 7730,
+      "name": "X-COM: Interceptor",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 7760,
+      "name": "X-COM: UFO Defense",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 7770,
+      "name": "X-COM: Enforcer",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 7800,
+      "name": "Stubbs the Zombie in Rebel Without a Pulse",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 7830,
+      "name": "Men of War\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 7840,
+      "name": "Death Track\u00ae: Resurrection",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 7860,
+      "name": "NecroVision",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 7940,
+      "name": "Call of Duty\u00ae 4: Modern Warfare\u00ae (2007)",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 8000,
+      "name": "Tomb Raider: Anniversary",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 8170,
+      "name": "Battlestations Pacific",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 8190,
+      "name": "Just Cause 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 8330,
+      "name": "Telltale Texas Hold \u2018Em",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 8400,
+      "name": "Geometry Wars: Retro Evolved",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 8500,
+      "name": "EVE Online",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 8600,
+      "name": "RACE 07",
       "type": "game",
       "has_requirements": true
     },
@@ -2370,30 +2406,6 @@
       "has_requirements": true
     },
     {
-      "appid": 17140,
-      "name": "Hinterland",
-      "type": "game",
-      "has_requirements": true
-    },
-    {
-      "appid": 17180,
-      "name": "Mosby's Confederacy",
-      "type": "game",
-      "has_requirements": true
-    },
-    {
-      "appid": 17330,
-      "name": "Crysis Warhead\u00ae",
-      "type": "game",
-      "has_requirements": true
-    },
-    {
-      "appid": 17390,
-      "name": "SPORE\u2122",
-      "type": "game",
-      "has_requirements": true
-    },
-    {
       "appid": 17410,
       "name": "Mirror's Edge\u2122",
       "type": "game",
@@ -2404,6 +2416,138 @@
       "name": "SPORE\u2122 Creepy & Cute Parts Pack",
       "type": "game",
       "has_requirements": true
+    },
+    {
+      "appid": 17460,
+      "name": "Mass Effect (2007)",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 17470,
+      "name": "Dead Space (2008)",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 17480,
+      "name": "Command & Conquer\u2122 Red Alert\u2122 3",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 17500,
+      "name": "Zombie Panic! Source",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 17570,
+      "name": "Pirates Vikings & Knights II",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 17580,
+      "name": "Dystopia",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 17710,
+      "name": "Nuclear Dawn",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 17740,
+      "name": "Empires Mod",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 18000,
+      "name": "Precipice of Darkness, Episode One",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 18020,
+      "name": "Precipice of Darkness, Episode Two",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 18040,
+      "name": "DeathSpank",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 18050,
+      "name": "DeathSpank: Thongs of Virtue",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 18070,
+      "name": "The Baconing",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 18080,
+      "name": "The Baconing DLC - Roesha \u2013 One Bad Mutha Co-op Character",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 18120,
+      "name": "Unstoppable Gorg",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 18300,
+      "name": "Spectraball",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 18400,
+      "name": "Crazy Machines 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 18407,
+      "name": "Crazy Machines 2: Liquid Force Add-on",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 18408,
+      "name": "Crazy Machines 2: Time Travel Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 18420,
+      "name": "Crazy Machines",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 18430,
+      "name": "Crazy Machines 1.5",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 18440,
+      "name": "Crazy Machines 2: Back to the Shop Add-On",
+      "type": "dlc",
+      "has_requirements": false
     },
     {
       "appid": 18470,
@@ -3456,30 +3600,6 @@
       "has_requirements": true
     },
     {
-      "appid": 25896,
-      "name": "Hearts of Iron III: German Infantry Pack DLC",
-      "type": "dlc",
-      "has_requirements": true
-    },
-    {
-      "appid": 25897,
-      "name": "Hearts of Iron III: Japanese Infantry Pack DLC",
-      "type": "dlc",
-      "has_requirements": true
-    },
-    {
-      "appid": 25898,
-      "name": "Hearts of Iron III: Soviet Pack DLC",
-      "type": "dlc",
-      "has_requirements": true
-    },
-    {
-      "appid": 25899,
-      "name": "Hearts of Iron III: Soviet Music Pack DLC",
-      "type": "dlc",
-      "has_requirements": true
-    },
-    {
       "appid": 25900,
       "name": "King's Bounty: The Legend",
       "type": "game",
@@ -3603,6 +3723,5412 @@
       "appid": 27200,
       "name": "Summer Athletics",
       "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 27400,
+      "name": "Dangerous High School Girls in Trouble!\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 27800,
+      "name": "Space Giraffe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 27810,
+      "name": "Gridrunner Revolution",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 27900,
+      "name": "Twin Sector",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 27920,
+      "name": "Booster Trooper",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 27940,
+      "name": "Dead Horde",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 28000,
+      "name": "Kane & Lynch 2: Dog Days",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 28010,
+      "name": "Kane & Lynch 2: The Doggie Bag",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 28011,
+      "name": "Kane & Lynch 2: Alliance Weapon Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 28012,
+      "name": "Kane & Lynch 2: Multiplayer Masks Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 29120,
+      "name": "Yumsters 2: Around the World",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 29130,
+      "name": "Musaic Box",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 29160,
+      "name": "Blueberry Garden",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 29180,
+      "name": "Osmos",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 29720,
+      "name": "Guild Wars\u00ae Reforged",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 29800,
+      "name": "Caster",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 29900,
+      "name": "Dark Sector",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31100,
+      "name": "Wallace & Gromit\u2019s Grand Adventures",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31170,
+      "name": "Tales of Monkey Island: Complete Season",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31270,
+      "name": "Puzzle Agent",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31300,
+      "name": "Tunnel Rats",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31700,
+      "name": "Iron Grip: Warlord",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31800,
+      "name": "Nancy Drew\u00ae: Danger by Design",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31810,
+      "name": "Nancy Drew\u00ae: Last Train to Blue Moon Canyon",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31820,
+      "name": "Nancy Drew\u00ae: The Haunted Carousel",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31830,
+      "name": "Nancy Drew\u00ae: Curse of Blackmoor Manor",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31840,
+      "name": "Nancy Drew\u00ae: Danger on Deception Island",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31850,
+      "name": "Nancy Drew\u00ae: Ghost Dogs of Moon Lake",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31860,
+      "name": "Nancy Drew\u00ae: Legend of the Crystal Skull",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31870,
+      "name": "Nancy Drew\u00ae Dossier: Lights, Camera, Curses!",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31880,
+      "name": "Nancy Drew\u00ae: Secret of the Old Clock",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31890,
+      "name": "Nancy Drew\u00ae: Secret of the Scarlet Hand",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31900,
+      "name": "Nancy Drew\u00ae: The Creature of Kapu Cave",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31910,
+      "name": "Nancy Drew\u00ae: The Haunting of Castle Malloy",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31920,
+      "name": "Nancy Drew\u00ae: The Phantom of Venice",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 31930,
+      "name": "Nancy Drew\u00ae: The White Wolf of Icicle Creek",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32000,
+      "name": "Raycatcher",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32110,
+      "name": "LUXOR: Mah Jong",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32120,
+      "name": "Chainz 2: Relinked",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32140,
+      "name": "Midnight Mysteries",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32150,
+      "name": "Everyday Genius: SquareLogic",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32160,
+      "name": "Zombie Bowl-o-Rama",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32200,
+      "name": "Metal Drift",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32310,
+      "name": "Indiana Jones\u00ae and the Last Crusade\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32330,
+      "name": "LEGO\u00ae Indiana Jones\u2122: The Original Adventures",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32340,
+      "name": "LOOM\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32350,
+      "name": "STAR WARS\u2122 Starfighter\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32360,
+      "name": "The Secret of Monkey Island: Special Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32370,
+      "name": "STAR WARS\u2122 Knights of the Old Republic\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32380,
+      "name": "STAR WARS\u2122 Jedi Knight: Dark Forces II",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32390,
+      "name": "STAR WARS\u2122 Jedi Knight - Mysteries of the Sith\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32400,
+      "name": "STAR WARS\u2122 Dark Forces (Classic, 1995)",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32430,
+      "name": "STAR WARS\u2122 - The Force Unleashed\u2122 Ultimate Sith Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32440,
+      "name": "LEGO\u00ae Star Wars\u2122 - The Complete Saga",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32450,
+      "name": "LEGO\u00ae Indiana Jones\u2122 2: The Adventure Continues",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32460,
+      "name": "Monkey Island\u2122 2 Special Edition: LeChuck\u2019s Revenge\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32470,
+      "name": "STAR WARS\u2122 Empire at War - Gold Pack",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32500,
+      "name": "STAR WARS\u2122: The Force Unleashed\u2122 II",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32510,
+      "name": "LEGO\u00ae Star Wars\u2122 III - The Clone Wars\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32610,
+      "name": "Delta Force Xtreme 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32620,
+      "name": "Delta Force 1",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32630,
+      "name": "Delta Force 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32640,
+      "name": "Delta Force Land Warrior",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32650,
+      "name": "Delta Force: Task Force Dagger",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32660,
+      "name": "Delta Force: Xtreme",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32680,
+      "name": "Delta Force \u2014 Black Hawk Down: Team Sabre",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32710,
+      "name": "Armored Fist 3",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32720,
+      "name": "F-16 Multirole Fighter",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32730,
+      "name": "F-22 Lightning 3",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32740,
+      "name": "MiG-29 Fulcrum",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32750,
+      "name": "Comanche 4",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32760,
+      "name": "Tachyon: The Fringe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32770,
+      "name": "Joint Operations: Combined Arms Gold",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 32900,
+      "name": "Restaurant Empire II",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33100,
+      "name": "Alien Shooter",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33110,
+      "name": "Alien Shooter: Revisited",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33120,
+      "name": "Alien Shooter 2: Reloaded",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33130,
+      "name": "Zombie Shooter",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33180,
+      "name": "Zombie Shooter 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33220,
+      "name": "Tom Clancy's Splinter Cell Conviction\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33230,
+      "name": "Assassin's Creed 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33320,
+      "name": "Prince of Persia: The Forgotten Sands\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33390,
+      "name": "Zeit\u00b2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33460,
+      "name": "From Dust",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33520,
+      "name": "Tropico Reloaded",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33550,
+      "name": "Time of Shadows",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33570,
+      "name": "Patrician III",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33580,
+      "name": "The Great Art Race",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33600,
+      "name": "Broken Sword 2 - the Smoking Mirror: Remastered (2010)",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33610,
+      "name": "Broken Sword 3 - the Sleeping Dragon (2003)",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33620,
+      "name": "Crash Time 3",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33650,
+      "name": "Puzzler World",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33660,
+      "name": "Ziro",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33670,
+      "name": "Disciples III - Renaissance Steam Special Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33680,
+      "name": "eversion",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33700,
+      "name": "Paws and Claws: Pampered Pets",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33710,
+      "name": "Paws and Claws: Pet School",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33720,
+      "name": "Paws and Claws: Pet Vet",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33730,
+      "name": "18 Wheels of Steel: Extreme Trucker",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33750,
+      "name": "Prison Tycoon 4: SuperMax",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33760,
+      "name": "The Search for Amelia Earhart",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33770,
+      "name": "Drakensang: The River of Time",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33780,
+      "name": "Drakensang - Phileasson's Secret",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 33790,
+      "name": "Elizabeth Find M.D. - Diagnosis Mystery - Season 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33900,
+      "name": "Arma 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33930,
+      "name": "Arma 2: Operation Arrowhead",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33934,
+      "name": "Arma 2: Army of the Czech Republic",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 33950,
+      "name": "Fish Fillets 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33980,
+      "name": "Pound of Ground",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 33990,
+      "name": "Alternativa",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34010,
+      "name": "Alpha Protocol\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34030,
+      "name": "Total War: NAPOLEON \u2013 Definitive Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34174,
+      "name": "Napoleon: Total War - Heroes of the Napoleonic Wars",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 34178,
+      "name": "Napoleon: Total War\u2122 - Coalition Battle Pack",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 34179,
+      "name": "Napoleon: Total War\u2122 - The Peninsular Campaign",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 34190,
+      "name": "Sonic & SEGA All-Stars Racing",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34342,
+      "name": "Total War: SHOGUN 2 - Sengoku Jidai Unit Pack",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 34343,
+      "name": "Total War: SHOGUN 2 - Rise of the Samurai Campaign",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 34345,
+      "name": "Total War: SHOGUN 2 - The Hattori Clan Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 34346,
+      "name": "Total War: SHOGUN 2 - Battle of Kawagoe",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 34348,
+      "name": "Total War: SHOGUN 2 - The Ikko Ikki Clan Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 34410,
+      "name": "Death to Spies: Moment of Truth",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34420,
+      "name": "XIII Century \u2013 Gold Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34500,
+      "name": "Light of Altair",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34600,
+      "name": "Order of War\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34630,
+      "name": "Massive Assault",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34640,
+      "name": "Massive Assault: Phantom Renaissance",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34800,
+      "name": "Chronicles of Mystery: The Scorpio Ritual",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34810,
+      "name": "Project Freedom",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34820,
+      "name": "Combat Wings: Battle of Britain",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34830,
+      "name": "Sniper: Ghost Warrior",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34841,
+      "name": "Sniper: Ghost Warrior - Map Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 34842,
+      "name": "Sniper: Ghost Warrior - Second Strike",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 34870,
+      "name": "Sniper: Ghost Warrior 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34900,
+      "name": "Bad Rats: the Rats' Revenge",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 34920,
+      "name": "Razor2: Hidden Skies",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 35000,
+      "name": "Mini Ninjas",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 35070,
+      "name": "Flora's Fruit Farm",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 35080,
+      "name": "Just Cause 2: Bull's Eye Assault Rifle",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 35083,
+      "name": "Just Cause 2: Rico's Signature Gun DLC",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 35089,
+      "name": "Just Cause 2: Chevalier Classic",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 35090,
+      "name": "Just Cause 2: Agency Hovercraft",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 35091,
+      "name": "Just Cause 2: Monster Truck DLC",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 35101,
+      "name": "Just Cause 2: Black Market Aerial Pack DLC",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 35102,
+      "name": "Just Cause 2 - Black Market Boom Pack DLC",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 35130,
+      "name": "Lara Croft and the Guardian of Light",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 35135,
+      "name": "Lara Croft GoL: Raziel and Kain Character Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 35136,
+      "name": "Lara Croft GoL: All the Trappings - Challenge Pack 1",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 35137,
+      "name": "Lara Croft GoL: Things that Go Boom - Challenge Pack 2",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 35138,
+      "name": "Lara Croft GoL: Hazardous Reunion - Challenge Pack 3",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 35140,
+      "name": "Batman: Arkham Asylum Game of the Year Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 35300,
+      "name": "Warfare",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 35310,
+      "name": "Clutch",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 35320,
+      "name": "Insane 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 35417,
+      "name": "Killing Floor: PostMortem Character Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 35419,
+      "name": "Killing Floor \"London's Finest\" Character Pack",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 35425,
+      "name": "Killing Floor: Steampunk Character Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 35429,
+      "name": "Killing Floor - Steampunk Character Pack 2",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 35450,
+      "name": "Red Orchestra 2: Heroes of Stalingrad with Rising Storm",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 35460,
+      "name": "The Ball",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 35480,
+      "name": "Dwarfs!?",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 35600,
+      "name": "Big Brain Wolf",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 35700,
+      "name": "Trine Enchanted Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 35720,
+      "name": "Trine 2: Complete Story",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 35800,
+      "name": "BRAINPIPE: A Plunge to Unhumanity",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 36000,
+      "name": "Foreign Legion: Buckets of Blood",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 36130,
+      "name": "Tradewinds Caravans + Odyssey Pack",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 36150,
+      "name": "Westward Collection",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 36900,
+      "name": "Angle of Attack",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 36910,
+      "name": "All Aspect Warfare",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37000,
+      "name": "The Void",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37210,
+      "name": "Chocolatier\u00ae: Decadence by Design\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37220,
+      "name": "Cooking Dash\u00ae",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37230,
+      "name": "Diaper Dash\u00ae",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37240,
+      "name": "Diner Dash:\u00ae Hometown Hero\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37260,
+      "name": "Emerald City Confidential\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37280,
+      "name": "Wedding Dash\u00ae 2: Rings Around the World",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37290,
+      "name": "Zenerchi\u00ae",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37340,
+      "name": "Fitness Dash\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37360,
+      "name": "Mahjong Roadshow\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37370,
+      "name": "TriJinx: A Kristine Kross Mystery\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37380,
+      "name": "Valerie Porter and the Scarlet Scandal\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37390,
+      "name": "Gemini Lost\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37400,
+      "name": "Time Gentlemen, Please! and Ben There, Dan That! Special Edition Double Pack",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37500,
+      "name": "Magnetis",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37600,
+      "name": "Windosill",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37800,
+      "name": "Quantz",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 37960,
+      "name": "Jewel Quest Pack",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38000,
+      "name": "Mahjong Quest Collection",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38070,
+      "name": "Coconut Queen",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38080,
+      "name": "Build-A-Lot",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38090,
+      "name": "Build-A-Lot 2: Town of the Year",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38100,
+      "name": "Build-A-Lot 3: Passport to Europe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38110,
+      "name": "Build-A-Lot 4: Power Source",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38120,
+      "name": "Farm Frenzy",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38130,
+      "name": "Farm Frenzy 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38140,
+      "name": "Farm Frenzy: Pizza Party",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38150,
+      "name": "Farm Frenzy 3",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38160,
+      "name": "Farm Frenzy 3: American Pie",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38170,
+      "name": "Cradle of Rome",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38180,
+      "name": "Cradle of Persia",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38185,
+      "name": "Napoleon: Total War - Imperial Eagle Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 38190,
+      "name": "Romance of Rome",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38210,
+      "name": "Roogoo",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38230,
+      "name": "Hotel Giant 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38400,
+      "name": "Fallout: A Post Nuclear Role Playing Game",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38410,
+      "name": "Fallout 2: A Post Nuclear Role Playing Game",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38420,
+      "name": "Fallout Tactics: Brotherhood of Steel",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38430,
+      "name": "Kingpin \u2014 Life of Crime",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38440,
+      "name": "Sacrifice",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38450,
+      "name": "MDK",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38460,
+      "name": "MDK 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38480,
+      "name": "Earthworm Jim",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38490,
+      "name": "Earthworm Jim 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38600,
+      "name": "Faerie Solitaire",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38700,
+      "name": "Toki Tori",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38720,
+      "name": "RUSH",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38740,
+      "name": "EDGE",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 38920,
+      "name": "Rhythm Zone Mesh Visualizer DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 38921,
+      "name": "Rhythm Zone Revolution Visualizer DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 38922,
+      "name": "Rhythm Zone: Deep Ocean Visualizer",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 38923,
+      "name": "Rhythm Zone Tornado Visualizer DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 38924,
+      "name": "Rhythm Zone DJ Table Visualizer DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 39000,
+      "name": "Moonbase Alpha",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39110,
+      "name": "SEASON OF MYSTERY: The Cherry Blossom Murders",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39120,
+      "name": "RIFT",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39150,
+      "name": "FINAL FANTASY VIII",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39160,
+      "name": "Dungeon Siege III",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39190,
+      "name": "Dungeon Siege",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39200,
+      "name": "Dungeon Siege II",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39210,
+      "name": "FINAL FANTASY XIV Online",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39270,
+      "name": "Dungeon Siege III: Treasures of the Sun",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 39391,
+      "name": "Freeze Tag Fun Pack #1",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39392,
+      "name": "Freeze Tag Fun Pack #2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39500,
+      "name": "Gothic\u00ae 3",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39510,
+      "name": "Gothic II: Gold Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39520,
+      "name": "The Guild Gold Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39530,
+      "name": "Painkiller: Black Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39540,
+      "name": "SpellForce - Platinum Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39550,
+      "name": "SpellForce 2 - Anniversary Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39560,
+      "name": "Painkiller: Resurrection",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39630,
+      "name": "AquaNox",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39640,
+      "name": "AquaNox 2: Revelation",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39650,
+      "name": "The Guild II",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39660,
+      "name": "The Guild II - Pirates of the European Seas",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39670,
+      "name": "Chaser",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39680,
+      "name": "The Guild II Renaissance",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39690,
+      "name": "ArcaniA",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39800,
+      "name": "Nation Red",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 39900,
+      "name": "Coniclysm",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40100,
+      "name": "Supreme Commander 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40135,
+      "name": "Supreme Commander 2: Infinite War Battle Pack",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 40200,
+      "name": "ItzaBitza",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40210,
+      "name": "ItzaZoo",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40300,
+      "name": "Risen",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40320,
+      "name": "Rush for Berlin Gold",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40330,
+      "name": "Secret Files: Tunguska",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40340,
+      "name": "Secret Files 2: Puritas Cordis",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40350,
+      "name": "Lost Horizon",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40380,
+      "name": "nail'd",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40390,
+      "name": "Risen 2: Dark Waters",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40391,
+      "name": "Risen 2: Dark Waters - A Pirate's Clothes DLC",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 40392,
+      "name": "Risen 2: Dark Waters - Treasure Isle DLC",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 40393,
+      "name": "Risen 2: Dark Waters - Air Temple DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 40400,
+      "name": "AI War: Fleet Command",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40403,
+      "name": "AI War: The Zenith Remnant",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 40406,
+      "name": "AI War: Children of Neinzul",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 40407,
+      "name": "AI War: Light of the Spire",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 40408,
+      "name": "AI War: Ancient Shadows",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 40420,
+      "name": "Tidalis",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40500,
+      "name": "Sacraboar",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40700,
+      "name": "Machinarium",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40720,
+      "name": "Samorost 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40800,
+      "name": "Super Meat Boy",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40930,
+      "name": "The Misadventures of P.B. Winterbottom",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40950,
+      "name": "Stronghold HD (2012)",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40960,
+      "name": "Stronghold 2: Steam Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40970,
+      "name": "Stronghold Crusader HD (2012)",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40980,
+      "name": "Stronghold Legends: Steam Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 40990,
+      "name": "Mafia",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41000,
+      "name": "Serious Sam HD: The First Encounter",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41014,
+      "name": "Serious Sam HD: The Second Encounter",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41019,
+      "name": "Serious Sam HD: The Second Encounter - Legend of the Beast",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 41046,
+      "name": "Serious Sam HD: The Second Encounter - Serious 8 DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 41050,
+      "name": "Serious Sam Classic: The First Encounter",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41060,
+      "name": "Serious Sam Classic: The Second Encounter",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41070,
+      "name": "Serious Sam 3: BFE",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41074,
+      "name": "Serious Sam 3: Jewel of the Nile",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 41100,
+      "name": "Hammerfight",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41300,
+      "name": "Altitude",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41400,
+      "name": "Doom Rails",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41500,
+      "name": "Torchlight",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41600,
+      "name": "Earthworm Jim 3D",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41660,
+      "name": "Tommy Tronic",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41680,
+      "name": "Death and the Fly",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41730,
+      "name": "Ion Assault",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41740,
+      "name": "Cargo! The Quest for Gravity",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41800,
+      "name": "Gratuitous Space Battles",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 41802,
+      "name": "Gratuitous Space Battles: The Tribe",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 41803,
+      "name": "Gratuitous Space Battles: The Order",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 41804,
+      "name": "Gratuitous Space Battles: The Swarm",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 41805,
+      "name": "Gratuitous Space Battles: The Nomads",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 41816,
+      "name": "Gratuitous Space Battles: The Parasites",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 41817,
+      "name": "Gratuitous Space Battles: The Outcasts",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 41900,
+      "name": "The Bard's Tale ARPG: Remastered and Resnarkled",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42000,
+      "name": "Trino",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42120,
+      "name": "Lead and Gold: Gangs of the Wild West",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42140,
+      "name": "Hamilton's Great Adventure",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42147,
+      "name": "Hamilton's Great Adventure - Retro Fever DLC",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42170,
+      "name": "Krater",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42180,
+      "name": "Hamilton's Great Adventure: Retro Fever",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42200,
+      "name": "Nancy Drew\u00ae Dossier: Resorting to Danger!",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42210,
+      "name": "Nancy Drew\u00ae: Secrets Can Kill REMASTERED",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42220,
+      "name": "Nancy Drew\u00ae: The Captive Curse",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42230,
+      "name": "Nancy Drew\u00ae: Trail of the Twister",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42500,
+      "name": "DogFighter",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42670,
+      "name": "Singularity\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42695,
+      "name": "Call of Duty\u00ae: Modern Warfare\u00ae 3 (2011) Collection 1",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42696,
+      "name": "Call of Duty\u00ae: Modern Warfare\u00ae 3 (2011) Collection 2",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42697,
+      "name": "Call of Duty\u00ae: Modern Warfare\u00ae 3 (2011) Collection 3: Chaos Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42698,
+      "name": "Call of Duty\u00ae: Modern Warfare\u00ae 3 (2011) Collection 4: Final Assault",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42700,
+      "name": "Call of Duty\u00ae: Black Ops",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42716,
+      "name": "Call of Duty\u00ae: Black Ops First Strike Content Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42718,
+      "name": "Call of Duty\u00ae: Black Ops Escalation Content Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42719,
+      "name": "Call of Duty\u00ae: Black Ops - Rezurrection Content Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42722,
+      "name": "Call of Duty\u00ae: Black Ops Annihilation Content Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42800,
+      "name": "East India Company: Privateer",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42810,
+      "name": "For The Glory: A Europa Universalis Game",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42820,
+      "name": "East India Company: Battle of Trafalgar",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42850,
+      "name": "Arsenal of Democracy: A Hearts of Iron Game",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42881,
+      "name": "Majesty 2: Kingmaker",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42890,
+      "name": "Sword of the Stars: Complete Collection",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42900,
+      "name": "Hearts of Iron III: Semper Fi",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42902,
+      "name": "Hearts of Iron III Semper Fi: Dies Irae G\u00f6tterd\u00e4mmerung",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42903,
+      "name": "Hearts of Iron III: For the Motherland",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42904,
+      "name": "Hearts of Iron III: Mega German Spritepack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42905,
+      "name": "Hearts of Iron III: Dies Irae Stars & Stripes Spritepack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42910,
+      "name": "Magicka",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42918,
+      "name": "Magicka: Vietnam",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42920,
+      "name": "The Kings' Crusade",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42925,
+      "name": "The Kings' Crusade: New Allies",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42926,
+      "name": "The Kings' Crusade: Arabian Nights",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42929,
+      "name": "The Kings' Crusade: Teutonic Knights",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42930,
+      "name": "Elven Legacy: Magic",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42940,
+      "name": "Elven Legacy: Siege",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42950,
+      "name": "Elven Legacy: Ranger",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42960,
+      "name": "Victoria II",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42964,
+      "name": "Victoria II: Interwar Spritepack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42965,
+      "name": "Victoria II: Interwar Artillery Sprite Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42966,
+      "name": "Victoria II: Interwar Planes Sprite Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42968,
+      "name": "Victoria II: A House Divided",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 42980,
+      "name": "Victoria I Complete",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 42990,
+      "name": "Sword of the Stars II: Enhanced Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 43000,
+      "name": "Front Mission Evolved",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 43005,
+      "name": "Front Mission Evolved: Map Pack",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 43006,
+      "name": "Front Mission Evolved: Last Stand",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 43011,
+      "name": "Front Mission Evolved: Wanzer Pack 2",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 43013,
+      "name": "Front Mission Evolved: Weapon Pack 2",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 43014,
+      "name": "Front Mission Evolved: Wanzer Pack 3",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 43100,
+      "name": "World of Zoo",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 43190,
+      "name": "The Haunted: Hells Reach",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 43500,
+      "name": "M.U.D. TV",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 43600,
+      "name": "Nancy Drew\u00ae: Warnings at Waverly Academy",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 44100,
+      "name": "Super Laser Racer",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 44600,
+      "name": "GTR - FIA GT Racing Game",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 44620,
+      "name": "STCC The Game 2 \u2013 Expansion Pack for RACE 07",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 44650,
+      "name": "GT Power Pack \u2013 Expansion Pack for RACE 07",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 44660,
+      "name": "RETRO \u2013 Expansion Pack for RACE 07",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 44670,
+      "name": "WTCC 2010 \u2013 Expansion Pack for RACE 07",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 44680,
+      "name": "RACE Injection",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 44690,
+      "name": "GT Legends",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 45100,
+      "name": "Secret of the Magic Crystals",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 45200,
+      "name": "Defense of the Oasis",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 45300,
+      "name": "Wings of Prey: Special Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 45400,
+      "name": "Fortix",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 45410,
+      "name": "Ignite",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 45420,
+      "name": "Land It!",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 45450,
+      "name": "Fortix 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 45770,
+      "name": "Dead Rising 2: Off the Record",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 45773,
+      "name": "Dead Rising 2: Off the Record BBQ Chef Skills Pack",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 45774,
+      "name": "Dead Rising 2: Off the Record COSPLAY Skills Pack",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 45775,
+      "name": "Dead Rising 2: Off the Record Cyborg Skills Pack",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 45776,
+      "name": "Dead Rising 2: Off the Record Firefighter Skills Pack",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 45790,
+      "name": "USFIV: Complete Brawler Pack (2011)",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 45791,
+      "name": "USFIV: Complete Femme Fatale Pack (2011)",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 45792,
+      "name": "USFIV: Complete Shadoloo Pack (2011)",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 45793,
+      "name": "USFIV: Complete Shoryuken Pack (2011)",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 45794,
+      "name": "USFIV: Complete Classic Pack (2011)",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 45795,
+      "name": "USFIV: Complete Challengers 1 Pack (2011)",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 45796,
+      "name": "USFIV: Complete Challengers 2 Pack (2011)",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 45797,
+      "name": "USFIV: Arcade Challengers Pack (2011)",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 45798,
+      "name": "USFIV: All-in 2011 Costume Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 46000,
+      "name": "Bob Came in Pieces",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46200,
+      "name": "A.I.M. Racing",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46250,
+      "name": "NecroVisioN: Lost Company",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46260,
+      "name": "Star Wolves 3: Civil War",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46270,
+      "name": "Star Wolves",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46280,
+      "name": "Star Wolves 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46290,
+      "name": "Theatre of War",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46340,
+      "name": "Theatre of War 2: Africa 1943",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46342,
+      "name": "Theatre of War 2: Centauro",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 46350,
+      "name": "Real Warfare 1242",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46360,
+      "name": "Theatre of War 2: Kursk 1943",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46362,
+      "name": "Theatre of War 2 - Battle for Caen",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 46370,
+      "name": "Rig n Roll",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46380,
+      "name": "Reign: Conflict of Nations",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46400,
+      "name": "Greed: Black Border",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46410,
+      "name": "Avencast: Rise of the Mage",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46440,
+      "name": "Future Wars",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46450,
+      "name": "Grotesque Tactics: Evil Heroes",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46460,
+      "name": "Scratches - Director's Cut",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46480,
+      "name": "Still Life",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46490,
+      "name": "Still Life 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46500,
+      "name": "Syberia",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46510,
+      "name": "Syberia II",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46520,
+      "name": "Wasteland Angel",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46540,
+      "name": "Trapped Dead",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46550,
+      "name": "Post Mortem",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46560,
+      "name": "Robin Hood: The Legend of Sherwood",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46570,
+      "name": "Grotesque Tactics 2 \u2013 Dungeons and Donuts",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46600,
+      "name": "Swarm Arena",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46700,
+      "name": "Ironclads: American Civil War",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46710,
+      "name": "Ironclads: High Seas",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46720,
+      "name": "Dimensity",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46730,
+      "name": "Hazen: The Dark Whispers",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46740,
+      "name": "World Basketball Manager 2010",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46750,
+      "name": "Dark Fall: Lost Souls",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46760,
+      "name": "Ironclads: Schleswig War 1864",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46770,
+      "name": "Making History II: The War of the World",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46790,
+      "name": "Armada 2526",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46830,
+      "name": "Ironclads: Anglo Russian War 1866",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46840,
+      "name": "Ironclads: Chincha Islands War 1866",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 46850,
+      "name": "Zombie Pirates",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 47110,
+      "name": "Escape From Paradise",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 47120,
+      "name": "Escape From Paradise 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 47130,
+      "name": "Book of Legends",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 47400,
+      "name": "Stronghold 3 Gold",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 47410,
+      "name": "Stronghold Kingdoms",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 47700,
+      "name": "Command & Conquer\u2122 4 Tiberian Twilight",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 47780,
+      "name": "Dead Space\u2122 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 47790,
+      "name": "Medal of Honor\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 47810,
+      "name": "Dragon Age: Origins - Ultimate Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 47890,
+      "name": "The Sims\u2122 3",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 47892,
+      "name": "The Sims\u2122 3 World Adventures",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 47893,
+      "name": "The Sims\u2122 3 Ambitions",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 47894,
+      "name": "The Sims\u2122 3 Late Night",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 47895,
+      "name": "The Sims\u2122 3 High-End Loft Stuff",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 47896,
+      "name": "The Sims\u2122 3 Fast Lane Stuff",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 47897,
+      "name": "The Sims\u2122 3 Outdoor Living Stuff",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 47898,
+      "name": "The Sims\u2122 3 Generations",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 47899,
+      "name": "The Sims\u2122 3 Town Life Stuff",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 47920,
+      "name": "Shift 2 Unleashed",
+      "type": "game",
+      "has_requirements": false
+    },
+    {
+      "appid": 47930,
+      "name": "The Sims\u2122 3 Pets",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 47931,
+      "name": "The Sims\u2122 3 Master Suite Stuff",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 47932,
+      "name": "The Sims\u2122 3 Showtime",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 48000,
+      "name": "LIMBO",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 48110,
+      "name": "Silent Hunter 5\u00ae: Battle of the Atlantic",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 48150,
+      "name": "Voodoo Dice",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 48190,
+      "name": "Assassin\u2019s Creed\u00ae Brotherhood",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 48220,
+      "name": "Might & Magic: Heroes VI",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 48240,
+      "name": "Anno 2070\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 48700,
+      "name": "Mount & Blade: Warband",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 48705,
+      "name": "Mount & Blade: Warband - Napoleonic Wars",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 48720,
+      "name": "Mount & Blade: With Fire & Sword",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 48800,
+      "name": "Ship Simulator Extremes",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 48802,
+      "name": "Ship Simulator Extremes: Sigita Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 48803,
+      "name": "Ship Simulator Extremes: Ferry Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 48804,
+      "name": "Ship Simulator Extremes: Cargo Vessel",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 48805,
+      "name": "Ship Simulator Extremes: Offshore Vessel",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 48806,
+      "name": "Ship Simulator Extremes: Ocean Cruise Ship",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 48900,
+      "name": "Saira",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 48950,
+      "name": "Greed Corp",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 49000,
+      "name": "Hotel Dash\u2122 Suite Success\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 49300,
+      "name": "Commander: Conquest of the Americas",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 49310,
+      "name": "Commander: Conquest of the Americas - Colonial Navy",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 49311,
+      "name": "Commander: Conquest of the Americas - Pirate Treasure Chest",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 49320,
+      "name": "Woody Two-Legs: Attack of the Zombie Pirates",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 49330,
+      "name": "Pirates of Black Cove",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 49337,
+      "name": "Pirates of Black Cove: Origins",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 49497,
+      "name": "Magic 2012 Foil Conversion \u201cBeknighted\u201d",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 49520,
+      "name": "Borderlands 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 49540,
+      "name": "Aliens: Colonial Marines Collection",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 49600,
+      "name": "Beat Hazard",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 49604,
+      "name": "Beat Hazard Ultra",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 49800,
+      "name": "Flight of the Icarus",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 49810,
+      "name": "CreaVures",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 49900,
+      "name": "Plain Sight",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 50000,
+      "name": "Nimbus",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 50130,
+      "name": "Mafia II (Classic)",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 50142,
+      "name": "Mafia II - Vegas DLC",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 50510,
+      "name": "Burn Zombie Burn!",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 50513,
+      "name": "Burn Zombie Burn!: Soundtrack",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 50620,
+      "name": "Darksiders\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 50910,
+      "name": "Professor Fizzwizzle and the Molten Mystery",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 50920,
+      "name": "Hidden Expedition: Amazon",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 50930,
+      "name": "Hidden Expedition: Everest",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 50940,
+      "name": "Hidden Expedition: Titanic",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 50960,
+      "name": "Mystery Case Files: Huntsville\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 50970,
+      "name": "Mystery Case Files: Madame Fate\u00ae",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 50980,
+      "name": "Mystery Case Files: Prime Suspects\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 50990,
+      "name": "Mystery Case Files: Ravenhearst\u00ae",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 51000,
+      "name": "Mystery Case Files: Return to Ravenhearst\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 51010,
+      "name": "My Tribe",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 51020,
+      "name": "Unwell Mel",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 51030,
+      "name": "Atlantis Sky Patrol",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 51060,
+      "name": "Drawn\u00ae: The Painted Tower",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 55000,
+      "name": "Flotilla",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 55020,
+      "name": "Air Forte",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 55040,
+      "name": "Atom Zombie Smasher",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 55100,
+      "name": "Homefront",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 55110,
+      "name": "Red Faction\u00ae: Armageddon\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 55115,
+      "name": "Red Faction: Armageddon Path to War DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55140,
+      "name": "MX vs. ATV Reflex",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 55150,
+      "name": "Warhammer 40,000: Space Marine - Anniversary Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 55203,
+      "name": "Homefront: Fire Sale Map",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55204,
+      "name": "Homefront: The Rock Map Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55205,
+      "name": "Homefront: Express 870 Shotgun",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55230,
+      "name": "Saints Row: The Third",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 55380,
+      "name": "Saints Row The Third - Genkibowl VII",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55381,
+      "name": "Saints Row: The Third - Gangstas in Space",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55382,
+      "name": "Saints Row: The Third - The Trouble with Clones DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55385,
+      "name": "Saints Row: The Third - FUNTIME! Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55386,
+      "name": "Saints Row: The Third Z Style Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55387,
+      "name": "Saints Row: The Third Explosive Combat Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55388,
+      "name": "Saints Row: The Third Shark Attack Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55389,
+      "name": "Saints Row: The Third - Money Shot Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55390,
+      "name": "Saints Row: The Third Invincible Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55391,
+      "name": "Saints Row: The Third - Penthouse Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55392,
+      "name": "Saints Row: The Third Witches & Wieners Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55393,
+      "name": "Saints Row: The Third - Bloodsucker Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55394,
+      "name": "Saints Row: The Third - Unlockable Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55395,
+      "name": "Saints Row: The Third Warrior Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55396,
+      "name": "Saints Row: The Third - Nyte Blayde Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55397,
+      "name": "Saints Row: The Third - Steelport Gangs Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55398,
+      "name": "Saints Row: The Third - Special Ops Vehicle Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55399,
+      "name": "Saints Row: The Third - Horror Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 55400,
+      "name": "Saints Row: The Third - Genki Girl Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 57000,
+      "name": "NyxQuest: Kindred Spirits",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 57200,
+      "name": "Puzzle Dimension",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 57300,
+      "name": "Amnesia: The Dark Descent",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 57600,
+      "name": "Tropico 3: Absolute Power",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 57620,
+      "name": "Patrician IV",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 57650,
+      "name": "Dungeons",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 57655,
+      "name": "Dungeons - Into the Dark",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 57656,
+      "name": "Dungeons - Map Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 57680,
+      "name": "The First Templar - Steam Special Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 57690,
+      "name": "Tropico 4",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 57695,
+      "name": "Tropico 4: Plantador DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 57696,
+      "name": "Tropico 4: Junta Military DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 57697,
+      "name": "Tropico 4: Quick-dry Cement DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 57700,
+      "name": "Who's That Flying?!",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 57730,
+      "name": "Patrician IV: Rise of a Dynasty",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 57740,
+      "name": "Jagged Alliance - Back in Action",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 57800,
+      "name": "Doc Clock: The Toasted Sandwich of Time",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 57900,
+      "name": "Duke Nukem Forever",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 57923,
+      "name": "Duke Nukem Forever: Hail to the Icons Parody Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 57925,
+      "name": "Duke Nukem Forever: The Doctor Who Cloned Me",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 58200,
+      "name": "Jolly Rover",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 58230,
+      "name": "MacGuffin's Curse",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 58400,
+      "name": "Turba",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 58520,
+      "name": "Blood Bowl - Legendary Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 58550,
+      "name": "A Game of Thrones - Genesis",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 58560,
+      "name": "Runaway: A Twist of Fate",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 58570,
+      "name": "The Next BIG Thing",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 58610,
+      "name": "Wargame: European Escalation",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 58643,
+      "name": "Wargame: European Escalation - Fatal Error",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 58645,
+      "name": "Wargame: European Escalation - New Battlefields",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 58646,
+      "name": "Wargame: European Escalation - Conquest",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 58648,
+      "name": "Wargame: European Escalation - Commander",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 60340,
+      "name": "Luxor: 5th Passage",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 60350,
+      "name": "Glowfish",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 60600,
+      "name": "ProtoGalaxy",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 61500,
+      "name": "Age of Wonders",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 61510,
+      "name": "Age of Wonders II: The Wizard's Throne",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 61520,
+      "name": "Age of Wonders Shadow Magic",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 61600,
+      "name": "Zen Bound 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 61730,
+      "name": "Critter Crunch",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 62000,
+      "name": "Flight Control HD",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 62100,
+      "name": "Chime",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63000,
+      "name": "HOARD",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63003,
+      "name": "HOARD: Dynamite Roll!",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 63004,
+      "name": "HOARD: Flame-Broiled SANDwich",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 63110,
+      "name": "Alter Ego",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63200,
+      "name": "Monday Night Combat",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63380,
+      "name": "Sniper Elite V2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63398,
+      "name": "Sniper Elite V2 - The Neudorf Outpost Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 63399,
+      "name": "Sniper Elite V2 - The Landwehr Canal Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 63500,
+      "name": "Swords and Soldiers HD",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63610,
+      "name": "Riven (1997)",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63620,
+      "name": "Cosmic Osmo and the Worlds Beyond the Mackerel",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63630,
+      "name": "The Manhole: Masterpiece Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63640,
+      "name": "Spelunx and the Caves of Mr. Seudo",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63650,
+      "name": "URU: Complete Chronicles",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63660,
+      "name": "Myst: Masterpiece Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63700,
+      "name": "BIT.TRIP BEAT",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63710,
+      "name": "BIT.TRIP RUNNER",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63800,
+      "name": "Delve Deeper",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63802,
+      "name": "Delve Deeper: Treasures and Tunnels",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 63803,
+      "name": "Delve Deeper: Gratis Grottos",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 63900,
+      "name": "Fantasy Wars",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63910,
+      "name": "King's Bounty: Crossworlds",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63940,
+      "name": "Men of War: Vietnam",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63942,
+      "name": "Men of War: Vietnam Special Edition Upgrade Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 63950,
+      "name": "IL-2 Sturmovik: Cliffs of Dover",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 63960,
+      "name": "Theatre of War 3: Korea",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 64000,
+      "name": "Men of War: Assault Squad",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 64005,
+      "name": "Men of War: Assault Squad - MP Supply Pack Alpha",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 64013,
+      "name": "Men of War: Assault Squad - Skirmish Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 64014,
+      "name": "Men of War: Assault Squad - MP Supply Pack Bravo",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 64016,
+      "name": "Men of War: Assault Squad - MP Supply Pack Charlie",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 64017,
+      "name": "Men of War: Assault Squad - Skirmish Pack 2",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65070,
+      "name": "Ride 'em Low",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65080,
+      "name": "Kaptain Brawe: A Brawe New World",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65200,
+      "name": "Dive to the Titanic",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65216,
+      "name": "Train Simulator: Edinburgh-Glasgow Route Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65217,
+      "name": "Train Simulator: Class 156 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65218,
+      "name": "Train Simulator: Portsmouth Direct Line Route Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65224,
+      "name": "Train Simulator: Bristol-Exeter Route Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65228,
+      "name": "Train Simulator: BR Class 421 '4CIG' Loco",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65229,
+      "name": "Train Simulator: Class 455 EMU Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65231,
+      "name": "Train Simulator: Amtrak Acela Express EMU Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65232,
+      "name": "Train Simulator: Northeast Corridor: New York - Philadelphia Route Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65233,
+      "name": "Train Simulator: Horseshoe Curve Route Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65239,
+      "name": "Train Simulator: Donner Pass: Southern Pacific Route Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65242,
+      "name": "Train Simulator: PRR GG1 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65243,
+      "name": "Train Simulator: Ohio Steel 2 Route Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65244,
+      "name": "Train Simulator: Woodhead Route Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65246,
+      "name": "Train Simulator: Cologne-Dusseldorf Route Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65247,
+      "name": "Train Simulator: PRR K4 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65249,
+      "name": "Train Simulator: DB Freight: 1970s Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65250,
+      "name": "Train Simulator: BR Class 76 & 77 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65252,
+      "name": "Train Simulator: Freightliner Class 70 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65253,
+      "name": "Train Simulator: South West Trains Class 444 EMU Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65254,
+      "name": "Train Simulator: E18 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65255,
+      "name": "Train Simulator: Settle to Carlisle Route Add-on",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65256,
+      "name": "Train Simulator: BR Class 423 \u20184VEP\u2019 EMU Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65258,
+      "name": "Train Simulator: Settle Carlisle Specials Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65259,
+      "name": "Train Simulator: BNSF SD75 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65300,
+      "name": "Dustforce DX",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65400,
+      "name": "Archon Classic",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65500,
+      "name": "Aura: Fate of the Ages",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65530,
+      "name": "SpellForce 2: Faith in Destiny",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65540,
+      "name": "Gothic 1",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65560,
+      "name": "Painkiller Redemption",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65600,
+      "name": "Gothic 3: Forsaken Gods Enhanced Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65610,
+      "name": "ArcaniA: Fall of Setarrif",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65700,
+      "name": "Arma 2: British Armed Forces",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65720,
+      "name": "Arma 2: Private Military Company",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65730,
+      "name": "Take On Helicopters",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65733,
+      "name": "Take On Helicopters: Hinds",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65734,
+      "name": "Take on Helicopters - Noisecontrollers",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65735,
+      "name": "Take on Helicopters - Rearmed",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 65740,
+      "name": "Carrier Command: Gaea Mission",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65780,
+      "name": "ARMA: Gold Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65790,
+      "name": "ARMA: Cold War Assault",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65800,
+      "name": "Dungeon Defenders",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65930,
+      "name": "The Bureau: XCOM Declassified",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 65980,
+      "name": "Sid Meier's Civilization\u00ae: Beyond Earth\u2122",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 66000,
+      "name": "The Bureau: XCOM Declassified - Code Breakers",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 66001,
+      "name": "The Bureau: XCOM Declassified - Light Plasma Pistol",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 66002,
+      "name": "The Bureau: XCOM Declassified - Hangar 6 R&D",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 67000,
+      "name": "The Polynomial - Space of the music",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 67330,
+      "name": "Mafia II DLC: Greaser Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 67340,
+      "name": "Mafia II DLC: Renegade Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 67350,
+      "name": "Mafia II DLC: Vegas Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 67360,
+      "name": "Mafia II DLC: War Hero Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 67370,
+      "name": "The Darkness II",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 70000,
+      "name": "Dino D-Day",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 70100,
+      "name": "Hacker Evolution",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 70110,
+      "name": "Hacker Evolution: Untold",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 70120,
+      "name": "Hacker Evolution Duality",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 70300,
+      "name": "VVVVVV",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 70400,
+      "name": "Recettear: An Item Shop's Tale",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 70420,
+      "name": "Chantelise - A Tale of Two Sisters",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 70500,
+      "name": "Diamond Dan",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 70600,
+      "name": "Worms Ultimate Mayhem",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 70615,
+      "name": "Worms Ultimate Mayhem - Single Player Pack DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 70616,
+      "name": "Worms Ultimate Mayhem - Multiplayer Pack DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 70617,
+      "name": "Worms Ultimate Mayhem - Customization Pack DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 70620,
+      "name": "Worms Crazy Golf",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 70640,
+      "name": "Worms",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 70650,
+      "name": "Worms Blast",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 70660,
+      "name": "Worms Pinball",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 70900,
+      "name": "Star Ruler",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 71000,
+      "name": "Evochron Mercenary",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 71250,
+      "name": "Sonic Adventure DX",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 71340,
+      "name": "Sonic Generations Collection",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 72000,
+      "name": "Closure",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 72400,
+      "name": "Clones",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 72730,
+      "name": "Fallout New Vegas: Dead Money",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 72740,
+      "name": "Fallout New Vegas: Honest Hearts",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 72750,
+      "name": "Fallout New Vegas: Old World Blues",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 72760,
+      "name": "Fallout New Vegas\u00ae: Lonesome Road\u2122",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 72840,
+      "name": "Fallout New Vegas\u00ae: Gun Runners\u2019 Arsenal\u2122",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 72900,
+      "name": "Winter Voices",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 72902,
+      "name": "Winter Voices Episode 1: Those who have no name",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 72903,
+      "name": "Winter Voices Episode 2: Nowhere of me",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 72904,
+      "name": "Winter Voices Episode 3: Like a Crow on a Wire",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 72905,
+      "name": "Winter Voices Episode 4: Amethyst Rivers",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 72907,
+      "name": "Winter Voices Episode 5: Overflow",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73010,
+      "name": "Cities in Motion",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 73012,
+      "name": "Cities in Motion: Design Classics",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73013,
+      "name": "Cities in Motion: Design Marvels",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73014,
+      "name": "Cities in Motion: Design Now",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73020,
+      "name": "Majesty 2 Collection",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 73030,
+      "name": "Magicka: Wizard's Survival Kit",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73031,
+      "name": "Magicka: Nippon",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73033,
+      "name": "Magicka: Marshlands",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73035,
+      "name": "Magicka: Final Frontier",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73036,
+      "name": "Magicka: The Watchtower",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73037,
+      "name": "Magicka: Frozen Lake",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73039,
+      "name": "Magicka: Lonely Island Cruise",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73041,
+      "name": "Majesty 2: Monster Kingdom",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73057,
+      "name": "Magicka: Gamer Bundle",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73058,
+      "name": "Magicka: The Stars Are Left",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73071,
+      "name": "Majesty 2: Battles of Ardania",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73091,
+      "name": "Magicka: Holiday Spirit Item Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73092,
+      "name": "Magicka: Horror Props Item Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73093,
+      "name": "Magicka: The Other Side of the Coin",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73095,
+      "name": "Magicka: Mega Villain Robes",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73096,
+      "name": "Magicka: Aspiring Musician Robes",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73097,
+      "name": "Magicka: Peculiar Gadgets Item Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73098,
+      "name": "Magicka: Heirlooms Item Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73115,
+      "name": "Magicka: Dungeons and Daemons",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73118,
+      "name": "Magicka: Free Jolnirs Workshop",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73119,
+      "name": "Magicka: Tower of Niflheim",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73120,
+      "name": "Magicka: Grimnir's Laboratory",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73170,
+      "name": "Darkest Hour: A Hearts of Iron Game",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 73181,
+      "name": "Cities in Motion: Tokyo",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73183,
+      "name": "Cities in Motion: Metro Stations",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73185,
+      "name": "Cities in Motion: German Cities",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73187,
+      "name": "Cities in Motion: US Cities",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73190,
+      "name": "Pride of Nations",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 73192,
+      "name": "Pride of Nations: Spanish-American War 1898",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73193,
+      "name": "Pride of Nations: American Civil War 1862",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73194,
+      "name": "Pride of Nations: The Franco-Prussian War 1870",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73195,
+      "name": "Pride of Nations: The Scramble for Africa",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 73210,
+      "name": "Sengoku",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 78000,
+      "name": "Bejeweled\u00ae 3",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 80000,
+      "name": "APOX",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 80010,
+      "name": "APOX: Legend",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 80200,
+      "name": "Fate of the World",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 80202,
+      "name": "Fate of the World: Denial",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 80204,
+      "name": "Fate of the World: Migration",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 80207,
+      "name": "Fate of the World: Extras Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 80300,
+      "name": "Puzzle Bots",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 80310,
+      "name": "Gemini Rue",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 80330,
+      "name": "The Blackwell Legacy",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 80340,
+      "name": "Blackwell Unbound",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 80350,
+      "name": "Blackwell Convergence",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 80360,
+      "name": "Blackwell Deception",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 90200,
+      "name": "Farming Simulator 2011",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 90207,
+      "name": "Farming Simulator 2011 - Classics",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 90208,
+      "name": "Farming Simulator 2011 - Equipment Pack 3",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 90209,
+      "name": "Farming Simulator 2011 - Equipment Pack 2",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 90210,
+      "name": "Farming Simulator 2011 - Equipment Pack 1",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 90400,
+      "name": "Blue Toad Murder Files\u2122: The Mysteries of Little Riddle",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 91100,
+      "name": "SkyDrift",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 91104,
+      "name": "SkyDrift: Extreme Fighters Premium Airplane Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 91106,
+      "name": "SkyDrift: Gladiator Multiplayer Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 91200,
+      "name": "Anomaly: Warzone Earth",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 91330,
+      "name": "Iron Front: Digital War Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 91600,
+      "name": "Sanctum",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 91609,
+      "name": "Sanctum: Yogscave (Free DLC)",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 91612,
+      "name": "Sanctum: Map Pack 1",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 218060,
+      "name": "BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 218064,
+      "name": "BIT.TRIP Presents... Runner2: Future Legend of Rhythm Alien Soundtrack",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 218065,
+      "name": "Runner2 - Good Friends Character Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 218090,
+      "name": "Unity of Command: Stalingrad Campaign",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 218100,
+      "name": "Unity of Command - Red Turn DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 218230,
+      "name": "PlanetSide 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 218240,
+      "name": "Planetside 2: Elite Soldier Bundle",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 218241,
+      "name": "Planetside 2: Advanced Soldier Bundle",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 218242,
+      "name": "Planetside 2: First Recruit Bundle",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 218410,
+      "name": "Defender's Quest: Valley of the Forgotten (DX edition)",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 218510,
+      "name": "Planets Under Attack",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 218560,
+      "name": "Borderlands 2 Season Pass",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 218620,
+      "name": "PAYDAY 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 218640,
+      "name": "Lucius",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 218660,
+      "name": "iBomber Attack",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 218680,
+      "name": "Scribblenauts Unlimited",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 218700,
+      "name": "Angelica Weaver: Catch Me When You Can",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 218740,
+      "name": "Pid",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 218760,
+      "name": "Mixcraft 8 Home Studio",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 218820,
+      "name": "Mercenary Kings: Reloaded Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 219070,
+      "name": "Miner Wars Arena",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 219092,
+      "name": "Call of Duty\u00ae: Black Ops II - Nuketown Zombies Map",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219097,
+      "name": "Call of Duty\u00ae: Black Ops II - Revolution",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219098,
+      "name": "Call of Duty\u00ae: Black Ops II - Uprising",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219101,
+      "name": "Call of Duty\u00ae: Black Ops II - Vengeance",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219103,
+      "name": "Call of Duty\u00ae: Black Ops II - Apocalypse",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219130,
+      "name": "Painkiller Hell & Damnation: Singleplayer Tarot Card Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219131,
+      "name": "Painkiller Hell & Damnation: Multiplayer Body Skin Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219134,
+      "name": "Painkiller Hell & Damnation Digital Extras",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219136,
+      "name": "Painkiller Hell & Damnation: Satan Claus DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219150,
+      "name": "Hotline Miami",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 219190,
+      "name": "Ultratron",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 219200,
+      "name": "Droid Assault",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 219380,
+      "name": "Snapshot Soundtrack",
+      "type": "dlc",
+      "has_requirements": false
+    },
+    {
+      "appid": 219440,
+      "name": "Aliens: Colonial Marines - Bug Hunt DLC",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219441,
+      "name": "Aliens: Colonial Marines - Reconnaissance Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219442,
+      "name": "Aliens: Colonial Marines - Movie Map Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219443,
+      "name": "Aliens: Colonial Marines: Stasis Interrupted",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219444,
+      "name": "Aliens: Colonial Marines Limited Edition Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219445,
+      "name": "Aliens: Colonial Marines Collector's Edition Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219446,
+      "name": "Aliens: Colonial Marines SHARP Sticks",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219447,
+      "name": "Aliens: Colonial Marines Sawed-off Double Barrel Shotgun",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219630,
+      "name": "Sealed Play Deck - Slot 11",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 219640,
+      "name": "Chivalry: Medieval Warfare",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 219680,
+      "name": "Proteus",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 219700,
+      "name": "Dogs of War Online",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 219740,
+      "name": "Don't Starve",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 219760,
+      "name": "Beyond Divinity",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 219780,
+      "name": "Divinity II: Developer's Cut",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 219830,
+      "name": "King Arthur's Gold",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 219890,
+      "name": "Antichamber",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 219910,
+      "name": "Edna & Harvey: Harvey's New Eyes",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 219990,
+      "name": "Grim Dawn",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220090,
+      "name": "The Journey Down: Chapter One",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220160,
+      "name": "Trials Evolution: Gold Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220200,
+      "name": "Kerbal Space Program",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220240,
+      "name": "Far Cry 3",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220260,
+      "name": "Farming Simulator 2013 Titanium Edition",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220285,
+      "name": "Farming Simulator 2013: Ursus",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 220420,
+      "name": "Nancy Drew\u00ae: The Deadly Device",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220440,
+      "name": "DmC: Devil May Cry",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220460,
+      "name": "Cargo Commander",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220660,
+      "name": "StarDrive",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220700,
+      "name": "RPG Maker VX Ace",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220740,
+      "name": "Chaos on Deponia",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220780,
+      "name": "Thomas Was Alone",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220820,
+      "name": "Zombie Driver HD",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220823,
+      "name": "Zombie Driver HD Apocalypse Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 220824,
+      "name": "Zombie Driver HD Tropical Race Rage",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 220825,
+      "name": "Zombie Driver HD Burning Garden of Slaughter",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 220860,
+      "name": "McPixel",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220900,
+      "name": "Jack Lumber",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220960,
+      "name": "ACDSee 15",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 220980,
+      "name": "CRYENGINE",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 221020,
+      "name": "Towns",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 221040,
+      "name": "Resident Evil 6",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 221100,
+      "name": "DayZ",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 221180,
+      "name": "Eufloria HD",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 221220,
+      "name": "iPi Recorder 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 221260,
+      "name": "Little Inferno",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 221380,
+      "name": "Age of Empires II (Retired)",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 221540,
+      "name": "DG2: Defense Grid 2",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 221640,
+      "name": "Super Hexagon",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 221680,
+      "name": "Rocksmith\u00ae 2014 Edition REMASTERED LEARN & PLAY",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 221810,
+      "name": "The Cave",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 221830,
+      "name": "The Book of Unwritten Tales: The Critter Chronicles",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 221910,
+      "name": "The Stanley Parable",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 222021,
+      "name": "Sniper Elite V2 - St. Pierre",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222068,
+      "name": "Rocksmith - Ultimate Time Saver Bundle",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222140,
+      "name": "Puddle",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 222160,
+      "name": "Hamlet or the Last Game without MMORPG Features, Shaders and Product Placement",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 222180,
+      "name": "Mushroom Men: Truffle Trouble",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 222221,
+      "name": "A Game of Dwarves: Ale Pack",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222222,
+      "name": "A Game of Dwarves: Star Dwarves",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222223,
+      "name": "A Game of Dwarves: Pets",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222240,
+      "name": "The Book of Unwritten Tales: Critter Chronicles Digital Extras",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222280,
+      "name": "Star Conflict: Mercenary Pack - Soldier of Fortune",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222380,
+      "name": "Sacred Citadel: Jungle Hunt",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222420,
+      "name": "THE KING OF FIGHTERS '98 ULTIMATE MATCH FINAL EDITION",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 222440,
+      "name": "THE KING OF FIGHTERS 2002 UNLIMITED MATCH",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 222480,
+      "name": "Resident Evil Revelations",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 222500,
+      "name": "Rail Adventures - VR Tech Demo",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 222520,
+      "name": "Champions of Regnum",
+      "type": "game",
+      "has_requirements": true
+    },
+    {
+      "appid": 222541,
+      "name": "Train Simulator: First Capital Connect Class 377 EMU Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222542,
+      "name": "Train Simulator: Norfolk Southern Heritage ES44ACs Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222543,
+      "name": "Train Simulator: Norfolk Southern Heritage SD70ACes Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222544,
+      "name": "Train Simulator: LNER Black Class A3 \u2018Flying Scotsman\u2019 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222545,
+      "name": "Train Simulator: DB ICE 2 EMU Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222547,
+      "name": "Train Simulator: BR Class 422 \u20184BIG\u2019 EMU Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222548,
+      "name": "Train Simulator: Boston & Maine GE 44 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222549,
+      "name": "Train Simulator: AT&N Consolidation Class 280-157 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222550,
+      "name": "Train Simulator: Southern Pacific GE 44 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222551,
+      "name": "Train Simulator: Southern Pacific SD45 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222554,
+      "name": "Train Simulator: Western Lines of Scotland Route Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222555,
+      "name": "Train Simulator: Norfolk Southern SD45 High Hoods Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222556,
+      "name": "Train Simulator: BR Standard Class 2MT Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222557,
+      "name": "Train Simulator: London-Faversham High Speed Route Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222558,
+      "name": "Train Simulator: Amtrak HHP-8 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222561,
+      "name": "Train Simulator: Marias Pass: Shelby - Whitefish Route Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222562,
+      "name": "Train Simulator: Freightliner Class 66 v2.0 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222564,
+      "name": "Train Simulator: Strathclyde Class 101 DMU Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222566,
+      "name": "Train Simulator: Freightliner Class 57/0 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222568,
+      "name": "Train Simulator: EWS Class 66 v2.0 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222569,
+      "name": "GP20 Union Pacific Add-on Livery",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222570,
+      "name": "GP20 Burlington Northern Add-on Livery",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222571,
+      "name": "Train Simulator: Southern Pacific GP20 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222573,
+      "name": "Train Simulator: Western Pacific GP20 High Nose Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222574,
+      "name": "Train Simulator: PRR Alco RS11 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222575,
+      "name": "Train Simulator: LMS Class 3F \u2018Jinty\u2019 Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222576,
+      "name": "Train Simulator: Southeastern Class 465 EMU Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222578,
+      "name": "Train Simulator: EWS & Freightliner Class 08s Loco Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222579,
+      "name": "Train Simulator: BR Class 101 DMU Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222580,
+      "name": "Train Simulator: DB BR423 EMU Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222581,
+      "name": "Train Simulator: BNSF Locomotive Pack Add-On",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222582,
+      "name": "Train Simulator: Canadian Mountain Passes: Revelstoke-Lake Louise",
+      "type": "dlc",
+      "has_requirements": true
+    },
+    {
+      "appid": 222583,
+      "name": "Train Simulator: BR Class 31 Loco Add-On",
+      "type": "dlc",
       "has_requirements": true
     }
   ]

@@ -1,5 +1,2225 @@
 [
   {
+    "appid": 18000,
+    "name": "Precipice of Darkness, Episode One",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows\u00ae 2000/XP/Vista\u2122 with latest updates",
+          "cpu": "Pentium\u00ae III, AMD Athlon\u2122 1.0 GHz or better",
+          "gpu": "ATI Radeon\u2122 9500 or better, NVIDIA GeForce\u2122 FX 5200 or better, Intel\u00ae GMA 950 or better with 64 MB of video memory (shared or dedicated)*",
+          "ram_gb": 0.5,
+          "vram_gb": 0.0625,
+          "storage_gb": 0.341796875,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "</p>\n\t\t\t\t\t<ul>\n\t\t\t\t\t<li><strong>OS:</strong> Windows&reg; 2000/XP/Vista&trade; with latest updates</li>\n\t\t\t\t\t<li><strong>Processor:</strong> Pentium&reg; III, AMD Athlon&trade; 1.0 GHz or better</li>\n\t\t\t\t\t<li><strong>Memory:</strong> 512 MB of available system memory</li>\n\t\t\t\t\t<li><strong>Graphics:</strong> ATI Radeon&trade; 9500 or better, NVIDIA GeForce&trade; FX 5200 or better, Intel&reg; GMA 950 or better with 64 MB of video memory (shared or dedicated)*</li>\n\t\t\t\t\t<li><strong>Sound:</strong> OS-supported sound card</li>\n\t\t\t\t\t<li><strong>Hard Drive:</strong> 350 MB of available hard drive space (185 MB installed)</li>\n\t\t\t\t\t<li><strong>Input Devices: </strong> OS-supported keyboard and mouse</li></ul>\n\t\t\t\t\t<p>*All video cards require latest drivers supporting OpenGL&reg;.</p>",
+          "cpu_match": {
+            "raw": "Pentium\u00ae III, AMD Athlon\u2122 1.0 GHz or better",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Pentium\u00ae III, AMD Athlon\u2122 1.0 GHz or better"
+              }
+            ],
+            "min_score": 67
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon\u2122 9500 or better, NVIDIA GeForce\u2122 FX 5200 or better, Intel\u00ae GMA 950 or better with 64 MB of video memory (shared or dedicated)*",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon\u2122 9500 or better, NVIDIA GeForce\u2122 FX 5200 or better, Intel\u00ae GMA 950 or better with 64 MB of video memory (shared or dedicated)*"
+              }
+            ],
+            "min_score": 3
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": "Pentium\u00ae IV, AMD Athlon\u2122 1.5 GHz or better",
+          "gpu": "ATI Radeon\u2122 or better, NVIDIA GeForce\u2122 or better video card with 128 MB of video memory*",
+          "ram_gb": 0.75,
+          "vram_gb": 0.125,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<p><strong>Recommended:</strong></p>\n\t\t\t\t\t<ul>\n\t\t\t\t\t<li><strong>Processor:</strong> Pentium&reg; IV, AMD Athlon&trade; 1.5 GHz or better</li>\n\t\t\t\t\t<li><strong>Memory:</strong> 768 MB of available system memory</li>\n\t\t\t\t\t<li><strong>Graphics:</strong> ATI Radeon&trade; or better, NVIDIA GeForce&trade; or better video card with 128 MB of video memory*</li>\n\t\t\t\t\t<li><strong>Sound:</strong> 16-bit stereo- or surround-capable sound card with latest drivers</li></ul>",
+          "cpu_match": {
+            "raw": "Pentium\u00ae IV, AMD Athlon\u2122 1.5 GHz or better",
+            "candidates": [
+              {
+                "id": "legacy_cpu_athlon",
+                "name": "AMD Athlon-class CPU",
+                "score": 150,
+                "matched_from": "Pentium\u00ae IV, AMD Athlon\u2122 1.5 GHz or better"
+              }
+            ],
+            "min_score": 150
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon\u2122 or better, NVIDIA GeForce\u2122 or better video card with 128 MB of video memory*",
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "Mac OS X 10.5 or later with latest updates",
+          "cpu": "Intel based Mac 1.5 GHz or better",
+          "gpu": "ATI Radeon x1600 or better, NVIDIA GeForce 9400 or better",
+          "ram_gb": 1.0,
+          "vram_gb": null,
+          "storage_gb": 0.341796875,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br>\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> Mac OS X 10.5 or later with latest updates\n\t\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> Intel based Mac 1.5 GHz or better\n\t\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong> 1 GB RAM\n\t\t\t\t\t\t\t\t\t\t<li><strong>Graphics:</strong> ATI Radeon x1600 or better, NVIDIA GeForce 9400 or better\n\t\t\t\t\t\t\t\t\t\t<li><strong>Hard Drive:</strong> 350MB\n\t\t\t\t\t\t\t\t\t</ul>",
+          "cpu_match": {
+            "raw": "Intel based Mac 1.5 GHz or better",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon x1600 or better, NVIDIA GeForce 9400 or better",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon x1600 or better, NVIDIA GeForce 9400 or better"
+              }
+            ],
+            "min_score": 3
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 18020,
+    "name": "Precipice of Darkness, Episode Two",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Microsoft Windows\u00ae 2000/XP/Vista\u2122",
+          "cpu": "Pentium\u00ae III, AMDAthlon\u2122 1.0 GHz or better",
+          "gpu": "ATI Radeon\u2122 9500 or better, NVIDIA GeForce\u2122 FX 5200 or better, Intel\u00ae GMA 950 or better with 64 MB of video memory (shared or dedicated)*",
+          "ram_gb": 0.5,
+          "vram_gb": 0.0625,
+          "storage_gb": 0.341796875,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul>                    \n\t\t\t\t\t<li><strong>Supported OS: </strong>Microsoft Windows\u00ae 2000/XP/Vista\u2122</li>                    \n\t\t\t\t\t<li><strong>Processor: </strong>Pentium\u00ae III, AMDAthlon\u2122 1.0 GHz or better</li>                    \n\t\t\t\t\t<li><strong>System Memory: </strong>512 MB of available system memory</li>                    \n\t\t\t\t\t<li><strong>Video Card: </strong>ATI Radeon\u2122 9500 or better, NVIDIA GeForce\u2122 FX 5200 or better, Intel\u00ae GMA 950 or better with 64 MB of video memory (shared or dedicated)*</li>                    \n\t\t\t\t\t<li><strong>Sound Card: </strong>Windows supported sound card</li>                    \n\t\t\t\t\t<li><strong>Hard Disk: </strong>350 MB of available hard drive space</li>                    </ul>                    \n\t\t\t\t\t<p>*video cards require latest drivers supporting OpenGL.</p>                    ",
+          "cpu_match": {
+            "raw": "Pentium\u00ae III, AMDAthlon\u2122 1.0 GHz or better",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_ii",
+                "name": "Intel Pentium II-class CPU",
+                "score": 67,
+                "matched_from": "Pentium\u00ae III, AMDAthlon\u2122 1.0 GHz or better"
+              }
+            ],
+            "min_score": 67
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon\u2122 9500 or better, NVIDIA GeForce\u2122 FX 5200 or better, Intel\u00ae GMA 950 or better with 64 MB of video memory (shared or dedicated)*",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon\u2122 9500 or better, NVIDIA GeForce\u2122 FX 5200 or better, Intel\u00ae GMA 950 or better with 64 MB of video memory (shared or dedicated)*"
+              }
+            ],
+            "min_score": 3
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "Mac OS X 10.5 or later with latest updates",
+          "cpu": "Intel based Mac 1.5 GHz or better",
+          "gpu": "ATI Radeon x1600 or better, NVIDIA GeForce 9400 or better",
+          "ram_gb": 1.0,
+          "vram_gb": null,
+          "storage_gb": 0.341796875,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br>\n\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> Mac OS X 10.5 or later with latest updates\n\t\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> Intel based Mac 1.5 GHz or better\n\t\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong> 1 GB RAM\n\t\t\t\t\t\t\t\t\t\t<li><strong>Graphics:</strong> ATI Radeon x1600 or better, NVIDIA GeForce 9400 or better\n\t\t\t\t\t\t\t\t\t\t<li><strong>Hard Drive:</strong> 350MB\n\t\t\t\t\t\t\t\t\t</ul>",
+          "cpu_match": {
+            "raw": "Intel based Mac 1.5 GHz or better",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon x1600 or better, NVIDIA GeForce 9400 or better",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon x1600 or better, NVIDIA GeForce 9400 or better"
+              }
+            ],
+            "min_score": 3
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 18040,
+    "name": "DeathSpank",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP/Vista/Windows 7",
+          "cpu": "Intel Pentium 4 (or equivalent with SSE2 support) running at 1.7 GHz or greater",
+          "gpu": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB cards; Shader 2.0 and 24 bit depth buffer support required",
+          "ram_gb": 1.0,
+          "vram_gb": null,
+          "storage_gb": 2.0,
+          "directx": 9.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/Windows 7<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Pentium 4 (or equivalent with SSE2 support) running at 1.7 GHz or greater<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB of ram, 1.5 GB (Vista and Windows 7)<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> at least 2 GB of free HD space<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB cards; Shader 2.0 and 24 bit depth buffer support required<br>\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX9 Jun 2010<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Local co-op requirements:</strong> A controller is required for the second player<br>\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Pentium 4 (or equivalent with SSE2 support) running at 1.7 GHz or greater",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel Pentium 4 (or equivalent with SSE2 support) running at 1.7 GHz or greater"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB cards; Shader 2.0 and 24 bit depth buffer support required",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB cards; Shader 2.0 and 24 bit depth buffer support required"
+              }
+            ],
+            "min_score": 3
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "Mac OS X v10.5.8 or v10.6+",
+          "cpu": "1.8 GHz",
+          "gpu": "ATI Radeon x1900 or better / NVIDIA 8600 or better",
+          "ram_gb": 1.5,
+          "vram_gb": null,
+          "storage_gb": 2.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X v10.5.8 or v10.6+<br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel<br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU Speed:</strong> 1.8 GHz<br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1.5 GB RAM<br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 2 GB free disk space<br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> ATI Radeon x1900 or better / NVIDIA 8600 or better<br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Memory (VRAM):</strong> 128 MB or higher<br>\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "1.8 GHz",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon x1900 or better / NVIDIA 8600 or better",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon x1900 or better / NVIDIA 8600 or better"
+              }
+            ],
+            "min_score": 3
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 18050,
+    "name": "DeathSpank: Thongs of Virtue",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP/Vista/Windows 7",
+          "cpu": "Intel Pentium 4 (or equivalent with SSE2 support) running at 1.7 GHz or greater",
+          "gpu": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB cards; Shader 2.0 and 24 bit depth buffer support required",
+          "ram_gb": 1.0,
+          "vram_gb": null,
+          "storage_gb": 2.0,
+          "directx": 9.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/Windows 7<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel Pentium 4 (or equivalent with SSE2 support) running at 1.7 GHz or greater<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1 GB of ram, 1.5 GB (Vista and Windows 7)<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> at least 2 GB of free HD space<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB cards; Shader 2.0 and 24 bit depth buffer support required<br>\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX9 Jun 2010<br>\t\t\t\t\t\t\t\t\t</li><li><strong>Local co-op requirements:</strong> A controller is required for the second player<br>\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Pentium 4 (or equivalent with SSE2 support) running at 1.7 GHz or greater",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel Pentium 4 (or equivalent with SSE2 support) running at 1.7 GHz or greater"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB cards; Shader 2.0 and 24 bit depth buffer support required",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB cards; Shader 2.0 and 24 bit depth buffer support required"
+              }
+            ],
+            "min_score": 3
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "Mac OS X v10.5.8 or v10.6+",
+          "cpu": "1.8 GHz",
+          "gpu": "ATI Radeon x1900 or better / NVIDIA 8600 or better",
+          "ram_gb": 1.5,
+          "vram_gb": null,
+          "storage_gb": 2.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X v10.5.8 or v10.6+<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>CPU Speed:</strong> 1.8 GHz<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1.5 GB RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 2 GB free disk space<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> ATI Radeon x1900 or better / NVIDIA 8600 or better<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Memory (VRAM):</strong> 128 MB or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "1.8 GHz",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon x1900 or better / NVIDIA 8600 or better",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon x1900 or better / NVIDIA 8600 or better"
+              }
+            ],
+            "min_score": 3
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 18070,
+    "name": "The Baconing",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP SP3",
+          "cpu": "Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater",
+          "gpu": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)",
+          "ram_gb": 1.0,
+          "vram_gb": null,
+          "storage_gb": 1.5,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul>\n\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> Windows XP SP3\n\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater\n\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong> 1 GB or greater\n\t\t\t\t\t\t\t\t\t<li><strong>Graphics:</strong> ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)\n\t\t\t\t\t\t\t\t\t<li><strong>DirectX&reg;:</strong> DirectX June 2010\n\t\t\t\t\t\t\t\t\t<li><strong>Hard Drive:</strong> 1.5 GB of free space\n\t\t\t\t\t\t\t\t\t<li><strong>Sound:</strong> 100% DirectX compatible sound card and drivers\n\t\t\t\t\t\t\t\t</ul>",
+          "cpu_match": {
+            "raw": "Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)"
+              }
+            ],
+            "min_score": 3
+          }
+        },
+        "recommended": {
+          "os": "Windows 7 or Windows Vista SP2",
+          "cpu": "Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater",
+          "gpu": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)",
+          "ram_gb": 1.5,
+          "vram_gb": null,
+          "storage_gb": 1.5,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended</strong>\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> Windows 7 or Windows Vista SP2\n\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater\n\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong> 1.5 GB or greater\n\t\t\t\t\t\t\t\t\t<li><strong>Graphics:</strong> ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)\n\t\t\t\t\t\t\t\t\t<li><strong>DirectX&reg;:</strong> DirectX June 2010\n\t\t\t\t\t\t\t\t\t<li><strong>Hard Drive:</strong> 1.5 GB of free space\n\t\t\t\t\t\t\t\t\t<li><strong>Sound:</strong> 100% DirectX compatible sound card and drivers\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t",
+          "cpu_match": {
+            "raw": "Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)"
+              }
+            ],
+            "min_score": 3
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "OS X version Leopard 10.5.8, Snow Leopard 10.6.3, or later.",
+          "cpu": "Intel 1.8 GHz or higher",
+          "gpu": "ATI Radeon x1900 or better / NVIDIA 8600M or better with 128 MB or higher Video Memory (VRAM)",
+          "ram_gb": 1.5,
+          "vram_gb": 0.125,
+          "storage_gb": 2.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul>\n\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> OS X version Leopard 10.5.8, Snow Leopard 10.6.3, or later.\n\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> Intel 1.8 GHz or higher\n\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong> 1.5 GB RAM\n\t\t\t\t\t\t\t\t\t<li><strong>Graphics:</strong> ATI Radeon x1900 or better / NVIDIA 8600M or better with 128 MB or higher Video Memory (VRAM)\n\t\t\t\t\t\t\t\t\t<li><strong>Hard Drive:</strong> 2 GB free disk space\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t<br><br>\n\t\t\t\t\t\t\t\t<strong>NOTES:</strong> For the best results, make sure you have the latest drivers for your video and audio cards.<br>\n\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t\tLaptop or mobile versions of the above supported video cards have not had extensive testing and may have driver or other performance issues. As such, they are not officially supported in The Baconing.<br>\n\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t\tIntel and S3 video cards are not officially supported in The Baconing.\t\n\t\t\t\t\t\t\t\t",
+          "cpu_match": {
+            "raw": "Intel 1.8 GHz or higher",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon x1900 or better / NVIDIA 8600M or better with 128 MB or higher Video Memory (VRAM)",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon x1900 or better / NVIDIA 8600M or better with 128 MB or higher Video Memory (VRAM)"
+              }
+            ],
+            "min_score": 3
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 18080,
+    "name": "The Baconing DLC - Roesha \u2013 One Bad Mutha Co-op Character",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP SP3",
+          "cpu": "Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater",
+          "gpu": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)",
+          "ram_gb": 1.0,
+          "vram_gb": null,
+          "storage_gb": 1.5,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul>\n\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> Windows XP SP3\n\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater\n\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong> 1 GB or greater\n\t\t\t\t\t\t\t\t\t<li><strong>Graphics:</strong> ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)\n\t\t\t\t\t\t\t\t\t<li><strong>DirectX&reg;:</strong> DirectX June 2010\n\t\t\t\t\t\t\t\t\t<li><strong>Hard Drive:</strong> 1.5 GB of free space\n\t\t\t\t\t\t\t\t\t<li><strong>Sound:</strong> 100% DirectX compatible sound card and drivers\n\t\t\t\t\t\t\t\t</ul>",
+          "cpu_match": {
+            "raw": "Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)"
+              }
+            ],
+            "min_score": 3
+          }
+        },
+        "recommended": {
+          "os": "Windows 7 or Windows Vista SP2",
+          "cpu": "Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater",
+          "gpu": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)",
+          "ram_gb": 1.5,
+          "vram_gb": null,
+          "storage_gb": 1.5,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended</strong>\n\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> Windows 7 or Windows Vista SP2\n\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater\n\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong> 1.5 GB or greater\n\t\t\t\t\t\t\t\t\t<li><strong>Graphics:</strong> ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)\n\t\t\t\t\t\t\t\t\t<li><strong>DirectX&reg;:</strong> DirectX June 2010\n\t\t\t\t\t\t\t\t\t<li><strong>Hard Drive:</strong> 1.5 GB of free space\n\t\t\t\t\t\t\t\t\t<li><strong>Sound:</strong> 100% DirectX compatible sound card and drivers\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t",
+          "cpu_match": {
+            "raw": "Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel Pentium 4 or AMD Athlon 64 (or equivalent) running at 1.7 GHz or greater"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon X1900 GT 256MB and the Nvidia GeForce 6800 Ultra 256MB PCI-E cards (Shader Model 2.0 and 24bit depth buffer support required)"
+              }
+            ],
+            "min_score": 3
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "OS X version Leopard 10.5.8, Snow Leopard 10.6.3, or later.",
+          "cpu": "Intel 1.8 GHz or higher",
+          "gpu": "ATI Radeon x1900 or better / NVIDIA 8600M or better with 128 MB or higher Video Memory (VRAM)",
+          "ram_gb": 1.5,
+          "vram_gb": 0.125,
+          "storage_gb": 2.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul>\n\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> OS X version Leopard 10.5.8, Snow Leopard 10.6.3, or later.\n\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> Intel 1.8 GHz or higher\n\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong> 1.5 GB RAM\n\t\t\t\t\t\t\t\t\t<li><strong>Graphics:</strong> ATI Radeon x1900 or better / NVIDIA 8600M or better with 128 MB or higher Video Memory (VRAM)\n\t\t\t\t\t\t\t\t\t<li><strong>Hard Drive:</strong> 2 GB free disk space\n\t\t\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\t\t<br><br>\n\t\t\t\t\t\t\t\t<strong>NOTES:</strong> For the best results, make sure you have the latest drivers for your video and audio cards.<br>\n\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t\tLaptop or mobile versions of the above supported video cards have not had extensive testing and may have driver or other performance issues. As such, they are not officially supported in The Baconing.<br>\n\t\t\t\t\t\t\t\t<br>\n\t\t\t\t\t\t\t\tIntel and S3 video cards are not officially supported in The Baconing.\t\n\t\t\t\t\t\t\t\t",
+          "cpu_match": {
+            "raw": "Intel 1.8 GHz or higher",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon x1900 or better / NVIDIA 8600M or better with 128 MB or higher Video Memory (VRAM)",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon x1900 or better / NVIDIA 8600M or better with 128 MB or higher Video Memory (VRAM)"
+              }
+            ],
+            "min_score": 3
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 18120,
+    "name": "Unstoppable Gorg",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows\u00ae XP SP3 / Windows\u00ae Vista / Windows\u00ae 7",
+          "cpu": "Intel\u00ae Pentium\u00ae 4 (2Ghz) or AMD\u00ae Athlon 64 (1.6GHz) processor or better",
+          "gpu": "NVIDIA 6600 or ATI X700, 256MB GPU memory or better",
+          "ram_gb": 1.0,
+          "vram_gb": null,
+          "storage_gb": 2.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows\u00ae XP SP3 / Windows\u00ae Vista / Windows\u00ae 7\t   \t<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel\u00ae Pentium\u00ae 4 (2Ghz) or AMD\u00ae Athlon 64 (1.6GHz) processor or better\t   \t<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB RAM\t   \t<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 2GB free\t   \t<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> NVIDIA 6600 or ATI X700, 256MB GPU memory or better\t   \t<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae 9 or later\t   \t<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX compatible sound card\t   \t<br>\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Intel\u00ae Pentium\u00ae 4 (2Ghz) or AMD\u00ae Athlon 64 (1.6GHz) processor or better",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Intel\u00ae Pentium\u00ae 4 (2Ghz) or AMD\u00ae Athlon 64 (1.6GHz) processor or better"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "NVIDIA 6600 or ATI X700, 256MB GPU memory or better",
+            "candidates": [
+              {
+                "id": "gpu_geforce_6600",
+                "name": "GeForce 6600",
+                "score": 85,
+                "matched_from": "NVIDIA 6600"
+              },
+              {
+                "id": "gpu_geforce_gpu",
+                "name": "GeForce GPU",
+                "score": 1152,
+                "matched_from": "ATI X700, 256MB GPU memory"
+              }
+            ],
+            "min_score": 85
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "This is a 32-bit app. It is not compatible with MacOS Catalina (10.15) or other 64-bit versions of MacOS. Please see this Steam support article for more information.",
+          "cpu": "2.0 GHz Intel Core 2 Duo",
+          "gpu": "NVIDIA Geforce 9400M",
+          "ram_gb": 1.0,
+          "vram_gb": null,
+          "storage_gb": 2.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "This is a 32-bit app. <u>It is not compatible with MacOS Catalina</u> (10.15) or other 64-bit versions of MacOS. Please see this Steam support article for more information.<br><br><ul class=\"bb_ul\"><li><strong>OS:</strong> OS X version Leopard 10.5.8, Snow Leopard 10.6.3, or later.\t   \t<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2.0 GHz Intel Core 2 Duo\t   \t<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB RAM\t   \t<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 2GB free\t   \t<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> NVIDIA Geforce 9400M\t   \t<br>\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "2.0 GHz Intel Core 2 Duo",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "NVIDIA Geforce 9400M",
+            "candidates": [
+              {
+                "id": "gpu_geforce_9400",
+                "name": "GeForce 9400",
+                "score": 146,
+                "matched_from": "NVIDIA Geforce 9400M"
+              }
+            ],
+            "min_score": 146
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 18300,
+    "name": "Spectraball",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows\u00ae XP, Windows Vista, Windows 7 or Windows 8.1",
+          "cpu": "Intel Core 2 Duo 1.6GHz or faster, AMD Phenom II or higher",
+          "gpu": "nVidia Geforce\u00ae 5600 or equivalent (must support Pixel Shader 2.0)",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 1.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\">    <li><strong>Supported OS:</strong> Windows\u00ae XP, Windows Vista, Windows 7 or Windows 8.1<br>    </li><li><strong>Processor:</strong> Intel Core 2 Duo 1.6GHz or faster, AMD Phenom II or higher<br>    </li><li><strong>Memory:</strong> 2GB                      <br>    </li><li><strong>Graphics:</strong> nVidia Geforce\u00ae 5600 or equivalent (must support Pixel Shader 2.0)                        <br>    </li><li><strong>DirectX\u00ae Version:</strong> DirectX\u00ae 9.0 or higher                                             <br>    </li><li><strong>Hard Disk Space:</strong> 1 GB</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core 2 Duo 1.6GHz or faster, AMD Phenom II or higher",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "nVidia Geforce\u00ae 5600 or equivalent (must support Pixel Shader 2.0)",
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "nVidia Geforce\u00ae 5600 or equivalent (must support Pixel Shader 2.0)"
+              }
+            ],
+            "min_score": 1
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "Snow Leopard (10.6) or newer",
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 1.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\">    <li><strong>Supported OS:</strong> Snow Leopard (10.6) or newer<br>    </li><li><strong>Memory:</strong> 2 GB<br>    </li><li><strong>Hard Disk Space:</strong> 1GB</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": "Intel Core 2 Duo 1.6GHz or faster, AMD Phenom II or higher",
+          "gpu": "nVidia Geforce\u00ae 5600 or equivalent (must support Pixel Shader 2.0)",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 1.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\">    <li><strong>Processor:</strong> Intel Core 2 Duo 1.6GHz or faster, AMD Phenom II or higher<br>    </li><li><strong>Memory:</strong> 2 GB<br>    </li><li><strong>Hard Disk Space:</strong> 1 GB                 <br>    </li><li><strong>Video Card:</strong> nVidia Geforce\u00ae 5600 or equivalent (must support Pixel Shader 2.0)</li></ul>",
+          "cpu_match": {
+            "raw": "Intel Core 2 Duo 1.6GHz or faster, AMD Phenom II or higher",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "nVidia Geforce\u00ae 5600 or equivalent (must support Pixel Shader 2.0)",
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "nVidia Geforce\u00ae 5600 or equivalent (must support Pixel Shader 2.0)"
+              }
+            ],
+            "min_score": 1
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 18400,
+    "name": "Crazy Machines 2",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows 7/Vista/XP",
+          "cpu": "Pentium 4 or better",
+          "gpu": "DirectX 9 compliant card NVIDIA GeForce 6600 series or ATI Radeon X700 or higher",
+          "ram_gb": 0.5,
+          "vram_gb": null,
+          "storage_gb": 0.48828125,
+          "directx": 9.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 7/Vista/XP                        <br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium 4 or better                        <br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 512 MB RAM                        <br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> DirectX 9 compliant card NVIDIA GeForce 6600 series or ATI Radeon X700 or higher                         <br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX Version:</strong> DirectX 9.0c                        <br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9-comp sound card                        <br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 500 MB available                    <br>\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Pentium 4 or better",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Pentium 4 or better"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "DirectX 9 compliant card NVIDIA GeForce 6600 series or ATI Radeon X700 or higher",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "DirectX 9 compliant card NVIDIA GeForce 6600 series or ATI Radeon X700 or higher"
+              }
+            ],
+            "min_score": 3
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 18407,
+    "name": "Crazy Machines 2: Liquid Force Add-on",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": "nVidia graphics card",
+          "ram_gb": 0.25,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "256 MB of memory, nVidia graphics card, series 8 or higher (",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "nVidia graphics card",
+            "candidates": [
+              {
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
+                "matched_from": "nVidia graphics card"
+              }
+            ],
+            "min_score": 3183
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": "Sound: DirectX 9-comp sound card",
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": 0.48828125,
+          "directx": 9.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "), PhysX drivers and OpenAL drivers<br>\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX9.0c or higher<br>\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 500 MB available<br>\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9-comp sound card<br>\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "Sound: DirectX 9-comp sound card",
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 18408,
+    "name": "Crazy Machines 2: Time Travel Add-On",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Win XP/Vista/Win 7",
+          "cpu": "2.0 GHz Intel Pentium 4 or better",
+          "gpu": "DirectX 9.0 compliant card NVIDIA GeForce 6600 series or ATI Radeon x700 or higher, 64 MB and Pixelshader 2.0",
+          "ram_gb": 0.5,
+          "vram_gb": null,
+          "storage_gb": 0.48828125,
+          "directx": 9.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Win XP/Vista/Win 7<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2.0 GHz Intel Pentium 4 or better<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 512 MB RAM\t<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 500 MB free hard disc space<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> DirectX 9.0 compliant card NVIDIA GeForce 6600 series or ATI Radeon x700 or higher, 64 MB and Pixelshader 2.0<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DirectX\u00ae: 9.0c<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX compatible sound card<br>\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Additional:</strong> AGEIA PhysX system software\t<br>\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "2.0 GHz Intel Pentium 4 or better",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "2.0 GHz Intel Pentium 4 or better"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "DirectX 9.0 compliant card NVIDIA GeForce 6600 series or ATI Radeon x700 or higher, 64 MB and Pixelshader 2.0",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "DirectX 9.0 compliant card NVIDIA GeForce 6600 series or ATI Radeon x700 or higher, 64 MB and Pixelshader 2.0"
+              }
+            ],
+            "min_score": 3
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 18420,
+    "name": "Crazy Machines",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Win 2000/XP/Vista",
+          "cpu": "800 MHz CPU",
+          "gpu": "DirectX 8 compatible graphics card with 32 MB RAM (TNT 2 or comparable)",
+          "ram_gb": 0.125,
+          "vram_gb": 0.03125,
+          "storage_gb": 0.05859375,
+          "directx": 8.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Win 2000/XP/Vista                    <br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 800 MHz CPU                    <br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 128 MB RAM                    <br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> DirectX 8 compatible graphics card with 32 MB RAM (TNT 2 or comparable)                    <br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX Version:</strong> 8.1 or higher                    <br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 60 MB free disk space                    <br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> DirectX 8 compatible soundcard                    <br>\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "800 MHz CPU",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "DirectX 8 compatible graphics card with 32 MB RAM (TNT 2 or comparable)",
+            "candidates": [
+              {
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
+                "matched_from": "DirectX 8 compatible graphics card with 32 MB RAM (TNT 2"
+              }
+            ],
+            "min_score": 3183
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 18430,
+    "name": "Crazy Machines 1.5",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows 2000/XP/Vista",
+          "cpu": "800 MHz CPU",
+          "gpu": "DirectX 9 compatible graphic card with 32MB RAM",
+          "ram_gb": 0.125,
+          "vram_gb": 0.03125,
+          "storage_gb": 0.09765625,
+          "directx": 9.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 2000/XP/Vista                    <br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 800 MHz CPU                    <br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 128 MB RAM                    <br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> DirectX 9 compatible graphic card with 32MB RAM                    <br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX Version:</strong> DirectX 9.0c                    <br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 100 MB fixed-disk-storage                    <br>\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound Card:</strong> DirectX 9-compatible sound card                    <br>\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "800 MHz CPU",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "DirectX 9 compatible graphic card with 32MB RAM",
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DirectX 9 compatible graphic card with 32MB RAM"
+              }
+            ],
+            "min_score": 1
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 18440,
+    "name": "Crazy Machines 2: Back to the Shop Add-On",
+    "type": "dlc",
+    "requirements": null
+  },
+  {
     "appid": 18470,
     "name": "Helldorado",
     "type": "game",

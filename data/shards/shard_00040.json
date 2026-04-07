@@ -1,0 +1,2066 @@
+[
+  {
+    "appid": 80000,
+    "name": "APOX",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP/Vista/7",
+          "cpu": "2GHz Processor or higher",
+          "gpu": "DX9c compatible GPU, Pixel Shader 2.0 or higher",
+          "ram_gb": 1.0,
+          "vram_gb": null,
+          "storage_gb": 2.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2GHz Processor or higher<br>\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 1GB or more<br>\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> DX9c compatible GPU, Pixel Shader 2.0 or higher<br>\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> DX9c<br>\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 2GB<br>\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "2GHz Processor or higher",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "DX9c compatible GPU, Pixel Shader 2.0 or higher",
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DX9c compatible GPU, Pixel Shader 2.0 or higher"
+              }
+            ],
+            "min_score": 1
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 80010,
+    "name": "APOX: Legend",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP/Vista/7",
+          "cpu": "2GHz Processor or higher",
+          "gpu": "DX9c compatible GPU, Pixel Shader 2.0 or higher",
+          "ram_gb": 1.0,
+          "vram_gb": null,
+          "storage_gb": 2.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul>\n\t\t\t\t\t\t\t<li><strong>OS:</strong> Windows XP/Vista/7\n\t\t\t\t\t\t\t<li><strong>Processor:</strong> 2GHz Processor or higher\n\t\t\t\t\t\t\t<li><strong>Memory:</strong> 1GB or more\n\t\t\t\t\t\t\t<li><strong>Graphics:</strong> DX9c compatible GPU, Pixel Shader 2.0 or higher\n\t\t\t\t\t\t\t<li><strong>DirectX&reg;:</strong> DX9c\n\t\t\t\t\t\t\t<li><strong>Hard Drive:</strong> 2GB\n\t\t\t\t\t\t</ul>",
+          "cpu_match": {
+            "raw": "2GHz Processor or higher",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "DX9c compatible GPU, Pixel Shader 2.0 or higher",
+            "candidates": [
+              {
+                "id": "legacy_gpu_shader_model_2",
+                "name": "Legacy Shader Model 2 GPU",
+                "score": 1,
+                "matched_from": "DX9c compatible GPU, Pixel Shader 2.0 or higher"
+              }
+            ],
+            "min_score": 1
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 80200,
+    "name": "Fate of the World",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP, Vista, 7",
+          "cpu": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+          "gpu": "512MB graphics card",
+          "ram_gb": 2.0,
+          "vram_gb": 0.5,
+          "storage_gb": 1.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br>\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP, Vista, 7<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 2GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 1GB<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> 512MB graphics card<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> Integrated sound<br>\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Direct\u00ae:</strong> 9<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "512MB graphics card",
+            "candidates": [
+              {
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
+                "matched_from": "512MB graphics card"
+              }
+            ],
+            "min_score": 3183
+          }
+        },
+        "recommended": {
+          "os": "Windows Vista, 7",
+          "cpu": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+          "gpu": "512MB graphics card",
+          "ram_gb": 3.0,
+          "vram_gb": 0.5,
+          "storage_gb": 1.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended:</strong><br>\t\t\t\t\t\t\t\t\t\t\t\t<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows Vista, 7<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong>3GB<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 1GB<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> 512MB graphics card<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> Integrated sound<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Direct\u00ae:</strong> 9<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "512MB graphics card",
+            "candidates": [
+              {
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
+                "matched_from": "512MB graphics card"
+              }
+            ],
+            "min_score": 3183
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "OS X version 10.6, or later.",
+          "cpu": "2.33 GHz Intel Processor or better",
+          "gpu": null,
+          "ram_gb": 3.0,
+          "vram_gb": null,
+          "storage_gb": 1.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> OS X version 10.6, or later.<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> 2.33 GHz Intel Processor or better<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 3 GB<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 1GB<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> Integrated sound<br>\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "2.33 GHz Intel Processor or better",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 80202,
+    "name": "Fate of the World: Denial",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP, Vista, 7",
+          "cpu": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+          "gpu": "512MB graphics card",
+          "ram_gb": 2.0,
+          "vram_gb": 0.5,
+          "storage_gb": 1.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "</p>\n\t\t\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> Windows XP, Vista, 7</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> 2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong> 2GB</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Hard Disk Space:</strong> 1GB</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Video Card:</strong> 512MB graphics card</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Sound:</strong> Integrated sound</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Direct&reg;:</strong> 9</li>\n\t\t\t\t\t\t\t\t\t\t\t\t</ul>",
+          "cpu_match": {
+            "raw": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "512MB graphics card",
+            "candidates": [
+              {
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
+                "matched_from": "512MB graphics card"
+              }
+            ],
+            "min_score": 3183
+          }
+        },
+        "recommended": {
+          "os": "Windows Vista, 7",
+          "cpu": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+          "gpu": "512MB graphics card",
+          "ram_gb": 3.0,
+          "vram_gb": 0.5,
+          "storage_gb": 1.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<p><strong>Recommended:</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> Windows Vista, 7</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> 2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong>3GB</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Hard Disk Space:</strong> 1GB</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Video Card:</strong> 512MB graphics card</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Sound:</strong> Integrated sound</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Direct&reg;:</strong> 9</li>\n\t\t\t\t\t\t\t\t\t\t\t\t</ul>",
+          "cpu_match": {
+            "raw": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "512MB graphics card",
+            "candidates": [
+              {
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
+                "matched_from": "512MB graphics card"
+              }
+            ],
+            "min_score": 3183
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "OS X version 10.6, or later.",
+          "cpu": "2.33 GHz Intel Processor or better",
+          "gpu": null,
+          "ram_gb": 3.0,
+          "vram_gb": null,
+          "storage_gb": 1.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul>\n\t\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> OS X version 10.6, or later.\n\t\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> 2.33 GHz Intel Processor or better\n\t\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong> 3 GB\n\t\t\t\t\t\t\t\t\t\t<li><strong>Hard Disk Space:</strong> 1GB\n\t\t\t\t\t\t\t\t\t\t<li><strong>Sound:</strong> Integrated sound\n\t\t\t\t\t\t\t\t\t\t</ul>",
+          "cpu_match": {
+            "raw": "2.33 GHz Intel Processor or better",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 80204,
+    "name": "Fate of the World: Migration",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP, Vista, 7",
+          "cpu": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+          "gpu": "512MB graphics card",
+          "ram_gb": 2.0,
+          "vram_gb": 0.5,
+          "storage_gb": 1.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "</p>\n\t\t\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> Windows XP, Vista, 7</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> 2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong> 2GB</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Hard Disk Space:</strong> 1GB</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Video Card:</strong> 512MB graphics card</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Sound:</strong> Integrated sound</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Direct&reg;:</strong> 9</li>\n\t\t\t\t\t\t\t\t\t\t\t\t</ul>",
+          "cpu_match": {
+            "raw": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "512MB graphics card",
+            "candidates": [
+              {
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
+                "matched_from": "512MB graphics card"
+              }
+            ],
+            "min_score": 3183
+          }
+        },
+        "recommended": {
+          "os": "Windows Vista, 7",
+          "cpu": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+          "gpu": "512MB graphics card",
+          "ram_gb": 3.0,
+          "vram_gb": 0.5,
+          "storage_gb": 1.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<p><strong>Recommended:</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> Windows Vista, 7</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> 2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong>3GB</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Hard Disk Space:</strong> 1GB</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Video Card:</strong> 512MB graphics card</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Sound:</strong> Integrated sound</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Direct&reg;:</strong> 9</li>\n\t\t\t\t\t\t\t\t\t\t\t\t</ul>",
+          "cpu_match": {
+            "raw": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "512MB graphics card",
+            "candidates": [
+              {
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
+                "matched_from": "512MB graphics card"
+              }
+            ],
+            "min_score": 3183
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "OS X version 10.6, or later.",
+          "cpu": "2.33 GHz Intel Processor or better",
+          "gpu": null,
+          "ram_gb": 3.0,
+          "vram_gb": null,
+          "storage_gb": 1.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul>\n\t\t\t\t\t\t<li><strong>OS:</strong> OS X version 10.6, or later.\n\t\t\t\t\t\t<li><strong>Processor:</strong> 2.33 GHz Intel Processor or better\n\t\t\t\t\t\t<li><strong>Memory:</strong> 3 GB\n\t\t\t\t\t\t<li><strong>Hard Disk Space:</strong> 1GB\n\t\t\t\t\t\t<li><strong>Sound:</strong> Integrated sound\n\t\t\t\t\t\t</ul>",
+          "cpu_match": {
+            "raw": "2.33 GHz Intel Processor or better",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 80207,
+    "name": "Fate of the World: Extras Pack",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP, Vista, 7",
+          "cpu": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+          "gpu": "512MB graphics card",
+          "ram_gb": 2.0,
+          "vram_gb": 0.5,
+          "storage_gb": 1.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "</p>\n\t\t\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> Windows XP, Vista, 7</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> 2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong> 2GB</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Hard Disk Space:</strong> 1GB</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Video Card:</strong> 512MB graphics card</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Sound:</strong> Integrated sound</li>\n\t\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Direct&reg;:</strong> 9</li>\n\t\t\t\t\t\t\t\t\t\t\t\t</ul>",
+          "cpu_match": {
+            "raw": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "512MB graphics card",
+            "candidates": [
+              {
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
+                "matched_from": "512MB graphics card"
+              }
+            ],
+            "min_score": 3183
+          }
+        },
+        "recommended": {
+          "os": "Windows Vista, 7",
+          "cpu": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+          "gpu": "512MB graphics card",
+          "ram_gb": 3.0,
+          "vram_gb": 0.5,
+          "storage_gb": 1.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<p><strong>Recommended:</strong></p>\n\t\t\t\t\t\t\t\t\t\t\t\t<ul>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>OS:</strong> Windows Vista, 7</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Processor:</strong> 2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Memory:</strong>3GB</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Hard Disk Space:</strong> 1GB</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Video Card:</strong> 512MB graphics card</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Sound:</strong> Integrated sound</li>\n\t\t\t\t\t\t\t\t\t\t\t\t<li><strong>Direct&reg;:</strong> 9</li>\n\t\t\t\t\t\t\t\t\t\t\t\t</ul>",
+          "cpu_match": {
+            "raw": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "2.33Ghz processor supporting SSE2 (Pentium 4 and Athlon 64) or better"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "512MB graphics card",
+            "candidates": [
+              {
+                "id": "gpu_intel_graphics",
+                "name": "Intel Graphics",
+                "score": 3183,
+                "matched_from": "512MB graphics card"
+              }
+            ],
+            "min_score": 3183
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "OS X version 10.6, or later.",
+          "cpu": "2.33 GHz Intel Processor or better",
+          "gpu": null,
+          "ram_gb": 3.0,
+          "vram_gb": null,
+          "storage_gb": 1.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul>\n\t\t\t\t\t\t<li><strong>OS:</strong> OS X version 10.6, or later.\n\t\t\t\t\t\t<li><strong>Processor:</strong> 2.33 GHz Intel Processor or better\n\t\t\t\t\t\t<li><strong>Memory:</strong> 3 GB\n\t\t\t\t\t\t<li><strong>Hard Disk Space:</strong> 1GB\n\t\t\t\t\t\t<li><strong>Sound:</strong> Integrated sound\n\t\t\t\t\t\t</ul>",
+          "cpu_match": {
+            "raw": "2.33 GHz Intel Processor or better",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 80300,
+    "name": "Puzzle Bots",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows 98, ME, 2000, XP or Vista with DirectX 5 or above",
+          "cpu": "Pentium or higher",
+          "gpu": "Supports all DirectX-compatible video cards",
+          "ram_gb": 0.0625,
+          "vram_gb": null,
+          "storage_gb": 0.87890625,
+          "directx": 5.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 98, ME, 2000, XP or Vista with DirectX 5 or above<br>\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium or higher<br>\t\t\t\t\t\t</li><li><strong>Memory:</strong> 64 Mb RAM<br>\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Supports all DirectX-compatible video cards<br>\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 5 or above<br>\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 900 Mb<br>\t\t\t\t\t\t</li><li><strong>Sound:</strong> Supports all DirectX-compatible sound card<br>\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Pentium or higher",
+            "candidates": [
+              {
+                "id": "cpu_intel_pentium_gold_8505",
+                "name": "Intel Pentium Gold 8505",
+                "score": 9043,
+                "matched_from": "Pentium"
+              }
+            ],
+            "min_score": 9043
+          },
+          "gpu_match": {
+            "raw": "Supports all DirectX-compatible video cards",
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "Supports all DirectX-compatible video cards"
+              }
+            ],
+            "min_score": 2
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 80310,
+    "name": "Gemini Rue",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows 2000, XP or Vista",
+          "cpu": "Pentium or higher",
+          "gpu": "All DirectX compatible video cards",
+          "ram_gb": 0.0625,
+          "vram_gb": null,
+          "storage_gb": 0.68359375,
+          "directx": 5.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows 2000, XP or Vista<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Pentium or higher<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong> 64 Mb RAM<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Disk Space:</strong> 700Mb\t<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Video Card:</strong> All DirectX compatible video cards<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 5.0 or Above<br>\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> All DirectX compatible sound cards\t<br>\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Pentium or higher",
+            "candidates": [
+              {
+                "id": "cpu_intel_pentium_gold_8505",
+                "name": "Intel Pentium Gold 8505",
+                "score": 9043,
+                "matched_from": "Pentium"
+              }
+            ],
+            "min_score": 9043
+          },
+          "gpu_match": {
+            "raw": "All DirectX compatible video cards",
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "All DirectX compatible video cards"
+              }
+            ],
+            "min_score": 2
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "10.11",
+          "cpu": null,
+          "gpu": "Architecture: 64bit",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 1.5,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS Version: </strong> 10.11<br></li><li><strong>Architecture: </strong> 64bit<br></li><li><strong>Memory: </strong> 2 GB<br></li><li><strong>Storage: </strong> 1.5 GB</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "Architecture: 64bit",
+            "candidates": [
+              {
+                "id": "gpu_intel_arc",
+                "name": "Intel Arc",
+                "score": 5484,
+                "matched_from": "Architecture: 64bit"
+              }
+            ],
+            "min_score": 5484
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": "Ubuntu, Debian, Arch - (64 bit)",
+          "cpu": "Pentium or higher processor",
+          "gpu": "OpenGL",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 1.5,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS Version: </strong> Ubuntu, Debian, Arch - (64 bit)<br></li><li><strong>Processor: </strong> Pentium or higher processor <br></li><li><strong>Memory: </strong> 2 GB<br></li><li><strong>Graphics: </strong> OpenGL<br></li><li><strong>Storage: </strong> 1.5 GB<br></li><li><strong>Sound Card: </strong> Alsa/PulseAudio/DSP</li></ul>",
+          "cpu_match": {
+            "raw": "Pentium or higher processor",
+            "candidates": [
+              {
+                "id": "cpu_intel_pentium_gold_8505",
+                "name": "Intel Pentium Gold 8505",
+                "score": 9043,
+                "matched_from": "Pentium"
+              }
+            ],
+            "min_score": 9043
+          },
+          "gpu_match": {
+            "raw": "OpenGL",
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 80330,
+    "name": "The Blackwell Legacy",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": "Sound:All DirectX-compatible sound cards",
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": 0.1953125,
+          "directx": 5.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong>5.0<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong>200 MB HD space<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong>All DirectX-compatible sound cards<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "Sound:All DirectX-compatible sound cards",
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "Sound:All DirectX-compatible sound cards"
+              }
+            ],
+            "min_score": 2
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "10.11",
+          "cpu": null,
+          "gpu": "Architecture: 64bit",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 1.5,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS Version: </strong> 10.11<br></li><li><strong>Architecture: </strong> 64bit<br></li><li><strong>Memory: </strong> 2 GB<br></li><li><strong>Storage: </strong> 1.5 GB</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "Architecture: 64bit",
+            "candidates": [
+              {
+                "id": "gpu_intel_arc",
+                "name": "Intel Arc",
+                "score": 5484,
+                "matched_from": "Architecture: 64bit"
+              }
+            ],
+            "min_score": 5484
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": "Ubuntu, Debian, Arch - (64 bit)",
+          "cpu": "Pentium or higher processor",
+          "gpu": "OpenGL",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 1.5,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS Version: </strong> Ubuntu, Debian, Arch - (64 bit)<br></li><li><strong>Processor: </strong> Pentium or higher processor <br></li><li><strong>Memory: </strong> 2 GB<br></li><li><strong>Graphics: </strong> OpenGL<br></li><li><strong>Storage: </strong> 1.5 GB<br></li><li><strong>Sound Card: </strong> Alsa/PulseAudio/DSP</li></ul>",
+          "cpu_match": {
+            "raw": "Pentium or higher processor",
+            "candidates": [
+              {
+                "id": "cpu_intel_pentium_gold_8505",
+                "name": "Intel Pentium Gold 8505",
+                "score": 9043,
+                "matched_from": "Pentium"
+              }
+            ],
+            "min_score": 9043
+          },
+          "gpu_match": {
+            "raw": "OpenGL",
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 80340,
+    "name": "Blackwell Unbound",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": "Sound:All DirectX-compatible sound cards",
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": 0.1953125,
+          "directx": 5.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong>5.0<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong>200 MB HD space<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong>All DirectX-compatible sound cards<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "Sound:All DirectX-compatible sound cards",
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "Sound:All DirectX-compatible sound cards"
+              }
+            ],
+            "min_score": 2
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "10.11",
+          "cpu": null,
+          "gpu": "Architecture: 64bit",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 1.5,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS Version: </strong> 10.11<br></li><li><strong>Architecture: </strong> 64bit<br></li><li><strong>Memory: </strong> 2 GB<br></li><li><strong>Storage: </strong> 1.5 GB</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "Architecture: 64bit",
+            "candidates": [
+              {
+                "id": "gpu_intel_arc",
+                "name": "Intel Arc",
+                "score": 5484,
+                "matched_from": "Architecture: 64bit"
+              }
+            ],
+            "min_score": 5484
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": "Ubuntu, Debian, Arch - (64 bit)",
+          "cpu": "Pentium or higher processor",
+          "gpu": "OpenGL",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 1.5,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS Version: </strong> Ubuntu, Debian, Arch - (64 bit)<br></li><li><strong>Processor: </strong> Pentium or higher processor <br></li><li><strong>Memory: </strong> 2 GB<br></li><li><strong>Graphics: </strong> OpenGL<br></li><li><strong>Storage: </strong> 1.5 GB<br></li><li><strong>Sound Card: </strong> Alsa/PulseAudio/DSP</li></ul>",
+          "cpu_match": {
+            "raw": "Pentium or higher processor",
+            "candidates": [
+              {
+                "id": "cpu_intel_pentium_gold_8505",
+                "name": "Intel Pentium Gold 8505",
+                "score": 9043,
+                "matched_from": "Pentium"
+              }
+            ],
+            "min_score": 9043
+          },
+          "gpu_match": {
+            "raw": "OpenGL",
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 80350,
+    "name": "Blackwell Convergence",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": "Sound:All DirectX-compatible sound cards",
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": 0.0625,
+          "directx": 5.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong>5.0<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong>64 MB HD space<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong>All DirectX-compatible sound cards<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "Sound:All DirectX-compatible sound cards",
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "Sound:All DirectX-compatible sound cards"
+              }
+            ],
+            "min_score": 2
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "10.11",
+          "cpu": null,
+          "gpu": "Architecture: 64bit",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 1.5,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS Version: </strong> 10.11<br></li><li><strong>Architecture: </strong> 64bit<br></li><li><strong>Memory: </strong> 2 GB<br></li><li><strong>Storage: </strong> 1.5 GB</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "Architecture: 64bit",
+            "candidates": [
+              {
+                "id": "gpu_intel_arc",
+                "name": "Intel Arc",
+                "score": 5484,
+                "matched_from": "Architecture: 64bit"
+              }
+            ],
+            "min_score": 5484
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": "Ubuntu, Debian, Arch - (64 bit)",
+          "cpu": "Pentium or higher processor",
+          "gpu": "OpenGL",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 1.5,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS Version: </strong> Ubuntu, Debian, Arch - (64 bit)<br></li><li><strong>Processor: </strong> Pentium or higher processor <br></li><li><strong>Memory: </strong> 2 GB<br></li><li><strong>Graphics: </strong> OpenGL<br></li><li><strong>Storage: </strong> 1.5 GB<br></li><li><strong>Sound Card: </strong> Alsa/PulseAudio/DSP</li></ul>",
+          "cpu_match": {
+            "raw": "Pentium or higher processor",
+            "candidates": [
+              {
+                "id": "cpu_intel_pentium_gold_8505",
+                "name": "Intel Pentium Gold 8505",
+                "score": 9043,
+                "matched_from": "Pentium"
+              }
+            ],
+            "min_score": 9043
+          },
+          "gpu_match": {
+            "raw": "OpenGL",
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 80360,
+    "name": "Blackwell Deception",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": "Sound:All DirectX-compatible sound cards",
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": 0.341796875,
+          "directx": 5.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong>5.0<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Hard Drive:</strong>350 MB HD space<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong>All DirectX-compatible sound cards<br>\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "Sound:All DirectX-compatible sound cards",
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "Sound:All DirectX-compatible sound cards"
+              }
+            ],
+            "min_score": 2
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "10.11",
+          "cpu": null,
+          "gpu": "Architecture: 64bit",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 1.5,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS Version: </strong> 10.11<br></li><li><strong>Architecture: </strong> 64bit<br></li><li><strong>Memory: </strong> 2 GB<br></li><li><strong>Storage: </strong> 1.5 GB</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "Architecture: 64bit",
+            "candidates": [
+              {
+                "id": "gpu_intel_arc",
+                "name": "Intel Arc",
+                "score": 5484,
+                "matched_from": "Architecture: 64bit"
+              }
+            ],
+            "min_score": 5484
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": "Ubuntu, Debian, Arch - (64 bit)",
+          "cpu": "Pentium or higher processor",
+          "gpu": "OpenGL",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 1.5,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS Version: </strong> Ubuntu, Debian, Arch - (64 bit)<br></li><li><strong>Processor: </strong> Pentium or higher processor <br></li><li><strong>Memory: </strong> 2 GB<br></li><li><strong>Graphics: </strong> OpenGL<br></li><li><strong>Storage: </strong> 1.5 GB<br></li><li><strong>Sound Card: </strong> Alsa/PulseAudio/DSP</li></ul>",
+          "cpu_match": {
+            "raw": "Pentium or higher processor",
+            "candidates": [
+              {
+                "id": "cpu_intel_pentium_gold_8505",
+                "name": "Intel Pentium Gold 8505",
+                "score": 9043,
+                "matched_from": "Pentium"
+              }
+            ],
+            "min_score": 9043
+          },
+          "gpu_match": {
+            "raw": "OpenGL",
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  }
+]

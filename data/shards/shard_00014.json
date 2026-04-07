@@ -1,0 +1,1745 @@
+[
+  {
+    "appid": 28000,
+    "name": "Kane & Lynch 2: Dog Days",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP/Vista/7",
+          "cpu": "Intel 3.0 GHz or AMD 2.5 GHz or higher",
+          "gpu": "Nvidia 7800 / ATI X1800 or better (Shader Model 3.0, 512 MB Video Memory)",
+          "ram_gb": 1.0,
+          "vram_gb": 0.5,
+          "storage_gb": null,
+          "directx": 9.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel  3.0 GHz or AMD 2.5 GHz or higher<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong>  1 GB (XP), 2 GB (Vista)<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Nvidia 7800 / ATI X1800 or better (Shader Model 3.0, 512 MB Video Memory)<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c Compatible Sound Card<br>\t\t\t\t\t\t\t\t</li><li><strong>Controller Support:</strong> Xbox 360 Controller<br>\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Intel 3.0 GHz or AMD 2.5 GHz or higher",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "Nvidia 7800 / ATI X1800 or better (Shader Model 3.0, 512 MB Video Memory)",
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 28010,
+    "name": "Kane & Lynch 2: The Doggie Bag",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP/Vista/7",
+          "cpu": "Intel 3.0 GHz or AMD 2.5 GHz or higher",
+          "gpu": "Nvidia 7800 / ATI X1800 or better (Shader Model 3.0, 512 MB Video Memory)",
+          "ram_gb": 1.0,
+          "vram_gb": 0.5,
+          "storage_gb": null,
+          "directx": 9.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel  3.0 GHz or AMD 2.5 GHz or higher<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong>  1 GB (XP), 2 GB (Vista)<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Nvidia 7800 / ATI X1800 or better (Shader Model 3.0, 512 MB Video Memory)<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c Compatible Sound Card<br>\t\t\t\t\t\t\t\t</li><li><strong>Controller Support:</strong> Xbox 360 Controller<br>\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Intel 3.0 GHz or AMD 2.5 GHz or higher",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "Nvidia 7800 / ATI X1800 or better (Shader Model 3.0, 512 MB Video Memory)",
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 28011,
+    "name": "Kane & Lynch 2: Alliance Weapon Pack",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP/Vista/7",
+          "cpu": "Intel 3.0 GHz or AMD 2.5 GHz or higher",
+          "gpu": "Nvidia 7800 / ATI X1800 or better (Shader Model 3.0, 512 MB Video Memory)",
+          "ram_gb": 1.0,
+          "vram_gb": 0.5,
+          "storage_gb": null,
+          "directx": 9.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel  3.0 GHz or AMD 2.5 GHz or higher<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong>  1 GB (XP), 2 GB (Vista)<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Nvidia 7800 / ATI X1800 or better (Shader Model 3.0, 512 MB Video Memory)<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c Compatible Sound Card<br>\t\t\t\t\t\t\t\t</li><li><strong>Controller Support:</strong> Xbox 360 Controller<br>\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Intel 3.0 GHz or AMD 2.5 GHz or higher",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "Nvidia 7800 / ATI X1800 or better (Shader Model 3.0, 512 MB Video Memory)",
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 28012,
+    "name": "Kane & Lynch 2: Multiplayer Masks Pack",
+    "type": "dlc",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Windows XP/Vista/7",
+          "cpu": "Intel 3.0 GHz or AMD 2.5 GHz or higher",
+          "gpu": "Nvidia 7800 / ATI X1800 or better (Shader Model 3.0, 512 MB Video Memory)",
+          "ram_gb": 1.0,
+          "vram_gb": 0.5,
+          "storage_gb": null,
+          "directx": 9.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Windows XP/Vista/7<br>\t\t\t\t\t\t\t\t</li><li><strong>Processor:</strong> Intel  3.0 GHz or AMD 2.5 GHz or higher<br>\t\t\t\t\t\t\t\t</li><li><strong>Memory:</strong>  1 GB (XP), 2 GB (Vista)<br>\t\t\t\t\t\t\t\t</li><li><strong>Graphics:</strong> Nvidia 7800 / ATI X1800 or better (Shader Model 3.0, 512 MB Video Memory)<br>\t\t\t\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> 9.0c<br>\t\t\t\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX 9.0c Compatible Sound Card<br>\t\t\t\t\t\t\t\t</li><li><strong>Controller Support:</strong> Xbox 360 Controller<br>\t\t\t\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "Intel 3.0 GHz or AMD 2.5 GHz or higher",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "Nvidia 7800 / ATI X1800 or better (Shader Model 3.0, 512 MB Video Memory)",
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 29120,
+    "name": "Yumsters 2: Around the World",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Microsoft\u00ae Windows\u00ae XP/Vista",
+          "cpu": "600 Mhz",
+          "gpu": null,
+          "ram_gb": 0.25,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "</p>                    \n\t\t\t\t\t<ul>                    \n\t\t\t\t\t<li><strong>Operating System: </strong>Microsoft\u00ae Windows\u00ae XP/Vista</li>                    \n\t\t\t\t\t<li><strong>Processor: </strong>600 Mhz</li>                    \n\t\t\t\t\t<li><strong>Memory: </strong>256 MB (512+ MB",
+          "cpu_match": {
+            "raw": "600 Mhz",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": "DirectX\u00ae compatible with 16 MB of Video Memory",
+          "ram_gb": null,
+          "vram_gb": 0.015625,
+          "storage_gb": 0.052734375,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": ")</li>                    \n\t\t\t\t\t<li><strong>Hard Disk Space: </strong>54 MB (or More) Available HDD Space</li>                    \n\t\t\t\t\t<li><strong>Video Card: </strong>DirectX\u00ae compatible with 16 MB of Video Memory</li>                    \n\t\t\t\t\t<li><strong>Sound Card: </strong>DirectX\u00ae compatible Sound Card</li>                    \n\t\t\t\t\t<li><strong>DirectX\u00ae Version: </strong>DirectX\u00ae 7.0</li>                    </ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "DirectX\u00ae compatible with 16 MB of Video Memory",
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "DirectX\u00ae compatible with 16 MB of Video Memory"
+              }
+            ],
+            "min_score": 2
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 29130,
+    "name": "Musaic Box",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Microsoft\u00ae Windows\u00ae 2000/XP/Vista",
+          "cpu": "800Mhz",
+          "gpu": "DirectX\u00ae compatible with 16 MB of Video Memory",
+          "ram_gb": 0.25,
+          "vram_gb": 0.015625,
+          "storage_gb": 0.052734375,
+          "directx": 8.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "                    \n\t\t\t\t\t<ul>\n\t\t\t\t\t<li><strong>Supported OS: </strong> Microsoft\u00ae Windows\u00ae 2000/XP/Vista</li>\n\t\t\t\t\t<li><strong>Processor: </strong> 800Mhz</li>\n\t\t\t\t\t<li><strong>Graphics: </strong> DirectX\u00ae compatible with 16 MB of Video Memory</li>\n\t\t\t\t\t<li><strong>Sound: </strong> DirectX\u00ae compatible Sound Card</li>\n\t\t\t\t\t<li><strong>DirectX\u00ae Version: </strong>DirectX 8.0</li>\n\t\t\t\t\t<li><strong>Memory: </strong> 256 MB RAM (512+MB recommended)</li>\n\t\t\t\t\t<li><strong>Hard Drive: </strong> 54 MB or more</li></ul>                    ",
+          "cpu_match": {
+            "raw": "800Mhz",
+            "candidates": [
+              {
+                "id": "cpu_intel_celeron_m_ulv_800mhz",
+                "name": "Intel Celeron M ULV 800MHz",
+                "score": 120,
+                "matched_from": "800Mhz"
+              }
+            ],
+            "min_score": 120
+          },
+          "gpu_match": {
+            "raw": "DirectX\u00ae compatible with 16 MB of Video Memory",
+            "candidates": [
+              {
+                "id": "legacy_gpu_dx9_compliant",
+                "name": "Legacy DirectX 9 GPU",
+                "score": 2,
+                "matched_from": "DirectX\u00ae compatible with 16 MB of Video Memory"
+              }
+            ],
+            "min_score": 2
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": 0.052734375,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": ")</li>\n\t\t\t\t\t<li><strong>Hard Drive: </strong> 54 MB or more</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 29160,
+    "name": "Blueberry Garden",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Microsoft\u00ae Windows\u00ae XP / Vista",
+          "cpu": "2.0 GHz Dual Core",
+          "gpu": "NVIDIA\u00ae GeForce\u2122 or better, DirectX\u00ae 9.0c compatible video card, Shader Model 3.0 required. Video card must have 256 MB",
+          "ram_gb": 1.0,
+          "vram_gb": 0.25,
+          "storage_gb": 0.0390625,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>Operating System: </strong>Microsoft\u00ae Windows\u00ae XP / Vista<br>\t\t\t\t\t</li><li><strong>Processor: </strong>2.0 GHz Dual Core<br>\t\t\t\t\t</li><li><strong>Memory: </strong>1 GB RAM<br>\t\t\t\t\t</li><li><strong>Hard Disk Space: </strong>40 MB<br>\t\t\t\t\t</li><li><strong>Video Card: </strong>NVIDIA\u00ae GeForce\u2122 or better, DirectX\u00ae 9.0c compatible video card, Shader Model 3.0 required. Video card must have 256 MB<br>\t\t\t\t\t</li><li><strong>Sound Card: </strong>DirectX\u00ae 9.0c compatible sound card<br>\t\t\t\t\t</li><li><strong>Additional Requirements: </strong>NET 2.0 Framework, XNA 3.0 support<br>\t\t\t\t\t</li><li><strong>DirectX\u00ae Version: </strong>DirectX\u00ae 9.0c<br>\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": "2.0 GHz Dual Core",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "NVIDIA\u00ae GeForce\u2122 or better, DirectX\u00ae 9.0c compatible video card, Shader Model 3.0 required. Video card must have 256 MB",
+            "candidates": [
+              {
+                "id": "gpu_nvidia_geforce3_ti200",
+                "name": "NVIDIA GeForce3 Ti200",
+                "score": 5,
+                "matched_from": "NVIDIA\u00ae GeForce\u2122"
+              },
+              {
+                "id": "gpu_geforce_256",
+                "name": "GeForce 256",
+                "score": 5,
+                "matched_from": "better, DirectX\u00ae 9.0c compatible video card, Shader Model 3.0 required. Video card must have 256 MB"
+              }
+            ],
+            "min_score": 5
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "Snow Leopard 10.6.8, 32/64-bit",
+          "cpu": "Dual Core CPU",
+          "gpu": "OpenGL 3.0+ support (2.1 with ARB extensions acceptable)",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 0.146484375,
+          "directx": null,
+          "opengl": 3.0,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>Operating system: </strong> Snow Leopard 10.6.8, 32/64-bit<br></li><li><strong>Processor:</strong> Dual Core CPU<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Hard Disk Space:</strong> 150 MB<br></li><li><strong>Video Card:</strong> OpenGL 3.0+ support (2.1 with ARB extensions acceptable)<br></li><li><strong>Sound Card:</strong> 16-bit sound card</li></ul>",
+          "cpu_match": {
+            "raw": "Dual Core CPU",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "OpenGL 3.0+ support (2.1 with ARB extensions acceptable)",
+            "candidates": [
+              {
+                "id": "gpu_ion",
+                "name": "ION",
+                "score": 108,
+                "matched_from": "OpenGL 3.0+ support (2.1 with ARB extensions acceptable)"
+              }
+            ],
+            "min_score": 108
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": "glibc 2.15+, 32/64-bit. S3TC support is NOT required.",
+          "cpu": "Dual Core CPU",
+          "gpu": "OpenGL 3.0+ support (2.1 with ARB extensions acceptable)",
+          "ram_gb": 2.0,
+          "vram_gb": null,
+          "storage_gb": 0.146484375,
+          "directx": null,
+          "opengl": 3.0,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS requirements: </strong> glibc 2.15+, 32/64-bit. S3TC support is NOT required.<br></li><li><strong>Processor:</strong> Dual Core CPU<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Hard Disk Space:</strong> 150 MB<br></li><li><strong>Video Card:</strong> OpenGL 3.0+ support (2.1 with ARB extensions acceptable)<br></li><li><strong>Sound Card:</strong> 16-bit sound card</li></ul>",
+          "cpu_match": {
+            "raw": "Dual Core CPU",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "OpenGL 3.0+ support (2.1 with ARB extensions acceptable)",
+            "candidates": [
+              {
+                "id": "gpu_ion",
+                "name": "ION",
+                "score": 108,
+                "matched_from": "OpenGL 3.0+ support (2.1 with ARB extensions acceptable)"
+              }
+            ],
+            "min_score": 108
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 29180,
+    "name": "Osmos",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": 0.0322265625,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "resolution 800x600<br>\t\t\t\t\t</li><li><strong>DirectX\u00ae:</strong> N/A (OpenGL)<br>\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 33 Mb<br>\t\t\t\t\t</li><li><strong>Sound:</strong> definitely :)<br>\t\t\t\t\t</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "OS X version 10.7 (Lion) or later",
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> OS X version 10.7 (Lion) or later</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": 0.0390625,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "resolution 800x600<br>\t</li><li><strong>Hard Drive:</strong> 40 Mb free space</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 29720,
+    "name": "Guild Wars\u00ae Reforged",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Microsoft Windows 7 32-bit",
+          "cpu": "Requires a 64-bit processor and operating system",
+          "gpu": "ATI Radeon 8500 or NVIDIA GeForce 3 Series Video Card with 64MB of VRAM",
+          "ram_gb": 2.0,
+          "vram_gb": 0.0625,
+          "storage_gb": 4.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Microsoft Windows 7 32-bit<br></li><li><strong>Processor:</strong> Intel Pentium III 1.0 GHz or equivalent<br></li><li><strong>Memory:</strong> 2 GB RAM<br></li><li><strong>Graphics:</strong> ATI Radeon 8500 or NVIDIA GeForce 3 Series Video Card with 64MB of VRAM<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Storage:</strong> 4 GB available space<br></li><li><strong>Sound Card:</strong> 16-bit Sound Card<br></li><li><strong>Additional Notes:</strong> Network connection required</li></ul>",
+          "cpu_match": {
+            "raw": "Requires a 64-bit processor and operating system",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon 8500 or NVIDIA GeForce 3 Series Video Card with 64MB of VRAM",
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": "Microsoft Windows 7",
+          "cpu": "Requires a 64-bit processor and operating system",
+          "gpu": "ATI Radeon 9600 or NVIDIA GeForce FX 5700 Series Video Card or above",
+          "ram_gb": 4.0,
+          "vram_gb": null,
+          "storage_gb": 4.0,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"><li>Requires a 64-bit processor and operating system<br></li><li><strong>OS *:</strong> Microsoft Windows 7<br></li><li><strong>Processor:</strong> Intel Pentium 4 2.0 GHz or equivalent<br></li><li><strong>Memory:</strong> 4 GB RAM<br></li><li><strong>Graphics:</strong> ATI Radeon 9600 or NVIDIA GeForce FX 5700 Series Video Card or above<br></li><li><strong>DirectX:</strong> Version 9.0<br></li><li><strong>Network:</strong> Broadband Internet connection<br></li><li><strong>Storage:</strong> 4 GB available space<br></li><li><strong>Sound Card:</strong> Sound Blaster\u00ae X-FiTM series Sound Card<br></li><li><strong>Additional Notes:</strong> Network connection required</li></ul>",
+          "cpu_match": {
+            "raw": "Requires a 64-bit processor and operating system",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "ATI Radeon 9600 or NVIDIA GeForce FX 5700 Series Video Card or above",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce_fx_6_7_8_radeon_x",
+                "name": "Legacy GeForce 6/7/8 or Radeon X-class GPU",
+                "score": 3,
+                "matched_from": "ATI Radeon 9600 or NVIDIA GeForce FX 5700 Series Video Card or above"
+              }
+            ],
+            "min_score": 3
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br><ul class=\"bb_ul\"></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<br><ul class=\"bb_ul\"></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<strong>Recommended:</strong><br><ul class=\"bb_ul\"></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 29800,
+    "name": "Caster",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Microsoft Windows XP, Vista",
+          "cpu": "800 MHz or better",
+          "gpu": "16 MB Graphics Card (GeForce 2 or better)",
+          "ram_gb": 0.0625,
+          "vram_gb": 0.015625,
+          "storage_gb": 0.03125,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS *:</strong> Microsoft Windows XP, Vista                    <br>\t\t\t\t\t</li><li><strong>Processor:</strong> 800 MHz or better                    <br>\t\t\t\t\t</li><li><strong>Memory:</strong> 64 MB                    <br>\t\t\t\t\t</li><li><strong>Graphics:</strong> 16 MB Graphics Card (GeForce 2 or better)                    <br>\t\t\t\t\t</li><li><strong>Hard Drive:</strong> 32 MB Available Space                    <br>\t\t\t\t\t</li><li><strong>Sound:</strong> DirectX\u00ae Compatible                    <br>\t\t\t\t\t</li><li><strong>Input:</strong> Xbox Controller supported                    </li></ul>",
+          "cpu_match": {
+            "raw": "800 MHz or better",
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": "16 MB Graphics Card (GeForce 2 or better)",
+            "candidates": [
+              {
+                "id": "legacy_gpu_geforce2",
+                "name": "Legacy GeForce 2-class GPU",
+                "score": 2,
+                "matched_from": "16 MB Graphics Card (GeForce 2 or better)"
+              }
+            ],
+            "min_score": 2
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": "OS X version Leopard 10.5.8, Snow Leopard 10.6.3, or later",
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>OS:</strong> OS X version Leopard 10.5.8, Snow Leopard 10.6.3, or later</li></ul>",
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  },
+  {
+    "appid": 29900,
+    "name": "Dark Sector",
+    "type": "game",
+    "requirements": {
+      "pc": {
+        "minimum": {
+          "os": "Microsoft\u00ae Windows XP SP2 or Windows Vista 32bit",
+          "cpu": "Pentium\u00ae 4 2.4 GHz or similar Athlon\u00ae 64\u2122",
+          "gpu": "DirectX 9.0 compatible, with shaders 3.0 support (nVidia GeForce 6600 or ATI X1300 or higher)",
+          "ram_gb": 1.0,
+          "vram_gb": null,
+          "storage_gb": 6.5,
+          "directx": 9.0,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": "<ul class=\"bb_ul\"><li><strong>Operating System: </strong>Microsoft\u00ae Windows XP SP2 or Windows Vista 32bit <br>\t\t\t\t\t</li><li><strong>Processor: </strong>Pentium\u00ae 4 2.4 GHz or similar Athlon\u00ae 64\u2122<br>\t\t\t\t\t</li><li><strong>Memory: </strong>XP 1 GB RAM<br>\t\t\t\t\t</li><li><strong>Hard Disk Space: </strong>6.5 GB Available<br>\t\t\t\t\t</li><li><strong>Video Card: </strong>DirectX 9.0 compatible, with shaders 3.0 support (nVidia GeForce 6600 or ATI X1300 or higher)<br>\t\t\t\t\t</li><li><strong>Sound Card: </strong>DirectX 9.0c compatible sound card                    <br>\t\t\t\t\t</li><li><strong>DirectX\u00ae Version: </strong>9.0c<br>\t\t\t\t\t</li><li><strong>Controller support: </strong>XInput-controllers (Microsoft Xbox 360 Controller or Logitech Chillstream)                    </li></ul>",
+          "cpu_match": {
+            "raw": "Pentium\u00ae 4 2.4 GHz or similar Athlon\u00ae 64\u2122",
+            "candidates": [
+              {
+                "id": "legacy_cpu_pentium_4",
+                "name": "Intel Pentium 4-class CPU",
+                "score": 77,
+                "matched_from": "Pentium\u00ae 4 2.4 GHz or similar Athlon\u00ae 64\u2122"
+              }
+            ],
+            "min_score": 77
+          },
+          "gpu_match": {
+            "raw": "DirectX 9.0 compatible, with shaders 3.0 support (nVidia GeForce 6600 or ATI X1300 or higher)",
+            "candidates": [
+              {
+                "id": "gpu_geforce_6600",
+                "name": "GeForce 6600",
+                "score": 85,
+                "matched_from": "DirectX 9.0 compatible, with shaders 3.0 support (nVidia GeForce 6600"
+              },
+              {
+                "id": "gpu_radeon_x1300",
+                "name": "Radeon X1300",
+                "score": 58,
+                "matched_from": "ATI X1300"
+              }
+            ],
+            "min_score": 58
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "mac": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      },
+      "linux": {
+        "minimum": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        },
+        "recommended": {
+          "os": null,
+          "cpu": null,
+          "gpu": null,
+          "ram_gb": null,
+          "vram_gb": null,
+          "storage_gb": null,
+          "directx": null,
+          "opengl": null,
+          "vulkan": false,
+          "notes": null,
+          "raw_html": null,
+          "cpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          },
+          "gpu_match": {
+            "raw": null,
+            "candidates": [],
+            "min_score": null
+          }
+        }
+      }
+    }
+  }
+]

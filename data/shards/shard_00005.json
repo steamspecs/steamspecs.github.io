@@ -7173,15 +7173,8 @@
           "raw_html": "<br><ul class=\"bb_ul\"><li><strong>OS:</strong> Mac OS X 10.9 or later<br></li><li><strong>Processor: </strong>Intel<br></li><li><strong>Memory:</strong> 4GB<br></li><li><strong>Hard Disk Space:</strong> 4.5 GB Free</li></ul><br>Multiplayer is no longer available",
           "cpu_match": {
             "raw": "Intel",
-            "candidates": [
-              {
-                "id": "cpu_intel_xeon_6960p",
-                "name": "Intel Xeon 6960P",
-                "score": 130659,
-                "matched_from": "Intel"
-              }
-            ],
-            "min_score": 130659
+            "candidates": [],
+            "min_score": null
           },
           "gpu_match": {
             "raw": null,

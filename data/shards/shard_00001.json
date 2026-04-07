@@ -696,7 +696,7 @@
               {
                 "id": "gpu_geforce_gtx_1070_ti",
                 "name": "GeForce GTX 1070 Ti",
-                "score": 14660,
+                "score": 14661,
                 "matched_from": "NVIDIA GeForce GTX 1070 TI (8GB)"
               },
               {
@@ -708,11 +708,11 @@
               {
                 "id": "gpu_intel_arc_a380",
                 "name": "Intel Arc A380",
-                "score": 6294,
+                "score": 6292,
                 "matched_from": "Intel Arc A380 in 3840x2160"
               }
             ],
-            "min_score": 6294
+            "min_score": 6292
           }
         }
       },
