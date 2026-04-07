@@ -25,6 +25,13 @@ const state = {
   listRenderToken: 0
 };
 
+const FALLBACK_AVERAGES = {
+  ram_gb: 8,
+  storage_gb: 30,
+  cpu_score: 9000,
+  gpu_score: 9000
+};
+
 const els = {
   search: document.getElementById("search"),
   filter: document.getElementById("filter"),
@@ -52,7 +59,8 @@ const els = {
   specRam: document.getElementById("specRam"),
   specStorage: document.getElementById("specStorage"),
   saveSpecs: document.getElementById("saveSpecs"),
-  copyBtc: document.getElementById("copyBtc")
+  copyBtc: document.getElementById("copyBtc"),
+  copyBtcLabel: document.getElementById("copyBtcLabel")
 };
 
 function createBuildId() {
@@ -333,19 +341,36 @@ function compareNumeric(userVal, reqVal, kind = "generic") {
     return { status: "unknown", text: "Your value missing", label: "Unknown" };
   }
 
-  if (kind !== "ram" && kind !== "storage") {
-    if (userVal >= reqVal) return { status: "good", text: `${fmtComparisonNumber(userVal)} > ${fmtComparisonNumber(reqVal)}`, label: "Pass" };
-    return { status: "bad", text: `${fmtComparisonNumber(userVal)} < ${fmtComparisonNumber(reqVal)}`, label: "Fail" };
-  }
+  if (userVal >= reqVal) return { status: "good", text: `${fmtComparisonNumber(userVal, kind)} > ${fmtComparisonNumber(reqVal, kind)}`, label: "Pass" };
+  return { status: "bad", text: `${fmtComparisonNumber(userVal, kind)} < ${fmtComparisonNumber(reqVal, kind)}`, label: "Fail" };
+}
 
-  const ratio = reqVal > 0 ? userVal / reqVal : null;
-  if (userVal >= reqVal) {
-    if (ratio !== null && ratio >= 2) {
-      return { status: "good", text: `${fmtComparisonNumber(userVal, kind)} > ${fmtComparisonNumber(reqVal, kind)}`, label: "Likely" };
-    }
-    return { status: "good", text: `${fmtComparisonNumber(userVal, kind)} > ${fmtComparisonNumber(reqVal, kind)}`, label: "Pass" };
+function compareAverageFallback(userVal, averageVal, kind = "generic") {
+  if (userVal === null || userVal === undefined || Number.isNaN(userVal)) {
+    return { status: "unknown", text: "Your value missing", label: "Unknown" };
   }
-  return { status: "bad", text: `${fmtComparisonNumber(userVal, kind)} < ${fmtComparisonNumber(reqVal, kind)}`, label: "Unlikely" };
+  if (averageVal === null || averageVal === undefined || Number.isNaN(averageVal)) {
+    return { status: "unknown", text: "Average unavailable", label: "Unknown" };
+  }
+  if (userVal >= averageVal) {
+    return { status: "likely", text: `${fmtComparisonNumber(userVal, kind)} > ${fmtComparisonNumber(averageVal, kind)}`, label: "Likely" };
+  }
+  return { status: "unlikely", text: `${fmtComparisonNumber(userVal, kind)} < ${fmtComparisonNumber(averageVal, kind)}`, label: "Unlikely" };
+}
+
+function isGenericCpuText(text) {
+  const normalized = normalizeAlias(text) || "";
+  if (!normalized) return false;
+  if (/^(amd|intel)$/.test(normalized)) return true;
+  return /(single core|dual core|multi core|processor|cpu with|equivalent|or better|intel amd|amd intel|intel or amd|amd or intel)/.test(normalized);
+}
+
+function isVagueGpuText(text) {
+  const normalized = normalizeAlias(text) || "";
+  if (!normalized) return false;
+  if (/^(amd|intel|nvidia|ati|radeon|geforce)$/.test(normalized)) return true;
+  return /(directx|opengl|shader|video card|graphics card|graphic card|gpu|pci|agp|dedicated vram|vram)/.test(normalized)
+    && !/(geforce \d|radeon \d|rtx|gtx|rx \d|hd \d|x\d{3}|intel arc|intel iris|intel gma)/.test(normalized);
 }
 
 function parseClockGhz(text) {
@@ -393,6 +418,19 @@ function getGpuMemoryGbFromBuild(userText) {
 }
 
 function compareCpuRequirement(req, userText) {
+  if (isGenericCpuText(req?.cpu)) {
+    const reqClockOnly = parseClockGhz(req?.cpu);
+    const userClockOnly = getCpuClockGhzFromBuild(userText);
+    if (reqClockOnly !== null) {
+      if (!cleanText(userText)) return { status: "unknown", text: "Your CPU missing", method: null };
+      if (userClockOnly === null) return { status: "unknown", text: "Your CPU clock unknown", method: null };
+      if (userClockOnly >= reqClockOnly) return { status: "good", text: `${userClockOnly.toFixed(2)} GHz > ${reqClockOnly.toFixed(2)} GHz`, method: "clock" };
+      return { status: "bad", text: `${userClockOnly.toFixed(2)} GHz < ${reqClockOnly.toFixed(2)} GHz`, method: "clock" };
+    }
+    const userComponent = findCatalogComponent("cpu", userText);
+    return compareAverageFallback(toNumberOrNull(userComponent?.score), FALLBACK_AVERAGES.cpu_score);
+  }
+
   const catalogCmp = compareCatalogComponent("cpu", userText, req?.cpu_match);
   if (catalogCmp.status !== "unknown") return catalogCmp;
 
@@ -405,10 +443,27 @@ function compareCpuRequirement(req, userText) {
     return { status: "bad", text: `${userClock.toFixed(2)} GHz < ${reqClock.toFixed(2)} GHz`, method: "clock" };
   }
 
+  const userComponent = findCatalogComponent("cpu", userText);
+  if (!cleanText(req?.cpu)) {
+    return compareAverageFallback(toNumberOrNull(userComponent?.score), FALLBACK_AVERAGES.cpu_score);
+  }
+
   return catalogCmp;
 }
 
 function compareGpuRequirement(req, userText) {
+  if (isVagueGpuText(req?.gpu)) {
+    const reqVramOnly = toNumberOrNull(req?.vram_gb) ?? parseMemoryGb(req?.gpu);
+    const userVramOnly = getGpuMemoryGbFromBuild(userText);
+    if (reqVramOnly !== null) {
+      if (!cleanText(userText)) return { status: "unknown", text: "Your GPU missing", method: null };
+      if (userVramOnly === null) return { status: "unknown", text: "Your GPU memory unknown", method: null };
+      if (userVramOnly >= reqVramOnly) return { status: "good", text: `${userVramOnly}GB > ${reqVramOnly}GB`, method: "exact" };
+      return { status: "bad", text: `${userVramOnly}GB < ${reqVramOnly}GB`, method: "exact" };
+    }
+    return { status: "unknown", text: "Component unknown", method: null };
+  }
+
   const catalogCmp = compareCatalogComponent("gpu", userText, req?.gpu_match);
   if (catalogCmp.status !== "unknown") return catalogCmp;
 
@@ -421,6 +476,11 @@ function compareGpuRequirement(req, userText) {
     return { status: "bad", text: `${userVram}GB < ${reqVram}GB`, method: "exact" };
   }
 
+  const userComponent = findCatalogComponent("gpu", userText);
+  if (!cleanText(req?.gpu)) {
+    return compareAverageFallback(toNumberOrNull(userComponent?.score), FALLBACK_AVERAGES.gpu_score);
+  }
+
   return catalogCmp;
 }
 
@@ -428,22 +488,40 @@ function buildRequirementChecks(req, build) {
   return [
     { key: "cpu", required: Boolean(cleanText(req?.cpu)), result: compareCpuRequirement(req, build?.specs?.cpu) },
     { key: "gpu", required: Boolean(cleanText(req?.gpu)), result: compareGpuRequirement(req, build?.specs?.gpu) },
-    { key: "ram", required: req?.ram_gb !== null && req?.ram_gb !== undefined, result: compareNumeric(build?.specs?.ram_gb, req?.ram_gb, "ram") },
-    { key: "storage", required: req?.storage_gb !== null && req?.storage_gb !== undefined, result: compareNumeric(build?.specs?.storage_gb, req?.storage_gb, "storage") }
+    {
+      key: "ram",
+      required: req?.ram_gb !== null && req?.ram_gb !== undefined,
+      result: req?.ram_gb !== null && req?.ram_gb !== undefined
+        ? compareNumeric(build?.specs?.ram_gb, req?.ram_gb, "ram")
+        : compareAverageFallback(build?.specs?.ram_gb, FALLBACK_AVERAGES.ram_gb, "ram")
+    },
+    {
+      key: "storage",
+      required: req?.storage_gb !== null && req?.storage_gb !== undefined,
+      result: req?.storage_gb !== null && req?.storage_gb !== undefined
+        ? compareNumeric(build?.specs?.storage_gb, req?.storage_gb, "storage")
+        : compareAverageFallback(build?.specs?.storage_gb, FALLBACK_AVERAGES.storage_gb, "storage")
+    }
   ];
 }
 
 function badgeClass(status) {
   if (status === "good") return "badge good";
+  if (status === "likely") return "badge likely";
   if (status === "bad") return "badge bad";
+  if (status === "unlikely") return "badge unlikely";
   if (status === "unknown") return "badge unknown";
+  if (status === "partial") return "badge partial";
   return "badge warn";
 }
 
 function requirementLabel(comparison) {
   if (comparison?.label) return comparison.label;
   if (comparison?.status === "good") return "Pass";
+  if (comparison?.status === "likely") return "Likely";
   if (comparison?.status === "bad") return "Fail";
+  if (comparison?.status === "unlikely") return "Unlikely";
+  if (comparison?.status === "partial") return "Partial";
   return "Unknown";
 }
 
@@ -567,7 +645,7 @@ async function applyFilters() {
   if (mode === "dlc") apps = apps.filter(a => a.type === "dlc");
   if (q) apps = apps.filter(a => (a.name || "").toLowerCase().includes(q));
 
-  const summaryModes = new Set(["pass", "unknown", "fail"]);
+  const summaryModes = new Set(["pass", "likely", "unknown", "partial", "unlikely", "fail"]);
   if (summaryModes.has(mode)) {
     const activeBuild = getActiveBuild();
     const uniqueShardIds = [...new Set(apps.map(app => shardForAppid(app.appid)))];
@@ -593,7 +671,10 @@ function summarizeListMinimum(app, build) {
 
   const summary = comparisonSummary(minReq, build, platform);
   if (summary.status === "good") return { status: "good", text: "Pass", key: "pass" };
+  if (summary.status === "likely") return { status: "likely", text: "Likely", key: "likely" };
   if (summary.status === "bad") return { status: "bad", text: "Fail", key: "fail" };
+  if (summary.status === "unlikely") return { status: "unlikely", text: "Unlikely", key: "unlikely" };
+  if (summary.status === "partial") return { status: "partial", text: "Partial", key: "partial" };
   return { status: "unknown", text: "Unknown", key: "unknown" };
 }
 
@@ -669,6 +750,9 @@ function compareCatalogComponent(kind, userText, reqMatch) {
   const userComponent = findCatalogComponent(kind, userText);
 
   if (!reqRaw) return { status: "unknown", text: "Component unknown", method: null };
+  if ((kind === "cpu" && isGenericCpuText(reqRaw)) || (kind === "gpu" && isVagueGpuText(reqRaw))) {
+    return { status: "unknown", text: "Component unknown", method: null };
+  }
   if (!reqCandidates.length || minScore === null) return { status: "unknown", text: "Component not supported", method: null };
   if (!cleanText(userText)) return { status: "unknown", text: "Your component missing", method: null };
   if (!userComponent || userComponent.score === null || userComponent.score === undefined) {
@@ -689,23 +773,17 @@ function comparisonSummary(req, build, platform) {
   if ((build.platform || "pc") !== platform) return { status: "unknown", text: "Unknown" };
 
   const checks = buildRequirementChecks(req, build);
-  const results = checks.map(check => check.result);
+  const results = checks.map(check => check.result.status);
+  const hasPass = results.includes("good");
+  const hasLikely = results.includes("likely");
+  const hasUnknown = results.includes("unknown");
 
-  if (results.some(check => check.status === "bad")) return { status: "bad", text: "Below spec" };
-
-  const requiredChecks = checks.filter(check => check.required);
-  const unresolvedRequired = requiredChecks.filter(check => check.result.status === "unknown");
-  const allRequiredGood = requiredChecks.length > 0 && requiredChecks.every(check => check.result.status === "good");
-  const allRequiredGoodOrUnknown = requiredChecks.length > 0 && requiredChecks.every(check => ["good", "unknown"].includes(check.result.status));
-
-  if (allRequiredGood && !unresolvedRequired.length) {
-    return { status: "good", text: "Looks good" };
-  }
-
-  if (allRequiredGoodOrUnknown && unresolvedRequired.length) {
-    return { status: "unknown", text: "Unknown" };
-  }
-
+  if (results.includes("bad")) return { status: "bad", text: "Below spec" };
+  if (results.includes("unlikely")) return { status: "unlikely", text: "Unlikely" };
+  if (hasUnknown && (hasPass || hasLikely)) return { status: "partial", text: "Partial" };
+  if (hasLikely) return { status: "likely", text: "Likely" };
+  if (hasPass) return { status: "good", text: "Pass" };
+  if (hasUnknown) return { status: "unknown", text: "Unknown" };
   return { status: "unknown", text: "Unknown" };
 }
 
@@ -722,8 +800,12 @@ function renderReqCard(title, req, build, platform) {
   const summary = comparisonSummary(req, build, platform);
   const cpuCmp = compareCpuRequirement(req, build?.specs?.cpu);
   const gpuCmp = compareGpuRequirement(req, build?.specs?.gpu);
-  const ramCmp = compareNumeric(build?.specs?.ram_gb, req.ram_gb, "ram");
-  const storageCmp = compareNumeric(build?.specs?.storage_gb, req.storage_gb, "storage");
+  const ramCmp = req?.ram_gb !== null && req?.ram_gb !== undefined
+    ? compareNumeric(build?.specs?.ram_gb, req.ram_gb, "ram")
+    : compareAverageFallback(build?.specs?.ram_gb, FALLBACK_AVERAGES.ram_gb, "ram");
+  const storageCmp = req?.storage_gb !== null && req?.storage_gb !== undefined
+    ? compareNumeric(build?.specs?.storage_gb, req.storage_gb, "storage")
+    : compareAverageFallback(build?.specs?.storage_gb, FALLBACK_AVERAGES.storage_gb, "storage");
 
   return `
     <div class="reqCard">
@@ -755,8 +837,12 @@ function renderReqCard(title, req, build, platform) {
   const summary = comparisonSummary(req, build, platform);
   const cpuCmp = compareCpuRequirement(req, build?.specs?.cpu);
   const gpuCmp = compareGpuRequirement(req, build?.specs?.gpu);
-  const ramCmp = compareNumeric(build?.specs?.ram_gb, req.ram_gb, "ram");
-  const storageCmp = compareNumeric(build?.specs?.storage_gb, req.storage_gb, "storage");
+  const ramCmp = req?.ram_gb !== null && req?.ram_gb !== undefined
+    ? compareNumeric(build?.specs?.ram_gb, req.ram_gb, "ram")
+    : compareAverageFallback(build?.specs?.ram_gb, FALLBACK_AVERAGES.ram_gb, "ram");
+  const storageCmp = req?.storage_gb !== null && req?.storage_gb !== undefined
+    ? compareNumeric(build?.specs?.storage_gb, req.storage_gb, "storage")
+    : compareAverageFallback(build?.specs?.storage_gb, FALLBACK_AVERAGES.storage_gb, "storage");
 
   return `
     <div class="reqCard">
@@ -874,10 +960,10 @@ async function copyDonationAddress() {
   const address = "bc1qhq2l6nz8qlgfhzhtdc36hr3mtcya5wx8j0meauuevyadzj3dqr9qz33l7t";
   try {
     await navigator.clipboard.writeText(address);
-    const original = els.copyBtc.textContent;
-    els.copyBtc.textContent = "BTC copied";
+    const original = els.copyBtcLabel?.textContent || "Copy BTC address";
+    if (els.copyBtcLabel) els.copyBtcLabel.textContent = "BTC copied";
     window.setTimeout(() => {
-      els.copyBtc.textContent = original;
+      if (els.copyBtcLabel) els.copyBtcLabel.textContent = original;
     }, 1800);
   } catch {
     window.prompt("Copy BTC address", address);

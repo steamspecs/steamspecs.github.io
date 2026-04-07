@@ -291,6 +291,14 @@ def match_component_variant(raw_text: str, catalog: list[dict]) -> dict | None:
 
 
 def match_component_requirement(raw_text: str | None, catalog: list[dict], kind: str) -> dict:
+    normalized = normalize_alias(raw_text)
+    if normalized in {"amd", "intel", "nvidia", "ati", "radeon", "geforce", "video card", "graphics card", "graphic card"}:
+        return {
+            "raw": clean_text(raw_text),
+            "candidates": [],
+            "min_score": None,
+        }
+
     legacy_cpu = legacy_cpu_requirement(raw_text, catalog) if kind == "cpu" else None
     if legacy_cpu:
         return legacy_cpu

@@ -221,8 +221,11 @@ body{
   white-space:nowrap;
 }
 .badge.good{color: rgba(34,197,94,.95)}
+.badge.likely{color: rgba(34,197,94,.95)}
 .badge.unknown{color: rgba(56,189,248,.98)}
+.badge.partial{color: rgba(245,158,11,.95)}
 .badge.warn{color: rgba(245,158,11,.95)}
+.badge.unlikely{color: rgba(245,158,11,.95)}
 .badge.bad{color: rgba(239,68,68,.95)}
 
 .detail{
@@ -310,10 +313,21 @@ body{
   color:#f59e0b;
 }
 
+.btcBtn{
+  min-width:154px;
+}
+
 .paypalBtn{
-  width:42px;
-  min-width:42px;
+  width:44px;
+  min-width:44px;
   padding:0;
+  background:#0070ba;
+  border-color:rgba(0,112,186,.6);
+  color:#ffffff;
+}
+
+.paypalBtn:hover{
+  background:#005ea6;
 }
 
 .paypalLogo{
@@ -359,13 +373,25 @@ body{
   border-color:rgba(34,197,94,.22);
   background:rgba(34,197,94,.06);
 }
+.compareRow.likely{
+  border-color:rgba(34,197,94,.22);
+  background:rgba(34,197,94,.06);
+}
 .compareRow.bad{
   border-color:rgba(239,68,68,.22);
   background:rgba(239,68,68,.06);
 }
+.compareRow.unlikely{
+  border-color:rgba(245,158,11,.22);
+  background:rgba(245,158,11,.06);
+}
 .compareRow.unknown{
   border-color:rgba(56,189,248,.22);
   background:rgba(56,189,248,.06);
+}
+.compareRow.partial{
+  border-color:rgba(245,158,11,.22);
+  background:rgba(245,158,11,.06);
 }
 .compareValue{
   display:flex;
