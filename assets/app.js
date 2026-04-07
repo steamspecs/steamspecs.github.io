@@ -521,7 +521,7 @@ function requirementLabel(comparison) {
   if (comparison?.status === "likely") return "Likely";
   if (comparison?.status === "bad") return "Fail";
   if (comparison?.status === "unlikely") return "Unlikely";
-  if (comparison?.status === "partial") return "Partial";
+  if (comparison?.status === "partial") return "Partially Unknown";
   return "Unknown";
 }
 
@@ -653,7 +653,7 @@ async function applyFilters() {
     apps = apps.filter(app => {
       const shard = state.shardCache.get(shardForAppid(app.appid)) || [];
       const detailedApp = shard.find(entry => entry.appid === app.appid) || normalizeApp(app);
-      return summarizeListMinimum(detailedApp, activeBuild).key === mode;
+      return summarizePlatformStatus(detailedApp, activeBuild).key === mode;
     });
   }
 
@@ -661,20 +661,26 @@ async function applyFilters() {
   await renderList();
 }
 
-function summarizeListMinimum(app, build) {
+function summarizePlatformStatus(app, build) {
   if (!build?.specs) return { status: "unknown", text: "Unknown", key: "unknown" };
   if (!app?.requirements) return { status: "unknown", text: "Unknown", key: "unknown" };
 
   const platform = build.platform || "pc";
   const minReq = app.requirements?.[platform]?.minimum || null;
-  if (!hasUsableRequirement(minReq)) return { status: "unknown", text: "Unknown", key: "unknown" };
+  const recReq = app.requirements?.[platform]?.recommended || null;
 
-  const summary = comparisonSummary(minReq, build, platform);
-  if (summary.status === "good") return { status: "good", text: "Pass", key: "pass" };
-  if (summary.status === "likely") return { status: "likely", text: "Likely", key: "likely" };
-  if (summary.status === "bad") return { status: "bad", text: "Fail", key: "fail" };
-  if (summary.status === "unlikely") return { status: "unlikely", text: "Unlikely", key: "unlikely" };
-  if (summary.status === "partial") return { status: "partial", text: "Partial", key: "partial" };
+  const minSummary = comparisonSummary(minReq, build, platform);
+  const recSummary = comparisonSummary(recReq, build, platform);
+
+  if (minSummary.status === "unknown" && recSummary.status === "unknown") {
+    return { status: "unknown", text: "Unknown", key: "unknown" };
+  }
+  const statuses = [minSummary.status, recSummary.status];
+  if (statuses.includes("bad")) return { status: "bad", text: "Fail", key: "fail" };
+  if (statuses.includes("unlikely")) return { status: "unlikely", text: "Unlikely", key: "unlikely" };
+  if (statuses.includes("partial")) return { status: "partial", text: "Partially unknown", key: "partial" };
+  if (statuses.includes("likely")) return { status: "likely", text: "Likely", key: "likely" };
+  if (statuses.includes("good")) return { status: "good", text: "Pass", key: "pass" };
   return { status: "unknown", text: "Unknown", key: "unknown" };
 }
 
@@ -720,7 +726,7 @@ async function renderList() {
 
     const shard = state.shardCache.get(shardForAppid(app.appid)) || [];
     const detailedApp = shard.find(entry => entry.appid === app.appid) || normalizeApp(app);
-    const summary = summarizeListMinimum(detailedApp, activeBuild);
+    const summary = summarizePlatformStatus(detailedApp, activeBuild);
     badge.className = badgeClass(summary.status);
     badge.textContent = summary.text;
   }
