@@ -383,6 +383,12 @@ function parseClockGhz(text) {
   const mhzMatch = normalized.match(/(\d+(?:\.\d+)?)\s*mhz\b/);
   if (mhzMatch) return Number(mhzMatch[1]) / 1000;
 
+  const bareClockMatch = normalized.match(/^(?:cpu\s*)?(\d+(?:\.\d+)?)$/);
+  if (bareClockMatch) {
+    const value = Number(bareClockMatch[1]);
+    if (value >= 0.3 && value <= 8) return value;
+  }
+
   return null;
 }
 
@@ -700,13 +706,12 @@ function summarizePlatformStatus(app, build) {
   if (minSummary.status === "unknown" && recSummary.status === "unknown") {
     return { status: "unknown", text: "Unknown", key: "unknown" };
   }
-  const statuses = [minSummary.status, recSummary.status];
-  if (statuses.includes("bad")) return { status: "bad", text: "Fail", key: "fail" };
-  if (statuses.includes("unlikely")) return { status: "unlikely", text: "Unlikely", key: "unlikely" };
-  if (statuses.includes("partial")) return { status: "partial", text: "Partially Unknown", key: "partial" };
-  if (statuses.includes("likely")) return { status: "likely", text: "Likely", key: "likely" };
-  if (statuses.includes("good")) return { status: "good", text: "Pass", key: "pass" };
-  return { status: "unknown", text: "Unknown", key: "unknown" };
+  if (minSummary.status === "bad") return { status: "bad", text: "Fail", key: "fail" };
+  if (minSummary.status === "unlikely") return { status: "unlikely", text: "Unlikely", key: "unlikely" };
+  if (minSummary.status === "partial") return { status: "partial", text: "Partially Unknown", key: "partial" };
+  if (minSummary.status === "likely") return { status: "likely", text: "Likely", key: "likely" };
+  if (minSummary.status === "good") return { status: "good", text: "Pass", key: "pass" };
+  return { status: "partial", text: "Partially Unknown", key: "partial" };
 }
 
 async function renderList() {

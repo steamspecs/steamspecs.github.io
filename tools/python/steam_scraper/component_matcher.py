@@ -6,12 +6,22 @@ from pathlib import Path
 import re
 
 _MIN_SCORE_CACHE: dict[tuple[int, tuple[str, ...]], int | None] = {}
+GENERIC_TOKENS = {
+    "amd", "intel", "nvidia", "ati", "radeon", "geforce", "video", "graphics", "graphic",
+    "card", "gpu", "cpu", "processor", "processors", "series", "support", "supported",
+    "compatible", "model", "ram", "vram", "memory", "with", "or", "and", "the", "of",
+    "directx", "opengl", "shader", "single", "dual", "multi", "core", "cores", "bit",
+    "bits", "32", "64"
+}
+NULLISH_RE = re.compile(r"^(?:n/?a|none|unknown|not available|not applicable|null|nil|tbd|-+)$", re.IGNORECASE)
 
 
 def clean_text(value) -> str | None:
     if value is None:
         return None
     text = str(value).strip()
+    if NULLISH_RE.fullmatch(text):
+        return None
     return text or None
 
 
@@ -25,6 +35,26 @@ def normalize_alias(value: str | None) -> str | None:
     normalized = re.sub(r"[^a-z0-9]+", " ", normalized)
     normalized = re.sub(r"\s+", " ", normalized).strip()
     return normalized or None
+
+
+def is_nullish_requirement(text: str | None) -> bool:
+    normalized = normalize_alias(text)
+    return normalized in {None, "", "n a", "na", "none", "unknown", "not available", "not applicable", "null", "nil", "tbd"}
+
+
+def is_bitness_requirement(text: str | None) -> bool:
+    normalized = normalize_alias(text) or ""
+    if not normalized:
+        return False
+    return bool(re.fullmatch(r"(?:32|64)(?: bit)?", normalized) or re.search(r"32 or 64 bit|32 64 bit|32 bit 64 bit", normalized))
+
+
+def normalized_tokens(text: str | None) -> set[str]:
+    normalized = normalize_alias(text) or ""
+    return {
+        token for token in normalized.split()
+        if len(token) > 1 and token not in GENERIC_TOKENS and not token.isdigit()
+    }
 
 
 def load_catalog(path: Path) -> list[dict]:
@@ -66,6 +96,9 @@ def is_generic_cpu_requirement(text: str) -> bool:
     normalized = normalize_alias(text) or ""
     if not normalized:
         return False
+
+    if ("intel" in normalized and "amd" in normalized) and re.search(r"\bghz\b|\bmhz\b", normalized):
+        return True
 
     generic_patterns = [
         r"\bsingle core\b",
@@ -267,6 +300,7 @@ def match_component_variant(raw_text: str, catalog: list[dict]) -> dict | None:
 
     exact_matches = []
     partial_matches = []
+    raw_tokens = normalized_tokens(raw_text)
 
     for component in catalog:
         aliases = component.get("aliases") or []
@@ -275,7 +309,11 @@ def match_component_variant(raw_text: str, catalog: list[dict]) -> dict | None:
             continue
 
         for alias in aliases:
-            if alias and (alias in normalized or normalized in alias):
+            if not alias:
+                continue
+            alias_tokens = normalized_tokens(alias)
+            overlap = raw_tokens & alias_tokens
+            if len(overlap) >= 2 and (len(overlap) / max(1, len(raw_tokens))) >= 0.5:
                 partial_matches.append(component)
                 break
 
@@ -292,6 +330,29 @@ def match_component_variant(raw_text: str, catalog: list[dict]) -> dict | None:
 
 def match_component_requirement(raw_text: str | None, catalog: list[dict], kind: str) -> dict:
     normalized = normalize_alias(raw_text)
+    if is_nullish_requirement(raw_text):
+        return {
+            "raw": None,
+            "candidates": [],
+            "min_score": None,
+        }
+    if kind == "cpu" and is_bitness_requirement(raw_text):
+        return {
+            "raw": clean_text(raw_text),
+            "candidates": [],
+            "min_score": None,
+        }
+    if kind == "gpu" and normalized and (
+        normalized in {"video card", "graphics card", "graphic card"}
+        or "nvidia or amd ati" in normalized
+        or "amd ati" in normalized
+        or "series" in normalized and ("nvidia" in normalized or "ati" in normalized or "amd" in normalized)
+    ):
+        return {
+            "raw": clean_text(raw_text),
+            "candidates": [],
+            "min_score": None,
+        }
     if normalized in {"amd", "intel", "nvidia", "ati", "radeon", "geforce", "video card", "graphics card", "graphic card"}:
         return {
             "raw": clean_text(raw_text),

@@ -19,6 +19,8 @@ EMPTY_REQUIREMENT = {
     "raw_html": None,
 }
 
+NULLISH_RE = re.compile(r"^(?:n/?a|none|unknown|not available|not applicable|null|nil|tbd|-+)$", re.IGNORECASE)
+
 
 def create_requirement() -> dict:
     return deepcopy(EMPTY_REQUIREMENT)
@@ -33,6 +35,8 @@ def clean_text(value) -> str | None:
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\n{3,}", "\n\n", text)
     text = text.strip()
+    if NULLISH_RE.fullmatch(text):
+        return None
     return text or None
 
 
@@ -260,6 +264,9 @@ def parse_requirement_block(raw_html: str | None) -> dict:
         for segment in segments:
             if segment:
                 parse_freeform_line(req, segment)
+
+    if req["ram_gb"] is not None and req["storage_gb"] is not None and req["ram_gb"] > req["storage_gb"]:
+        req["ram_gb"], req["storage_gb"] = req["storage_gb"], req["ram_gb"]
 
     return req
 
