@@ -7103,7 +7103,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 54440,
+    "score": 54439,
     "sources": [
       "pc_part_dataset_cpu_specs",
       "passmark_cpu_scores"
@@ -8029,7 +8029,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 30065,
+    "score": 30066,
     "sources": [
       "techpowerup_cpu_specs",
       "pc_part_dataset_cpu_specs",
@@ -8062,7 +8062,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 37077,
+    "score": 37078,
     "sources": [
       "techpowerup_cpu_specs",
       "pc_part_dataset_cpu_specs",
@@ -8158,7 +8158,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 65810,
+    "score": 65811,
     "sources": [
       "techpowerup_cpu_specs",
       "pc_part_dataset_cpu_specs",
@@ -8191,7 +8191,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 70221,
+    "score": 70222,
     "sources": [
       "techpowerup_cpu_specs",
       "pc_part_dataset_cpu_specs",
@@ -8468,7 +8468,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 17674,
+    "score": 17673,
     "sources": [
       "techpowerup_cpu_specs",
       "pc_part_dataset_cpu_specs",
@@ -8882,7 +8882,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 28310,
+    "score": 28309,
     "sources": [
       "techpowerup_cpu_specs",
       "pc_part_dataset_cpu_specs",
@@ -8915,7 +8915,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 34379,
+    "score": 34374,
     "sources": [
       "techpowerup_cpu_specs",
       "pc_part_dataset_cpu_specs",
@@ -8948,7 +8948,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 34297,
+    "score": 34298,
     "sources": [
       "techpowerup_cpu_specs",
       "pc_part_dataset_cpu_specs",
@@ -9534,7 +9534,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 21841,
+    "score": 21842,
     "sources": [
       "techpowerup_cpu_specs",
       "pc_part_dataset_cpu_specs",
@@ -9567,7 +9567,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 26592,
+    "score": 26593,
     "sources": [
       "techpowerup_cpu_specs",
       "pc_part_dataset_cpu_specs",
@@ -9731,7 +9731,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 38932,
+    "score": 38933,
     "sources": [
       "techpowerup_cpu_specs",
       "pc_part_dataset_cpu_specs",
@@ -20888,7 +20888,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 15591,
+    "score": 15588,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -20946,7 +20946,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 18439,
+    "score": 18425,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -21236,7 +21236,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 14866,
+    "score": 14863,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -21294,7 +21294,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 24584,
+    "score": 24599,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -21352,7 +21352,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 13892,
+    "score": 13806,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -21468,7 +21468,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 29007,
+    "score": 29078,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -21526,7 +21526,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 45463,
+    "score": 45606,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -22483,7 +22483,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 20531,
+    "score": 20518,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -22512,7 +22512,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 16899,
+    "score": 16898,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -22599,7 +22599,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 16767,
+    "score": 16770,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -22715,7 +22715,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 18087,
+    "score": 18090,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -23092,7 +23092,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 20586,
+    "score": 20948,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -23237,7 +23237,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 24611,
+    "score": 24610,
     "sources": [
       "passmark_cpu_catalog",
       "passmark_cpu_scores"
@@ -23383,7 +23383,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 48942,
+    "score": 48911,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -23412,7 +23412,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 17878,
+    "score": 17871,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -23470,7 +23470,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 18924,
+    "score": 18927,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -23499,7 +23499,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 34225,
+    "score": 34229,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -23673,7 +23673,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 20128,
+    "score": 20440,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -23789,7 +23789,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 29187,
+    "score": 29185,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -24253,7 +24253,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 8261,
+    "score": 8262,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -25124,7 +25124,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 8570,
+    "score": 8573,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -25211,7 +25211,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 11197,
+    "score": 11198,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -26864,7 +26864,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 1802,
+    "score": 1803,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -29039,7 +29039,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 5270,
+    "score": 5268,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -29068,7 +29068,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 4180,
+    "score": 4179,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -29677,7 +29677,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 9519,
+    "score": 9520,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -29852,7 +29852,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 8194,
+    "score": 8193,
     "sources": [
       "passmark_cpu_catalog",
       "passmark_cpu_scores"
@@ -30174,7 +30174,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 12970,
+    "score": 12969,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -30232,7 +30232,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 10974,
+    "score": 10958,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -30551,7 +30551,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 10836,
+    "score": 10839,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -30639,7 +30639,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 16884,
+    "score": 16883,
     "sources": [
       "passmark_cpu_catalog",
       "passmark_cpu_scores"
@@ -30669,7 +30669,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 15188,
+    "score": 15186,
     "sources": [
       "passmark_cpu_catalog",
       "passmark_cpu_scores"
@@ -30757,7 +30757,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 9227,
+    "score": 9226,
     "sources": [
       "passmark_cpu_catalog",
       "passmark_cpu_scores"
@@ -30845,7 +30845,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 17076,
+    "score": 17077,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -30961,7 +30961,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 9624,
+    "score": 9625,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -31135,7 +31135,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 12621,
+    "score": 12620,
     "sources": [
       "passmark_cpu_catalog",
       "passmark_cpu_scores"
@@ -31252,7 +31252,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 16026,
+    "score": 16027,
     "sources": [
       "passmark_cpu_catalog",
       "passmark_cpu_scores"
@@ -31775,7 +31775,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 13105,
+    "score": 13097,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -31804,7 +31804,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 13945,
+    "score": 13944,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -31949,7 +31949,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 18457,
+    "score": 18461,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -32007,7 +32007,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 24848,
+    "score": 24850,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -32036,7 +32036,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 14051,
+    "score": 14041,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -32181,7 +32181,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 21035,
+    "score": 21033,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -32326,7 +32326,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 22821,
+    "score": 22896,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -32790,7 +32790,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 3857,
+    "score": 3858,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -33602,7 +33602,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 4100,
+    "score": 4098,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -34385,7 +34385,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 3054,
+    "score": 3057,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -35777,7 +35777,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 4063,
+    "score": 4064,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -37053,7 +37053,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 5016,
+    "score": 5019,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -38712,7 +38712,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 7721,
+    "score": 7720,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -39206,7 +39206,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 10653,
+    "score": 10654,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -39467,7 +39467,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 16027,
+    "score": 16028,
     "sources": [
       "passmark_cpu_catalog",
       "passmark_cpu_scores"
@@ -39585,7 +39585,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 18333,
+    "score": 18332,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -39760,7 +39760,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 11540,
+    "score": 11539,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -39789,7 +39789,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 13993,
+    "score": 13994,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -39876,7 +39876,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 11545,
+    "score": 11542,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -40051,7 +40051,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 20638,
+    "score": 20640,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -40109,7 +40109,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 20793,
+    "score": 20792,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -40285,7 +40285,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 19762,
+    "score": 19761,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -40488,7 +40488,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 12954,
+    "score": 12950,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -40633,7 +40633,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 13163,
+    "score": 13160,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -40982,7 +40982,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 20060,
+    "score": 20049,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -41040,7 +41040,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 14009,
+    "score": 14010,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -41098,7 +41098,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 23477,
+    "score": 23475,
     "sources": [
       "passmark_cpu_catalog",
       "passmark_cpu_scores"
@@ -41128,7 +41128,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 30359,
+    "score": 30357,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -41273,7 +41273,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 26010,
+    "score": 26008,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -41505,7 +41505,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 26224,
+    "score": 26195,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -41592,7 +41592,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 33891,
+    "score": 33900,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -41621,7 +41621,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 36857,
+    "score": 36870,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -41940,7 +41940,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 3561,
+    "score": 3559,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -42578,7 +42578,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2348,
+    "score": 2349,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -43884,7 +43884,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 5529,
+    "score": 5528,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -44174,7 +44174,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 6020,
+    "score": 6021,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -44727,7 +44727,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 6203,
+    "score": 6204,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -45946,7 +45946,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 8939,
+    "score": 8940,
     "sources": [
       "passmark_cpu_catalog",
       "passmark_cpu_scores"
@@ -46063,7 +46063,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 10713,
+    "score": 10712,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -46179,7 +46179,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 6754,
+    "score": 6752,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -46527,7 +46527,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 3697,
+    "score": 3696,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -46556,7 +46556,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 4029,
+    "score": 4028,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -47081,7 +47081,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 5798,
+    "score": 5797,
     "sources": [
       "passmark_cpu_catalog",
       "passmark_cpu_scores"
@@ -47343,7 +47343,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 6177,
+    "score": 6176,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -47489,7 +47489,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 13575,
+    "score": 13576,
     "sources": [
       "passmark_cpu_catalog",
       "passmark_cpu_scores"
@@ -47752,7 +47752,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 8442,
+    "score": 8444,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -48189,7 +48189,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 14258,
+    "score": 14256,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -48480,7 +48480,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 10854,
+    "score": 10853,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -48683,7 +48683,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 14308,
+    "score": 14309,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -48799,7 +48799,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 22301,
+    "score": 22300,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -49147,7 +49147,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 19892,
+    "score": 19888,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -49292,7 +49292,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 20458,
+    "score": 20459,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -49321,7 +49321,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 22136,
+    "score": 22134,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -49379,7 +49379,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 26827,
+    "score": 26823,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -49495,7 +49495,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 24017,
+    "score": 23606,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -49611,7 +49611,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 26849,
+    "score": 26856,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -49640,7 +49640,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 41976,
+    "score": 41966,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -49756,7 +49756,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 45713,
+    "score": 45692,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -49785,7 +49785,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 44253,
+    "score": 44254,
     "sources": [
       "passmark_cpu_catalog",
       "passmark_cpu_scores"
@@ -50047,7 +50047,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 20540,
+    "score": 20547,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -50076,7 +50076,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 13486,
+    "score": 13485,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -50163,7 +50163,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 18071,
+    "score": 18070,
     "sources": [
       "passmark_cpu_catalog",
       "passmark_cpu_scores"
@@ -50512,7 +50512,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2463,
+    "score": 2460,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -51295,7 +51295,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 1144,
+    "score": 1147,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -62431,7 +62431,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 5242,
+    "score": 5240,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -68231,7 +68231,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 5171,
+    "score": 5173,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -71276,7 +71276,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 9305,
+    "score": 9306,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -73422,7 +73422,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 11077,
+    "score": 11081,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -75017,7 +75017,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 10025,
+    "score": 10010,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -75452,7 +75452,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 21378,
+    "score": 21380,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -75510,7 +75510,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 14240,
+    "score": 14241,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -83427,7 +83427,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 10323,
+    "score": 10326,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -83833,7 +83833,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 14726,
+    "score": 14786,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -84413,7 +84413,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 17335,
+    "score": 17345,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -84587,7 +84587,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 14388,
+    "score": 14406,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -84703,7 +84703,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 18518,
+    "score": 18484,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -85225,7 +85225,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 14381,
+    "score": 14382,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -86269,7 +86269,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 3075,
+    "score": 3096,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -86414,7 +86414,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 6420,
+    "score": 6416,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -86907,7 +86907,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2325,
+    "score": 2332,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -87023,7 +87023,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 3359,
+    "score": 3361,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -88096,7 +88096,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 45113,
+    "score": 45085,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -88270,7 +88270,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 33120,
+    "score": 33322,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -88328,7 +88328,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 45498,
+    "score": 45703,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -88531,7 +88531,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 54836,
+    "score": 54766,
     "sources": [
       "passmark_cpu_catalog"
     ]
@@ -91288,7 +91288,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 30396,
+    "score": 30399,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -91318,7 +91318,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 31129,
+    "score": 31126,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -91378,7 +91378,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 43210,
+    "score": 43211,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -91438,7 +91438,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 49794,
+    "score": 49734,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -91498,7 +91498,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 58540,
+    "score": 58541,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -91528,7 +91528,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 57424,
+    "score": 57394,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -91970,7 +91970,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 15131,
+    "score": 15129,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -92000,7 +92000,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 15401,
+    "score": 15406,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -93975,7 +93975,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 19737,
+    "score": 19738,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -94035,7 +94035,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 27545,
+    "score": 27544,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs",
@@ -94096,7 +94096,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 23855,
+    "score": 23850,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -94246,7 +94246,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 37549,
+    "score": 37548,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -94306,7 +94306,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 25178,
+    "score": 25179,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -94396,7 +94396,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 38460,
+    "score": 38459,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -94426,7 +94426,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 38450,
+    "score": 38447,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -97153,7 +97153,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 29950,
+    "score": 29951,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs",
@@ -97184,7 +97184,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 30285,
+    "score": 30286,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -97306,7 +97306,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 37953,
+    "score": 37952,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -97336,7 +97336,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 45719,
+    "score": 45717,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs",
@@ -97457,7 +97457,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 41469,
+    "score": 41465,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -97487,7 +97487,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 52049,
+    "score": 52050,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs",
@@ -97518,7 +97518,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 52149,
+    "score": 52148,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs",
@@ -99844,7 +99844,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 40729,
+    "score": 40730,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -99874,7 +99874,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 43452,
+    "score": 43453,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -99904,7 +99904,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 44876,
+    "score": 44893,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -99995,7 +99995,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 57633,
+    "score": 57609,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -100145,7 +100145,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 58289,
+    "score": 58290,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs",
@@ -100176,7 +100176,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 60248,
+    "score": 60243,
     "sources": [
       "passmark_cpu_catalog",
       "pc_part_dataset_cpu_specs"
@@ -107493,7 +107493,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 68208,
+    "score": 67810,
     "sources": [
       "passmark_cpu_catalog",
       "techpowerup_cpu_specs"
@@ -107555,7 +107555,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 30657,
+    "score": 30642,
     "sources": [
       "passmark_cpu_catalog",
       "techpowerup_cpu_specs"
@@ -107586,7 +107586,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 56000,
+    "score": 56006,
     "sources": [
       "passmark_cpu_catalog",
       "techpowerup_cpu_specs"
@@ -107650,7 +107650,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 67325,
+    "score": 67327,
     "sources": [
       "passmark_cpu_catalog",
       "techpowerup_cpu_specs",
@@ -107993,7 +107993,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 34380,
+    "score": 34339,
     "sources": [
       "passmark_cpu_catalog",
       "techpowerup_cpu_specs"
@@ -108055,7 +108055,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 17010,
+    "score": 17012,
     "sources": [
       "passmark_cpu_catalog",
       "techpowerup_cpu_specs",
@@ -108120,7 +108120,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 58394,
+    "score": 58393,
     "sources": [
       "passmark_cpu_catalog",
       "techpowerup_cpu_specs",

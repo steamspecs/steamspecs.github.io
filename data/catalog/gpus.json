@@ -7470,7 +7470,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 5414,
+    "score": 5287,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -9234,7 +9234,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2362,
+    "score": 2380,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -13098,7 +13098,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 3201,
+    "score": 3199,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -13294,7 +13294,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 9377,
+    "score": 9381,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -13434,7 +13434,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 11726,
+    "score": 11709,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -13518,7 +13518,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2755,
+    "score": 2749,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -14134,7 +14134,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 6984,
+    "score": 6983,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -14806,7 +14806,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 15332,
+    "score": 15331,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -14890,7 +14890,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 17840,
+    "score": 17826,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -14946,7 +14946,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 6506,
+    "score": 6507,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -15002,7 +15002,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 7301,
+    "score": 7302,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -15814,7 +15814,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 14852,
+    "score": 14855,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -15926,7 +15926,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 19724,
+    "score": 19738,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -16010,7 +16010,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 20672,
+    "score": 20676,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -16038,7 +16038,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 28329,
+    "score": 28359,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -16262,7 +16262,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 10054,
+    "score": 10052,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -16458,7 +16458,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 9473,
+    "score": 9472,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -16514,7 +16514,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 12698,
+    "score": 12699,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -16570,7 +16570,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 19388,
+    "score": 19389,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -16598,7 +16598,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 14802,
+    "score": 14804,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -16654,7 +16654,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 20737,
+    "score": 20739,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -17130,7 +17130,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 33542,
+    "score": 33348,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -17158,7 +17158,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 13203,
+    "score": 13204,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -17270,7 +17270,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 32506,
+    "score": 32455,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -18250,7 +18250,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 7801,
+    "score": 7798,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -119514,7 +119514,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2979,
+    "score": 2980,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -119630,7 +119630,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 16144,
+    "score": 16165,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -119659,7 +119659,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 18128,
+    "score": 18133,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -119688,7 +119688,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 4876,
+    "score": 4877,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -119717,7 +119717,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 7686,
+    "score": 7685,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -119833,7 +119833,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 26813,
+    "score": 26858,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -130737,7 +130737,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 405,
+    "score": 406,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -132854,7 +132854,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2836,
+    "score": 2840,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -133376,7 +133376,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 8439,
+    "score": 8407,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -134826,7 +134826,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2603,
+    "score": 2601,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -135174,7 +135174,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 316,
+    "score": 315,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -140278,7 +140278,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 6081,
+    "score": 6080,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -142631,7 +142631,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 18934,
+    "score": 18933,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -142835,7 +142835,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 22022,
+    "score": 22025,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -142864,7 +142864,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 25035,
+    "score": 25036,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -143009,7 +143009,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 26668,
+    "score": 26669,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -143415,7 +143415,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 27372,
+    "score": 27367,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -143444,7 +143444,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 29016,
+    "score": 29015,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -143560,7 +143560,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 20122,
+    "score": 20121,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -143589,7 +143589,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 19815,
+    "score": 19813,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -143618,7 +143618,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 25376,
+    "score": 25372,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -143676,7 +143676,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 26897,
+    "score": 26896,
     "sources": [
       "passmark_gpu_catalog",
       "passmark_gpu_scores"
@@ -143909,7 +143909,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 1769,
+    "score": 1778,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -144170,7 +144170,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 6553,
+    "score": 6555,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -144982,7 +144982,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2418,
+    "score": 2412,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -145185,7 +145185,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2086,
+    "score": 2085,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -145214,7 +145214,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2037,
+    "score": 2035,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -146200,7 +146200,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2297,
+    "score": 2298,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -146316,7 +146316,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2387,
+    "score": 2386,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -146345,7 +146345,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2417,
+    "score": 2415,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -146519,7 +146519,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 1650,
+    "score": 1649,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -146577,7 +146577,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2309,
+    "score": 2307,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -148259,7 +148259,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 944,
+    "score": 946,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -151482,7 +151482,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 1984,
+    "score": 1983,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -156413,7 +156413,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 28071,
+    "score": 28072,
     "sources": [
       "passmark_gpu_catalog",
       "pc_part_dataset_gpu_specs"
@@ -157168,7 +157168,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 5485,
+    "score": 5484,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -157226,7 +157226,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 4495,
+    "score": 4494,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -157284,7 +157284,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 6616,
+    "score": 6614,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -157458,7 +157458,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 6294,
+    "score": 6292,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -157603,7 +157603,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 12626,
+    "score": 12628,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -157719,7 +157719,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 9093,
+    "score": 9092,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -157806,7 +157806,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 15905,
+    "score": 15906,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -157922,7 +157922,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 6630,
+    "score": 6628,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -158067,7 +158067,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 15636,
+    "score": 18784,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -162747,7 +162747,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 41,
+    "score": 43,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -164228,7 +164228,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 3801,
+    "score": 3803,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -168927,7 +168927,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 368,
+    "score": 371,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -169217,7 +169217,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 1420,
+    "score": 1421,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -170032,7 +170032,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 7845,
+    "score": 7847,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -170120,7 +170120,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 14660,
+    "score": 14661,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -170355,7 +170355,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 10187,
+    "score": 10186,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -170442,7 +170442,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 6333,
+    "score": 6332,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -170530,7 +170530,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 12654,
+    "score": 12653,
     "sources": [
       "passmark_gpu_catalog",
       "passmark_gpu_scores"
@@ -170850,7 +170850,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 2270,
+    "score": 2271,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -171256,7 +171256,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 3076,
+    "score": 3077,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -172474,7 +172474,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 3092,
+    "score": 3093,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -172881,7 +172881,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 13644,
+    "score": 13641,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -173693,7 +173693,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 1815,
+    "score": 1814,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -173809,7 +173809,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 3719,
+    "score": 3718,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -174187,7 +174187,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 16064,
+    "score": 16065,
     "sources": [
       "passmark_gpu_catalog",
       "passmark_gpu_scores"
@@ -174305,7 +174305,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 11410,
+    "score": 11403,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -174334,7 +174334,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 18601,
+    "score": 18600,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -174392,7 +174392,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 19450,
+    "score": 19448,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -174450,7 +174450,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 21472,
+    "score": 21473,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -174508,7 +174508,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 9496,
+    "score": 9495,
     "sources": [
       "passmark_gpu_catalog",
       "passmark_gpu_scores"
@@ -174567,7 +174567,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 10132,
+    "score": 10129,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -174919,7 +174919,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 15101,
+    "score": 15100,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -175066,7 +175066,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 16151,
+    "score": 16153,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -175125,7 +175125,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 18948,
+    "score": 18940,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -175154,7 +175154,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 26547,
+    "score": 26548,
     "sources": [
       "passmark_gpu_catalog",
       "passmark_gpu_scores"
@@ -175213,7 +175213,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 14306,
+    "score": 14305,
     "sources": [
       "passmark_gpu_catalog",
       "passmark_gpu_scores"
@@ -175303,7 +175303,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 22614,
+    "score": 22611,
     "sources": [
       "passmark_gpu_catalog",
       "passmark_gpu_scores"
@@ -175362,7 +175362,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 26918,
+    "score": 26919,
     "sources": [
       "passmark_gpu_catalog",
       "passmark_gpu_scores"
@@ -175392,7 +175392,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 19506,
+    "score": 19505,
     "sources": [
       "passmark_gpu_catalog",
       "passmark_gpu_scores"
@@ -175422,7 +175422,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 29972,
+    "score": 29973,
     "sources": [
       "passmark_gpu_catalog",
       "passmark_gpu_scores"
@@ -175452,7 +175452,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 31575,
+    "score": 31576,
     "sources": [
       "passmark_gpu_catalog",
       "passmark_gpu_scores"
@@ -175482,7 +175482,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 31803,
+    "score": 31800,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -175511,7 +175511,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 34435,
+    "score": 34436,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -175540,7 +175540,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 24712,
+    "score": 24714,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -175686,7 +175686,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 17310,
+    "score": 17302,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -175744,7 +175744,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 20818,
+    "score": 20819,
     "sources": [
       "passmark_gpu_catalog",
       "passmark_gpu_scores"
@@ -175774,7 +175774,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 16879,
+    "score": 16882,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -175803,7 +175803,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 22672,
+    "score": 22662,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -175832,7 +175832,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 22317,
+    "score": 22314,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -175861,7 +175861,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 28758,
+    "score": 28759,
     "sources": [
       "passmark_gpu_catalog",
       "passmark_gpu_scores"
@@ -175920,7 +175920,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 32432,
+    "score": 32431,
     "sources": [
       "passmark_gpu_catalog",
       "passmark_gpu_scores"
@@ -175950,7 +175950,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 22642,
+    "score": 22633,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -175979,7 +175979,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 35686,
+    "score": 35689,
     "sources": [
       "passmark_gpu_catalog",
       "passmark_gpu_scores"
@@ -176009,7 +176009,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 26488,
+    "score": 26485,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -176038,7 +176038,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 38982,
+    "score": 38984,
     "sources": [
       "passmark_gpu_catalog"
     ]
@@ -176125,7 +176125,7 @@
     "architecture": null,
     "bus_interface": null,
     "memory_type": null,
-    "score": 28341,
+    "score": 28299,
     "sources": [
       "passmark_gpu_catalog"
     ]
