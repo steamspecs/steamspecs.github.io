@@ -216,6 +216,11 @@ def fetch_json_with_retry(url: str, attempts: int = 4, base_sleep: float = 0.8):
     raise RuntimeError(f"Failed to fetch {url}: {last_error}") from last_error
 
 
+def is_rate_limited_error(error: Exception) -> bool:
+    text = str(error)
+    return "429" in text or "Too Many Requests" in text
+
+
 def load_seed_app_list(seed_index: Path):
     if not seed_index.exists():
         return None
@@ -523,10 +528,23 @@ def discover_new_appids(base_appids: list[int], args: Args, catalogs: dict[str, 
     consecutive_misses = 0
 
     for appid in range(start_appid, start_appid + args.discover_window):
-        payload = get_app_details(appid, args.cache_dir, False)
-        record = normalize_app_record(appid, payload, catalogs)
-
         state["last_checked_appid"] = appid
+        save_discovery_state(args.cache_dir, state)
+
+        try:
+            payload = get_app_details(appid, args.cache_dir, False)
+            record = normalize_app_record(appid, payload, catalogs)
+        except Exception as error:
+            if is_rate_limited_error(error):
+                state["paused_due_to_rate_limit"] = True
+                state["paused_at_appid"] = appid
+                state["paused_at"] = utc_timestamp()
+                state["last_error"] = clean_text(error)
+                save_discovery_state(args.cache_dir, state)
+                print(f"Discovery paused at appid {appid} due to Steam rate limiting (429).")
+                print("Resume later, or retry with a larger --request-delay-ms.")
+                return discovered_ids
+            raise
 
         if record:
             discovered_ids.append(appid)
@@ -534,6 +552,10 @@ def discover_new_appids(base_appids: list[int], args: Args, catalogs: dict[str, 
             consecutive_misses = 0
             state["last_found_appid"] = appid
             state["consecutive_misses"] = 0
+            state.pop("paused_due_to_rate_limit", None)
+            state.pop("paused_at_appid", None)
+            state.pop("paused_at", None)
+            state.pop("last_error", None)
             if len(discovered_ids) <= 10 or len(discovered_ids) % 25 == 0:
                 print(f"Discovered appid {appid}: {record['name']} ({record['type']})")
         else:
