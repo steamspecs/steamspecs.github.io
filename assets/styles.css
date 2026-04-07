@@ -14,7 +14,7 @@
   --radius: 18px;
   --radius2: 22px;
   --topbar-h: 100px;
-  --footer-h: 80px;
+  --footer-h: 92px;
   --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-synthesis: none;
 }
@@ -105,10 +105,10 @@ body{
 }
 
 .layout{
-  height:calc(100vh - var(--topbar-h) - var(--footer-h));
+  height:calc(100vh - var(--topbar-h) - var(--footer-h) - 6px);
   max-width:1200px;
   margin:0 auto;
-  padding:0 16px 4px;
+  padding:0 16px 12px;
   display:grid;
   grid-template-columns: 1.05fr .95fr;
   gap:16px;
@@ -117,7 +117,7 @@ body{
 @media (max-width: 980px){
   :root{
     --topbar-h: 96px;
-    --footer-h: 96px;
+    --footer-h: 108px;
   }
 
   .layout{
@@ -286,8 +286,38 @@ body{
 }
 
 .footerBtn{
-  min-height:38px;
+  min-height:42px;
   white-space:nowrap;
+  padding:10px 14px;
+}
+
+.footerAction{
+  gap:8px;
+}
+
+.footerIcon{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:18px;
+  height:18px;
+  flex:0 0 18px;
+}
+
+.btcIcon{
+  font-size:16px;
+  font-weight:700;
+  color:#f59e0b;
+}
+
+.paypalBtn{
+  width:42px;
+  min-width:42px;
+  padding:0;
+}
+
+.paypalLogo{
+  display:block;
 }
 
 .h1{font-size:18px;font-weight:750}

@@ -30,16 +30,25 @@
     {
       "id": "manual_components",
       "type": "normalized_components",
+      "optional": true,
       "path": "data/catalog/sources/manual_components.json"
+    },
+    {
+      "id": "legacy_enrichment_components",
+      "type": "normalized_components",
+      "optional": true,
+      "path": "data/catalog/sources/legacy_enrichment_components.json"
     },
     {
       "id": "manual_scores",
       "type": "score_overrides",
+      "optional": true,
       "path": "data/catalog/sources/manual_scores.json"
     },
     {
       "id": "manual_aliases",
       "type": "alias_overrides",
+      "optional": true,
       "path": "data/catalog/sources/manual_aliases.json"
     },
     {
@@ -59,6 +68,28 @@
         "threads": "threads",
         "base_ghz": "base_ghz",
         "boost_ghz": "boost_ghz",
+        "aliases": ["name", "model"]
+      }
+    },
+    {
+      "id": "cpu_world_cpu_specs",
+      "type": "mapped_components",
+      "format": "csv",
+      "enabled": true,
+      "optional": true,
+      "kind": "cpu",
+      "path": "data/catalog/imports/cpu_world_cpus.csv",
+      "columns": {
+        "name": "name",
+        "brand": "brand",
+        "family": "family",
+        "model": "model",
+        "cores": "cores",
+        "threads": "threads",
+        "base_ghz": "base_ghz",
+        "boost_ghz": "boost_ghz",
+        "process_nm": "process_nm",
+        "release_year": "release_year",
         "aliases": ["name", "model"]
       }
     },

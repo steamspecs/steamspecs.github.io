@@ -9,7 +9,19 @@ from typing import Any
 from urllib.request import Request, urlopen
 
 
-NUMERIC_FIELDS = {"cores", "threads", "base_ghz", "boost_ghz", "vram_gb", "score"}
+NUMERIC_FIELDS = {
+    "cores",
+    "threads",
+    "base_ghz",
+    "boost_ghz",
+    "vram_gb",
+    "score",
+    "release_year",
+    "process_nm",
+    "directx",
+    "opengl",
+    "shader_model",
+}
 
 
 def clean_text(value: Any) -> str | None:
@@ -59,6 +71,42 @@ def to_number(value: Any) -> float | int | None:
     if number.is_integer():
         return int(number)
     return number
+
+
+def infer_cpu_clock_ghz(name: str | None) -> float | None:
+    text = clean_text(name)
+    if not text:
+        return None
+
+    ghz_match = re.search(r"(\d+(?:\.\d+)?)\s*ghz\b", text, re.IGNORECASE)
+    if ghz_match:
+        return float(ghz_match.group(1))
+
+    mhz_match = re.search(r"(\d+(?:\.\d+)?)\s*mhz\b", text, re.IGNORECASE)
+    if mhz_match:
+        return float(mhz_match.group(1)) / 1000
+
+    at_match = re.search(r"@\s*(\d+(?:\.\d+)?)\s*ghz\b", text, re.IGNORECASE)
+    if at_match:
+        return float(at_match.group(1))
+
+    return None
+
+
+def infer_vram_gb(name: str | None) -> float | None:
+    text = clean_text(name)
+    if not text:
+        return None
+
+    gb_match = re.search(r"(\d+(?:\.\d+)?)\s*gb\b", text, re.IGNORECASE)
+    if gb_match:
+        return float(gb_match.group(1))
+
+    mb_match = re.search(r"(\d+(?:\.\d+)?)\s*mb\b", text, re.IGNORECASE)
+    if mb_match:
+        return float(mb_match.group(1)) / 1024
+
+    return None
 
 
 def normalize_numeric_fields(component: dict) -> dict:
@@ -150,6 +198,10 @@ def create_component(component: dict) -> dict:
     normalized["family"] = clean_text(normalized.get("family"))
     normalized["model"] = clean_text(normalized.get("model"))
     normalized["sources"] = list(normalized.get("sources") or [])
+    if normalized["kind"] == "cpu" and normalized.get("base_ghz") in (None, ""):
+        normalized["base_ghz"] = infer_cpu_clock_ghz(normalized.get("name"))
+    if normalized["kind"] == "gpu" and normalized.get("vram_gb") in (None, ""):
+        normalized["vram_gb"] = infer_vram_gb(normalized.get("name"))
     normalized["aliases"] = build_component_aliases(normalized)
     normalized["id"] = clean_text(normalized.get("id")) or generate_component_id(normalized)
 
@@ -166,6 +218,14 @@ def create_component(component: dict) -> dict:
         "base_ghz": normalized.get("base_ghz"),
         "boost_ghz": normalized.get("boost_ghz"),
         "vram_gb": normalized.get("vram_gb"),
+        "release_year": normalized.get("release_year"),
+        "process_nm": normalized.get("process_nm"),
+        "directx": normalized.get("directx"),
+        "opengl": normalized.get("opengl"),
+        "shader_model": normalized.get("shader_model"),
+        "architecture": clean_text(normalized.get("architecture")),
+        "bus_interface": clean_text(normalized.get("bus_interface")),
+        "memory_type": clean_text(normalized.get("memory_type")),
         "score": normalized.get("score"),
         "sources": normalized.get("sources") or [],
     }
@@ -174,7 +234,27 @@ def create_component(component: dict) -> dict:
 def merge_component(existing: dict, incoming: dict) -> dict:
     merged = dict(existing)
 
-    for key in ["kind", "brand", "family", "model", "name", "cores", "threads", "base_ghz", "boost_ghz", "vram_gb", "score"]:
+    for key in [
+        "kind",
+        "brand",
+        "family",
+        "model",
+        "name",
+        "cores",
+        "threads",
+        "base_ghz",
+        "boost_ghz",
+        "vram_gb",
+        "release_year",
+        "process_nm",
+        "directx",
+        "opengl",
+        "shader_model",
+        "architecture",
+        "bus_interface",
+        "memory_type",
+        "score",
+    ]:
         if merged.get(key) in (None, "") and incoming.get(key) not in (None, ""):
             merged[key] = incoming.get(key)
 
@@ -311,6 +391,14 @@ def map_component_row(row: dict, source: dict) -> dict:
         "base_ghz": to_number(read_mapped_value(row, columns.get("base_ghz"))),
         "boost_ghz": to_number(read_mapped_value(row, columns.get("boost_ghz"))),
         "vram_gb": to_number(read_mapped_value(row, columns.get("vram_gb"))),
+        "release_year": to_number(read_mapped_value(row, columns.get("release_year"))),
+        "process_nm": to_number(read_mapped_value(row, columns.get("process_nm"))),
+        "directx": to_number(read_mapped_value(row, columns.get("directx"))),
+        "opengl": to_number(read_mapped_value(row, columns.get("opengl"))),
+        "shader_model": to_number(read_mapped_value(row, columns.get("shader_model"))),
+        "architecture": clean_text(read_mapped_value(row, columns.get("architecture"))),
+        "bus_interface": clean_text(read_mapped_value(row, columns.get("bus_interface"))),
+        "memory_type": clean_text(read_mapped_value(row, columns.get("memory_type"))),
         "score": to_number(read_mapped_value(row, columns.get("score"))),
         "aliases": [],
         "sources": [source.get("id")],

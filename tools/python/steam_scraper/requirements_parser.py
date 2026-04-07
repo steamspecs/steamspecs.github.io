@@ -79,6 +79,32 @@ def parse_size_in_gb(text: str | None) -> float | None:
     return value
 
 
+def parse_graphics_memory_gb(text: str | None) -> float | None:
+    normalized = (clean_text(text) or "").lower()
+    if not normalized:
+        return None
+    if not re.search(r"\b(vram|video memory|video card|graphics|graphic card|dedicated)\b", normalized):
+        return None
+    return parse_size_in_gb(normalized)
+
+
+def update_graphics_api_fields(req: dict, text: str | None) -> None:
+    normalized = clean_text(text)
+    if not normalized:
+        return
+
+    directx_match = re.search(r"(directx|direct3d)\s*([0-9]+(?:\.[0-9]+)?)", normalized, re.IGNORECASE)
+    if directx_match and req["directx"] is None:
+        req["directx"] = normalize_number(directx_match.group(2))
+
+    opengl_match = re.search(r"opengl\s*([0-9]+(?:\.[0-9]+)?)", normalized, re.IGNORECASE)
+    if opengl_match and req["opengl"] is None:
+        req["opengl"] = normalize_number(opengl_match.group(1))
+
+    if re.search(r"\bvulkan\b", normalized, re.IGNORECASE):
+        req["vulkan"] = True
+
+
 def choose_better_text(current: str | None, new_value: str | None) -> str | None:
     a = clean_text(current)
     b = clean_text(new_value)
@@ -98,7 +124,7 @@ def looks_like_cpu(text: str | None) -> bool:
 
 
 def looks_like_gpu(text: str | None) -> bool:
-    return bool(re.search(r"graphics|gpu|video card|geforce|radeon|gtx|rtx|rx\s*\d|intel hd|iris|arc|nvidia|amd hd", text or "", re.IGNORECASE))
+    return bool(re.search(r"graphics|gpu|video card|video memory|vram|geforce|radeon|gtx|rtx|rx\s*\d|intel hd|iris|arc|nvidia|amd hd|directx|direct3d|opengl|shader|pci|agp", text or "", re.IGNORECASE))
 
 
 def looks_like_ram(text: str | None) -> bool:
@@ -146,6 +172,24 @@ def assign_from_label(req: dict, label: str | None, value: str | None) -> bool:
 
     if normalized in {"graphics", "video card", "video"} or normalized.startswith("video card "):
         req["gpu"] = choose_better_text(req["gpu"], text)
+        req["vram_gb"] = req["vram_gb"] if req["vram_gb"] is not None else parse_graphics_memory_gb(text)
+        update_graphics_api_fields(req, text)
+        return True
+
+    if "graphics api" in normalized or "graphics api angle" in normalized or "graphics api opengl" in normalized:
+        update_graphics_api_fields(req, text)
+        return True
+
+    if "directx" in normalized:
+        update_graphics_api_fields(req, f"DirectX {text}")
+        return True
+
+    if "opengl" in normalized:
+        update_graphics_api_fields(req, f"OpenGL {text}")
+        return True
+
+    if "vulkan" in normalized:
+        update_graphics_api_fields(req, f"Vulkan {text}")
         return True
 
     if normalized in {"memory", "system memory"}:
@@ -164,6 +208,8 @@ def parse_freeform_line(req: dict, line: str | None) -> None:
     if not text:
         return
 
+    update_graphics_api_fields(req, text)
+
     if not req["os"] and looks_like_os(text):
         req["os"] = text
         return
@@ -178,6 +224,7 @@ def parse_freeform_line(req: dict, line: str | None) -> None:
 
     if not req["gpu"] and looks_like_gpu(text):
         req["gpu"] = text
+        req["vram_gb"] = req["vram_gb"] if req["vram_gb"] is not None else parse_graphics_memory_gb(text)
         return
 
     if not req["cpu"] and looks_like_cpu(text):

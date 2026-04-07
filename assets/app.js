@@ -361,6 +361,19 @@ function parseClockGhz(text) {
   return null;
 }
 
+function parseMemoryGb(text) {
+  const normalized = (cleanText(text)?.toLowerCase() || "").replace(/(\d),(\d)/g, "$1.$2");
+  if (!normalized) return null;
+
+  const gbMatch = normalized.match(/(\d+(?:\.\d+)?)\s*gb\b/);
+  if (gbMatch) return Number(gbMatch[1]);
+
+  const mbMatch = normalized.match(/(\d+(?:\.\d+)?)\s*mb\b/);
+  if (mbMatch) return Number(mbMatch[1]) / 1024;
+
+  return null;
+}
+
 function getCpuClockGhzFromBuild(userText) {
   const userComponent = findCatalogComponent("cpu", userText);
   if (userComponent) {
@@ -368,6 +381,15 @@ function getCpuClockGhzFromBuild(userText) {
     if (knownClock !== null) return knownClock;
   }
   return parseClockGhz(userText);
+}
+
+function getGpuMemoryGbFromBuild(userText) {
+  const userComponent = findCatalogComponent("gpu", userText);
+  if (userComponent) {
+    const knownMemory = toNumberOrNull(userComponent.vram_gb);
+    if (knownMemory !== null) return knownMemory;
+  }
+  return parseMemoryGb(userText);
 }
 
 function compareCpuRequirement(req, userText) {
@@ -387,7 +409,19 @@ function compareCpuRequirement(req, userText) {
 }
 
 function compareGpuRequirement(req, userText) {
-  return compareCatalogComponent("gpu", userText, req?.gpu_match);
+  const catalogCmp = compareCatalogComponent("gpu", userText, req?.gpu_match);
+  if (catalogCmp.status !== "unknown") return catalogCmp;
+
+  const reqVram = toNumberOrNull(req?.vram_gb);
+  const userVram = getGpuMemoryGbFromBuild(userText);
+  if (reqVram !== null) {
+    if (!cleanText(userText)) return { status: "unknown", text: "Your GPU missing", method: null };
+    if (userVram === null) return { status: "unknown", text: "Your GPU memory unknown", method: null };
+    if (userVram >= reqVram) return { status: "good", text: `${userVram}GB > ${reqVram}GB`, method: "exact" };
+    return { status: "bad", text: `${userVram}GB < ${reqVram}GB`, method: "exact" };
+  }
+
+  return catalogCmp;
 }
 
 function buildRequirementChecks(req, build) {

@@ -1,0 +1,1781 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>CPU-World: CPU chart of modern Intel and AMD microprocessors</title>
+<meta name="keywords" content="">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/cpu_world16.css" type="text/css"><style type='text/css'><!--
+table.lh_table { max-width: 800px; }
+table.lh_table td label { cursor: pointer }
+table.lh_table > tbody > tr > td:nth-child(2) { text-align: center }
+table.lh_table table.container_table td { border-left: 0 }
+--></style>
+
+<link rel="icon" href="/Images/fv32.png" sizes="32x32">
+<link rel="icon" href="/Images/fv96.png" sizes="96x96">
+<link rel="icon" href="/Images/fv180.png" sizes="180x180">
+<link rel="search" type="application/opensearchdescription+xml" title="Search CPU-World.com" href="/cw_search.xml">
+<link rel="search" type="application/opensearchdescription+xml" title="Identify CPU" href="/cw_identify.xml">
+</head>
+
+<body>
+<div align='center' class='x_content'><div class='info_content'>
+<table class="nav_table">
+<tr><td colspan=2 height="3"><div style="margin-bottom: 8px"></div></td></tr>
+<tr><td width="210" rowspan="2" class='h_logo'><div><a href="/index.html">CPU-World</a></div></td>
+	<th height="20" class='h_mmenu'><a href="/cpu_news/index.html">News</a> &bull;
+		<a href="/CPUs/index.html">CPUs / Chips</a> &bull;
+		<a href="/benchmarks/">Benchmarks</a> &bull;
+		<a href="/info/index.html">Information</a> &bull;
+		<a href="/forum/">Forum</a> &bull;
+		<a href="/links/index.html">Links</a> &bull;
+		<a href="/about.html">About</a></th>
+</tr>
+<tr> 
+	<td height="20" class='h_smenu'><a href="/CPUs/BSP.html">BSP</a> &bull;
+		<a href="/CPUs/CPU.html">CPU</a> &bull;
+		<a href="/CPUs/FPU.html">FPU</a> &bull;
+		<a href="/CPUs/MCU.html">MCU</a> &bull;
+		<a href="/CPUs/SoC.html">SoC</a> &bull;
+		<a href="/Support/index.html">Other ICs</a> &bull;
+		<a href="/Compare/index.html">Compare CPUs</a> &bull;
+		<a href="/Memorabilia/index.html">Curiosities</a></td>
+</tr>
+</table>
+
+<!--# if expr="$access_level = 0" -->
+<div class='top_search_ad'>
+<div class='top_searchh'><div class='top_searchhi'>
+	<h4 class="side_h4">Search CPU-World</h4>
+	<FORM ACTION='/cgi-bin/SearchSite.pl' METHOD='POST'>
+	<div style='padding: 10px 0 5px 5px'>Search the site / Identify CPU / Quick CPU lookup:</div>
+	<div style='padding: 5px 0 10px 0'><input type=TEXT id='PART_S' name=SEARCH value="" size="15" class='isearch2' onFocus='AS_Focus(this, "/cgi-bin/ajax/parts.fcgi?PART=%PART_S%&amp;ACTION=MATCHFPSAIV&amp;WANT=URL&amp;FIELD=PART_S", 500, null, "URL", null, -5, -26, 1, "1Q")' onBlur='AS_Blur(this)'><input type=SUBMIT name=PROCESS value='Go' class="ibuttonr"></div>
+	</form>
+</div></div>
+
+<div id='AB_W7' class='top_adh'><div class='top_adh2'><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 728 x 90 CW top ad -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-6693271402725072"
+     data-ad-slot="3796502091"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div></div>
+<div class='clear'><!-- --></div>
+</div>
+<!--# else --><!--# include file="/include/search.html" --><!--# endif -->
+
+<div id='AB_B'><noscript><div class='ab_w9'><img src='/Images/js_w9.gif' width=950 height=60 border=0 alt='Please enable Javascript'></div></noscript>
+<div class='yhb'><h1>CPU-World: CPU chart of modern Intel and AMD microprocessors</h1></div>
+<div style='padding: 10px 0 10px 10px'><!-- SEARCH_IBEFORE -->
+<div class='main2_div'>
+<p>Below is a CPU chart of modern x86 microprocessors currently presented on
+CPU-World.com. To see the chart please check the columns you want to display, 
+optionally select one or more conditions used to filter data in columns,
+and click on the <b>Show Data</b> button.
+On the following page you will be able to select more filter conditions for
+the same column or other columns.
+To return back to starting page (this page) click on the
+<b>Reset Filters</b> button.
+
+<p><ul>
+ <li>You can set filter conditions for any column, even if the column is hidden.</li>
+ <li>You can set up to three conditions per each column.</li>
+ <li>The chart will display first 100 records if more than 100 CPUs matched
+ your condition(s). This is done to reduce bandwidth usage.</li>
+ <li>The CPU chart doesn't include processors that are not yet presented on this site.</li>
+</ul>
+<br>
+<form action='/cgi-bin/CPU_Chart.pl' method='POST'><p><input type='submit' name='PROCESS' value='Show Data' class='ibuttonr'>
+<input type='submit' name='CR' value='Reset Filters' class='ibuttonr'>
+
+<input type='hidden' name='CP' value='CHART'>
+<div class='p_div'><table cellspacing=3 cellpadding=0 border=0 width='100%' class='lh_table'>
+<tr><th>&nbsp;</th><th>Show</th><th>Filters</th></tr>
+<tr class="row1"><td><label for='C0F'>Market segment</label></td><td><input type=checkbox id='C0F' name='C0F' value=1 class='checkbox' ></td>
+  <td>
+
+<table cellspacing=0 cellpadding=1 border=0 width='100%' class='container_table'>
+<tr>
+<td><label><input type='checkbox' name='C0V0' value=1 class='checkbox' > Desktop</label></td>
+<td><label><input type='checkbox' name='C0V1' value=1 class='checkbox' > Embedded</label></td>
+<td><label><input type='checkbox' name='C0V2' value=1 class='checkbox' > Mobile</label></td>
+<td><label><input type='checkbox' name='C0V3' value=1 class='checkbox' > Server</label></td>
+</tr>
+</table></td></tr>
+<tr class="row2"><td><label for='C1F'>Manuf.</label></td><td><input type=checkbox id='C1F' name='C1F' value=1 class='checkbox' checked></td>
+  <td>
+
+	<select name='C1C0' id='C1C0' size=1 class='smaller' onChange='clear_on_sel(this, 1, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C1V0' id='C1V0' value="" class='smaller' onChange='set_def_cond(this, 1, 0)'>
+
+<select name='C1X' id='C1X' size=1 onChange="add_sel_value(this, 1, 0)" class='smaller' style='max-width: 170px'>
+<option value=''>Select value</option>
+<option value="AMD">AMD</option>
+<option value="AMI">AMI</option>
+<option value="Ampere Computing">Ampere Computing</option>
+<option value="Apple">Apple</option>
+<option value="BLX IC Design">BLX IC Design</option>
+<option value="CMD">CMD</option>
+<option value="CSG">CSG</option>
+<option value="Cyrix">Cyrix</option>
+<option value="DEC">DEC</option>
+<option value="Fairchild">Fairchild</option>
+<option value="Ferranti">Ferranti</option>
+<option value="Fujitsu">Fujitsu</option>
+<option value="GTE">GTE</option>
+<option value="Harris">Harris</option>
+<option value="Hitachi">Hitachi</option>
+<option value="Hua Ko Electronics">Hua Ko Electronics</option>
+<option value="Hughes Aircraft">Hughes Aircraft</option>
+<option value="IBM">IBM</option>
+<option value="IDT">IDT</option>
+<option value="IIT">IIT</option>
+<option value="Intel">Intel</option>
+<option value="Intersil">Intersil</option>
+<option value="Kawasaki">Kawasaki</option>
+<option value="MHS">MHS</option>
+<option value="MOS Technology">MOS Technology</option>
+<option value="Microsystems International">Microsystems International</option>
+<option value="Mitsubishi">Mitsubishi</option>
+<option value="Monolithic Memories Incorporated">Monolithic Memories Incorporated</option>
+<option value="Mostek">Mostek</option>
+<option value="Motorola">Motorola</option>
+<option value="NEC">NEC</option>
+<option value="NTE">NTE</option>
+<option value="NVIDIA">NVIDIA</option>
+<option value="NXP Semiconductors">NXP Semiconductors</option>
+<option value="National Semiconductor">National Semiconductor</option>
+<option value="NexGen">NexGen</option>
+<option value="OKI">OKI</option>
+<option value="Philips">Philips</option>
+<option value="Qualcomm">Qualcomm</option>
+<option value="RCA">RCA</option>
+<option value="Raytheon">Raytheon</option>
+<option value="Ricoh">Ricoh</option>
+<option value="Rise Technology">Rise Technology</option>
+<option value="Rockwell">Rockwell</option>
+<option value="SGS">SGS</option>
+<option value="ST">ST</option>
+<option value="Sharp">Sharp</option>
+<option value="Siemens">Siemens</option>
+<option value="Signetics">Signetics</option>
+<option value="Sony">Sony</option>
+<option value="Sun Microsystems">Sun Microsystems</option>
+<option value="Synertek">Synertek</option>
+<option value="Texas Instruments">Texas Instruments</option>
+<option value="Thomson">Thomson</option>
+<option value="Toshiba">Toshiba</option>
+<option value="Transmeta">Transmeta</option>
+<option value="Tundra Semiconductor">Tundra Semiconductor</option>
+<option value="UMC">UMC</option>
+<option value="USSR">USSR</option>
+<option value="VIA">VIA</option>
+<option value="WDC">WDC</option>
+<option value="Weitek">Weitek</option>
+<option value="Western Electric">Western Electric</option>
+<option value="Zilog">Zilog</option>
+</select>
+</td></tr>
+<tr class="row1"><td><label for='C2F'>Family</label></td><td><input type=checkbox id='C2F' name='C2F' value=1 class='checkbox' checked></td>
+  <td>
+
+	<select name='C2C0' id='C2C0' size=1 class='smaller' onChange='clear_on_sel(this, 2, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C2V0' id='C2V0' value="" class='smaller' onChange='set_def_cond(this, 2, 0)'>
+
+</td></tr>
+<tr class="row2"><td><label for='C3F'>Model number</label></td><td><input type=checkbox id='C3F' name='C3F' value=1 class='checkbox' checked></td>
+  <td>
+
+	<select name='C3C0' id='C3C0' size=1 class='smaller' onChange='clear_on_sel(this, 3, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C3V0' id='C3V0' value="" class='smaller' onChange='set_def_cond(this, 3, 0)'>
+
+</td></tr>
+<tr class="row1"><td><label for='C4F'>CPU part number</label></td><td><input type=checkbox id='C4F' name='C4F' value=1 class='checkbox' checked></td>
+  <td>
+
+	<select name='C4C0' id='C4C0' size=1 class='smaller' onChange='clear_on_sel(this, 4, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C4V0' id='C4V0' value="" class='smaller' onChange='set_def_cond(this, 4, 0)'>
+
+</td></tr>
+<tr class="row2"><td><label for='C5F'>Box part number</label></td><td><input type=checkbox id='C5F' name='C5F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C5C0' id='C5C0' size=1 class='smaller' onChange='clear_on_sel(this, 5, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C5V0' id='C5V0' value="" class='smaller' onChange='set_def_cond(this, 5, 0)'>
+
+</td></tr>
+<tr class="row1"><td><label for='C6F'>Core name</label></td><td><input type=checkbox id='C6F' name='C6F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C6C0' id='C6C0' size=1 class='smaller' onChange='clear_on_sel(this, 6, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C6V0' id='C6V0' value="" class='smaller' onChange='set_def_cond(this, 6, 0)'>
+
+</td></tr>
+<tr class="row2"><td><label for='C7F'>Platform name</label></td><td><input type=checkbox id='C7F' name='C7F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C7C0' id='C7C0' size=1 class='smaller' onChange='clear_on_sel(this, 7, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C7V0' id='C7V0' value="" class='smaller' onChange='set_def_cond(this, 7, 0)'>
+
+<select name='C7X' id='C7X' size=1 onChange="add_sel_value(this, 7, 0)" class='smaller' style='max-width: 170px'>
+<option value=''>Select value</option>
+<option value=""></option>
+<option value="2010 HEDT">2010 HEDT</option>
+<option value="2nd Gen Ultrathin">2nd Gen Ultrathin</option>
+<option value="Bakerville">Bakerville</option>
+<option value="Basin Falls">Basin Falls</option>
+<option value="Bay Trail-D">Bay Trail-D</option>
+<option value="Bay Trail-I">Bay Trail-I</option>
+<option value="Bay Trail-M">Bay Trail-M</option>
+<option value="Bay Trail-T">Bay Trail-T</option>
+<option value="Bensley-VS; Glidewell">Bensley-VS; Glidewell</option>
+<option value="Bensley; Bensley-VS; Cranberry Lake; Stoakley">Bensley; Bensley-VS; Cranberry Lake; Stoakley</option>
+<option value="Bensley; Cranberry Lake; Glidewell">Bensley; Cranberry Lake; Glidewell</option>
+<option value="Bensley; Glidewell">Bensley; Glidewell</option>
+<option value="Bilby">Bilby</option>
+<option value="Birch Stream AP">Birch Stream AP</option>
+<option value="Bordenville">Bordenville</option>
+<option value="Boxboro-EX">Boxboro-EX</option>
+<option value="Boxboro-MC">Boxboro-MC</option>
+<option value="Brazos">Brazos</option>
+<option value="Brazos 2.0">Brazos 2.0</option>
+<option value="Brazos-T">Brazos-T</option>
+<option value="Brickland">Brickland</option>
+<option value="Bromolow">Bromolow</option>
+<option value="Calpella">Calpella</option>
+<option value="Caneland">Caneland</option>
+<option value="Carlow">Carlow</option>
+<option value="Cartwheel">Cartwheel</option>
+<option value="Cartwheel; Spider">Cartwheel; Spider</option>
+<option value="Catlow">Catlow</option>
+<option value="Cedar Island">Cedar Island</option>
+<option value="Cedar Trail">Cedar Trail</option>
+<option value="Celadon">Celadon</option>
+<option value="Cherry Trail">Cherry Trail</option>
+<option value="Clovertrail">Clovertrail</option>
+<option value="Clovertrail+">Clovertrail+</option>
+<option value="Comal">Comal</option>
+<option value="Crystal Forest Gladden">Crystal Forest Gladden</option>
+<option value="Danube">Danube</option>
+<option value="Denlow">Denlow</option>
+<option value="Dragon">Dragon</option>
+<option value="Eagle">Eagle</option>
+<option value="Foxhollow-WS">Foxhollow-WS</option>
+<option value="Garlow">Garlow</option>
+<option value="Garlow; Kaylo">Garlow; Kaylo</option>
+<option value="Glacier Falls">Glacier Falls</option>
+<option value="Glen Forest">Glen Forest</option>
+<option value="Grangeville">Grangeville</option>
+<option value="Grantley-EN">Grantley-EN</option>
+<option value="Grantley-EP">Grantley-EP</option>
+<option value="Grantley-EP 2S">Grantley-EP 2S</option>
+<option value="Grantley-EP 4S">Grantley-EP 4S</option>
+<option value="Greenlow">Greenlow</option>
+<option value="Groveport">Groveport</option>
+<option value="Harrisonville">Harrisonville</option>
+<option value="Itanium">Itanium</option>
+<option value="Jakarta">Jakarta</option>
+<option value="Kite">Kite</option>
+<option value="Leo">Leo</option>
+<option value="Lexington">Lexington</option>
+<option value="Lynx">Lynx</option>
+<option value="Maranello">Maranello</option>
+<option value="Medfield">Medfield</option>
+<option value="Montevina">Montevina</option>
+<option value="Montevina; MontevinaPlus">Montevina; MontevinaPlus</option>
+<option value="Moorestown">Moorestown</option>
+<option value="Napa Refresh">Napa Refresh</option>
+<option value="Napa Refresh; Santa Rosa; Santa Rosa Refresh">Napa Refresh; Santa Rosa; Santa Rosa Refresh</option>
+<option value="Netbook '08">Netbook '08</option>
+<option value="Nettop '08">Nettop '08</option>
+<option value="Nile">Nile</option>
+<option value="Oak Trail">Oak Trail</option>
+<option value="Pademelon">Pademelon</option>
+<option value="Perseus">Perseus</option>
+<option value="Pine Trail-D">Pine Trail-D</option>
+<option value="Pine Trail-M">Pine Trail-M</option>
+<option value="Puma">Puma</option>
+<option value="Purley">Purley</option>
+<option value="Queens Bay">Queens Bay</option>
+<option value="Romley-EN">Romley-EN</option>
+<option value="Romley-EP; Romley-WS">Romley-EP; Romley-WS</option>
+<option value="Romley-WS">Romley-WS</option>
+<option value="Sabine">Sabine</option>
+<option value="San Marino; Adelaide">San Marino; Adelaide</option>
+<option value="Santa Rosa">Santa Rosa</option>
+<option value="Santa Rosa Refresh">Santa Rosa Refresh</option>
+<option value="Santa Rosa; Santa Rosa Refresh">Santa Rosa; Santa Rosa Refresh</option>
+<option value="Scorpius">Scorpius</option>
+<option value="Shark Bay">Shark Bay</option>
+<option value="Tatlow">Tatlow</option>
+<option value="Tigris">Tigris</option>
+<option value="Truland">Truland</option>
+<option value="Tylersburg-EP; Tylersburg-EN; Tylersburg-WS">Tylersburg-EP; Tylersburg-EN; Tylersburg-WS</option>
+<option value="Tylersburg-WS">Tylersburg-WS</option>
+<option value="Virgo">Virgo</option>
+<option value="Volan">Volan</option>
+<option value="Whitley">Whitley</option>
+<option value="X58">X58</option>
+</select>
+</td></tr>
+<tr class="row1"><td><label for='C8F'>Microarchitecture</label></td><td><input type=checkbox id='C8F' name='C8F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C8C0' id='C8C0' size=1 class='smaller' onChange='clear_on_sel(this, 8, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C8V0' id='C8V0' value="" class='smaller' onChange='set_def_cond(this, 8, 0)'>
+
+<select name='C8X' id='C8X' size=1 onChange="add_sel_value(this, 8, 0)" class='smaller' style='max-width: 170px'>
+<option value=''>Select value</option>
+<option value=""></option>
+<option value="ARM7">ARM7</option>
+<option value="ARMv7">ARMv7</option>
+<option value="ARMv7-A">ARMv7-A</option>
+<option value="ARMv8-A">ARMv8-A</option>
+<option value="Airmont">Airmont</option>
+<option value="Alder Lake">Alder Lake</option>
+<option value="Alpha AXP">Alpha AXP</option>
+<option value="Amber Lake">Amber Lake</option>
+<option value="Arrow Lake">Arrow Lake</option>
+<option value="Bartlett Lake">Bartlett Lake</option>
+<option value="Bobcat">Bobcat</option>
+<option value="Bonnell">Bonnell</option>
+<option value="Broadwell">Broadwell</option>
+<option value="Bulldozer">Bulldozer</option>
+<option value="Cannon Lake">Cannon Lake</option>
+<option value="Cascade Lake">Cascade Lake</option>
+<option value="Coffee Lake">Coffee Lake</option>
+<option value="Comet Lake">Comet Lake</option>
+<option value="Cooper Lake">Cooper Lake</option>
+<option value="Core">Core</option>
+<option value="Emerald Rapids">Emerald Rapids</option>
+<option value="Excavator">Excavator</option>
+<option value="Goldmont">Goldmont</option>
+<option value="Goldmont Plus">Goldmont Plus</option>
+<option value="Granite Rapids">Granite Rapids</option>
+<option value="Haswell">Haswell</option>
+<option value="Ice Lake">Ice Lake</option>
+<option value="Isaiah">Isaiah</option>
+<option value="Ivy Bridge">Ivy Bridge</option>
+<option value="Jaguar">Jaguar</option>
+<option value="K10">K10</option>
+<option value="K5">K5</option>
+<option value="K6">K6</option>
+<option value="K7">K7</option>
+<option value="K8">K8</option>
+<option value="Kaby Lake">Kaby Lake</option>
+<option value="Lunar Lake">Lunar Lake</option>
+<option value="Many Integrated Cores">Many Integrated Cores</option>
+<option value="Meteor Lake">Meteor Lake</option>
+<option value="Mobile">Mobile</option>
+<option value="Nehalem">Nehalem</option>
+<option value="Neoverse V2">Neoverse V2</option>
+<option value="NetBurst">NetBurst</option>
+<option value="P5">P5</option>
+<option value="P6">P6</option>
+<option value="Piledriver">Piledriver</option>
+<option value="Puma">Puma</option>
+<option value="Puma+">Puma+</option>
+<option value="Raptor Lake">Raptor Lake</option>
+<option value="Rocket Lake">Rocket Lake</option>
+<option value="Saltwell">Saltwell</option>
+<option value="Sandy Bridge">Sandy Bridge</option>
+<option value="Sapphire Rapids">Sapphire Rapids</option>
+<option value="Sierra Forest">Sierra Forest</option>
+<option value="Silvermont">Silvermont</option>
+<option value="Skylake">Skylake</option>
+<option value="Steamroller">Steamroller</option>
+<option value="Tiger Lake">Tiger Lake</option>
+<option value="Tremont">Tremont</option>
+<option value="Westmere">Westmere</option>
+<option value="Whiskey Lake">Whiskey Lake</option>
+<option value="Zen">Zen</option>
+<option value="Zen 2">Zen 2</option>
+<option value="Zen 3">Zen 3</option>
+<option value="Zen 3+">Zen 3+</option>
+<option value="Zen 4">Zen 4</option>
+<option value="Zen 4c">Zen 4c</option>
+<option value="Zen 5">Zen 5</option>
+<option value="Zen 5c">Zen 5c</option>
+<option value="Zen+">Zen+</option>
+<option value="i386">i386</option>
+<option value="i486">i486</option>
+</select>
+</td></tr>
+<tr class="row2"><td><label for='C9F'>Technology (micron)</label></td><td><input type=checkbox id='C9F' name='C9F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C9C0' id='C9C0' size=1 class='smaller' onChange='clear_on_sel(this, 9, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C9V0' id='C9V0' value="" class='smaller' onChange='set_def_cond(this, 9, 0)'>
+
+<select name='C9X' id='C9X' size=1 onChange="add_sel_value(this, 9, 0)" class='smaller' style='max-width: 170px'>
+<option value=''>Select value</option>
+<option value=""></option>
+<option value="0.003">0.003</option>
+<option value="0.004">0.004</option>
+<option value="0.005">0.005</option>
+<option value="0.006">0.006</option>
+<option value="0.007">0.007</option>
+<option value="0.01">0.01</option>
+<option value="0.012">0.012</option>
+<option value="0.014">0.014</option>
+<option value="0.02">0.02</option>
+<option value="0.022">0.022</option>
+<option value="0.028">0.028</option>
+<option value="0.032">0.032</option>
+<option value="0.04">0.04</option>
+<option value="0.045">0.045</option>
+<option value="0.065">0.065</option>
+<option value="0.09">0.09</option>
+<option value="0.13">0.13</option>
+<option value="0.15">0.15</option>
+<option value="0.18">0.18</option>
+<option value="0.24">0.24</option>
+<option value="0.25">0.25</option>
+<option value="0.29">0.29</option>
+<option value="0.32">0.32</option>
+<option value="0.35">0.35</option>
+<option value="0.4">0.4</option>
+<option value="0.44">0.44</option>
+<option value="0.5">0.5</option>
+<option value="0.57">0.57</option>
+<option value="0.6">0.6</option>
+<option value="0.65">0.65</option>
+<option value="0.675">0.675</option>
+<option value="0.7">0.7</option>
+<option value="0.75">0.75</option>
+<option value="0.8">0.8</option>
+<option value="1">1</option>
+<option value="1.2">1.2</option>
+<option value="1.5">1.5</option>
+<option value="2">2</option>
+<option value="2.5">2.5</option>
+<option value="3">3</option>
+<option value="6">6</option>
+<option value="10">10</option>
+</select>
+</td></tr>
+<tr class="row1"><td><label for='C10F'>Data width (bits)</label></td><td><input type=checkbox id='C10F' name='C10F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C10C0' id='C10C0' size=1 class='smaller' onChange='clear_on_sel(this, 10, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C10V0' id='C10V0' value="" class='smaller' onChange='set_def_cond(this, 10, 0)'>
+
+<select name='C10X' id='C10X' size=1 onChange="add_sel_value(this, 10, 0)" class='smaller' style='max-width: 170px'>
+<option value=''>Select value</option>
+<option value=""></option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="4">4</option>
+<option value="8">8</option>
+<option value="12">12</option>
+<option value="16">16</option>
+<option value="32">32</option>
+<option value="32 / 64">32 / 64</option>
+<option value="64">64</option>
+</select>
+</td></tr>
+<tr class="row2"><td><label for='C11F'>Socket</label></td><td><input type=checkbox id='C11F' name='C11F' value=1 class='checkbox' checked></td>
+  <td>
+
+	<select name='C11C0' id='C11C0' size=1 class='smaller' onChange='clear_on_sel(this, 11, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C11V0' id='C11V0' value="" class='smaller' onChange='set_def_cond(this, 11, 0)'>
+
+</td></tr>
+<tr class="row1"><td><label for='C12F'>Frequency (MHz)</label></td><td><input type=checkbox id='C12F' name='C12F' value=1 class='checkbox' checked></td>
+  <td>
+
+	<select name='C12C0' id='C12C0' size=1 class='smaller' onChange='clear_on_sel(this, 12, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C12V0' id='C12V0' value="" class='smaller' onChange='set_def_cond(this, 12, 0)'>
+
+</td></tr>
+<tr class="row2"><td><label for='C13F'>Turbo Frequency (MHz)</label></td><td><input type=checkbox id='C13F' name='C13F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C13C0' id='C13C0' size=1 class='smaller' onChange='clear_on_sel(this, 13, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C13V0' id='C13V0' value="" class='smaller' onChange='set_def_cond(this, 13, 0)'>
+
+<select name='C13X' id='C13X' size=1 onChange="add_sel_value(this, 13, 0)" class='smaller' style='max-width: 170px'>
+<option value=''>Select value</option>
+<option value=""></option>
+<option value="- / 2800 / 2800 / 2800 / 2800 / 2800 / 2800 / 2800">- / 2800 / 2800 / 2800 / 2800 / 2800 / 2800 / 2800</option>
+<option value="1200">1200</option>
+<option value="1300">1300</option>
+<option value="1333">1333</option>
+<option value="1400">1400</option>
+<option value="1467">1467</option>
+<option value="1500">1500</option>
+<option value="1600">1600</option>
+<option value="1700">1700</option>
+<option value="1733">1733</option>
+<option value="1800">1800</option>
+<option value="1833">1833</option>
+<option value="1840">1840</option>
+<option value="1867">1867</option>
+<option value="1900">1900</option>
+<option value="1920">1920</option>
+<option value="2000">2000</option>
+<option value="2000 / 2000">2000 / 2000</option>
+<option value="2080">2080</option>
+<option value="2100">2100</option>
+<option value="2133">2133</option>
+<option value="2133 / - / -">2133 / - / -</option>
+<option value="2167">2167</option>
+<option value="2200">2200</option>
+<option value="2240">2240</option>
+<option value="2250">2250</option>
+<option value="2267">2267</option>
+<option value="2267 / - / -">2267 / - / -</option>
+<option value="2267 / - / - / -">2267 / - / - / -</option>
+<option value="2267 / 2267">2267 / 2267</option>
+<option value="2300">2300</option>
+<option value="2300 / - / - / -">2300 / - / - / -</option>
+<option value="2333">2333</option>
+<option value="2390">2390</option>
+<option value="2400">2400</option>
+<option value="2400 / - / -">2400 / - / -</option>
+<option value="2400 / - / - / -">2400 / - / - / -</option>
+<option value="2400 / - / - / - / -">2400 / - / - / - / -</option>
+<option value="2400 / 2400">2400 / 2400</option>
+<option value="2400 / 2400 / - / - / -">2400 / 2400 / - / - / -</option>
+<option value="2410">2410</option>
+<option value="2420">2420</option>
+<option value="2480">2480</option>
+<option value="2500">2500</option>
+<option value="2500 / - / -">2500 / - / -</option>
+<option value="2533">2533</option>
+<option value="2533 / - / -">2533 / - / -</option>
+<option value="2533 / - / - / -">2533 / - / - / -</option>
+<option value="2533 / 2533">2533 / 2533</option>
+<option value="2533 / 2533 / - / - / -">2533 / 2533 / - / - / -</option>
+<option value="2560">2560</option>
+<option value="2567">2567</option>
+<option value="2580">2580</option>
+<option value="2600">2600</option>
+<option value="2600 / - / - / -">2600 / - / - / -</option>
+<option value="2600 / 2600">2600 / 2600</option>
+<option value="2640">2640</option>
+<option value="2667">2667</option>
+<option value="2667 / - / - / -">2667 / - / - / -</option>
+<option value="2667 / - / - / - / -">2667 / - / - / - / -</option>
+<option value="2667 / 2667">2667 / 2667</option>
+<option value="2667 / 2667 / - / - / -">2667 / 2667 / - / - / -</option>
+<option value="2700">2700</option>
+<option value="2700 / - / -">2700 / - / -</option>
+<option value="2800">2800</option>
+<option value="2800 / - / - / -">2800 / - / - / -</option>
+<option value="2800 / - / - / - / -">2800 / - / - / - / -</option>
+<option value="2800 / 2800 / - / - / -">2800 / 2800 / - / - / -</option>
+<option value="2900">2900</option>
+<option value="2900 / - / -">2900 / - / -</option>
+<option value="2900 / - / - / -">2900 / - / - / -</option>
+<option value="2900 / 2900">2900 / 2900</option>
+<option value="2933">2933</option>
+<option value="2933 / 2933">2933 / 2933</option>
+<option value="3000">3000</option>
+<option value="3000 / 3000">3000 / 3000</option>
+<option value="3067">3067</option>
+<option value="3100">3100</option>
+<option value="3100 / - / - / -">3100 / - / - / -</option>
+<option value="3100 / 3100">3100 / 3100</option>
+<option value="3200">3200</option>
+<option value="3300">3300</option>
+<option value="3300 / - / - / -">3300 / - / - / -</option>
+<option value="3300 / 3300">3300 / 3300</option>
+<option value="3333">3333</option>
+<option value="3350">3350</option>
+<option value="3400">3400</option>
+<option value="3400 / - / -">3400 / - / -</option>
+<option value="3400 / 3400">3400 / 3400</option>
+<option value="3450">3450</option>
+<option value="3467">3467</option>
+<option value="3500">3500</option>
+<option value="3500 / 3500">3500 / 3500</option>
+<option value="3600">3600</option>
+<option value="3600 / 3600">3600 / 3600</option>
+<option value="3650">3650</option>
+<option value="3675">3675</option>
+<option value="3700">3700</option>
+<option value="3700 / 3700">3700 / 3700</option>
+<option value="3733">3733</option>
+<option value="3750">3750</option>
+<option value="3800">3800</option>
+<option value="3867">3867</option>
+<option value="3900">3900</option>
+<option value="3900 / 3900">3900 / 3900</option>
+<option value="3950">3950</option>
+<option value="4000">4000</option>
+<option value="4000 / 4000">4000 / 4000</option>
+<option value="4100">4100</option>
+<option value="4150">4150</option>
+<option value="4200">4200</option>
+<option value="4250">4250</option>
+<option value="4300">4300</option>
+<option value="4400">4400</option>
+<option value="4500">4500</option>
+<option value="4550">4550</option>
+<option value="4600">4600</option>
+<option value="4700">4700</option>
+<option value="4750">4750</option>
+<option value="4800">4800</option>
+<option value="4900">4900</option>
+<option value="5000">5000</option>
+<option value="5100">5100</option>
+<option value="5200">5200</option>
+<option value="5300">5300</option>
+<option value="5400">5400</option>
+<option value="5500">5500</option>
+<option value="5600">5600</option>
+<option value="5700">5700</option>
+<option value="5800">5800</option>
+<option value="6000">6000</option>
+<option value="6200">6200</option>
+</select>
+</td></tr>
+<tr class="row1"><td><label for='C14F'>Bus speed (MHz)</label></td><td><input type=checkbox id='C14F' name='C14F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C14C0' id='C14C0' size=1 class='smaller' onChange='clear_on_sel(this, 14, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C14V0' id='C14V0' value="" class='smaller' onChange='set_def_cond(this, 14, 0)'>
+
+<select name='C14X' id='C14X' size=1 onChange="add_sel_value(this, 14, 0)" class='smaller' style='max-width: 170px'>
+<option value=''>Select value</option>
+<option value=""></option>
+<option value="12">12</option>
+<option value="16">16</option>
+<option value="16 / 20 / 25">16 / 20 / 25</option>
+<option value="16.67">16.67</option>
+<option value="20">20</option>
+<option value="20 / 10">20 / 10</option>
+<option value="25">25</option>
+<option value="25 / 12.5">25 / 12.5</option>
+<option value="30">30</option>
+<option value="33">33</option>
+<option value="33 (HT/QPI)">33 (HT/QPI)</option>
+<option value="33 / 16.5">33 / 16.5</option>
+<option value="33 / 50">33 / 50</option>
+<option value="33 / 66">33 / 66</option>
+<option value="33.33">33.33</option>
+<option value="37">37</option>
+<option value="40">40</option>
+<option value="40 / 20">40 / 20</option>
+<option value="44">44</option>
+<option value="50">50</option>
+<option value="53">53</option>
+<option value="55">55</option>
+<option value="60">60</option>
+<option value="60 / 50">60 / 50</option>
+<option value="60 / 66">60 / 66</option>
+<option value="66">66</option>
+<option value="66 (HT/QPI)">66 (HT/QPI)</option>
+<option value="66 / 100">66 / 100</option>
+<option value="66 / 50">66 / 50</option>
+<option value="66 / 60">66 / 60</option>
+<option value="66 / 95">66 / 95</option>
+<option value="66.7">66.7</option>
+<option value="67">67</option>
+<option value="75">75</option>
+<option value="75 / 100">75 / 100</option>
+<option value="83">83</option>
+<option value="89">89</option>
+<option value="90">90</option>
+<option value="95">95</option>
+<option value="96.2">96.2</option>
+<option value="97">97</option>
+<option value="100">100</option>
+<option value="100 / 133">100 / 133</option>
+<option value="116.5">116.5</option>
+<option value="120">120</option>
+<option value="122">122</option>
+<option value="124">124</option>
+<option value="125">125</option>
+<option value="133">133</option>
+<option value="137.5">137.5</option>
+<option value="150">150</option>
+<option value="200">200</option>
+<option value="266">266</option>
+<option value="333">333</option>
+<option value="400">400</option>
+<option value="400 / 533">400 / 533</option>
+<option value="533">533</option>
+<option value="667">667</option>
+<option value="800">800</option>
+<option value="800 (HT/QPI)">800 (HT/QPI)</option>
+<option value="1000 (HT/QPI)">1000 (HT/QPI)</option>
+<option value="1066">1066</option>
+<option value="1333">1333</option>
+<option value="1600">1600</option>
+<option value="1600 (HT/QPI)">1600 (HT/QPI)</option>
+<option value="1800 (HT/QPI)">1800 (HT/QPI)</option>
+<option value="2000 (HT/QPI)">2000 (HT/QPI)</option>
+<option value="2200 (HT/QPI)">2200 (HT/QPI)</option>
+<option value="2400 (HT/QPI)">2400 (HT/QPI)</option>
+<option value="2600 (HT/QPI)">2600 (HT/QPI)</option>
+<option value="2933 (HT/QPI)">2933 (HT/QPI)</option>
+<option value="3200 (HT/QPI)">3200 (HT/QPI)</option>
+<option value="3600 (HT/QPI)">3600 (HT/QPI)</option>
+<option value="4000 (HT/QPI)">4000 (HT/QPI)</option>
+<option value="4800 (HT/QPI)">4800 (HT/QPI)</option>
+</select>
+</td></tr>
+<tr class="row2"><td><label for='C15F'>Clock Multiplier</label></td><td><input type=checkbox id='C15F' name='C15F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C15C0' id='C15C0' size=1 class='smaller' onChange='clear_on_sel(this, 15, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C15V0' id='C15V0' value="" class='smaller' onChange='set_def_cond(this, 15, 0)'>
+
+<select name='C15X' id='C15X' size=1 onChange="add_sel_value(this, 15, 0)" class='smaller' style='max-width: 170px'>
+<option value=''>Select value</option>
+<option value=""></option>
+<option value="1">1</option>
+<option value="1.5">1.5</option>
+<option value="1.5 / 2">1.5 / 2</option>
+<option value="2">2</option>
+<option value="2 / 3 / 4">2 / 3 / 4</option>
+<option value="2 / 3 / 4 / 6 / 8">2 / 3 / 4 / 6 / 8</option>
+<option value="2.5">2.5</option>
+<option value="3">3</option>
+<option value="3 / 2">3 / 2</option>
+<option value="3 / 4">3 / 4</option>
+<option value="3 / 4.5">3 / 4.5</option>
+<option value="3.5">3.5</option>
+<option value="3.5 / 5">3.5 / 5</option>
+<option value="4">4</option>
+<option value="4 / 3">4 / 3</option>
+<option value="4 / 5 / 6">4 / 5 / 6</option>
+<option value="4 / 6">4 / 6</option>
+<option value="4.5">4.5</option>
+<option value="4.5 / 6">4.5 / 6</option>
+<option value="5">5</option>
+<option value="5.5">5.5</option>
+<option value="6">6</option>
+<option value="6 / 8">6 / 8</option>
+<option value="6.5">6.5</option>
+<option value="7">7</option>
+<option value="7.5">7.5</option>
+<option value="8">8</option>
+<option value="8.5">8.5</option>
+<option value="9">9</option>
+<option value="9.5">9.5</option>
+<option value="10">10</option>
+<option value="10.5">10.5</option>
+<option value="11">11</option>
+<option value="11.5">11.5</option>
+<option value="12">12</option>
+<option value="12.5">12.5</option>
+<option value="13">13</option>
+<option value="13.5">13.5</option>
+<option value="14">14</option>
+<option value="14.5">14.5</option>
+<option value="15">15</option>
+<option value="15.5">15.5</option>
+<option value="16">16</option>
+<option value="16.5">16.5</option>
+<option value="17">17</option>
+<option value="17.5">17.5</option>
+<option value="18">18</option>
+<option value="18.5">18.5</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+</select>
+</td></tr>
+<tr class="row1"><td><label for='C16F'>L1 cache (KB)</label></td><td><input type=checkbox id='C16F' name='C16F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C16C0' id='C16C0' size=1 class='smaller' onChange='clear_on_sel(this, 16, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C16V0' id='C16V0' value="" class='smaller' onChange='set_def_cond(this, 16, 0)'>
+
+<select name='C16X' id='C16X' size=1 onChange="add_sel_value(this, 16, 0)" class='smaller' style='max-width: 170px'>
+<option value=''>Select value</option>
+<option value=""></option>
+<option value="0.25">0.25</option>
+<option value="0.5">0.5</option>
+<option value="1">1</option>
+<option value="2.5">2.5</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="8">8</option>
+<option value="10">10</option>
+<option value="12">12</option>
+<option value="16">16</option>
+<option value="16.25">16.25</option>
+<option value="20">20</option>
+<option value="24">24</option>
+<option value="32">32</option>
+<option value="56">56</option>
+<option value="64">64</option>
+<option value="64.25">64.25</option>
+<option value="96">96</option>
+<option value="112">112</option>
+<option value="128">128</option>
+<option value="160">160</option>
+<option value="192">192</option>
+<option value="224">224</option>
+<option value="256">256</option>
+<option value="288">288</option>
+<option value="320">320</option>
+<option value="352">352</option>
+<option value="384">384</option>
+<option value="448">448</option>
+<option value="464">464</option>
+<option value="480">480</option>
+<option value="512">512</option>
+<option value="544">544</option>
+<option value="576">576</option>
+<option value="640">640</option>
+<option value="672">672</option>
+<option value="704">704</option>
+<option value="768">768</option>
+<option value="800">800</option>
+<option value="832">832</option>
+<option value="864">864</option>
+<option value="896">896</option>
+<option value="928">928</option>
+<option value="960">960</option>
+<option value="1024">1024</option>
+<option value="1088">1088</option>
+<option value="1120">1120</option>
+<option value="1152">1152</option>
+<option value="1184">1184</option>
+<option value="1248">1248</option>
+<option value="1280">1280</option>
+<option value="1344">1344</option>
+<option value="1408">1408</option>
+<option value="1440">1440</option>
+<option value="1536">1536</option>
+<option value="1600">1600</option>
+<option value="1632">1632</option>
+<option value="1664">1664</option>
+<option value="1760">1760</option>
+<option value="1792">1792</option>
+<option value="1920">1920</option>
+<option value="1984">1984</option>
+<option value="2048">2048</option>
+<option value="2080">2080</option>
+<option value="2176">2176</option>
+<option value="2240">2240</option>
+<option value="2304">2304</option>
+<option value="2496">2496</option>
+<option value="2560">2560</option>
+<option value="2688">2688</option>
+<option value="2880">2880</option>
+<option value="3040">3040</option>
+<option value="3072">3072</option>
+<option value="3200">3200</option>
+<option value="3520">3520</option>
+<option value="3584">3584</option>
+<option value="3648">3648</option>
+<option value="3840">3840</option>
+<option value="3904">3904</option>
+<option value="4032">4032</option>
+<option value="4096">4096</option>
+<option value="4160">4160</option>
+<option value="4256">4256</option>
+<option value="4352">4352</option>
+<option value="4480">4480</option>
+<option value="4608">4608</option>
+<option value="4704">4704</option>
+<option value="4800">4800</option>
+<option value="5120">5120</option>
+<option value="5376">5376</option>
+<option value="5760">5760</option>
+<option value="6144">6144</option>
+<option value="6912">6912</option>
+<option value="7168">7168</option>
+<option value="7680">7680</option>
+<option value="8192">8192</option>
+<option value="8960">8960</option>
+<option value="9216">9216</option>
+<option value="9632">9632</option>
+<option value="10240">10240</option>
+<option value="10752">10752</option>
+<option value="11520">11520</option>
+<option value="12288">12288</option>
+<option value="12800">12800</option>
+<option value="13824">13824</option>
+<option value="14336">14336</option>
+<option value="15360">15360</option>
+<option value="16384">16384</option>
+<option value="18432">18432</option>
+</select>
+</td></tr>
+<tr class="row2"><td><label for='C17F'>L2 cache (KB)</label></td><td><input type=checkbox id='C17F' name='C17F' value=1 class='checkbox' checked></td>
+  <td>
+
+	<select name='C17C0' id='C17C0' size=1 class='smaller' onChange='clear_on_sel(this, 17, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C17V0' id='C17V0' value="" class='smaller' onChange='set_def_cond(this, 17, 0)'>
+
+<select name='C17X' id='C17X' size=1 onChange="add_sel_value(this, 17, 0)" class='smaller' style='max-width: 170px'>
+<option value=''>Select value</option>
+<option value=""></option>
+<option value="64">64</option>
+<option value="96">96</option>
+<option value="128">128</option>
+<option value="256">256</option>
+<option value="512">512</option>
+<option value="1024">1024</option>
+<option value="1280">1280</option>
+<option value="1536">1536</option>
+<option value="2048">2048</option>
+<option value="2560">2560</option>
+<option value="3072">3072</option>
+<option value="3328">3328</option>
+<option value="3584">3584</option>
+<option value="3840">3840</option>
+<option value="4096">4096</option>
+<option value="4608">4608</option>
+<option value="5120">5120</option>
+<option value="5632">5632</option>
+<option value="6144">6144</option>
+<option value="6656">6656</option>
+<option value="7168">7168</option>
+<option value="7680">7680</option>
+<option value="8192">8192</option>
+<option value="9216">9216</option>
+<option value="9728">9728</option>
+<option value="10240">10240</option>
+<option value="11776">11776</option>
+<option value="12288">12288</option>
+<option value="12800">12800</option>
+<option value="13824">13824</option>
+<option value="14336">14336</option>
+<option value="15360">15360</option>
+<option value="16384">16384</option>
+<option value="17920">17920</option>
+<option value="18432">18432</option>
+<option value="20480">20480</option>
+<option value="22528">22528</option>
+<option value="23040">23040</option>
+<option value="24576">24576</option>
+<option value="25600">25600</option>
+<option value="26624">26624</option>
+<option value="27648">27648</option>
+<option value="28160">28160</option>
+<option value="28672">28672</option>
+<option value="29184">29184</option>
+<option value="30720">30720</option>
+<option value="31232">31232</option>
+<option value="32768">32768</option>
+<option value="33280">33280</option>
+<option value="34816">34816</option>
+<option value="35840">35840</option>
+<option value="36864">36864</option>
+<option value="40960">40960</option>
+<option value="45056">45056</option>
+<option value="46080">46080</option>
+<option value="48640">48640</option>
+<option value="49152">49152</option>
+<option value="51200">51200</option>
+<option value="53248">53248</option>
+<option value="57344">57344</option>
+<option value="65536">65536</option>
+<option value="73728">73728</option>
+<option value="77824">77824</option>
+<option value="81920">81920</option>
+<option value="86016">86016</option>
+<option value="90112">90112</option>
+<option value="98304">98304</option>
+<option value="106496">106496</option>
+<option value="114688">114688</option>
+<option value="122880">122880</option>
+<option value="131072">131072</option>
+<option value="147456">147456</option>
+<option value="163840">163840</option>
+<option value="176128">176128</option>
+<option value="196608">196608</option>
+<option value="245760">245760</option>
+<option value="262144">262144</option>
+<option value="294912">294912</option>
+<option value="327680">327680</option>
+<option value="393216">393216</option>
+</select>
+</td></tr>
+<tr class="row1"><td><label for='C18F'>L3 cache (KB)</label></td><td><input type=checkbox id='C18F' name='C18F' value=1 class='checkbox' checked></td>
+  <td>
+
+	<select name='C18C0' id='C18C0' size=1 class='smaller' onChange='clear_on_sel(this, 18, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C18V0' id='C18V0' value="" class='smaller' onChange='set_def_cond(this, 18, 0)'>
+
+<select name='C18X' id='C18X' size=1 onChange="add_sel_value(this, 18, 0)" class='smaller' style='max-width: 170px'>
+<option value=''>Select value</option>
+<option value=""></option>
+<option value="0">0</option>
+<option value="512">512</option>
+<option value="1024">1024</option>
+<option value="1536">1536</option>
+<option value="2048">2048</option>
+<option value="3072">3072</option>
+<option value="4096">4096</option>
+<option value="5120">5120</option>
+<option value="6144">6144</option>
+<option value="8192">8192</option>
+<option value="8448">8448</option>
+<option value="9216">9216</option>
+<option value="10240">10240</option>
+<option value="11264">11264</option>
+<option value="12288">12288</option>
+<option value="14080">14080</option>
+<option value="15360">15360</option>
+<option value="16384">16384</option>
+<option value="16896">16896</option>
+<option value="17920">17920</option>
+<option value="18432">18432</option>
+<option value="19712">19712</option>
+<option value="20480">20480</option>
+<option value="21504">21504</option>
+<option value="22528">22528</option>
+<option value="23040">23040</option>
+<option value="24576">24576</option>
+<option value="25344">25344</option>
+<option value="25600">25600</option>
+<option value="26880">26880</option>
+<option value="28160">28160</option>
+<option value="28672">28672</option>
+<option value="30720">30720</option>
+<option value="30976">30976</option>
+<option value="32768">32768</option>
+<option value="33792">33792</option>
+<option value="34560">34560</option>
+<option value="35840">35840</option>
+<option value="36608">36608</option>
+<option value="36864">36864</option>
+<option value="38400">38400</option>
+<option value="39424">39424</option>
+<option value="39936">39936</option>
+<option value="40960">40960</option>
+<option value="43008">43008</option>
+<option value="46080">46080</option>
+<option value="49152">49152</option>
+<option value="49920">49920</option>
+<option value="51200">51200</option>
+<option value="53760">53760</option>
+<option value="55296">55296</option>
+<option value="56320">56320</option>
+<option value="58368">58368</option>
+<option value="61440">61440</option>
+<option value="65536">65536</option>
+<option value="69120">69120</option>
+<option value="73216">73216</option>
+<option value="73728">73728</option>
+<option value="76800">76800</option>
+<option value="78848">78848</option>
+<option value="81920">81920</option>
+<option value="84480">84480</option>
+<option value="98304">98304</option>
+<option value="99840">99840</option>
+<option value="107520">107520</option>
+<option value="110592">110592</option>
+<option value="115200">115200</option>
+<option value="116736">116736</option>
+<option value="131072">131072</option>
+<option value="147456">147456</option>
+<option value="155648">155648</option>
+<option value="163840">163840</option>
+<option value="172032">172032</option>
+<option value="184320">184320</option>
+<option value="196608">196608</option>
+<option value="233472">233472</option>
+<option value="262144">262144</option>
+<option value="266240">266240</option>
+<option value="294912">294912</option>
+<option value="307200">307200</option>
+<option value="327680">327680</option>
+<option value="344064">344064</option>
+<option value="393216">393216</option>
+<option value="442368">442368</option>
+<option value="491520">491520</option>
+<option value="516096">516096</option>
+<option value="524288">524288</option>
+<option value="786432">786432</option>
+<option value="1179648">1179648</option>
+</select>
+</td></tr>
+<tr class="row2"><td><label for='C19F'>L4 cache (KB)</label></td><td><input type=checkbox id='C19F' name='C19F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C19C0' id='C19C0' size=1 class='smaller' onChange='clear_on_sel(this, 19, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C19V0' id='C19V0' value="" class='smaller' onChange='set_def_cond(this, 19, 0)'>
+
+<select name='C19X' id='C19X' size=1 onChange="add_sel_value(this, 19, 0)" class='smaller' style='max-width: 170px'>
+<option value=''>Select value</option>
+<option value=""></option>
+<option value="65536">65536</option>
+<option value="131072">131072</option>
+</select>
+</td></tr>
+<tr class="row1"><td><label for='C20F'>Max temperature (&deg;C)</label></td><td><input type=checkbox id='C20F' name='C20F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C20C0' id='C20C0' size=1 class='smaller' onChange='clear_on_sel(this, 20, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C20V0' id='C20V0' value="" class='smaller' onChange='set_def_cond(this, 20, 0)'>
+
+</td></tr>
+<tr class="row2"><td><label for='C21F'>TDP (Watt)</label></td><td><input type=checkbox id='C21F' name='C21F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C21C0' id='C21C0' size=1 class='smaller' onChange='clear_on_sel(this, 21, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C21V0' id='C21V0' value="" class='smaller' onChange='set_def_cond(this, 21, 0)'>
+
+</td></tr>
+<tr class="row1"><td><label for='C22F'>Max power (Watt)</label></td><td><input type=checkbox id='C22F' name='C22F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C22C0' id='C22C0' size=1 class='smaller' onChange='clear_on_sel(this, 22, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C22V0' id='C22V0' value="" class='smaller' onChange='set_def_cond(this, 22, 0)'>
+
+</td></tr>
+<tr class="row2"><td><label for='C23F'>Core voltage (V)</label></td><td><input type=checkbox id='C23F' name='C23F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C23C0' id='C23C0' size=1 class='smaller' onChange='clear_on_sel(this, 23, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C23V0' id='C23V0' value="" class='smaller' onChange='set_def_cond(this, 23, 0)'>
+
+</td></tr>
+<tr class="row1"><td><label for='C24F'>Cores</label></td><td><input type=checkbox id='C24F' name='C24F' value=1 class='checkbox' checked></td>
+  <td>
+
+	<select name='C24C0' id='C24C0' size=1 class='smaller' onChange='clear_on_sel(this, 24, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C24V0' id='C24V0' value="" class='smaller' onChange='set_def_cond(this, 24, 0)'>
+
+<select name='C24X' id='C24X' size=1 onChange="add_sel_value(this, 24, 0)" class='smaller' style='max-width: 170px'>
+<option value=''>Select value</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="8">8</option>
+<option value="10">10</option>
+<option value="12">12</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="18">18</option>
+<option value="20">20</option>
+<option value="22">22</option>
+<option value="24">24</option>
+<option value="26">26</option>
+<option value="28">28</option>
+<option value="32">32</option>
+<option value="36">36</option>
+<option value="38">38</option>
+<option value="40">40</option>
+<option value="42">42</option>
+<option value="44">44</option>
+<option value="48">48</option>
+<option value="52">52</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="60">60</option>
+<option value="61">61</option>
+<option value="64">64</option>
+<option value="68">68</option>
+<option value="72">72</option>
+<option value="80">80</option>
+<option value="84">84</option>
+<option value="86">86</option>
+<option value="96">96</option>
+<option value="112">112</option>
+<option value="120">120</option>
+<option value="128">128</option>
+<option value="144">144</option>
+<option value="160">160</option>
+<option value="192">192</option>
+</select>
+</td></tr>
+<tr class="row2"><td><label for='C25F'>Threads</label></td><td><input type=checkbox id='C25F' name='C25F' value=1 class='checkbox' checked></td>
+  <td>
+
+	<select name='C25C0' id='C25C0' size=1 class='smaller' onChange='clear_on_sel(this, 25, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C25V0' id='C25V0' value="" class='smaller' onChange='set_def_cond(this, 25, 0)'>
+
+<select name='C25X' id='C25X' size=1 onChange="add_sel_value(this, 25, 0)" class='smaller' style='max-width: 170px'>
+<option value=''>Select value</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="8">8</option>
+<option value="10">10</option>
+<option value="12">12</option>
+<option value="14">14</option>
+<option value="16">16</option>
+<option value="18">18</option>
+<option value="20">20</option>
+<option value="22">22</option>
+<option value="24">24</option>
+<option value="28">28</option>
+<option value="30">30</option>
+<option value="32">32</option>
+<option value="36">36</option>
+<option value="40">40</option>
+<option value="44">44</option>
+<option value="48">48</option>
+<option value="52">52</option>
+<option value="56">56</option>
+<option value="64">64</option>
+<option value="72">72</option>
+<option value="76">76</option>
+<option value="80">80</option>
+<option value="84">84</option>
+<option value="88">88</option>
+<option value="96">96</option>
+<option value="104">104</option>
+<option value="112">112</option>
+<option value="120">120</option>
+<option value="128">128</option>
+<option value="144">144</option>
+<option value="160">160</option>
+<option value="168">168</option>
+<option value="172">172</option>
+<option value="192">192</option>
+<option value="224">224</option>
+<option value="228">228</option>
+<option value="240">240</option>
+<option value="244">244</option>
+<option value="256">256</option>
+<option value="272">272</option>
+<option value="288">288</option>
+<option value="320">320</option>
+<option value="384">384</option>
+</select>
+</td></tr>
+<tr class="row1"><td><label for='C26F'>Multiprocessing</label></td><td><input type=checkbox id='C26F' name='C26F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C26C0' id='C26C0' size=1 class='smaller' onChange='clear_on_sel(this, 26, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C26V0' id='C26V0' value="" class='smaller' onChange='set_def_cond(this, 26, 0)'>
+
+<select name='C26X' id='C26X' size=1 onChange="add_sel_value(this, 26, 0)" class='smaller' style='max-width: 170px'>
+<option value=''>Select value</option>
+<option value=""></option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="4">4</option>
+<option value="8">8</option>
+</select>
+</td></tr>
+<tr class="row2"><td><label for='C27F'>Integrated graphics</label></td><td><input type=checkbox id='C27F' name='C27F' value=1 class='checkbox' ></td>
+  <td>
+
+	<select name='C27C0' id='C27C0' size=1 class='smaller' onChange='clear_on_sel(this, 27, 0)'>
+	<option value=''>Select condition</option>
+	<option value='B'>Begins with</option>
+	<option value='E'>Ends with</option>
+	<option value='C'>Contains</option>
+	<option value='NC'>Does not contain</option>
+	<option value='EQ'>Is</option>
+	<option value='NE'>Is not</option>
+	<option value='LT'>Less than</option>
+	<option value='LE'>Less or equal than</option>
+	<option value='GT'>Greater than</option>
+	<option value='GE'>Greater or equal than</option>
+	<option value='IL'>In the list</option>
+	<option value='NIL'>Not in the list</option>
+	</select>
+	<input type=text name='C27V0' id='C27V0' value="" class='smaller' onChange='set_def_cond(this, 27, 0)'>
+
+</td></tr>
+<tr class="row1"><td><label for='C28F'>Features</label></td><td><input type=checkbox id='C28F' name='C28F' value=1 class='checkbox' ></td>
+  <td>
+
+<table cellspacing=0 cellpadding=1 border=0 width='100%' class='container_table'>
+<tr>
+<td><label><input type='checkbox' name='C28V0' value=1 class='checkbox' > MMX</label></td>
+<td><label><input type='checkbox' name='C28V1' value=1 class='checkbox' > 3DNow!</label></td>
+<td><label><input type='checkbox' name='C28V2' value=1 class='checkbox' > SSE</label></td>
+</tr>
+<tr>
+<td><label><input type='checkbox' name='C28V3' value=1 class='checkbox' > SSE2</label></td>
+<td><label><input type='checkbox' name='C28V4' value=1 class='checkbox' > SSE3</label></td>
+<td><label><input type='checkbox' name='C28V5' value=1 class='checkbox' > SSE4</label></td>
+</tr>
+<tr>
+<td><label><input type='checkbox' name='C28V6' value=1 class='checkbox' > AES</label></td>
+<td><label><input type='checkbox' name='C28V7' value=1 class='checkbox' > AVX</label></td>
+<td><label><input type='checkbox' name='C28V8' value=1 class='checkbox' > AVX2</label></td>
+</tr>
+<tr>
+<td><label><input type='checkbox' name='C28V9' value=1 class='checkbox' > AVX512</label></td>
+<td><label><input type='checkbox' name='C28V10' value=1 class='checkbox' > AMD64 / EM64T</label></td>
+<td><label><input type='checkbox' name='C28V11' value=1 class='checkbox' > eXecute Disable / No eXecute</label></td>
+</tr>
+<tr>
+<td><label><input type='checkbox' name='C28V12' value=1 class='checkbox' > Multi-Threading</label></td>
+<td><label><input type='checkbox' name='C28V13' value=1 class='checkbox' > Virtualization</label></td>
+<td><label><input type='checkbox' name='C28V14' value=1 class='checkbox' > Frequency boost</label></td>
+</tr>
+<tr>
+<td><label><input type='checkbox' name='C28V15' value=1 class='checkbox' > Trusted Execution</label></td>
+<td><label><input type='checkbox' name='C28V16' value=1 class='checkbox' > PowerNow! / SpeedStep</label></td>
+<td><label><input type='checkbox' name='C28V17' value=1 class='checkbox' > Unlocked</label></td>
+</tr>
+</table></td></tr>
+</table></div>
+<script type="text/javascript"><!--
+function clear_on_sel (p_sel, p_to, p_to_n)
+{
+	if	(p_sel.selectedIndex > 0)	return;
+    var obj = document.getElementById('C' + p_to + 'V' + p_to_n);
+    if	(obj != null)	obj.value = '';
+    obj = document.getElementById('C' + p_to + 'X');
+	if	(obj != null)	obj.selectedIndex = 0;
+}
+
+function set_def_cond (p_field, p_to, p_to_n)
+{
+
+	if	(p_field.value == '')	return;
+    var sel_obj = document.getElementById('C' + p_to + 'C' + p_to_n);
+	if  (sel_obj == null)    return;
+    if	(sel_obj.selectedIndex < 1)
+		sel_obj.selectedIndex = (p_field.value.match(','))? 11: 5;
+}
+
+function add_sel_value (p_from, p_to, p_to_n)
+{
+    if  (p_from.selectedIndex == -1)  return;
+    if  (p_from.selectedIndex == 0)   return;
+    var value = p_from.options[p_from.selectedIndex].value;
+    if  (value == null)     return;
+    var to_obj = document.getElementById('C' + p_to + 'V' + p_to_n);
+    if  (to_obj == null)    return;
+    var cond_obj = document.getElementById('C' + p_to + 'C' + p_to_n);
+    if  (cond_obj == null)    return;
+    var cond_value = (cond_obj.selectedIndex == -1)? '':
+        cond_obj.options[cond_obj.selectedIndex].value;
+    if  (to_obj.value == '')
+    {
+        to_obj.value = value;
+		if	((cond_value == '')||(cond_value == 'IL')||
+			 (cond_value == 'NIL'))
+	        cond_obj.selectedIndex = 5;
+    }
+    else
+    {
+        to_obj.value += ', ' + value;
+        if  ((cond_value != 'IL')&&(cond_value != 'NIL'))
+            cond_obj.selectedIndex = 11;
+    }
+}
+
+// --> 
+</script>
+
+<p><input type='submit' name='PROCESS' value='Show Data' class='ibuttonr'>
+<input type='submit' name='CR' value='Reset Filters' class='ibuttonr'>
+
+
+</form><p>
+</div>
+<!-- SEARCH_IREST -->
+</div>
+
+<table class='ft_table'>
+  <tr><td><a href="/terms_and_conditions.html">Terms and Conditions</a> &middot; <a href="/privacy_policy.html">Privacy Policy</a> &middot; <a href="/contact_us.html">Contact Us</a></td>
+	<td align="right">(c) Copyright 2003 - 2025 Gennadiy Shvets</td>
+  <tr><th colspan=2 height="8"><div style="margin-bottom: 3px"></div></th></tr>
+</table>
+</div>
+</div></div>
+
+<script type="text/javascript" src="/cpu_world17.js"></script>
+<script type='text/javascript'><!--
+AB_GlO();
+// --></script>
+</body>
+</html>

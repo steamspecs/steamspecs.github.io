@@ -3,35 +3,35 @@ Ryzen 7 5700X,,Vermeer,Ryzen 7 5700X,8,16,3.4,4.6
 Ryzen 5 5500,,Cezanne,Ryzen 5 5500,6,12,3.6,4.2
 Ryzen 5 3600,,Matisse,Ryzen 5 3600,6,12,3.6,4.2
 Ryzen 5 5600,,Vermeer,Ryzen 5 5600,6,12,3.5,4.4
-Ryzen 7 5825U,,Barcelo,Ryzen 7 5825U,8,16,2.0,4.5
 Core Ultra 7 270K Plus,,Arrow Lake Refresh,Core Ultra 7 270K Plus,24,24,3.7,5.5
+Ryzen 7 5825U,,Barcelo,Ryzen 7 5825U,8,16,2.0,4.5
 Ryzen 7 9800X3D,,Granite Ridge,Ryzen 7 9800X3D,8,16,4.7,5.2
 Ryzen 7 5700X3D,,Vermeer,Ryzen 7 5700X3D,8,16,3.0,4.1
 Ryzen 5 5600G,,Cezanne,Ryzen 5 5600G,6,12,3.9,4.4
 Ryzen 7 7800X3D,,Raphael,Ryzen 7 7800X3D,8,16,4.2,5.0
-Ryzen 7 3700X,,Matisse,Ryzen 7 3700X,8,16,3.6,4.4
 Ryzen 5 7520U,,Mendocino,Ryzen 5 7520U,4,8,2.8,4.3
+Ryzen 7 3700X,,Matisse,Ryzen 7 3700X,8,16,3.6,4.4
 Ryzen 5 5600X,,Vermeer,Ryzen 5 5600X,6,12,3.7,4.6
 Ryzen 5 5500U,,Lucienne,Ryzen 5 5500U,6,12,2.1,4.0
 Ryzen 9 9950X3D,,Granite Ridge,Ryzen 9 9950X3D,16,32,4.3,5.7
-Ryzen 5 2600,,Zen,Ryzen 5 2600,6,12,3.4,3.9
 Ryzen 5 5500X3D,,Vermeer,Ryzen 5 5500X3D,6,12,3.0,4.0
+Ryzen 5 2600,,Zen,Ryzen 5 2600,6,12,3.4,3.9
 Ryzen 7 5700G,,Cezanne,Ryzen 7 5700G,8,16,3.8,4.6
 Core Ultra 5 250K Plus,,Arrow Lake Refresh,Core Ultra 5 250K Plus,18,18,4.2,5.3
 Ryzen 5 3400G,,Picasso,Ryzen 5 3400G,4,8,3.7,4.2
 Ryzen 5 5600GT,,Cezanne,Ryzen 5 5600GT,6,12,3.6,4.6
-Ryzen 7 7730U,,Barcelo-R,Ryzen 7 7730U,8,16,2.0,4.5
 Ryzen AI 7 350,,Krackan Point,Ryzen AI 7 350,8,16,2.0,5.0
+Ryzen 7 7730U,,Barcelo-R,Ryzen 7 7730U,8,16,2.0,4.5
+Ryzen 5 3500X,,Matisse,Ryzen 5 3500X,6,6,3.6,4.1
 Ryzen 3 3200G,,Picasso,Ryzen 3 3200G,4,4,3.6,4.0
 Ryzen 7 5800X,,Vermeer,Ryzen 7 5800X,8,16,3.8,4.7
-Ryzen 5 3500X,,Matisse,Ryzen 5 3500X,6,6,3.6,4.1
 Ryzen 7 5800X3D,,Vermeer,Ryzen 7 5800X3D,8,16,3.4,4.5
 Ryzen 7 5700U,,Lucienne,Ryzen 7 5700U,8,16,1.8,4.3
 Ryzen 7 7735HS,,Rembrandt-R,Ryzen 7 7735HS,8,16,3.2,4.75
+FX-8350,,Vishera,FX-8350,8,8,4.0,4.2
 Ryzen 5 7500F,,Raphael,Ryzen 5 7500F,6,12,3.7,5.0
 Ryzen 5 3500U,,Picasso,Ryzen 5 3500U,4,8,2.1,3.7
 Core Ultra 9 285K,,Arrow Lake-S,Core Ultra 9 285K,24,24,3.7,5.7
-FX-8350,,Vishera,FX-8350,8,8,4.0,4.2
 Ryzen 5 9600X,,Granite Ridge,Ryzen 5 9600X,6,12,3.9,5.4
 Ryzen 9 5950X,,Vermeer,Ryzen 9 5950X,16,32,3.4,4.9
 Ryzen 5 1600,,Summit Ridge,Ryzen 5 1600,6,12,3.2,3.6
@@ -39,30 +39,30 @@ Ryzen 5 PRO 4650G,,Renoir,Ryzen 5 PRO 4650G,6,12,3.7,4.2
 Ryzen 7 5700,,Cezanne,Ryzen 7 5700,8,16,3.7,4.6
 Ryzen 7 9700X,,Granite Ridge,Ryzen 7 9700X,8,16,3.8,5.5
 Ryzen 3 2200G,,Raven Ridge,Ryzen 3 2200G,4,4,3.5,3.7
-Core i7-7700,,Kaby Lake,Core i7-7700,4,8,3.6,4.2
-Ryzen 9 3900X,,Matisse,Ryzen 9 3900X,12,24,3.8,4.6
 Ryzen 3 7320U,,Mendocino,Ryzen 3 7320U,4,8,2.4,4.1
+Ryzen 9 3900X,,Matisse,Ryzen 9 3900X,12,24,3.8,4.6
 Ryzen 7 2700X,,Zen,Ryzen 7 2700X,8,16,3.7,4.35
-Core i5-12400F,,Alder Lake-S,Core i5-12400F,6,12,2.5,4.4
-Ryzen AI Max+ 395,,Strix Halo,Ryzen AI Max+ 395,16,32,3.0,5.1
-Ryzen 9 5900X,,Vermeer,Ryzen 9 5900X,12,24,3.7,4.8
+Core i7-7700,,Kaby Lake,Core i7-7700,4,8,3.6,4.2
 Ryzen 7 260,,Hawk Point,Ryzen 7 260,8,16,3.8,5.1
-FX-6300,,Vishera,FX-6300,6,6,3.5,4.1
+Ryzen AI Max+ 395,,Strix Halo,Ryzen AI Max+ 395,16,32,3.0,5.1
+Core i5-12400F,,Alder Lake-S,Core i5-12400F,6,12,2.5,4.4
 Ryzen 5 5625U,,Barcelo,Ryzen 5 5625U,6,12,2.3,4.3
+Ryzen 9 5900X,,Vermeer,Ryzen 9 5900X,12,24,3.7,4.8
+FX-6300,,Vishera,FX-6300,6,6,3.5,4.1
 Ryzen 7 1700,,Summit Ridge,Ryzen 7 1700,8,16,3.0,3.7
 Ryzen AI 9 HX 370,,Strix Point,Ryzen AI 9 HX 370,12,24,2.0,5.1
-Ryzen 7 8845HS,,Hawk Point,Ryzen 7 8845HS,8,16,3.8,5.1
 Core Ultra 9 290K Plus,,Arrow Lake Refresh,Core Ultra 9 290K Plus,24,24,3.7,5.8
-Ryzen 5 2600X,,Zen,Ryzen 5 2600X,6,12,3.6,4.25
-Ryzen 5 3600X,,Matisse,Ryzen 5 3600X,6,12,3.8,4.4
-Ryzen 5 2400G,,Raven Ridge,Ryzen 5 2400G,4,8,3.6,3.9
+Ryzen 7 8845HS,,Hawk Point,Ryzen 7 8845HS,8,16,3.8,5.1
 Ryzen 7 250,,Hawk Point,Ryzen 7 250,8,16,3.3,5.1
 Ryzen 5 PRO 4650U,,Renoir,Ryzen 5 PRO 4650U,6,12,2.1,4.0
+Ryzen 5 3600X,,Matisse,Ryzen 5 3600X,6,12,3.8,4.4
+Ryzen 5 2400G,,Raven Ridge,Ryzen 5 2400G,4,8,3.6,3.9
+Ryzen 5 2600X,,Zen,Ryzen 5 2600X,6,12,3.6,4.25
 Ryzen 5 4600G,,Renoir,Ryzen 5 4600G,6,12,3.7,4.2
 Ryzen 5 7535HS,,Rembrandt-R,Ryzen 5 7535HS,6,12,3.3,4.55
-Ryzen 5 4500,,Renoir,Ryzen 5 4500,6,12,3.6,4.1
 Ryzen 5 7600X,,Raphael,Ryzen 5 7600X,6,12,4.7,5.3
 Core i5-9400F,,Coffee Lake,Core i5-9400F,6,6,2.9,4.1
+Ryzen 5 4500,,Renoir,Ryzen 5 4500,6,12,3.6,4.1
 Ryzen Threadripper PRO 9995WX,,Shimada Peak,Ryzen Threadripper PRO 9995WX,96,192,2.5,5.4
 Ryzen 7 4800H,,Renoir,Ryzen 7 4800H,8,16,2.9,4.2
 Ryzen 7 5800XT,,Vermeer,Ryzen 7 5800XT,8,16,3.8,4.8
@@ -70,32 +70,32 @@ Core 2 Duo E8400,,Wolfdale,Core 2 Duo E8400,2,2,3.0,3.0
 Core i9-14900K,,Raptor Lake-R,Core i9-14900K,24,32,3.2,6.0
 Ryzen 5 4500U,,Renoir,Ryzen 5 4500U,6,6,2.3,4.0
 Core i5-10400,,Comet Lake,Core i5-10400,6,12,2.9,4.3
+Core i5-13420H,,Raptor Lake-H,Core i5-13420H,8,12,2.1,4.6
 Ryzen 7 5800H,,Cezanne,Ryzen 7 5800H,8,16,3.2,4.4
 Core i5-14400F,,Raptor Lake-R,Core i5-14400F,10,16,2.5,4.7
-Core i5-13420H,,Raptor Lake-H,Core i5-13420H,8,12,2.1,4.6
+Ryzen 5 PRO 5650U,,Cezanne-U,Ryzen 5 PRO 5650U,6,12,2.3,4.2
 Core i7-7700K,,Kaby Lake,Core i7-7700K,4,8,4.2,4.5
 Core i7-6700,,Skylake,Core i7-6700,4,8,3.4,4.0
-Ryzen 5 PRO 5650U,,Cezanne-U,Ryzen 5 PRO 5650U,6,12,2.3,4.2
 Ryzen 9 9950X,,Granite Ridge,Ryzen 9 9950X,16,32,4.3,5.7
 Core Ultra 7 255H,,Arrow Lake-H,Core Ultra 7 255H,16,16,2.0,5.1
-Core Ultra 9 275HX,,Arrow Lake-HX,Core Ultra 9 275HX,24,24,2.7,5.4
-Core i7-4790,,Haswell,Core i7-4790,4,8,3.6,4.0
-Core Ultra 7 265K,,Arrow Lake-S,Core Ultra 7 265K,20,20,3.9,5.5
 Ryzen 7 7700,,Raphael,Ryzen 7 7700,8,16,3.8,5.3
+Core Ultra 9 275HX,,Arrow Lake-HX,Core Ultra 9 275HX,24,24,2.7,5.4
+Core Ultra 7 265K,,Arrow Lake-S,Core Ultra 7 265K,20,20,3.9,5.5
 Core i7-3770,,Ivy Bridge,Core i7-3770,4,8,3.4,3.9
 Core Ultra X7 358H,,Panther Lake,Core Ultra X7 358H,16,16,1.9,4.8
+Core i7-4790,,Haswell,Core i7-4790,4,8,3.6,4.0
 Ryzen 5 PRO 3500U,,Picasso,Ryzen 5 PRO 3500U,4,8,2.1,3.7
 Ryzen 5 7530U,,Barcelo-R,Ryzen 5 7530U,6,12,2.0,4.5
-Core i7-4790K,,Haswell,Core i7-4790K,4,8,4.0,4.4
 Ryzen 3 3100,,Matisse,Ryzen 3 3100,4,8,3.6,3.9
+Core i7-4790K,,Haswell,Core i7-4790K,4,8,4.0,4.4
 Ryzen 7 3800X,,Matisse,Ryzen 7 3800X,8,16,3.9,4.5
-Ryzen 5 7600,,Raphael,Ryzen 5 7600,6,12,3.8,5.1
-Core i5-1135G7,,Tiger Lake-U,Core i5-1135G7,4,8,1.5,4.2
-Processor N150,,Twin Lake,Processor N150,4,4,0.1,3.6
-Core i5-10400F,,Comet Lake,Core i5-10400F,6,12,2.9,4.3
 Core i3-10100,,Comet Lake,Core i3-10100,4,8,3.6,4.3
+Core i5-10400F,,Comet Lake,Core i5-10400F,6,12,2.9,4.3
+Ryzen 5 7600,,Raphael,Ryzen 5 7600,6,12,3.8,5.1
+Processor N150,,Twin Lake,Processor N150,4,4,0.1,3.6
+Core i5-1135G7,,Tiger Lake-U,Core i5-1135G7,4,8,1.5,4.2
 Ryzen 7 9850X3D,,Granite Ridge,Ryzen 7 9850X3D,8,16,4.7,5.6
-Processor N100,,Gracemont,Processor N100,4,4,0.1,3.4
 Core i7-10700,,Comet Lake,Core i7-10700,8,16,2.9,4.8
-Core Ultra X9 388H,,Panther Lake,Core Ultra X9 388H,16,16,2.1,5.1
+Processor N100,,Gracemont,Processor N100,4,4,0.1,3.4
 Ryzen 5 4600H,,Renoir,Ryzen 5 4600H,6,12,3.0,4.0
+Core Ultra X9 388H,,Panther Lake,Core Ultra X9 388H,16,16,2.1,5.1

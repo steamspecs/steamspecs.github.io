@@ -1,6 +1,6 @@
 {
-  "generated_components": 5668,
-  "cpu_count": 2883,
+  "generated_components": 5667,
+  "cpu_count": 2882,
   "gpu_count": 2785,
   "sources": [
     {
@@ -27,8 +27,17 @@
       "kind": null,
       "path": "data/catalog/sources/manual_components.json",
       "url": null,
-      "applied_rows": 6,
-      "status": "ok"
+      "applied_rows": 0,
+      "status": "missing_optional_source"
+    },
+    {
+      "id": "legacy_enrichment_components",
+      "type": "normalized_components",
+      "kind": null,
+      "path": "data/catalog/sources/legacy_enrichment_components.json",
+      "url": null,
+      "applied_rows": 0,
+      "status": "missing_optional_source"
     },
     {
       "id": "manual_scores",
@@ -36,8 +45,8 @@
       "kind": null,
       "path": "data/catalog/sources/manual_scores.json",
       "url": null,
-      "applied_rows": 3,
-      "status": "ok"
+      "applied_rows": 0,
+      "status": "missing_optional_source"
     },
     {
       "id": "manual_aliases",
@@ -45,8 +54,8 @@
       "kind": null,
       "path": "data/catalog/sources/manual_aliases.json",
       "url": null,
-      "applied_rows": 1,
-      "status": "ok"
+      "applied_rows": 0,
+      "status": "missing_optional_source"
     },
     {
       "id": "techpowerup_cpu_specs",
@@ -56,6 +65,15 @@
       "url": null,
       "applied_rows": 100,
       "status": "ok"
+    },
+    {
+      "id": "cpu_world_cpu_specs",
+      "type": "mapped_components",
+      "kind": "cpu",
+      "path": "data/catalog/imports/cpu_world_cpus.csv",
+      "url": null,
+      "applied_rows": 0,
+      "status": "missing_optional_source"
     },
     {
       "id": "techpowerup_gpu_specs",
@@ -72,7 +90,7 @@
       "kind": "cpu",
       "path": "data/catalog/imports/passmark_cpus.csv",
       "url": null,
-      "applied_rows": 62,
+      "applied_rows": 61,
       "status": "ok"
     },
     {
