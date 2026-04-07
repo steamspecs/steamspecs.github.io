@@ -1,7 +1,7 @@
 {
-  "generated_components": 5667,
-  "cpu_count": 2882,
-  "gpu_count": 2785,
+  "generated_components": 10016,
+  "cpu_count": 3718,
+  "gpu_count": 6298,
   "sources": [
     {
       "id": "passmark_cpu_catalog",
@@ -22,42 +22,6 @@
       "status": "ok"
     },
     {
-      "id": "manual_components",
-      "type": "normalized_components",
-      "kind": null,
-      "path": "data/catalog/sources/manual_components.json",
-      "url": null,
-      "applied_rows": 0,
-      "status": "missing_optional_source"
-    },
-    {
-      "id": "legacy_enrichment_components",
-      "type": "normalized_components",
-      "kind": null,
-      "path": "data/catalog/sources/legacy_enrichment_components.json",
-      "url": null,
-      "applied_rows": 0,
-      "status": "missing_optional_source"
-    },
-    {
-      "id": "manual_scores",
-      "type": "score_overrides",
-      "kind": null,
-      "path": "data/catalog/sources/manual_scores.json",
-      "url": null,
-      "applied_rows": 0,
-      "status": "missing_optional_source"
-    },
-    {
-      "id": "manual_aliases",
-      "type": "alias_overrides",
-      "kind": null,
-      "path": "data/catalog/sources/manual_aliases.json",
-      "url": null,
-      "applied_rows": 0,
-      "status": "missing_optional_source"
-    },
-    {
       "id": "techpowerup_cpu_specs",
       "type": "mapped_components",
       "kind": "cpu",
@@ -67,22 +31,22 @@
       "status": "ok"
     },
     {
-      "id": "cpu_world_cpu_specs",
+      "id": "pc_part_dataset_cpu_specs",
       "type": "mapped_components",
       "kind": "cpu",
-      "path": "data/catalog/imports/cpu_world_cpus.csv",
+      "path": "data/catalog/imports/pc_part_cpus.csv",
       "url": null,
-      "applied_rows": 0,
-      "status": "missing_optional_source"
+      "applied_rows": 961,
+      "status": "ok"
     },
     {
-      "id": "techpowerup_gpu_specs",
+      "id": "pc_part_dataset_gpu_specs",
       "type": "mapped_components",
       "kind": "gpu",
-      "path": "data/catalog/imports/techpowerup_gpus.csv",
+      "path": "data/catalog/imports/pc_part_gpus.csv",
       "url": null,
-      "applied_rows": 0,
-      "status": "missing_optional_source"
+      "applied_rows": 3555,
+      "status": "ok"
     },
     {
       "id": "passmark_cpu_scores",
@@ -90,7 +54,7 @@
       "kind": "cpu",
       "path": "data/catalog/imports/passmark_cpus.csv",
       "url": null,
-      "applied_rows": 61,
+      "applied_rows": 93,
       "status": "ok"
     },
     {

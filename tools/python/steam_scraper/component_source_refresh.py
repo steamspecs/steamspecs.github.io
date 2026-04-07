@@ -6,7 +6,6 @@ import html
 import re
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlencode, urljoin
 from urllib.request import Request, urlopen
 
 
@@ -15,9 +14,8 @@ PASSMARK_GPU_URL = "https://www.videocardbenchmark.net/common_gpus.html"
 PASSMARK_CPU_LIST_URL = "https://www.cpubenchmark.net/cpu_list.php"
 PASSMARK_GPU_LIST_URL = "https://www.videocardbenchmark.net/gpu_list.php"
 TECHPOWERUP_CPU_URL = "https://www.techpowerup.com/cpu-specs/"
-TECHPOWERUP_GPU_URL = "https://www.techpowerup.com/gpu-specs/"
-CPU_WORLD_HOME_URL = "https://www.cpu-world.com/"
-CPU_WORLD_CHART_POST_URL = "https://www.cpu-world.com/cgi-bin/CPU_Chart.pl"
+PC_PART_DATASET_CPU_URL = "https://raw.githubusercontent.com/docyx/pc-part-dataset/main/data/json/cpu.json"
+PC_PART_DATASET_GPU_URL = "https://raw.githubusercontent.com/docyx/pc-part-dataset/main/data/json/video-card.json"
 
 
 class TextExtractor(HTMLParser):
@@ -82,32 +80,6 @@ class TableExtractor(HTMLParser):
             self._current_cell.append(data)
 
 
-class LinkExtractor(HTMLParser):
-    def __init__(self) -> None:
-        super().__init__()
-        self.links: list[tuple[str, str]] = []
-        self._href: str | None = None
-        self._text_parts: list[str] | None = None
-
-    def handle_starttag(self, tag, attrs):
-        if tag == "a":
-            attrs_dict = dict(attrs)
-            self._href = attrs_dict.get("href")
-            self._text_parts = []
-
-    def handle_endtag(self, tag):
-        if tag == "a" and self._href is not None and self._text_parts is not None:
-            text = html.unescape("".join(self._text_parts)).strip()
-            if text:
-                self.links.append((self._href, re.sub(r"\s+", " ", text)))
-            self._href = None
-            self._text_parts = None
-
-    def handle_data(self, data):
-        if self._text_parts is not None and data:
-            self._text_parts.append(data)
-
-
 class RefreshSkip(Exception):
     pass
 
@@ -118,18 +90,9 @@ def fetch_text(url: str) -> str:
         return response.read().decode("utf-8", errors="replace")
 
 
-def fetch_post_text(url: str, payload: dict[str, str]) -> str:
-    body = urlencode(payload).encode("utf-8")
-    request = Request(
-        url,
-        data=body,
-        headers={
-            "User-Agent": "steamspecs-component-refresh/1.0",
-            "Content-Type": "application/x-www-form-urlencoded",
-        },
-    )
-    with urlopen(request, timeout=30) as response:
-        return response.read().decode("utf-8", errors="replace")
+def fetch_json(url: str):
+    import json
+    return json.loads(fetch_text(url))
 
 
 def html_to_text(value: str) -> str:
@@ -209,6 +172,49 @@ def parse_api_number(value: str | None) -> float | None:
     if not match:
         return None
     return float(match.group(1))
+
+
+def parse_memory_gb(value) -> float | None:
+    if value in (None, ""):
+        return None
+    raw = str(value).strip().lower().replace(",", "")
+    match = re.search(r"(\d+(?:\.\d+)?)\s*(gb|gib|mb|mib)?", raw)
+    if not match:
+        return None
+    amount = float(match.group(1))
+    unit = match.group(2) or ""
+    if unit.startswith("m"):
+        return round(amount / 1024.0, 6)
+    return amount
+
+
+def get_nested_value(record: dict, *keys):
+    for key in keys:
+        value = record.get(key)
+        if value not in (None, "", [], {}):
+            return value
+    return None
+
+
+def iter_records(payload):
+    if isinstance(payload, list):
+        for item in payload:
+            if isinstance(item, dict):
+                yield item
+        return
+    if isinstance(payload, dict):
+        for key in ["data", "items", "results", "cpus", "gpus", "video_cards", "processors"]:
+            value = payload.get(key)
+            if isinstance(value, list):
+                for item in value:
+                    if isinstance(item, dict):
+                        yield item
+                return
+        for value in payload.values():
+            if isinstance(value, list) and value and isinstance(value[0], dict):
+                for item in value:
+                    yield item
+                return
 
 
 def parse_passmark_rows(text: str, item_label: str, score_label: str) -> list[dict]:
@@ -502,30 +508,6 @@ def refresh_techpowerup_cpu_specs(output_path: Path) -> int:
     return len(parsed)
 
 
-def refresh_techpowerup_gpu_specs(output_path: Path) -> int:
-    html_text = fetch_text(TECHPOWERUP_GPU_URL)
-    if "Automated bot check in progress" in html_text:
-        raise RefreshSkip("TechPowerUp GPU page is returning a bot check page")
-    parsed = parse_techpowerup_gpu_search_snippet(html_to_text(html_text))
-    if not parsed:
-        raise RuntimeError("Could not parse any TechPowerUp GPU rows")
-    write_csv(output_path, parsed, ["name", "brand", "family", "model", "vram_gb", "cores", "base_ghz", "boost_ghz"])
-    return len(parsed)
-
-
-def discover_cpu_world_chart_url() -> str:
-    homepage = fetch_text(CPU_WORLD_HOME_URL)
-    parser = LinkExtractor()
-    parser.feed(homepage)
-
-    for href, text in parser.links:
-        normalized = text.lower()
-        if "combined cpu chart" in normalized or "cpu chart" in normalized:
-            return urljoin(CPU_WORLD_HOME_URL, href)
-
-    raise RuntimeError("Could not find CPU-World combined CPU chart link from homepage")
-
-
 def find_header_index(headers: list[str], patterns: list[str]) -> int | None:
     normalized_headers = [re.sub(r"\s+", " ", header.strip().lower()) for header in headers]
     for pattern in patterns:
@@ -535,120 +517,105 @@ def find_header_index(headers: list[str], patterns: list[str]) -> int | None:
     return None
 
 
-def parse_cpu_world_chart_html(html_text: str) -> list[dict]:
-    parser = TableExtractor()
-    parser.feed(html_text)
-
+def refresh_pc_part_cpu_specs(output_path: Path) -> int:
+    payload = fetch_json(PC_PART_DATASET_CPU_URL)
     rows: list[dict] = []
     seen: set[str] = set()
 
-    for table in parser.tables:
-        if len(table) < 2:
+    for record in iter_records(payload):
+        name = str(get_nested_value(record, "name", "model_name", "product_name", "cpu", "title") or "").strip()
+        if not name:
             continue
-
-        headers = table[0]
-        name_index = find_header_index(headers, ["processor", "cpu", "model"])
-        clock_index = find_header_index(headers, ["clock"])
-        cores_index = find_header_index(headers, ["cores"])
-        threads_index = find_header_index(headers, ["threads"])
-        process_index = find_header_index(headers, ["process", "technology", "lithography"])
-        year_index = find_header_index(headers, ["released", "launch", "year"])
-        family_index = find_header_index(headers, ["core", "codename", "family"])
-
-        if name_index is None or clock_index is None:
+        key = name.lower()
+        if key in seen:
             continue
+        seen.add(key)
 
-        for row in table[1:]:
-            if len(row) <= max(name_index, clock_index):
-                continue
+        brand, model_name = split_brand_and_model(name)
+        explicit_brand = get_nested_value(record, "brand", "manufacturer", "vendor")
+        if explicit_brand:
+            brand = str(explicit_brand).strip()
 
-            name = row[name_index].strip()
-            if not name or name.lower() in {"processor", "cpu", "model"}:
-                continue
-            if set(name) == {"-"}:
-                continue
+        base_ghz = None
+        boost_ghz = None
+        for source_value in [
+            get_nested_value(record, "base_clock", "base_clock_ghz", "base_frequency", "processor_base_frequency"),
+            get_nested_value(record, "clock_speed", "frequency"),
+        ]:
+            if source_value not in (None, ""):
+                base_ghz, _ = parse_clock_range_ghz(str(source_value))
+                if base_ghz is not None:
+                    break
+        source_value = get_nested_value(record, "boost_clock", "boost_clock_ghz", "max_boost_clock", "max_turbo_frequency")
+        if source_value not in (None, ""):
+            _, boost_ghz = parse_clock_range_ghz(str(source_value))
 
-            brand, model_name = split_brand_and_model(name)
-            base_ghz, boost_ghz = parse_clock_range_ghz(row[clock_index])
-            cores, threads = None, None
-            if cores_index is not None and cores_index < len(row):
-                cores, _threads_guess = parse_cores_threads(row[cores_index])
-                threads = _threads_guess
-            if threads_index is not None and threads_index < len(row):
-                threads_match = re.search(r"(\d+)", row[threads_index])
-                if threads_match:
-                    threads = int(threads_match.group(1))
+        rows.append({
+            "name": name,
+            "brand": brand,
+            "family": str(get_nested_value(record, "family", "series", "codename") or "").strip() or None,
+            "model": str(get_nested_value(record, "model", "sku", "part_number") or model_name).strip(),
+            "cores": get_nested_value(record, "cores", "core_count", "num_cores"),
+            "threads": get_nested_value(record, "threads", "thread_count", "num_threads"),
+            "base_ghz": base_ghz,
+            "boost_ghz": boost_ghz,
+            "process_nm": parse_api_number(str(get_nested_value(record, "process_nm", "lithography", "manufacturing_process") or "")),
+            "release_year": get_nested_value(record, "release_year", "launch_year"),
+        })
 
-            process_nm = None
-            if process_index is not None and process_index < len(row):
-                process_match = re.search(r"(\d+(?:\.\d+)?)\s*nm", row[process_index], re.IGNORECASE)
-                if process_match:
-                    process_nm = float(process_match.group(1))
-
-            release_year = None
-            if year_index is not None and year_index < len(row):
-                year_match = re.search(r"\b(19|20)\d{2}\b", row[year_index])
-                if year_match:
-                    release_year = int(year_match.group(0))
-
-            family = None
-            if family_index is not None and family_index < len(row):
-                family = row[family_index].strip() or None
-
-            key = name.lower()
-            if key in seen:
-                continue
-            seen.add(key)
-
-            rows.append({
-                "name": name,
-                "brand": brand,
-                "family": family,
-                "model": model_name,
-                "cores": cores,
-                "threads": threads,
-                "base_ghz": base_ghz,
-                "boost_ghz": boost_ghz,
-                "process_nm": process_nm,
-                "release_year": release_year,
-            })
-
-    return rows
+    if not rows:
+        raise RuntimeError("Could not parse any pc-part-dataset CPU rows")
+    write_csv(output_path, rows, ["name", "brand", "family", "model", "cores", "threads", "base_ghz", "boost_ghz", "process_nm", "release_year"])
+    return len(rows)
 
 
-def refresh_cpu_world_cpu_specs(output_path: Path) -> int:
-    html_text = fetch_post_text(
-        CPU_WORLD_CHART_POST_URL,
-        {
-            "PROCESS": "Show Data",
-            "CP": "CHART",
-            "C1F": "1",
-            "C2F": "1",
-            "C3F": "1",
-            "C8F": "1",
-            "C9F": "1",
-            "C12F": "1",
-            "C13F": "1",
-            "C24F": "1",
-            "C25F": "1",
-        },
-    )
-    parsed = parse_cpu_world_chart_html(html_text)
-    if not parsed:
-        raise RuntimeError("Could not parse any CPU-World CPU rows")
-    write_csv(
-        output_path,
-        parsed,
-        ["name", "brand", "family", "model", "cores", "threads", "base_ghz", "boost_ghz", "process_nm", "release_year"],
-    )
-    return len(parsed)
+def refresh_pc_part_gpu_specs(output_path: Path) -> int:
+    payload = fetch_json(PC_PART_DATASET_GPU_URL)
+    rows: list[dict] = []
+    seen: set[str] = set()
+
+    for record in iter_records(payload):
+        name = str(get_nested_value(record, "name", "model_name", "product_name", "video_card", "title") or "").strip()
+        if not name:
+            continue
+        key = name.lower()
+        if key in seen:
+            continue
+        seen.add(key)
+
+        brand, model_name = split_brand_and_model(name)
+        explicit_brand = get_nested_value(record, "brand", "manufacturer", "vendor")
+        if explicit_brand:
+            brand = str(explicit_brand).strip()
+
+        rows.append({
+            "name": name,
+            "brand": brand,
+            "family": str(get_nested_value(record, "family", "series", "architecture") or "").strip() or None,
+            "model": str(get_nested_value(record, "model", "sku", "part_number") or model_name).strip(),
+            "vram_gb": parse_memory_gb(get_nested_value(record, "memory", "memory_size", "memory_capacity", "vram", "memory_amount")),
+            "base_ghz": parse_api_number(str(get_nested_value(record, "base_clock", "gpu_clock", "core_clock") or "")),
+            "boost_ghz": parse_api_number(str(get_nested_value(record, "boost_clock", "boost_gpu_clock") or "")),
+            "release_year": get_nested_value(record, "release_year", "launch_year"),
+            "process_nm": parse_api_number(str(get_nested_value(record, "process_nm", "lithography", "manufacturing_process") or "")),
+            "directx": parse_api_number(str(get_nested_value(record, "directx", "directx_support", "api_directx") or "")),
+            "opengl": parse_api_number(str(get_nested_value(record, "opengl", "opengl_support", "api_opengl") or "")),
+            "shader_model": parse_api_number(str(get_nested_value(record, "shader_model", "shader", "shader_support") or "")),
+            "architecture": str(get_nested_value(record, "architecture", "gpu_architecture") or "").strip() or None,
+            "bus_interface": str(get_nested_value(record, "bus_interface", "interface", "bus") or "").strip() or None,
+            "memory_type": str(get_nested_value(record, "memory_type", "ram_type") or "").strip() or None,
+        })
+
+    if not rows:
+        raise RuntimeError("Could not parse any pc-part-dataset GPU rows")
+    write_csv(output_path, rows, ["name", "brand", "family", "model", "vram_gb", "base_ghz", "boost_ghz", "release_year", "process_nm", "directx", "opengl", "shader_model", "architecture", "bus_interface", "memory_type"])
+    return len(rows)
 
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Refresh component import CSVs from remote sources.")
     parser.add_argument("--imports-dir", default="data/catalog/imports")
     parser.add_argument("--skip-passmark", action="store_true")
-    parser.add_argument("--include-techpowerup-gpu", action="store_true")
     parser.add_argument("--strict", action="store_true")
     return parser.parse_args()
 
@@ -658,7 +625,6 @@ def main() -> None:
     refresh_imports(
         Path(args.imports_dir),
         skip_passmark=args.skip_passmark,
-        include_techpowerup_gpu=args.include_techpowerup_gpu,
         strict=args.strict,
     )
 
@@ -666,7 +632,6 @@ def main() -> None:
 def refresh_imports(
     imports_dir: Path,
     skip_passmark: bool = False,
-    include_techpowerup_gpu: bool = False,
     strict: bool = False,
 ) -> None:
     imports_dir = Path(imports_dir)
@@ -677,16 +642,13 @@ def refresh_imports(
     if not skip_passmark:
         sources = [
             ("TechPowerUp CPUs", refresh_techpowerup_cpu_specs, "techpowerup_cpus.csv"),
-            ("CPU-World CPUs", refresh_cpu_world_cpu_specs, "cpu_world_cpus.csv"),
+            ("PC Part Dataset CPUs", refresh_pc_part_cpu_specs, "pc_part_cpus.csv"),
+            ("PC Part Dataset GPUs", refresh_pc_part_gpu_specs, "pc_part_gpus.csv"),
             ("PassMark CPU catalog", refresh_passmark_cpu_catalog, "passmark_cpu_catalog.csv"),
             ("PassMark GPU catalog", refresh_passmark_gpu_catalog, "passmark_gpu_catalog.csv"),
             ("PassMark CPUs", refresh_passmark_cpu_scores, "passmark_cpus.csv"),
             ("PassMark GPUs", refresh_passmark_gpu_scores, "passmark_gpus.csv"),
         ]
-        if include_techpowerup_gpu:
-            sources.insert(1, ("TechPowerUp GPUs", refresh_techpowerup_gpu_specs, "techpowerup_gpus.csv"))
-        else:
-            warnings.append("TechPowerUp GPUs refresh skipped by default; use --include-techpowerup-gpu to try it explicitly")
 
         for label, fn, filename in sources:
             try:
@@ -702,10 +664,10 @@ def refresh_imports(
                 try:
                     if "TechPowerUp" in label and "CPU" in label:
                         source_url = TECHPOWERUP_CPU_URL
-                    elif "TechPowerUp" in label:
-                        source_url = TECHPOWERUP_GPU_URL
-                    elif "CPU-World" in label:
-                        source_url = discover_cpu_world_chart_url()
+                    elif "PC Part Dataset" in label and "CPU" in label:
+                        source_url = PC_PART_DATASET_CPU_URL
+                    elif "PC Part Dataset" in label:
+                        source_url = PC_PART_DATASET_GPU_URL
                     elif "CPU catalog" in label:
                         source_url = PASSMARK_CPU_LIST_URL
                     elif "GPU catalog" in label:

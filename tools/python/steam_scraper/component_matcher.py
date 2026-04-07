@@ -5,6 +5,8 @@ import json
 from pathlib import Path
 import re
 
+_MIN_SCORE_CACHE: dict[tuple[int, tuple[str, ...]], int | None] = {}
+
 
 def clean_text(value) -> str | None:
     if value is None:
@@ -39,6 +41,10 @@ def load_catalogs(catalog_dir: Path) -> dict[str, list[dict]]:
 
 
 def find_min_score_by_patterns(catalog: list[dict], patterns: list[str]) -> int | None:
+    cache_key = (id(catalog), tuple(patterns))
+    if cache_key in _MIN_SCORE_CACHE:
+        return _MIN_SCORE_CACHE[cache_key]
+
     compiled = [re.compile(pattern, re.IGNORECASE) for pattern in patterns]
     scores = []
 
@@ -51,7 +57,9 @@ def find_min_score_by_patterns(catalog: list[dict], patterns: list[str]) -> int 
             if score is not None:
                 scores.append(score)
 
-    return min(scores) if scores else None
+    result = min(scores) if scores else None
+    _MIN_SCORE_CACHE[cache_key] = result
+    return result
 
 
 def is_generic_cpu_requirement(text: str) -> bool:

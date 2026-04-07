@@ -622,7 +622,6 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Build local CPU/GPU catalogs from multiple sources.")
     parser.add_argument("--config", default="data/catalog/sources.json")
     parser.add_argument("--refresh-imports", action="store_true")
-    parser.add_argument("--include-techpowerup-gpu", action="store_true")
     return parser.parse_args()
 
 
@@ -630,7 +629,7 @@ def main() -> None:
     args = parse_args()
     if args.refresh_imports:
         from steam_scraper.component_source_refresh import refresh_imports
-        refresh_imports(Path("data/catalog/imports"), include_techpowerup_gpu=args.include_techpowerup_gpu)
+        refresh_imports(Path("data/catalog/imports"))
     import_catalog(Path(args.config))
     print(f"Built component catalogs using {args.config}")
 

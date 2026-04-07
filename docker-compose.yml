@@ -1,0 +1,16 @@
+services:
+  steam-scraper:
+    build:
+      context: .
+    container_name: steam-spec-scraper
+    restart: unless-stopped
+    working_dir: /app
+    environment:
+      CATALOG_REFRESH_IMPORTS: "1"
+      SCRAPER_MODE: "resume"
+      SCRAPER_DISCOVER: "1"
+      SCRAPER_CONCURRENCY: "2"
+      SCRAPER_REQUEST_DELAY_MS: "250"
+      RUN_INTERVAL_SECONDS: "0"
+    volumes:
+      - ./:/app

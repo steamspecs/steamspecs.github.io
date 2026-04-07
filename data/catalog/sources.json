@@ -28,30 +28,6 @@
       }
     },
     {
-      "id": "manual_components",
-      "type": "normalized_components",
-      "optional": true,
-      "path": "data/catalog/sources/manual_components.json"
-    },
-    {
-      "id": "legacy_enrichment_components",
-      "type": "normalized_components",
-      "optional": true,
-      "path": "data/catalog/sources/legacy_enrichment_components.json"
-    },
-    {
-      "id": "manual_scores",
-      "type": "score_overrides",
-      "optional": true,
-      "path": "data/catalog/sources/manual_scores.json"
-    },
-    {
-      "id": "manual_aliases",
-      "type": "alias_overrides",
-      "optional": true,
-      "path": "data/catalog/sources/manual_aliases.json"
-    },
-    {
       "id": "techpowerup_cpu_specs",
       "type": "mapped_components",
       "format": "csv",
@@ -72,13 +48,13 @@
       }
     },
     {
-      "id": "cpu_world_cpu_specs",
+      "id": "pc_part_dataset_cpu_specs",
       "type": "mapped_components",
       "format": "csv",
       "enabled": true,
       "optional": true,
       "kind": "cpu",
-      "path": "data/catalog/imports/cpu_world_cpus.csv",
+      "path": "data/catalog/imports/pc_part_cpus.csv",
       "columns": {
         "name": "name",
         "brand": "brand",
@@ -94,19 +70,27 @@
       }
     },
     {
-      "id": "techpowerup_gpu_specs",
+      "id": "pc_part_dataset_gpu_specs",
       "type": "mapped_components",
       "format": "csv",
       "enabled": true,
       "optional": true,
       "kind": "gpu",
-      "path": "data/catalog/imports/techpowerup_gpus.csv",
+      "path": "data/catalog/imports/pc_part_gpus.csv",
       "columns": {
         "name": "name",
         "brand": "brand",
         "family": "family",
         "model": "model",
         "vram_gb": "vram_gb",
+        "release_year": "release_year",
+        "process_nm": "process_nm",
+        "directx": "directx",
+        "opengl": "opengl",
+        "shader_model": "shader_model",
+        "architecture": "architecture",
+        "bus_interface": "bus_interface",
+        "memory_type": "memory_type",
         "base_ghz": "base_ghz",
         "boost_ghz": "boost_ghz",
         "aliases": ["name", "model"]

@@ -1,0 +1,16 @@
+.git
+.gitignore
+.cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+data/index.json
+data/shards
+data/catalog/cpus.json
+data/catalog/gpus.json
+data/catalog/manifest.json
+data/catalog/imports/*.csv
+data/catalog/imports/*_debug.html
