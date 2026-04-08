@@ -352,10 +352,7 @@ function compareAverageFallback(userVal, averageVal, kind = "generic") {
   if (averageVal === null || averageVal === undefined || Number.isNaN(averageVal)) {
     return { status: "unknown", text: "Average unavailable", label: "Unknown" };
   }
-  if (userVal >= averageVal) {
-    return { status: "likely", text: `${fmtComparisonNumber(userVal, kind)} > ${fmtComparisonNumber(averageVal, kind)}`, label: "Likely" };
-  }
-  return { status: "unlikely", text: `${fmtComparisonNumber(userVal, kind)} < ${fmtComparisonNumber(averageVal, kind)}`, label: "Unlikely" };
+  return { status: "unknown", text: `${fmtComparisonNumber(userVal, kind)} vs ${fmtComparisonNumber(averageVal, kind)}`, label: "Unknown" };
 }
 
 function isGenericCpuText(text) {
@@ -513,9 +510,7 @@ function buildRequirementChecks(req, build) {
 
 function badgeClass(status) {
   if (status === "good") return "badge good";
-  if (status === "likely") return "badge likely";
   if (status === "bad") return "badge bad";
-  if (status === "unlikely") return "badge unlikely";
   if (status === "unknown") return "badge unknown";
   if (status === "partial") return "badge partial";
   return "badge warn";
@@ -524,9 +519,7 @@ function badgeClass(status) {
 function requirementLabel(comparison) {
   if (comparison?.label) return comparison.label;
   if (comparison?.status === "good") return "Pass";
-  if (comparison?.status === "likely") return "Likely";
   if (comparison?.status === "bad") return "Fail";
-  if (comparison?.status === "unlikely") return "Unlikely";
   if (comparison?.status === "partial") return "Partially Unknown";
   return "Unknown";
 }
@@ -676,7 +669,7 @@ async function applyFilters() {
   if (mode === "dlc") apps = apps.filter(a => a.type === "dlc");
   if (q) apps = apps.filter(a => (a.name || "").toLowerCase().includes(q));
 
-  const summaryModes = new Set(["pass", "likely", "unknown", "partial", "unlikely", "fail"]);
+  const summaryModes = new Set(["pass", "unknown", "partial", "fail"]);
   if (summaryModes.has(mode)) {
     const activeBuild = getActiveBuild();
     const uniqueShardIds = [...new Set(apps.map(app => shardForAppid(app.appid)))];
@@ -707,9 +700,7 @@ function summarizePlatformStatus(app, build) {
     return { status: "unknown", text: "Unknown", key: "unknown" };
   }
   if (minSummary.status === "bad") return { status: "bad", text: "Fail", key: "fail" };
-  if (minSummary.status === "unlikely") return { status: "unlikely", text: "Unlikely", key: "unlikely" };
   if (minSummary.status === "partial") return { status: "partial", text: "Partially Unknown", key: "partial" };
-  if (minSummary.status === "likely") return { status: "likely", text: "Likely", key: "likely" };
   if (minSummary.status === "good") return { status: "good", text: "Pass", key: "pass" };
   return { status: "partial", text: "Partially Unknown", key: "partial" };
 }
@@ -811,13 +802,10 @@ function comparisonSummary(req, build, platform) {
   const checks = buildRequirementChecks(req, build);
   const results = checks.map(check => check.result.status);
   const hasPass = results.includes("good");
-  const hasLikely = results.includes("likely");
   const hasUnknown = results.includes("unknown");
 
   if (results.includes("bad")) return { status: "bad", text: "Below spec" };
-  if (results.includes("unlikely")) return { status: "unlikely", text: "Unlikely" };
-  if (hasUnknown && (hasPass || hasLikely)) return { status: "partial", text: "Partially Unknown" };
-  if (hasLikely) return { status: "likely", text: "Likely" };
+  if (hasUnknown && hasPass) return { status: "partial", text: "Partially Unknown" };
   if (hasPass) return { status: "good", text: "Pass" };
   if (hasUnknown) return { status: "unknown", text: "Unknown" };
   return { status: "unknown", text: "Unknown" };
